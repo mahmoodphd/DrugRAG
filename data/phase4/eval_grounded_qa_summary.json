@@ -1,0 +1,31 @@
+{
+  "Plain Gemma": {
+    "n_questions": 20,
+    "total_citations": 16,
+    "verified_citations": 0,
+    "verifiable_citation_rate": 0.0,
+    "verifiable_citation_rate_pct": "0.0%",
+    "latency_mean_s": 15.0,
+    "latency_median_s": 15.1
+  },
+  "Naive RAG": {
+    "n_questions": 20,
+    "total_citations": 36,
+    "verified_citations": 36,
+    "verifiable_citation_rate": 1.0,
+    "verifiable_citation_rate_pct": "100.0%",
+    "latency_mean_s": 4.3,
+    "latency_median_s": 3.7
+  },
+  "DrugRAG (LightRAG hybrid)": {
+    "n_questions": 20,
+    "total_citations": 46,
+    "verified_citations": 46,
+    "verifiable_citation_rate": 1.0,
+    "verifiable_citation_rate_pct": "100.0%",
+    "latency_mean_s": 23.3,
+    "latency_median_s": 21.6,
+    "latency_note": "cold-start (LLM response cache cleared before run)"
+  },
+  "faithfulness_note": "RAGAS faithfulness could not be computed on this run due to OpenRouter free-tier rate limits (TimeoutError on judge calls). Column dropped per plan; KG value shown via coverage (46 vs 36) and discovery capability in sec VI."
+}

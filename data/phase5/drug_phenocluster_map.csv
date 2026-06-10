@@ -1,0 +1,1279 @@
+drug_name,canonical_name,cluster,matched_flag
+DL-alpha-Methyl-p-tyrosine,alpha-methyl-p-tyrosine,3,True
+3-Bromo-7-nitroindazole,3-bromo-7-nitroindazole,2,True
+N-Phenylanthranilic acid,n-phenylanthranilic acid,7,True
+(+)-Bromocriptine methanesulfonate,bromocriptine methanesulfonate,6,True
+S(-)-p-Bromotetramisole oxalate,s(-)-p-bromotetramisole,7,True
+O6-benzylguanine,o6-benzylguanine,7,True
+5-Aminovaleric acid hydrochloride,5-aminovaleric acid,2,True
+N-Bromoacetamide,n-bromoacetamide,7,True
+(±)-Nipecotic acid,nipecotic acid,6,True
+(±)-Brompheniramine maleate,brompheniramine,2,True
+Azelaic acid,azelaic acid,6,True
+Benzamil hydrochloride,benzamil,7,True
+Tryptamine hydrochloride,tryptamine,5,True
+L-Buthionine-sulfoximine,buthionine-sulfoximine,6,True
+5-Fluoroindole-2-carboxylic acid,5-fluoroindole-2-carboxylic acid,7,True
+"DL-Buthionine-[S,R]-sulfoximine","buthionine-[s,r]-sulfoximine",2,True
+N-Acetyl-L-Cysteine,n-acetyl-l-cysteine,6,True
+Chelerythrine chloride,chelerythrine,7,True
+L-2-aminoadipic acid,2-aminoadipic acid,4,True
+"1-(2-Chlorophenyl)-1-(4-chlorophenyl)-2,2-dichloroethane","1-(2-chlorophenyl)-1-(4-chlorophenyl)-2,2-dichloroethane",6,True
+N-Acetyltryptamine,n-acetyltryptamine,2,True
+(±)-Chlorpheniramine maleate,chlorpheniramine,2,True
+Amiloride hydrochloride,amiloride,7,True
+Cortisone 21-acetate,cortisone 21,2,True
+(±)-Atenolol,atenolol,6,True
+Cephalosporin C zinc salt,cephalosporin c zinc,1,True
+Chlormethiazole hydrochloride,chlormethiazole,7,True
+CGP-74514A hydrochloride,cgp-74514a,7,True
+L-allylglycine,allylglycine,2,True
+Cyproterone acetate,cyproterone,6,True
+ABT-418 hydrochloride,abt-418,7,True
+DL-p-Chlorophenylalanine methyl ester hydrochloride,p-chlorophenylalanine methyl ester,2,True
+"6-Methoxy-1,2,3,4-tetrahydro-9H-pyrido[3,4b] indole","6-methoxy-1,2,3,4-tetrahydro-9h-pyrido[3,4b] indole",6,True
+Bumetanide,bumetanide,4,True
+PD 0325901,pd 0325901,7,True
+Betaine hydrochloride,betaine,2,True
+TMB-8 hydrochloride,tmb-8,4,True
+Betaine aldehyde chloride,betaine aldehyde,7,True
+4-Aminopyridine,4-aminopyridine,2,True
+Benazoline oxalate,benazoline,7,True
+Atropine sulfate,atropine,7,True
+BWB70C,bwb70c,3,True
+Atropine methyl nitrate,atropine methyl,6,True
+5-Bromo-2'-deoxyuridine,5-bromo-2-deoxyuridine,6,True
+Arcaine sulfate,arcaine,5,True
+Bepridil hydrochloride,bepridil,2,True
+1-Aminocyclopropanecarboxylic acid hydrochloride,1-aminocyclopropanecarboxylic acid,7,True
+(+)-Brompheniramine maleate,brompheniramine,2,True
+6-Aminohexanoic acid,6-aminohexanoic acid,5,True
+Cyclosporin A,cyclosporin a,7,True
+OBAA,obaa,7,True
+D-Cycloserine,cycloserine,7,True
+Allopurinol,allopurinol,6,True
+8-(4-Chlorophenylthio)-cAMP sodium,8-(4-chlorophenylthio)-camp,6,True
+Amitriptyline hydrochloride,amitriptyline,7,True
+Calmidazolium chloride,calmidazolium,7,True
+Amiodarone hydrochloride,amiodarone,1,True
+GR 113808,gr 113808,7,True
+4-(2-Aminoethyl)benzenesulfonyl fluoride hydrochloride,4-(2-aminoethyl)benzenesulfonyl fluoride,2,True
+Carbamazepine,carbamazepine,6,True
+Ancitabine hydrochloride,ancitabine,3,True
+Captopril,captopril,6,True
+Alprenolol hydrochloride,alprenolol,2,True
+CNS-1102,cns-1102,7,True
+Acetamide,acetamide,6,True
+(±)-Baclofen,baclofen,7,True
+Org 24598 lithium salt,org 24598 lithium,2,True
+SB 202190,sb 202190,6,True
+L-azetidine-2-carboxylic acid,azetidine-2-carboxylic acid,6,True
+Bay 11-7085,bay 11-7085,7,True
+p-Aminoclonidine hydrochloride,p-aminoclonidine,2,True
+Betaxolol hydrochloride,betaxolol,7,True
+Bosutinib,bosutinib,7,True
+Benzamidine hydrochloride,benzamidine,4,True
+(±)-Norepinephrine (+)bitartrate,norepinephrine (+)bitartrate,2,True
+Betamethasone,betamethasone,2,True
+"4-Amino-1,8-naphthalimide","4-amino-1,8-naphthalimide",6,True
+Buspirone hydrochloride,buspirone,2,True
+Reserpine,reserpine,2,True
+Benserazide hydrochloride,benserazide,7,True
+Altretamine,altretamine,5,True
+Carbachol,carbachol,7,True
+2-(Methylthio)adenosine 5'-diphosphate trisodium salt hydrate,2-(methylthio)adenosine 5-diphosphate trisodium,6,True
+Chlorzoxazone,chlorzoxazone,2,True
+Aminoguanidine hydrochloride,aminoguanidine,1,True
+L-Cysteinesulfinic Acid,cysteinesulfinic acid,6,True
+BW 284c51,bw 284c51,4,True
+9-cyclopentyladenine,9-cyclopentyladenine,2,True
+Adenosine,adenosine,7,True
+Cephalothin sodium,cephalothin,6,True
+L-Aspartic acid,aspartic acid,5,True
+Cimetidine,cimetidine,6,True
+Astaxanthin,astaxanthin,4,True
+Cyclobenzaprine hydrochloride,cyclobenzaprine,6,True
+N-(4-Amino-2-chlorophenyl)phthalimide,n-(4-amino-2-chlorophenyl)phthalimide,6,True
+Carbetapentane citrate,carbetapentane,7,True
+Amantadine hydrochloride,amantadine,2,True
+Brefeldin A from Penicillium brefeldianum,brefeldin a from penicillium brefeldianum,7,True
+Aminophylline ethylenediamine,aminophylline ethylenediamine,2,True
+Budesonide,budesonide,6,True
+S-(p-Azidophenacyl)glutathione,s-(p-azidophenacyl)glutathione,7,True
+8-Bromo-cAMP sodium,8-bromo-camp,6,True
+Aminopterin,aminopterin,3,True
+Benztropine mesylate,benztropine,7,True
+N-Acetyl-5-hydroxytryptamine,n-acetyl-5-hydroxytryptamine,6,True
+Ro 20-1724,ro 20-1724,2,True
+Aurintricarboxylic acid,aurintricarboxylic acid,7,True
+Bestatin hydrochloride,bestatin,7,True
+(±)-2-Amino-4-phosphonobutyric acid,2-amino-4-phosphonobutyric acid,6,True
+Alfuzosin hydrochloride,alfuzosin,7,True
+Atorvastatin calcium salt trihydrate,atorvastatin,6,True
+BRL 50481,brl 50481,7,True
+"Adenosine 3',5'-cyclic monophosphate","adenosine 3,5-cyclic monophosphate",6,True
+Cephalexin hydrate,cephalexin,2,True
+L(-)-Norepinephrine bitartrate,l(-)-norepinephrine bitartrate,2,True
+Chlorothiazide,chlorothiazide,2,True
+"5-(N,N-hexamethylene)amiloride","5-(n,n-hexamethylene)amiloride",6,True
+(+)-Chlorpheniramine maleate,chlorpheniramine,2,True
+Fulvestrant,fulvestrant,6,True
+Cefazolin sodium,cefazolin,6,True
+(±)-p-Aminoglutethimide,p-aminoglutethimide,5,True
+Clemizole hydrochloride,clemizole,7,True
+(±)-HA-966,ha-966,6,True
+2-Chloroadenosine,2-chloroadenosine,3,True
+Lercanidipine hydrochloride hemihydrate,lercanidipine hemihydrate,7,True
+Bethanechol chloride,bethanechol,1,True
+Amsacrine hydrochloride,amsacrine,7,True
+Cinnarizine,cinnarizine,6,True
+GABA,gaba,4,True
+BP 897,bp 897,7,True
+3'-Azido-3'-deoxythymidine,3-azido-3-deoxythymidine,6,True
+G15,g15,7,True
+Acetyl-beta-methylcholine chloride,acetyl-beta-methylcholine,7,True
+Sorbinil,sorbinil,6,True
+5-azacytidine,5-azacytidine,7,True
+Gemcitabine hydrochloride,gemcitabine,7,True
+5-(N-Ethyl-N-isopropyl)amiloride,5-(n-ethyl-n-isopropyl)amiloride,7,True
+PF-431396 hydrate,pf-431396,7,True
+3-Aminopropionitrile fumarate,3-aminopropionitrile,2,True
+Bromoacetyl alprenolol menthane,bromoacetyl alprenolol menthane,7,True
+Apigenin,apigenin,7,True
+Benoxathian hydrochloride,benoxathian,7,True
+(+)-Butaclamol hydrochloride,butaclamol,6,True
+Gisadenafil besylate salt,gisadenafil,4,True
+(±)-AMT hydrochloride,amt,4,True
+Roscovitine,roscovitine,7,True
+Paroxetine hydrochloride hemihydrate (MW = 374.83),paroxetine hemihydrate (mw = 374.83),7,True
+SB 204741,sb 204741,1,True
+Antozoline hydrochloride,antozoline,4,True
+Ceftriaxone sodium,ceftriaxone,7,True
+Aniracetam,aniracetam,5,True
+L-798106,798106,7,True
+HEMADO,hemado,3,True
+(-)-Cotinine,cotinine,7,True
+8-(p-Sulfophenyl)theophylline,8-(p-sulfophenyl)theophylline,7,True
+DMH4,dmh4,7,True
+"1,3-Dipropyl-8-p-sulfophenylxanthine","1,3-dipropyl-8-p-sulfophenylxanthine",6,True
+"7-Chloro-4-hydroxy-2-phenyl-1,8-naphthyridine","7-chloro-4-hydroxy-2-phenyl-1,8-naphthyridine",7,True
+2-Methylthioadenosine triphosphate tetrasodium,2-methylthioadenosine triphosphate tetrasodium,4,True
+Clotrimazole,clotrimazole,7,True
+Gabaculine hydrochloride,gabaculine,6,True
+Bupropion hydrochloride,bupropion,6,True
+YM 976,ym 976,6,True
+CP-100356 monohydrochloride,cp-100356 monohydrochloride,4,True
+AA-861,aa-861,7,True
+(±)-Bay K 8644,bay k 8644,7,True
+"9-Amino-1,2,3,4-tetrahydroacridine hydrochloride","9-amino-1,2,3,4-tetrahydroacridine",7,True
+Bromoacetylcholine bromide,bromoacetylcholine,7,True
+10058-F4,10058-f4,7,True
+BMY 7378 dihydrochloride,bmy 7378,7,True
+1-Aminobenzotriazole,1-aminobenzotriazole,2,True
+R(+)-6-Bromo-APB hydrobromide,r(+)-6-bromo-apb,7,True
+3-Amino-1-propanesulfonic acid sodium,3-amino-1-propanesulfonic acid,2,True
+BTCP hydrochloride,btcp,2,True
+Apomorphine hydrochloride hemihydrate,apomorphine hemihydrate,7,True
+DAPH,daph,4,True
+BLI-489 hydrate,bli-489,4,True
+Cyproheptadine hydrochloride,cyproheptadine,7,True
+Linezolid,linezolid,6,True
+GR 79236X,gr 79236x,2,True
+PHA 767491 hydrochloride,pha 767491,7,True
+Cefmetazole sodium,cefmetazole,2,True
+Amoxapine,amoxapine,7,True
+Clozapine,clozapine,1,True
+Aminobenztropine,aminobenztropine,4,True
+(±)-p-Chlorophenylalanine,p-chlorophenylalanine,2,True
+Arecaidine propargyl ester hydrobromide,arecaidine propargyl ester,6,True
+Chloroquine diphosphate,chloroquine diphosphate,4,True
+Indirubin-3'-oxime,indirubin-3-oxime,7,True
+Clofibrate,clofibrate,4,True
+S(-)-Atenolol,s(-)-atenolol,2,True
+Cytosine-1-beta-D-arabinofuranoside hydrochloride,cytosine-1-beta-d-arabinofuranoside,7,True
+O-(Carboxymethyl)hydroxylamine hemihydrochloride,o-(carboxymethyl)hydroxylamine hemihydrochloride,6,True
+BU224 hydrochloride,bu224,6,True
+"5-(N,N-Dimethyl)amiloride hydrochloride","5-(n,n-dimethyl)amiloride",6,True
+B-HT 933 dihydrochloride,b-ht 933,6,True
+Azathioprine,azathioprine,6,True
+(±)-Butaclamol hydrochloride,butaclamol,6,True
+Acyclovir,acyclovir,7,True
+BRL 37344 sodium,brl 37344,6,True
+Varenicline tartrate,varenicline,4,True
+BRL 54443 maleate,brl 54443,2,True
+Sandoz 58-035,sandoz 58-035,7,True
+Biperiden hydrochloride,biperiden,7,True
+(±)-2-Amino-3-phosphonopropionic acid,2-amino-3-phosphonopropionic acid,6,True
+Rhodblock 6,rhodblock 6,1,True
+L-Arginine,arginine,2,True
+Supercinnamaldehyde,supercinnamaldehyde,7,True
+"1-Allyl-3,7-dimethyl-8-p-sulfophenylxanthine","1-allyl-3,7-dimethyl-8-p-sulfophenylxanthine",6,True
+3-Morpholinosydnonimine hydrochloride,3-morpholinosydnonimine,6,True
+trans-(±)-ACPD,trans-(±)-acpd,4,True
+Cefaclor,cefaclor,4,True
+Trovafloxacin mesylate,trovafloxacin,7,True
+DL-Cycloserine,cycloserine,7,True
+1-Amino-1-cyclohexanecarboxylic acid hydrochloride,1-amino-1-cyclohexanecarboxylic acid,6,True
+McN-A-343,mcn-a-343,4,True
+Alaproclate hydrochloride,alaproclate,2,True
+N-(2-[4-(4-Chlorophenyl)piperazin-1-yl]ethyl)-3-methoxybenzamide,n-(2-[4-(4-chlorophenyl)piperazin-1-yl]ethyl)-3-methoxybenzamide,6,True
+Psora-4,psora-4,2,True
+Cystamine dihydrochloride,cystamine,3,True
+SB 200646 hydrochloride,sb 200646,6,True
+Clomipramine hydrochloride,clomipramine,1,True
+AS-252424,as-252424,7,True
+Calcimycin,calcimycin,7,True
+PD-180970,pd-180970,7,True
+Ciprofibrate,ciprofibrate,1,True
+(±)-2-Amino-5-phosphonopentanoic acid,2-amino-5-phosphonopentanoic acid,7,True
+PF 3845 hydrate,pf 3845,5,True
+"L-732,138","732,138",4,True
+Carmustine,carmustine,6,True
+Acetylsalicylic acid,acetylsalicylic acid,7,True
+PK 11195,pk 11195,7,True
+Aconitine,aconitine,1,True
+Caffeic Acid,caffeic acid,6,True
+Acetylthiocholine chloride,acetylthiocholine,4,True
+Cilostazol,cilostazol,3,True
+TNP,tnp,4,True
+Caffeine,caffeine,6,True
+2-(2-Aminoethyl)isothiourea dihydrobromide,2-(2-aminoethyl)isothiourea,2,True
+Cyclophosphamide monohydrate,cyclophosphamide,6,True
+Acetohexamide,acetohexamide,6,True
+Cantharidin,cantharidin,7,True
+SKF-89145 hydrobromide,skf-89145,1,True
+Citalopram hydrobromide,citalopram,6,True
+cis-4-Aminocrotonic acid,cis-4-aminocrotonic acid,7,True
+Clonidine hydrochloride,clonidine,5,True
+N6-2-(4-Aminophenyl)ethyladenosine,n6-2-(4-aminophenyl)ethyladenosine,4,True
+Cefotaxime sodium,cefotaxime,2,True
+Opipramol dihydrochloride,opipramol,2,True
+Cilostamide,cilostamide,7,True
+gamma-Acetylinic GABA,gamma-acetylinic gaba,1,True
+Chelidamic acid,chelidamic acid,3,True
+AB-MECA,ab-meca,6,True
+N6-Cyclopentyladenosine,n6-cyclopentyladenosine,6,True
+Alloxazine,alloxazine,7,True
+Cantharidic Acid,cantharidic acid,7,True
+N-Acetylprocainamide hydrochloride,n-acetylprocainamide,2,True
+CGP-7930,cgp-7930,6,True
+Sodium Taurocholate hydrate,taurocholate,6,True
+CGP-13501,cgp-13501,7,True
+Amifostine,amifostine,2,True
+CP-380736,cp-380736,2,True
+Acetazolamide,acetazolamide,3,True
+L-Cycloserine,cycloserine,7,True
+Arecoline hydrobromide,arecoline,6,True
+ML-9,ml-9,6,True
+A-315456,a-315456,6,True
+(+)-Catechin Hydrate,catechin,6,True
+Maraviroc,maraviroc,6,True
+Chlorpropamide,chlorpropamide,6,True
+2-Hydroxysaclofen,2-hydroxysaclofen,2,True
+1-(4-Chlorobenzyl)-5-methoxy-2-methylindole-3-acetic acid,1-(4-chlorobenzyl)-5-methoxy-2-methylindole-3-acetic acid,2,True
+Azithromycin dihydrate,azithromycin,7,True
+Chlorpromazine hydrochloride,chlorpromazine,7,True
+Sildenafil citrate salt,sildenafil,6,True
+Cefsulodin sodium salt hydrate,cefsulodin,4,True
+CBIQ,cbiq,4,True
+Caffeic acid phenethyl ester,caffeic acid phenethyl ester,7,True
+AIDA,aida,4,True
+Imipenem monohydrate,imipenem,4,True
+A-77636 hydrochloride,a-77636,7,True
+Cephradine,cephradine,6,True
+ATPA,atpa,6,True
+Artemether,artemether,2,True
+ARL 67156 trisodium salt,arl 67156 trisodium,4,True
+Cinoxacin,cinoxacin,2,True
+Beclomethasone,beclomethasone,3,True
+Droxinostat,droxinostat,6,True
+Actinonin,actinonin,6,True
+Chlorprothixene hydrochloride,chlorprothixene,7,True
+Methotrexate hydrate,methotrexate,6,True
+Choline bromide,choline,6,True
+Atropine methyl bromide,atropine methyl,6,True
+BTO-1,bto-1,7,True
+Indinavir sulfate salt hydrate,indinavir,4,True
+CB 1954,cb 1954,2,True
+Aminoguanidine hemisulfate,aminoguanidine hemisulfate,6,True
+S-(+)-PD 123177 trifluoroacetate salt hydrate,s-(+)-pd 123177 trifluoroacetate,7,True
+Agmatine sulfate,agmatine,6,True
+Corticosterone,corticosterone,3,True
+4-Aminobenzamidine dihydrochloride,4-aminobenzamidine,4,True
+Carboplatin,carboplatin,7,True
+3-Aminopropylphosphonic acid,3-aminopropylphosphonic acid,6,True
+Cortisone,cortisone,7,True
+"2,3-Butanedione monoxime","2,3-butanedione monoxime",3,True
+Centrophenoxine hydrochloride,centrophenoxine,2,True
+SB 222200,sb 222200,4,True
+Clemastine fumarate,clemastine,7,True
+Brequinar sodium salt hydrate,brequinar,1,True
+Lumefantrine,lumefantrine,5,True
+p-Benzoquinone,p-benzoquinone,4,True
+Pyrocatechol,pyrocatechol,7,True
+8-Bromo-cGMP sodium,8-bromo-cgmp,6,True
+Z-L-Phe chloromethyl ketone,z-l-phe chloromethyl ketone,7,True
+TBBz,tbbz,7,True
+Argatroban monohydrate,argatroban,1,True
+Voriconazole,voriconazole,5,True
+Colchicine,colchicine,7,True
+Benzamide,benzamide,3,True
+L-Canavanine sulfate,canavanine,6,True
+Cyclothiazide,cyclothiazide,2,True
+SB 415286,sb 415286,7,True
+N6-Cyclohexyladenosine,n6-cyclohexyladenosine,2,True
+S-Ethylisothiourea hydrobromide,s-ethylisothiourea,2,True
+(S)-(+)-Camptothecin,(+)-camptothecin,7,True
+Epinastine hydrochloride,epinastine,6,True
+Dofetilide,dofetilide,5,True
+Edrophonium chloride,edrophonium,7,True
+Ebastine,ebastine,2,True
+Efaroxan hydrochloride,efaroxan,4,True
+CP-91149,cp-91149,3,True
+Ellipticine,ellipticine,7,True
+"8-Cyclopentyl-1,3-dipropylxanthine","8-cyclopentyl-1,3-dipropylxanthine",2,True
+RepSox,repsox,4,True
+"8-Cyclopentyl-1,3-dimethylxanthine","8-cyclopentyl-1,3-dimethylxanthine",2,True
+GW9508,gw9508,4,True
+PD 169316,pd 169316,5,True
+Isoguvacine hydrochloride,isoguvacine,5,True
+Disopyramide phosphate,disopyramide,5,True
+Guvacine hydrochloride,guvacine,4,True
+Demeclocycline hydrochloride,demeclocycline,3,True
+(±)-AMPA hydrobromide,ampa,2,True
+Diethylenetriaminepentaacetic acid,diethylenetriaminepentaacetic acid,2,True
+Muscimol hydrobromide,muscimol,2,True
+Diclofenac sodium,diclofenac,5,True
+Guanabenz acetate,guanabenz,6,True
+DL-erythro-Dihydrosphingosine,erythro-dihydrosphingosine,7,True
+JFD00244,jfd00244,4,True
+R-(-)-Desmethyldeprenyl hydrochloride,r-(-)-desmethyldeprenyl,4,True
+Glipizide,glipizide,3,True
+"2,2'-Bipyridyl","2,2-bipyridyl",6,True
+GYKI 52466 hydrochloride,gyki 52466,4,True
+(±)-CPP,cpp,5,True
+Staurosporine aglycone,staurosporine aglycone,4,True
+CGS-12066A maleate,cgs-12066a,6,True
+N-Ethylmaleimide,n-ethylmaleimide,7,True
+2-Cyclooctyl-2-hydroxyethylamine hydrochloride,2-cyclooctyl-2-hydroxyethylamine,6,True
+(-)-Epinephrine bitartrate,epinephrine bitartrate,3,True
+5-Carboxamidotryptamine maleate,5-carboxamidotryptamine,3,True
+EGTA,egta,2,True
+Cetirizine dihydrochloride,cetirizine,4,True
+(±)-Epinephrine hydrochloride,epinephrine,6,True
+(±)-CGP-12177A hydrochloride,cgp-12177a,4,True
+Ethosuximide,ethosuximide,6,True
+S-(-)-Carbidopa,s-(-)-carbidopa,6,True
+JX401,jx401,3,True
+(±)-Chloro-APB hydrobromide,chloro-apb,2,True
+Emodin,emodin,6,True
+Disopyramide,disopyramide,5,True
+Paliperidone,paliperidone,2,True
+Daidzein,daidzein,2,True
+GR-89696 fumarate,gr-89696,5,True
+Cilnidipine,cilnidipine,4,True
+Gabapentin,gabapentin,4,True
+Dicyclomine hydrochloride,dicyclomine,5,True
+DL-Homatropine hydrobromide,homatropine,2,True
+"3,4-Dichloroisocoumarin","3,4-dichloroisocoumarin",6,True
+(±)-Vanillylmandelic acid,vanillylmandelic acid,3,True
+DBO-83,dbo-83,6,True
+6-Hydroxymelatonin,6-hydroxymelatonin,2,True
+"7,7-Dimethyl-(5Z,8Z)-eicosadienoic acid","7,7-dimethyl-(5z,8z)-eicosadienoic acid",1,True
+Hexamethonium bromide,hexamethonium,2,True
+(±) trans-U-50488 methanesulfonate,trans-u-50488 methanesulfonate,5,True
+4-Hydroxy-3-methoxyphenylacetic acid,4-hydroxy-3-methoxyphenylacetic acid,2,True
+CGS-21680 hydrochloride,cgs-21680,2,True
+(-)-Physostigmine,physostigmine,3,True
+Y-27632 dihydrochloride,y-27632,6,True
+NBI 27914,nbi 27914,2,True
+1-(m-Chlorophenyl)-biguanide hydrochloride,1-(m-chlorophenyl)-biguanide,2,True
+beta-Estradiol,beta-estradiol,2,True
+2-Chloroadenosine triphosphate tetrasodium,2-chloroadenosine triphosphate tetrasodium,4,True
+Estrone,estrone,3,True
+(+)-Cyclazocine,cyclazocine,2,True
+Phenserine,phenserine,6,True
+Capsazepine,capsazepine,7,True
+N-Methyl-beta-carboline-3-carboxamide,n-methyl-beta-carboline-3-carboxamide,3,True
+Chlormezanone,chlormezanone,6,True
+DPO-1,dpo-1,2,True
+8-(3-Chlorostyryl)caffeine,8-(3-chlorostyryl)caffeine,2,True
+(-)-Eseroline fumarate,eseroline,7,True
+Bisdemethoxycurcumin,bisdemethoxycurcumin,5,True
+MHPG piperazine,mhpg piperazine,6,True
+Imperatorin,imperatorin,6,True
+Hypotaurine,hypotaurine,6,True
+3-deazaadenosine,3-deazaadenosine,3,True
+Haloperidol,haloperidol,6,True
+Cytidine 5'-diphosphocholine sodium salt hydrate,cytidine 5-diphosphocholine,7,True
+Hydralazine hydrochloride,hydralazine,3,True
+Danazol,danazol,5,True
+4-Imidazolemethanol hydrochloride,4-imidazolemethanol,2,True
+"N,N-Dihexyl-2-(4-fluorophenyl)indole-3-acetamide","n,n-dihexyl-2-(4-fluorophenyl)indole-3-acetamide",2,True
+Hexamethonium dichloride,hexamethonium dichloride,2,True
+Donitriptan monohydrochloride,donitriptan monohydrochloride,4,True
+Bendamustine hydrochloride,bendamustine,6,True
+SP600125,sp600125,7,True
+6-Hydroxy-DL-DOPA,6-hydroxy-dl-dopa,4,True
+CGS-15943,cgs-15943,6,True
+S-(-)-Eticlopride hydrochloride,s-(-)-eticlopride,5,True
+2-Chloro-2-deoxy-D-glucose,2-chloro-2-deoxy-d-glucose,4,True
+Tamoxifen,tamoxifen,6,True
+Tocainide hydrochloride,tocainide,3,True
+erythro-9-(2-Hydroxy-3-nonyl)adenine hydrochloride,erythro-9-(2-hydroxy-3-nonyl)adenine,2,True
+Cirazoline hydrochloride,cirazoline,2,True
+Sunitinib malate,sunitinib,7,True
+CGP 20712A methanesulfonate,cgp 20712a methanesulfonate,6,True
+Felbamate,felbamate,3,True
+"(2S,1'S,2'S)-2-(carboxycyclopropyl)glycine","(2s,1s,2s)-2-(carboxycyclopropyl)glycine",2,True
+Fusidic acid sodium,fusidic acid,2,True
+CNQX disodium,cnqx,5,True
+Fenoterol hydrobromide,fenoterol,3,True
+CX 546,cx 546,6,True
+S-(+)-Fluoxetine hydrochloride,s-(+)-fluoxetine,4,True
+Diazoxide,diazoxide,5,True
+DL-threo-beta-hydroxyaspartic acid,threo-beta-hydroxyaspartic acid,2,True
+"3,4-Dihydroxyphenylacetic acid","3,4-dihydroxyphenylacetic acid",2,True
+Ciproxifan hydrochloride,ciproxifan,2,True
+Dantrolene sodium,dantrolene,7,True
+L-Dopa ethyl ester,dopa ethyl ester,6,True
+DCEBIO,dcebio,7,True
+Hydrocortisone,hydrocortisone,4,True
+1-Deoxynojirimycin hydrochloride,1-deoxynojirimycin,2,True
+Lithium Chloride,lithium,2,True
+"L-3,4-Dihydroxyphenylalanine","3,4-dihydroxyphenylalanine",2,True
+Hydrochlorothiazide,hydrochlorothiazide,7,True
+Dipyridamole,dipyridamole,5,True
+Valganciclovir hydrochloride hydrate,valganciclovir,2,True
+Doxazosin mesylate,doxazosin,3,True
+Hispidin,hispidin,6,True
+Chloro-IB-MECA,chloro-ib-meca,4,True
+UCL 2077,ucl 2077,3,True
+WB-4101 hydrochloride,wb-4101,6,True
+Fluvoxamine maleate,fluvoxamine,3,True
+DNQX,dnqx,4,True
+Temsirolimus,temsirolimus,2,True
+Dihydroouabain,dihydroouabain,7,True
+Furegrelate sodium,furegrelate,2,True
+Dobutamine hydrochloride,dobutamine,6,True
+Fiduxosin hydrochloride,fiduxosin,7,True
+Dihydrokainic acid,dihydrokainic acid,2,True
+Furosemide,furosemide,2,True
+Decamethonium dibromide,decamethonium dibromide,2,True
+p-Fluoro-L-phenylalanine,p-fluoro-l-phenylalanine,6,True
+"P1,P4-Di(adenosine-5')tetraphosphate triammonium","p1,p4-di(adenosine-5)tetraphosphate triammonium",2,True
+Fluphenazine dihydrochloride,fluphenazine,7,True
+Doxycycline hydrochloride,doxycycline,4,True
+17alpha-hydroxyprogesterone,17alpha-hydroxyprogesterone,4,True
+"6,7-ADTN hydrobromide","6,7-adtn",4,True
+"1,3,5-tris(4-hydroxyphenyl)-4-propyl-1H-pyrazole","1,3,5-tris(4-hydroxyphenyl)-4-propyl-1h-pyrazole",6,True
+R(-)-Apocodeine hydrochloride,r(-)-apocodeine,5,True
+ZD 7114 hydrochloride,zd 7114,7,True
+R(-)-Propylnorapomorphine hydrochloride,r(-)-propylnorapomorphine,7,True
+Histamine dihydrochloride,histamine,2,True
+"R(-)-2,10,11-Trihydroxyaporphine hybrobromide","r(-)-2,10,11-trihydroxyaporphine hybrobromide",7,True
+Harmane,harmane,2,True
+"R(-)-2,10,11-Trihydroxy-N-propylnoraporphine hydrobromide","r(-)-2,10,11-trihydroxy-n-propylnoraporphine",7,True
+JS-K,js-k,7,True
+Dipropyldopamine hydrobromide,dipropyldopamine,6,True
+Retinoic acid p-hydroxyanilide,retinoic acid p-hydroxyanilide,7,True
+AC-93253 iodide,ac-93253,7,True
+Nelfinavir mesylate hydrate,nelfinavir,2,True
+Debrisoquin sulfate,debrisoquin,7,True
+Fenofibrate,fenofibrate,5,True
+"2',3'-didehydro-3'-deoxythymidine","2,3-didehydro-3-deoxythymidine",2,True
+Fenspiride hydrochloride,fenspiride,2,True
+Droperidol,droperidol,6,True
+Flumazenil,flumazenil,4,True
+"L-3,4-Dihydroxyphenylalanine methyl ester hydrochloride","3,4-dihydroxyphenylalanine methyl ester",2,True
+Genipin,genipin,7,True
+"1,4-Dideoxy-1,4-imino-D-arabinitol","1,4-dideoxy-1,4-imino-d-arabinitol",2,True
+Fusaric acid,fusaric acid,3,True
+KRM-III,krm-iii,2,True
+5-Fluorouracil,5-fluorouracil,5,True
+D-ribofuranosylbenzimidazole,ribofuranosylbenzimidazole,7,True
+Esomeprazole magnesium dihydrate,esomeprazole magnesium,4,True
+SANT-1,sant-1,2,True
+Fenoldopam bromide,fenoldopam,3,True
+Celecoxib,celecoxib,4,True
+L-Histidine hydrochloride,histidine,5,True
+Mephetyl tetrazole,mephetyl tetrazole,4,True
+(±)-8-Hydroxy-DPAT hydrobromide,8-hydroxy-dpat,6,True
+Icilin,icilin,3,True
+Dopamine hydrochloride,dopamine,6,True
+(±)-SKF-38393 hydrochloride,skf-38393,6,True
+Hydroxyurea,hydroxyurea,2,True
+GBR-12909 dihydrochloride,gbr-12909,1,True
+(+)-Hydrastine,hydrastine,3,True
+R(+)-SCH-23390 hydrochloride,r(+)-sch-23390,4,True
+(±)-7-Hydroxy-DPAT hydrobromide,7-hydroxy-dpat,6,True
+Naratriptan hydrochloride,naratriptan,4,True
+SR 142948A,sr 142948a,3,True
+"(±)-2,3-Dichloro-alpha-methylbenzylamine hydrochloride","2,3-dichloro-alpha-methylbenzylamine",2,True
+5-Hydroxyindolacetic acid,5-hydroxyindolacetic acid,7,True
+Diltiazem hydrochloride,diltiazem,5,True
+Forskolin,forskolin,4,True
+Dextromethorphan hydrobromide monohydrate,dextromethorphan,4,True
+Famotidine,famotidine,6,True
+Carvedilol,carvedilol,3,True
+FSCPX,fscpx,6,True
+Dihydroergotamine methanesulfonate,dihydroergotamine methanesulfonate,1,True
+NS8593 hydrochloride,ns8593,3,True
+Diphenyleneiodonium chloride,diphenyleneiodonium,7,True
+Flunarizine dihydrochloride,flunarizine,6,True
+Diphenhydramine hydrochloride,diphenhydramine,2,True
+5-fluoro-5'-deoxyuridine,5-fluoro-5-deoxyuridine,2,True
+"2,3-Butanedione","2,3-butanedione",5,True
+Flupirtine maleate,flupirtine,2,True
+"N,N,N',N'-Tetramethylazodicarboxamide","n,n,n,n-tetramethylazodicarboxamide",2,True
+Flutamide,flutamide,2,True
+4-DAMP methiodide,4-damp methiodide,3,True
+L-Hyoscyamine,hyoscyamine,4,True
+"1,3-Dipropyl-7-methylxanthine","1,3-dipropyl-7-methylxanthine",2,True
+Hydroquinone,hydroquinone,7,True
+Domperidone,domperidone,5,True
+SR 27897 hydrate,sr 27897,7,True
+Propofol,propofol,6,True
+MNS,mns,7,True
+Nefiracetam,nefiracetam,7,True
+Serotonin hydrochloride,serotonin,6,True
+R(+)-Butylindazone,r(+)-butylindazone,6,True
+"L-165,041","165,041",2,True
+Eliprodil,eliprodil,1,True
+5-Hydroxy-L-tryptophan,5-hydroxy-l-tryptophan,2,True
+"3,5-Dinitrocatechol","3,5-dinitrocatechol",2,True
+Hydroxylamine hydrochloride,hydroxylamine,2,True
+"(S)-3,5-Dihydroxyphenylglycine","3,5-dihydroxyphenylglycine",5,True
+Fexofenadine hydrochloride,fexofenadine,3,True
+Dequalinium chloride hydrate,dequalinium,6,True
+Formoterol,formoterol,6,True
+Doxylamine succinate,doxylamine,6,True
+Felodipine,felodipine,6,True
+Desipramine hydrochloride,desipramine,5,True
+Fluspirilene,fluspirilene,1,True
+N-Methyl-1-deoxynojirimycin,n-methyl-1-deoxynojirimycin,2,True
+cis-(Z)-Flupenthixol dihydrochloride,cis-(z)-flupenthixol,7,True
+"5,5-Diphenylhydantoin","5,5-diphenylhydantoin",6,True
+Furafylline,furafylline,6,True
+"N^G,N^G-Dimethylarginine hydrochloride","n^g,n^g-dimethylarginine",2,True
+FPL 64176,fpl 64176,4,True
+Clodronic acid,clodronic acid,4,True
+Fluoxetine hydrochloride,fluoxetine,5,True
+Eletriptan hydrobromide,eletriptan,4,True
+4-Hydroxybenzhydrazide,4-hydroxybenzhydrazide,7,True
+D(-)-2-Amino-5-phosphonopentanoic acid,d(-)-2-amino-5-phosphonopentanoic acid,6,True
+Hemicholinium-3,hemicholinium-3,2,True
+"3,7-Dimethyl-1-propargylxanthine","3,7-dimethyl-1-propargylxanthine",4,True
+BNTX maleate salt hydrate,bntx,7,True
+"5,7-Dichlorokynurenic acid","5,7-dichlorokynurenic acid",5,True
+N-Methylhistaprodifen dioxalate salt,n-methylhistaprodifen dioxalate,4,True
+N-Desmethylclozapine,n-desmethylclozapine,5,True
+"Hexahydro-sila-difenidol hydrochloride, p-fluoro analog","hexahydro-sila-difenidol , p-fluoro analog",5,True
+"1,10-Diaminodecane","1,10-diaminodecane",2,True
+"Histamine, R(-)-alpha-methyl-, dihydrochloride","histamine, r(-)-alpha-methyl",4,True
+(+/-)-Anisodamine,(+/-)-anisodamine,3,True
+5-hydroxydecanoic acid sodium,5-hydroxydecanoic acid,3,True
+Benidipine hydrochloride,benidipine,3,True
+R-(+)-8-Hydroxy-DPAT hydrobromide,r-(+)-8-hydroxy-dpat,2,True
+Phenytoin sodium,phenytoin,2,True
+"N-(3,3-Diphenylpropyl)glycinamide","n-(3,3-diphenylpropyl)glycinamide",4,True
+Doxepin hydrochloride,doxepin,2,True
+Glybenclamide,glybenclamide,4,True
+S(-)-Pindolol,s(-)-pindolol,4,True
+GW2974,gw2974,6,True
+(-)-alpha-Methylnorepinephrine,alpha-methylnorepinephrine,6,True
+Bexarotene,bexarotene,6,True
+Dilazep hydrochloride,dilazep,1,True
+L-Glutamic acid hydrochloride,glutamic acid,4,True
+Ganaxolone,ganaxolone,6,True
+Ganciclovir,ganciclovir,4,True
+"1,7-Dimethylxanthine","1,7-dimethylxanthine",2,True
+L-Glutamine,glutamine,4,True
+"2,3-Dimethoxy-1,4-naphthoquinone","2,3-dimethoxy-1,4-naphthoquinone",7,True
+Guanidinyl-naltrindole di-trifluoroacetate,guanidinyl-naltrindole di-trifluoroacetate,7,True
+Anisotropine methyl bromide,anisotropine methyl,4,True
+R-(+)-7-Hydroxy-DPAT hydrobromide,r-(+)-7-hydroxy-dpat,6,True
+"2,4-Diamino-6-pyrimidinone","2,4-diamino-6-pyrimidinone",2,True
+Sematilide monohydrochloride monohydrate,sematilide monohydrochloride,6,True
+DL-alpha-Difluoromethylornithine hydrochloride,alpha-difluoromethylornithine,4,True
+ATPO,atpo,1,True
+SCH-28080,sch-28080,1,True
+Ibudilast,ibudilast,2,True
+Venlafaxine hydrochloride,venlafaxine,6,True
+Imidazole-4-acetic acid hydrochloride,imidazole-4-acetic acid,6,True
+Vanillic acid diethylamide,vanillic acid diethylamide,4,True
+CPNQ,cpnq,2,True
+Epibestatin hydrochloride,epibestatin,6,True
+NSC 95397,nsc 95397,7,True
+Etodolac,etodolac,6,True
+Imazodan,imazodan,6,True
+Daphnetin,daphnetin,5,True
+L-Canavanine,canavanine,6,True
+DM 235,dm 235,3,True
+Bezafibrate,bezafibrate,5,True
+"5,5-Dimethyl-1-pyrroline-N-oxide","5,5-dimethyl-1-pyrroline-n-oxide",4,True
+GW5074,gw5074,1,True
+"2',3'-dideoxycytidine","2,3-dideoxycytidine",4,True
+Genistein,genistein,6,True
+Diacylglycerol Kinase Inhibitor II,diacylglycerol kinase inhibitor ii,2,True
+GW7647,gw7647,2,True
+Cambinol,cambinol,1,True
+NS5806,ns5806,6,True
+N-Methyldopamine hydrochloride,n-methyldopamine,2,True
+Gallamine triethiodide,gallamine triethiodide,2,True
+"1,1-Dimethyl-4-phenyl-piperazinium iodide","1,1-dimethyl-4-phenyl-piperazinium",3,True
+GBR-12935 dihydrochloride,gbr-12935,6,True
+Enoximone,enoximone,6,True
+Iodoacetamide,iodoacetamide,6,True
+Etoposide,etoposide,7,True
+Loxiglumide,loxiglumide,4,True
+ET-18-OCH3,et-18-och3,7,True
+Ipratropium bromide,ipratropium,6,True
+Etazolate hydrochloride,etazolate,3,True
+Idarubicin,idarubicin,7,True
+"7-Cyclopentyl-5-(4-phenoxy)phenyl-7H-pyrrolo[2,3-d]pyrimidin-4-ylamine","7-cyclopentyl-5-(4-phenoxy)phenyl-7h-pyrrolo[2,3-d]pyrimidin-4-ylamine",7,True
+Metolazone,metolazone,5,True
+Emetine dihydrochloride hydrate,emetine,7,True
+GR 55562 dihydrobromide,gr 55562,6,True
+5'-N-Ethylcarboxamidoadenosine,5-n-ethylcarboxamidoadenosine,7,True
+IMID-4F hydrochloride,imid-4f,7,True
+E-64,e-64,2,True
+R(-)-Isoproterenol (+)-bitartrate,r(-)-isoproterenol (+)-bitartrate,4,True
+ML-7,ml-7,6,True
+Mifepristone,mifepristone,6,True
+AEG 3482,aeg 3482,6,True
+L-alpha-Methyl-p-tyrosine,alpha-methyl-p-tyrosine,3,True
+Ifenprodil tartrate,ifenprodil,2,True
+SB-215505,sb-215505,6,True
+Isotharine mesylate,isotharine,6,True
+1-Methylimidazole,1-methylimidazole,5,True
+Isoliquiritigenin,isoliquiritigenin,6,True
+Mecamylamine hydrochloride,mecamylamine,2,True
+(±)-Ibuprofen,ibuprofen,2,True
+Methapyrilene hydrochloride,methapyrilene,2,True
+Mifamurtide,mifamurtide,7,True
+Memantine hydrochloride,memantine,5,True
+(±)-Isoproterenol hydrochloride,isoproterenol,6,True
+JW74,jw74,2,True
+TMPH hydrochloride,tmph,1,True
+Nitrendipine,nitrendipine,3,True
+Lorglumide sodium,lorglumide,5,True
+Nimodipine,nimodipine,3,True
+Lometrexol hydrate,lometrexol,1,True
+Nisoxetine hydrochloride,nisoxetine,5,True
+cis(+/-)-8-OH-PBZI hydrobromide,cis(+/-)-8-oh-pbzi,3,True
+Nylidrin hydrochloride,nylidrin,5,True
+BW 723C86,bw 723c86,1,True
+SB 242084 dihydrochloride hydrate,sb 242084,5,True
+Levallorphan tartrate,levallorphan,5,True
+Naltriben methanesulfonate,naltriben methanesulfonate,6,True
+Nitisinone,nitisinone,5,True
+Naftopidil dihydrochloride,naftopidil,5,True
+"L-745,870 hydrochloride","745,870",5,True
+Bisoprolol hemifumarate salt,bisoprolol hemifumarate,4,True
+3-Isobutyl-1-methylxanthine,3-isobutyl-1-methylxanthine,5,True
+Minocycline hydrochloride,minocycline,2,True
+Idazoxan hydrochloride,idazoxan,1,True
+Maprotiline hydrochloride,maprotiline,6,True
+Rizatriptan benzoate salt,rizatriptan,5,True
+H-8 dihydrochloride,h-8,6,True
+(-)-Isoproterenol hydrochloride,isoproterenol,6,True
+Proglumide,proglumide,5,True
+1-(5-Isoquinolinylsulfonyl)-2-methylpiperazine dihydrochloride,1-(5-isoquinolinylsulfonyl)-2-methylpiperazine,6,True
+Fenobam,fenobam,4,True
+Indomethacin,indomethacin,4,True
+(±)-Muscarine chloride,muscarine,6,True
+Imipramine hydrochloride,imipramine,4,True
+Methoctramine tetrahydrochloride,methoctramine tetrahydrochloride,6,True
+Isoxanthopterin,isoxanthopterin,5,True
+(+)-MK-801 hydrogen maleate,mk-801 hydrogen,6,True
+SC-236,sc-236,5,True
+PHA-543613,pha-543613,6,True
+Linopirdine,linopirdine,6,True
+NS-1619,ns-1619,6,True
+"L-741,626","741,626",6,True
+CP-66713,cp-66713,6,True
+"L-703,606 oxalate salt hydrate","703,606",1,True
+NBQX disodium,nbqx,4,True
+Metoclopramide hydrochloride,metoclopramide,5,True
+NS 2028,ns 2028,6,True
+R(-)-Me5,r(-)-me5,6,True
+(±)-Octopamine hydrochloride,octopamine,3,True
+Dihydrocapsaicin,dihydrocapsaicin,3,True
+N-Oleoylethanolamine,n-oleoylethanolamine,1,True
+(-)-Naproxen sodium,naproxen,6,True
+Oxolinic acid,oxolinic acid,4,True
+Iproniazid phosphate,iproniazid,6,True
+(-)-MK-801 hydrogen maleate,mk-801 hydrogen,6,True
+Fosmidomycin sodium salt hydrate,fosmidomycin,1,True
+2-Methyl-5-hydroxytryptamine maleate,2-methyl-5-hydroxytryptamine,1,True
+L-N6-(1-Iminoethyl)lysine hydrochloride,n6-(1-iminoethyl)lysine,4,True
+alpha-Methyl-5-hydroxytryptamine maleate,alpha-methyl-5-hydroxytryptamine,5,True
+3-Iodo-L-tyrosine,3-iodo-l-tyrosine,6,True
+Cibenzoline succinate,cibenzoline,1,True
+DFB,dfb,2,True
+Ivermectin,ivermectin,7,True
+L-alpha-Methyl DOPA,alpha-methyl dopa,2,True
+Imiloxan hydrochloride,imiloxan,6,True
+Methysergide maleate,methysergide,4,True
+Stevioside,stevioside,2,True
+Ethopropazine hydrochloride,ethopropazine,4,True
+4-Methylpyrazole hydrochloride,4-methylpyrazole,2,True
+Olomoucine,olomoucine,2,True
+Nocodazole,nocodazole,7,True
+Oleic Acid,oleic acid,5,True
+N-omega-Methyl-5-hydroxytryptamine oxalate salt,n-omega-methyl-5-hydroxytryptamine,2,True
+Oxymetazoline hydrochloride,oxymetazoline,4,True
+Moxonidine hydrochloride,moxonidine,6,True
+Sodium Oxamate,oxamate,2,True
+CP-101537,cp-101537,1,True
+Oxybutynin Chloride,oxybutynin,4,True
+BIO,bio,7,True
+Oxiracetam,oxiracetam,6,True
+MRS 1523,mrs 1523,6,True
+Ouabain,ouabain,7,True
+Famciclovir,famciclovir,6,True
+ODQ,odq,6,True
+m-Iodobenzylguanidine hemisulfate,m-iodobenzylguanidine hemisulfate,5,True
+Methiothepin mesylate,methiothepin,6,True
+S(+)-Ibuprofen,s(+)-ibuprofen,5,True
+Nemadipine-A,nemadipine-a,6,True
+p-Iodoclonidine hydrochloride,p-iodoclonidine,6,True
+Moclobemide,moclobemide,1,True
+R(+)-IAA-94,r(+)-iaa-94,2,True
+X80,x80,6,True
+Indatraline hydrochloride,indatraline,7,True
+ZM 39923 hydrochloride,zm 39923,7,True
+Iofetamine hydrochloride,iofetamine,1,True
+"ICI 204,448 hydrochloride","ici 204,448",5,True
+PF-573228,pf-573228,7,True
+SB-525334,sb-525334,2,True
+S15535,s15535,1,True
+PD-161570,pd-161570,7,True
+Orphenadrine hydrochloride,orphenadrine,1,True
+Metaproterenol hemisulfate,metaproterenol hemisulfate,6,True
+TG003,tg003,2,True
+Mianserin hydrochloride,mianserin,6,True
+Ofloxacin,ofloxacin,4,True
+Mevastatin,mevastatin,6,True
+Oxotremorine sesquifumarate salt,oxotremorine sesquifumarate,1,True
+8-Methoxymethyl-3-isobutyl-1-methylxanthine,8-methoxymethyl-3-isobutyl-1-methylxanthine,5,True
+Trandolapril,trandolapril,4,True
+MK-886,mk-886,7,True
+SB 216763,sb 216763,1,True
+Mexiletene hydrochloride,mexiletene,7,True
+Oxaprozin,oxaprozin,2,True
+Methylergonovine maleate,methylergonovine,7,True
+Oxotremorine methiodide,oxotremorine methiodide,3,True
+Imetit dihydrobromide,imetit,6,True
+Piperlongumine,piperlongumine,7,True
+"1,5-Isoquinolinediol","1,5-isoquinolinediol",4,True
+Sivelestat sodium salt hydrate,sivelestat,5,True
+Molindone hydrochloride,molindone,4,True
+p-MPPF dihydrochloride,p-mppf,7,True
+IB-MECA,ib-meca,6,True
+Levetiracetam,levetiracetam,2,True
+Aurothioglucose,aurothioglucose,1,True
+Niflumic acid,niflumic acid,6,True
+3-(1H-Imidazol-4-yl)propyl di(p-fluorophenyl)methyl ether hydrochloride,3-(1h-imidazol-4-yl)propyl di(p-fluorophenyl)methyl ether,6,True
+Nimesulide,nimesulide,5,True
+Isonipecotic acid,isonipecotic acid,7,True
+Nialamide,nialamide,4,True
+CP-471474,cp-471474,4,True
+Nomifensine maleate,nomifensine,6,True
+Molsidomine,molsidomine,5,True
+(±)-Octoclothepin maleate,octoclothepin,6,True
+Zoledronic acid monohydrate,zoledronic acid,6,True
+Progesterone,progesterone,6,True
+Mizoribine,mizoribine,6,True
+Topotecan hydrochloride hydrate,topotecan,7,True
+S-Methylisothiourea hemisulfate,s-methylisothiourea hemisulfate,2,True
+Piceatannol,piceatannol,5,True
+MG 624,mg 624,6,True
+Pentamidine isethionate,pentamidine isethionate,6,True
+N-Methyl-D-aspartic acid,n-methyl-d-aspartic acid,5,True
+TBB,tbb,1,True
+alpha-Methyl-DL-tyrosine methyl ester hydrochloride,alpha-methyl-dl-tyrosine methyl ester,2,True
+Parthenolide,parthenolide,7,True
+ML 10302,ml 10302,6,True
+Pindolol,pindolol,3,True
+Agomelatine,agomelatine,3,True
+ONO-RS-082,ono-rs-082,5,True
+Kainic acid,kainic acid,7,True
+Neostigmine bromide,neostigmine,5,True
+Ketoconazole,ketoconazole,4,True
+CR 2249,cr 2249,5,True
+Ketorolac tris salt,ketorolac tris,2,True
+S-(4-Nitrobenzyl)-6-thioinosine,s-(4-nitrobenzyl)-6-thioinosine,7,True
+Ketoprofen,ketoprofen,2,True
+Naltrexone hydrochloride,naltrexone,6,True
+K 185,k 185,6,True
+S-Nitroso-N-acetylpenicillamine,s-nitroso-n-acetylpenicillamine,6,True
+Ketotifen fumarate,ketotifen,2,True
+Niclosamide,niclosamide,7,True
+Kynurenic acid,kynurenic acid,5,True
+NAN-190 hydrobromide,nan-190,6,True
+Metergoline,metergoline,6,True
+O-Phospho-L-serine,o-phospho-l-serine,6,True
+"(-)-cis-(1S,2R)-U-50488 tartrate","cis-(1s,2r)-u-50488",1,True
+(±)-Propranolol hydrochloride,propranolol,4,True
+Clorgyline hydrochloride,clorgyline,6,True
+SKF-525A hydrochloride,skf-525a,5,True
+L-DOPS,dops,6,True
+Picrotoxin,picrotoxin,2,True
+Meloxicam sodium,meloxicam,5,True
+LP44,lp44,1,True
+Morin,morin,5,True
+Pentoxifylline,pentoxifylline,2,True
+Minoxidil,minoxidil,4,True
+Pimozide,pimozide,6,True
+Rufinamide,rufinamide,2,True
+"L-Glutamic acid, N-phthaloyl-","glutamic acid, n-phthaloyl",2,True
+Kenpaullone,kenpaullone,1,True
+PD-407824,pd-407824,1,True
+U-73343,u-73343,1,True
+S-Nitrosoglutathione,s-nitrosoglutathione,6,True
+"L-701,324","701,324",2,True
+NCS-382,ncs-382,2,True
+loxoprofen,loxoprofen,1,True
+Nalidixic acid sodium,nalidixic acid,3,True
+Labetalol hydrochloride,labetalol,6,True
+Gossypol,gossypol,1,True
+"L-162,313","162,313",5,True
+5-Nitro-2-(3-phenylpropylamino)benzoic acid,5-nitro-2-(3-phenylpropylamino)benzoic acid,3,True
+CyPPA,cyppa,1,True
+AMN082,amn082,4,True
+beta-Lapachone,beta-lapachone,7,True
+Nordihydroguaiaretic acid from Larrea divaricata (creosote bush),nordihydroguaiaretic acid from larrea divaricata (creosote bush),7,True
+Meclofenamic acid sodium,meclofenamic acid,5,True
+Pancuronium bromide,pancuronium,5,True
+Milrinone,milrinone,5,True
+"3-alpha,21-Dihydroxy-5-alpha-pregnan-20-one","3-alpha,21-dihydroxy-5-alpha-pregnan-20-one",6,True
+(±)-alpha-Methyl-4-carboxyphenylglycine,alpha-methyl-4-carboxyphenylglycine,6,True
+Pirfenidone,pirfenidone,7,True
+1-Methylhistamine dihydrochloride,1-methylhistamine,2,True
+"1,3-Dimethyl-8-phenylxanthine","1,3-dimethyl-8-phenylxanthine",1,True
+Moxisylyte hydrochloride,moxisylyte,2,True
+PRE-084,pre-084,4,True
+S-Methyl-L-thiocitrulline acetate,s-methyl-l-thiocitrulline,2,True
+MTEP hydrochloride,mtep,4,True
+Melatonin,melatonin,5,True
+AS605240,as605240,2,True
+L-Methionine sulfoximine,methionine sulfoximine,2,True
+Papaverine hydrochloride,papaverine,4,True
+"LY-367,265","ly-367,265",5,True
+Eprosartan mesylate,eprosartan,2,True
+"LY-310,762 hydrochloride","ly-310,762",4,True
+NG-Nitro-L-arginine,ng-nitro-l-arginine,4,True
+Olvanil,olvanil,2,True
+Naphazoline hydrochloride,naphazoline,2,True
+Lomefloxacin hydrochloride,lomefloxacin,5,True
+3-Nitropropionic acid,3-nitropropionic acid,4,True
+Lamotrigine,lamotrigine,1,True
+NG-Nitro-L-arginine methyl ester hydrochloride,ng-nitro-l-arginine methyl ester,2,True
+alpha-Lobeline hydrochloride,alpha-lobeline,6,True
+(±)-Normetanephrine hydrochloride,normetanephrine,6,True
+Loperamide hydrochloride,loperamide,2,True
+Nortriptyline hydrochloride,nortriptyline,1,True
+Lonidamine,lonidamine,1,True
+NADPH tetrasodium,nadph tetrasodium,3,True
+(±)-Metoprolol (+)-tartrate,metoprolol (+),6,True
+Pentolinium di[L(+)-tartrate],pentolinium di[l(+)-],7,True
+6-Methyl-2-(phenylethynyl)pyridine hydrochloride,6-methyl-2-(phenylethynyl)pyridine,5,True
+1-Phenyl-3-(2-thiazolyl)-2-thiourea,1-phenyl-3-(2-thiazolyl)-2-thiourea,2,True
+Mibefradil dihydrochloride,mibefradil,1,True
+Mitiglinide calcium,mitiglinide calcium,4,True
+Ro 61-8048,ro 61-8048,1,True
+Cisplatin,cisplatin,6,True
+(S)-MAP4 hydrochloride,map4,6,True
+Podophyllotoxin,podophyllotoxin,7,True
+(±)-Methoxyverapamil hydrochloride,methoxyverapamil,1,True
+NU2058,nu2058,1,True
+Metrazoline oxalate,metrazoline,2,True
+Palmitoyl-DL-Carnitine chloride,palmitoyl-dl-carnitine,2,True
+GW9662,gw9662,1,True
+R(-)-N6-(2-Phenylisopropyl)adenosine,r(-)-n6-(2-phenylisopropyl)adenosine,5,True
+Leflunomide,leflunomide,5,True
+Nicardipine hydrochloride,nicardipine,5,True
+VER-3323 hemifumarate salt,ver-3323 hemifumarate,1,True
+Nifedipine,nifedipine,5,True
+Lidocaine hydrochloride,lidocaine,1,True
+Naloxone hydrochloride,naloxone,2,True
+Lidocaine N-ethyl bromide quaternary salt,lidocaine n-ethyl quaternary,5,True
+7-Nitroindazole,7-nitroindazole,6,True
+4-Amidinophenylmethanesulfonyl fluoride hydrochloride,4-amidinophenylmethanesulfonyl fluoride,2,True
+PMEG hydrate,pmeg,2,True
+LE 300,le 300,1,True
+CI-976,ci-976,7,True
+Lansoprazole,lansoprazole,6,True
+"6-Nitroso-1,2-benzopyrone","6-nitroso-1,2-benzopyrone",7,True
+"L-687,384 hydrochloride","687,384",6,True
+Nilutamide,nilutamide,2,True
+SC-58125,sc-58125,5,True
+Valproic acid sodium,valproic acid,4,True
+2-methoxyestradiol,2-methoxyestradiol,7,True
+Promethazine hydrochloride,promethazine,6,True
+Cysteamine hydrochloride,cysteamine,2,True
+Praziquantel,praziquantel,6,True
+"alpha,beta-Methylene adenosine 5'-triphosphate dilithium","alpha,beta-methylene adenosine 5-triphosphate dilithium",4,True
+Propafenone hydrochloride,propafenone,4,True
+Methoxamine hydrochloride,methoxamine,2,True
+"5alpha-Pregnan-3alpha-ol-11,20-dione","5alpha-pregnan-3alpha-ol-11,20-dione",3,True
+Mitoxantrone,mitoxantrone,7,True
+PNU-282987,pnu-282987,4,True
+O-Methylserotonin hydrochloride,o-methylserotonin,6,True
+Piracetam,piracetam,1,True
+Eupatorin,eupatorin,1,True
+Phosphomycin disodium,phosphomycin,5,True
+CP-154526 hydrochloride,cp-154526,4,True
+NF 023,nf 023,2,True
+NNC 55-0396,nnc 55-0396,7,True
+Nimustine hydrochloride,nimustine,6,True
+Ro 90-7501,ro 90-7501,7,True
+Norcantharidin,norcantharidin,6,True
+Loratadine,loratadine,6,True
+Noscapine hydrchloride,noscapine hydrchloride,6,True
+(-)-Tetramisole hydrochloride,tetramisole,1,True
+T0070907,t0070907,1,True
+"L-655,708","655,708",7,True
+Naltrindole hydrochloride,naltrindole,1,True
+"LY-294,002 hydrochloride","ly-294,002",7,True
+Sertraline hydrochloride,sertraline,7,True
+Loxapine succinate,loxapine,2,True
+NO-711 hydrochloride,no-711,4,True
+MDL 28170,mdl 28170,4,True
+Pyrilamine maleate,pyrilamine,2,True
+Myricetin,myricetin,5,True
+Piroxicam,piroxicam,2,True
+NG-Monomethyl-L-arginine acetate,ng-monomethyl-l-arginine,5,True
+3-n-Propylxanthine,3-n-propylxanthine,6,True
+MK-912,mk-912,2,True
+Phenylephrine hydrochloride,phenylephrine,4,True
+"(±)-3-(3,4-dihydroxyphenyl)-2-methyl-DL-alanine","3-(3,4-dihydroxyphenyl)-2-methyl-dl-alanine",5,True
+Perphenazine,perphenazine,1,True
+MRS 2159,mrs 2159,1,True
+Pentylenetetrazole,pentylenetetrazole,6,True
+GR 127935 hydrochloride hydrate,gr 127935,1,True
+(+)-Pilocarpine hydrochloride,pilocarpine,2,True
+"2,6-Difluoro-4-[2-(phenylsulfonylamino)ethylthio]phenoxyacetamide","2,6-difluoro-4-[2-(phenylsulfonylamino)ethylthio]phenoxyacetamide",6,True
+Pilocarpine nitrate,pilocarpine,2,True
+Promazine hydrochloride,promazine,4,True
+SU 4312,su 4312,7,True
+Phenelzine sulfate,phenelzine,6,True
+SR 59230A oxalate,sr 59230a,6,True
+Pheniramine maleate,pheniramine,2,True
+rac BHFF,rac bhff,3,True
+Phosphonoacetic acid,phosphonoacetic acid,5,True
+Zofenopril calcium,zofenopril calcium,6,True
+(-)-Perillic acid,perillic acid,6,True
+SIB 1757,sib 1757,7,True
+Pyrazinecarboxamide,pyrazinecarboxamide,1,True
+SIB 1893,sib 1893,7,True
+Primidone,primidone,2,True
+1-(1-Naphthyl)piperazine hydrochloride,1-(1-naphthyl)piperazine,4,True
+(±)-threo-1-Phenyl-2-decanoylamino-3-morpholino-1-propanol hydrochloride,threo-1-phenyl-2-decanoylamino-3-morpholino-1-propanol,1,True
+Ketanserin tartrate,ketanserin,6,True
+Ritodrine hydrochloride,ritodrine,4,True
+PD-156707,pd-156707,6,True
+Raloxifene hydrochloride,raloxifene,7,True
+Tetracaine hydrochloride,tetracaine,6,True
+Retinoic acid,retinoic acid,2,True
+Tyrphostin 47,tyrphostin 47,2,True
+Ruthenium red,ruthenium red,5,True
+Tyrphostin 51,tyrphostin 51,4,True
+13-cis-retinoic acid,13-cis-retinoic acid,5,True
+PAC-1,pac-1,7,True
+Rutaecarpine,rutaecarpine,7,True
+Bropirimine,bropirimine,4,True
+Ropinirole hydrochloride,ropinirole,5,True
+Tyrphostin AG 538,tyrphostin ag 538,6,True
+Resveratrol,resveratrol,2,True
+Trimethoprim,trimethoprim,3,True
+Pirenzepine dihydrochloride,pirenzepine,6,True
+1-(2-Methoxyphenyl)piperazine hydrochloride,1-(2-methoxyphenyl)piperazine,3,True
+Putrescine dihydrochloride,putrescine,1,True
+PAPP,papp,4,True
+Phentolamine mesylate,phentolamine,4,True
+Dolasetron mesylate hydrate,dolasetron,3,True
+Propionylpromazine hydrochloride,propionylpromazine,2,True
+SR-95531,sr-95531,6,True
+Prazosin hydrochloride,prazosin,1,True
+(±)-6-Chloro-PB hydrobromide,6-chloro-pb,5,True
+Phloretin,phloretin,4,True
+L-Beta-threo-benzyl-aspartate,beta-threo-benzyl,3,True
+Pargyline hydrochloride,pargyline,7,True
+Suramin sodium salt,suramin,7,True
+Phorbol 12-myristate 13-acetate,phorbol 12-myristate 13,1,True
+SQ 22536,sq 22536,2,True
+CP-93129 dihydrochloride hydrate,cp-93129,1,True
+Tomoxetine,tomoxetine,3,True
+Rottlerin,rottlerin,7,True
+Brinzolamide,brinzolamide,3,True
+Ranolazine dihydrochloride,ranolazine,3,True
+4-DAMP,4-damp,6,True
+Rolipram,rolipram,3,True
+Trifluoperazine dihydrochloride,trifluoperazine,7,True
+Ro 25-6981 hydrochloride,ro 25-6981,7,True
+D-609 potassium,609,6,True
+Phosphoramidon disodium,phosphoramidon,3,True
+Thioridazine hydrochloride,thioridazine,7,True
+BIA 2-093,bia 2-093,3,True
+Thapsigargin,thapsigargin,7,True
+Rotenone,rotenone,7,True
+IPA-3,ipa-3,7,True
+PD-184161,pd-184161,3,True
+Sepiapterin,sepiapterin,4,True
+Protoporphyrin IX disodium,protoporphyrin ix,7,True
+Amisulpride,amisulpride,3,True
+PD173952,pd173952,7,True
+"(±)-SKF 38393, N-allyl-, hydrobromide","skf 38393, n-allyl",4,True
+Phenylbutazone,phenylbutazone,2,True
+"SDZ-205,557 hydrochloride","sdz-205,557",2,True
+Picotamide,picotamide,4,True
+SB 206553 hydrochloride,sb 206553,2,True
+Tranylcypromine hydrochloride,tranylcypromine,7,True
+Granisetron hydrochloride,granisetron,4,True
+(S)-Propranolol hydrochloride,propranolol,4,True
+L-Tryptophan,tryptophan,4,True
+Ammonium pyrrolidinedithiocarbamate,ammonium pyrrolidinedithiocarbamate,7,True
+Tranilast,tranilast,7,True
+Ro 8-4304,ro 8-4304,4,True
+Tamoxifen citrate,tamoxifen,6,True
+RX 821002 hydrochloride,rx 821002,7,True
+Terfenadine,terfenadine,7,True
+Ribavirin,ribavirin,1,True
+Tropicamide,tropicamide,2,True
+Ranitidine hydrochloride,ranitidine,7,True
+THIP hydrochloride,thip,2,True
+Ritanserin,ritanserin,1,True
+Trifluperidol hydrochloride,trifluperidol,1,True
+Rauwolscine hydrochloride,rauwolscine,4,True
+3-Tropanyl-indole-3-carboxylate hydrochloride,3-tropanyl-indole-3-carboxylate,7,True
+Ibandronate sodium,ibandronate,2,True
+XCT790,xct790,7,True
+CP-226269,cp-226269,3,True
+3-Tropanylindole-3-carboxylate methiodide,3-tropanylindole-3-carboxylate methiodide,7,True
+"(±)-cis-Piperidine-2,3-dicarboxylic acid","cis-piperidine-2,3-dicarboxylic acid",3,True
+Tiapride hydrochloride,tiapride,2,True
+Protriptyline hydrochloride,protriptyline,3,True
+Taurine,taurine,3,True
+Pergolide methanesulfonate,pergolide methanesulfonate,1,True
+FAUC 213,fauc 213,2,True
+6(5H)-Phenanthridinone,6(5h)-phenanthridinone,1,True
+Tolbutamide,tolbutamide,6,True
+5alpha-Pregnan-3alpha-ol-20-one,5alpha-pregnan-3alpha-ol-20-one,1,True
+Tetraethylthiuram disulfide,tetraethylthiuram disulfide,7,True
+Propantheline bromide,propantheline,7,True
+TCPOBOP,tcpobop,5,True
+K114,k114,7,True
+Tetraisopropyl pyrophosphoramide,tetraisopropyl pyrophosphoramide,4,True
+Prochlorperazine dimaleate,prochlorperazine dimaleate,7,True
+Tetramisole hydrochloride,tetramisole,1,True
+Ro 41-0960,ro 41-0960,6,True
+Telenzepine dihydrochloride,telenzepine,3,True
+Reactive Blue 2,reactive blue 2,7,True
+Thioperamide maleate,thioperamide,3,True
+Riluzole,riluzole,1,True
+(±)-Thalidomide,thalidomide,2,True
+Steviol,steviol,6,True
+A-68930 hydrochloride,a-68930,4,True
+S(+)-Raclopride L-tartrate,s(+)-raclopride l,2,True
+5HPP-33,5hpp-33,7,True
+Sobuzoxane,sobuzoxane,1,True
+CIQ,ciq,1,True
+Rilmenidine hemifumarate,rilmenidine hemifumarate,6,True
+TPMPA,tpmpa,7,True
+Tizanidine hydrochloride,tizanidine,4,True
+CP-31398 dihydrochloride hydrate,cp-31398,7,True
+Piribedil maleate,piribedil,5,True
+Trihexyphenidyl hydrochloride,trihexyphenidyl,4,True
+Paromomycin sulfate,paromomycin,7,True
+Theophylline,theophylline,7,True
+"1,10-Phenanthroline monohydrate","1,10-phenanthroline",7,True
+(E)-4-amino-2-butenoic acid,4-amino-2-butenoic acid,2,True
+Procainamide hydrochloride,procainamide,7,True
+Tetradecylthioacetic acid,tetradecylthioacetic acid,1,True
+Prilocaine hydrochloride,prilocaine,6,True
+Trequinsin hydrochloride,trequinsin,6,True
+Triflusal,triflusal,6,True
+Tyrphostin AG 879,tyrphostin ag 879,7,True
+Ziprasidone hydrochloride monohydrate,ziprasidone,7,True
+Tetraethylammonium chloride,tetraethylammonium,7,True
+Pyridostigmine bromide,pyridostigmine,4,True
+Tolazamide,tolazamide,4,True
+Ro 04-6790 dihydrochloride,ro 04-6790,4,True
+Uridine 5'-diphosphate sodium,uridine 5-diphosphate,4,True
+(±)-Sotalol hydrochloride,sotalol,2,True
+U-74389G maleate,u-74389g,6,True
+SB-366791,sb-366791,1,True
+CCT007093,cct007093,7,True
+"7,8-Dihydroxyflavone hydrate","7,8-dihydroxyflavone",7,True
+L2-b,l2-b,2,True
+(±)-Synephrine,synephrine,2,True
+SKF 95282 dimaleate,skf 95282 dimaleate,1,True
+Sulfaphenazole,sulfaphenazole,1,True
+4-Imidazoleacrylic acid,4-imidazoleacrylic acid,6,True
+N2-Ethyl-2'-deoxyguanosine,n2-ethyl-2-deoxyguanosine,4,True
+Urapidil hydrochloride,urapidil,2,True
+Sulindac sulfone,sulindac sulfone,7,True
+"Urapidil, 5-Methyl-","urapidil, 5-methyl",2,True
+Procaine hydrochloride,procaine,6,True
+Terbutaline hemisulfate,terbutaline hemisulfate,2,True
+2-Phenylaminoadenosine,2-phenylaminoadenosine,6,True
+4-Hydroxyphenethylamine hydrochloride,4-hydroxyphenethylamine,2,True
+R(+)-3PPP hydrochloride,r(+)-3ppp,6,True
+Triflupromazine hydrochloride,triflupromazine,7,True
+S(-)-3PPP hydrochloride,s(-)-3ppp,3,True
+Trimipramine maleate,trimipramine,7,True
+(±)-PPHT hydrochloride,ppht,3,True
+Avridine,avridine,6,True
+BMS-193885,bms-193885,1,True
+TTNPB,ttnpb,7,True
+Bicalutamide (CDX),bicalutamide (cdx),4,True
+SC-51322,sc-51322,6,True
+Enalaprilat dihydrate,enalaprilat,2,True
+Triamterene,triamterene,2,True
+Auranofin,auranofin,7,True
+U-69593,u-69593,2,True
+SKF 86466,skf 86466,6,True
+"UK 14,304","uk 14,304",3,True
+CP-346086 dihydrate,cp-346086,4,True
+U-62066,u-62066,6,True
+(-)-Scopolamine hydrobromide,scopolamine,4,True
+BMS-299897,bms-299897,1,True
+Tetrabenazine,tetrabenazine,4,True
+(+)-Norfenfluramine hydrochloride,norfenfluramine,2,True
+Semicarbazide hydrochloride,semicarbazide,2,True
+Wiskostatin,wiskostatin,7,True
+(-)-Scopolamine methyl nitrate,scopolamine methyl,5,True
+"(-)-trans-(1S,2S)-U-50488 hydrochloride","trans-(1s,2s)-u-50488",7,True
+Auraptene,auraptene,7,True
+U-101958 maleate,u-101958,7,True
+Phaclofen,phaclofen,5,True
+Tyrphostin AG 1478,tyrphostin ag 1478,7,True
+BF-170 hydrochloride,bf-170,1,True
+Tetrahydrozoline hydrochloride,tetrahydrozoline,6,True
+1-Phenylbiguanide,1-phenylbiguanide,2,True
+KB-R7493,kb-r7493,4,True
+GANT61,gant61,3,True
+N-p-Tosyl-L-phenylalanine chloromethyl ketone,n-p-tosyl-l-phenylalanine chloromethyl ketone,7,True
+Pirenperone,pirenperone,1,True
+"(6R)-5,6,7,8-Tetrahydro-L-biopterin hydrochloride","(6r)-5,6,7,8-tetrahydro-l-biopterin",3,True
+IC 261,ic 261,7,True
+cDPCP,cdpcp,3,True
+A3 hydrochloride,a3,1,True
+Theobromine,theobromine,6,True
+Pinacidil,pinacidil,3,True
+(±)-Taxifolin,taxifolin,2,True
+Spermidine trihydrochloride,spermidine,2,True
+U-99194A maleate,u-99194a,3,True
+SNC80,snc80,3,True
+U0126,u0126,6,True
+SKF 83959 hydrobromide,skf 83959,2,True
+Vinblastine sulfate salt,vinblastine,7,True
+Spermine tetrahydrochloride,spermine tetrahydrochloride,3,True
+(±)-Verapamil hydrochloride,verapamil,7,True
+CP-335963,cp-335963,3,True
+CP-64434 hydrate,cp-64434,2,True
+SC 19220,sc 19220,3,True
+Vinpocetine,vinpocetine,4,True
+Tirofiban hydrochloride monohydrate,tirofiban,2,True
+Vancomycin hydrochloride from Streptomyces orientalis,vancomycin from streptomyces orientalis,6,True
+AGK2,agk2,7,True
+(±)-gamma-Vinyl GABA,gamma-vinyl gaba,7,True
+Pregnenolone sulfate sodium,pregnenolone,2,True
+BIX 01294 trihydrochloride hydrate,bix 01294,1,True
+PPADS,ppads,4,True
+CP-100263 dihydrochloride hydrate,cp-100263,3,True
+SC-57461A,sc-57461a,4,True
+Olanzapine,olanzapine,6,True
+Phenamil methanesulfonate,phenamil methanesulfonate,4,True
+SC-51089 hydrate,sc-51089,4,True
+Phenylbenzene-omega-phosphono-alpha-amino acid,phenylbenzene-omega-phosphono-alpha-amino acid,4,True
+Pseudocantharidin C,pseudocantharidin c,3,True
+Bay 11-7082,bay 11-7082,7,True
+PD-166866,pd-166866,7,True
+"PD 98,059","pd 98,059",2,True
+Thio-NADP sodium,thio-nadp,1,True
+Pramipexole dihydrochloride,pramipexole,2,True
+Tyrphostin AG 835,tyrphostin ag 835,7,True
+Stattic,stattic,7,True
+Vincristine sulfate,vincristine,7,True
+N-Oleoyldopamine,n-oleoyldopamine,7,True
+AMG 9810,amg 9810,1,True
+Spironolactone,spironolactone,4,True
+(±)-Vesamicol hydrochloride,vesamicol,4,True
+SCH-202676 hydrobromide,sch-202676,7,True
+L-Mimosine from Koa hoale seeds,mimosine from koa hoale seeds,3,True
+D-Serine,serine,7,True
+Wortmannin from Penicillium funiculosum,wortmannin from penicillium funiculosum,1,True
+Albuterol hemisulfate,albuterol hemisulfate,2,True
+"ICI 63,137","ici 63,137",2,True
+Sanguinarine chloride,sanguinarine,7,True
+Acepromazine maleate,acepromazine,2,True
+Tazarotene,tazarotene,1,True
+CP-135807,cp-135807,7,True
+"PD 168,077 maleate","pd 168,077",4,True
+(±)-alpha-Lipoic Acid,alpha-lipoic acid,1,True
+SU 6656,su 6656,1,True
+DL-Thiorphan,thiorphan,7,True
+Quinolinic acid,quinolinic acid,4,True
+Tulobuterol hydrochloride,tulobuterol,1,True
+Quercetin dihydrate,quercetin,6,True
+Trazodone hydrochloride,trazodone,3,True
+Quinidine sulfate,quinidine,1,True
+BAY 61-3606 hydrochloride hydrate,bay 61-3606,7,True
+SMER28,smer28,2,True
+Triamcinolone,triamcinolone,3,True
+Quinine sulfate,quinine,4,True
+S(-)-Timolol maleate,s(-)-timolol,2,True
+(+)-Quisqualic acid,quisqualic acid,1,True
+EBPC,ebpc,2,True
+IRAK-1/4 Inhibitor I,irak-1/4 inhibitor i,2,True
+"WIN 62,577","win 62,577",1,True
+SB 269970 hydrochloride,sb 269970,7,True
+Ara-G hydrate,ara-g,2,True
+Spiperone hydrochloride,spiperone,7,True
+WAY-100635 maleate,way-100635,7,True
+Carmofur,carmofur,2,True
+AC-55649,ac-55649,6,True
+(-)-Sulpiride,sulpiride,1,True
+Xylazine hydrochloride,xylazine,3,True
+Tegafur,tegafur,3,True
+SCH 58261,sch 58261,6,True
+"(-)-Scopolamine,n-Butyl-, bromide","scopolamine,n-butyl",2,True
+Xylometazoline hydrochloride,xylometazoline,1,True
+SB 205384,sb 205384,7,True
+PF-4708671,pf-4708671,2,True
+Quinacrine dihydrochloride,quinacrine,4,True
+Triprolidine hydrochloride,triprolidine,3,True
+Quazinone,quazinone,2,True
+Tyrphostin AG 112,tyrphostin ag 112,7,True
+(-)-Quinpirole hydrochloride,quinpirole,2,True
+Tyrphostin 1,tyrphostin 1,7,True
+LP 12 hydrochloride hydrate,lp 12,6,True
+Tyrphostin 23,tyrphostin 23,7,True
+"Quipazine, 6-nitro-, maleate","quipazine, 6-nitro",1,True
+Pifithrin-mu,pifithrin-mu,7,True
+Quinelorane dihydrochloride,quinelorane,3,True
+Na-p-Tosyl-L-lysine chloromethyl ketone hydrochloride,na-p-tosyl-l-lysine chloromethyl ketone,2,True
+Candesartan cilexetil,candesartan cilexetil,7,True
+Aprindine hydrochloride,aprindine,7,True
+Cortexolone,cortexolone,7,True
+1-[2-(Trifluoromethyl)phenyl]imidazole,1-[2-(trifluoromethyl)phenyl]imidazole,2,True
+(±)-Sulpiride,sulpiride,1,True
+Yohimbine hydrochloride,yohimbine,6,True
+PD-166285 hydrate,pd-166285,7,True
+YS-035 hydrochloride,ys-035,2,True
+Sulindac,sulindac,2,True
+YC-1,yc-1,4,True
+Succinylcholine chloride,succinylcholine,2,True
+Zaprinast,zaprinast,3,True
+IMS2186,ims2186,7,True
+Zonisamide sodium,zonisamide,2,True
+ANA-12,ana-12,4,True
+Caroverine hydrochloride,caroverine,2,True
+SU 5416,su 5416,7,True
+Olprinone hydrochloride,olprinone,7,True
+(-)-Scopolamine methyl bromide,scopolamine methyl,5,True
+Zimelidine dihydrochloride,zimelidine,2,True

@@ -1,0 +1,1279 @@
+rank_final,drug_name,canonical_name,cluster,net_direction,activity_magnitude,real_angio_pubmed_hits,real_total_pubmed_hits,novelty_real,novelty_status,kg_plausibility,score_v5_final,corpus_n_papers,angio_edges,novelty,repurposing_score_v5,rank,is_active_dark,is_active_dark_real,pubmed_query_form
+1,5HPP-33,5hpp-33,7,-4.1117,0.6122,5,16,0.7406162498721187,PARTIAL,0.5781,0.6486,5,3,0.7406,0.6486,3,False,False,canonical
+2,"7-Chloro-4-hydroxy-2-phenyl-1,8-naphthyridine","7-chloro-4-hydroxy-2-phenyl-1,8-naphthyridine",7,-3.6305,0.8235,1,1,0.8996566681120063,PARTIAL,0.0,0.6443,3,0,0.7993,0.6092,9,False,True,canonical
+3,cis-4-Aminocrotonic acid,cis-4-aminocrotonic acid,7,-3.2156,0.7169,0,66,1.0,PARTIAL,0.0,0.6368,5,0,0.7406,0.546,29,False,True,canonical
+4,NSC 95397,nsc 95397,7,-3.5859,0.7034,0,22,1.0,PARTIAL,0.0,0.6314,3,0,0.7993,0.5611,23,False,True,canonical
+5,PD-180970,pd-180970,7,-2.8957,0.7024,0,24,1.0,PARTIAL,0.0,0.631,2,0,0.841,0.5753,17,False,True,canonical
+6,Tetraethylthiuram disulfide,tetraethylthiuram disulfide,7,-3.2395,0.4879,1,161,0.8996566681120063,PARTIAL,0.4582,0.6246,1,2,0.8997,0.6246,5,False,True,canonical
+7,IC 261,ic 261,7,-4.7047,0.7314,1,29,0.8996566681120063,PARTIAL,0.0,0.6074,2,0,0.841,0.5869,14,False,True,canonical
+8,IMS2186,ims2186,7,-2.6852,0.4344,1,1,0.8996566681120063,PARTIAL,0.4582,0.6032,1,2,0.8997,0.6032,10,False,True,canonical
+9,Z-L-Phe chloromethyl ketone,z-l-phe chloromethyl ketone,7,-2.1155,0.5963,0,1,1.0,PARTIAL,0.0,0.5885,4,0,0.767,0.507,58,False,True,canonical
+10,Wiskostatin,wiskostatin,7,-4.2397,0.5927,4,47,0.7670099985546603,PARTIAL,0.2891,0.5778,6,1,0.7183,0.5608,24,False,False,canonical
+11,IPA-3,ipa-3,7,-3.4183,0.5127,2,123,0.8409595817601125,PARTIAL,0.2891,0.5717,7,1,0.699,0.522,44,False,True,canonical
+12,Piperlongumine,piperlongumine,7,-2.6827,0.4415,31,531,0.4982833405600313,PARTIAL,0.8672,0.5678,13,7,0.618,0.6097,8,False,False,canonical
+13,Bromoacetyl alprenolol menthane,bromoacetyl alprenolol menthane,7,-1.8964,0.533,0,3,1.0,PARTIAL,0.0,0.5632,5,0,0.7406,0.4724,103,False,True,canonical
+14,Supercinnamaldehyde,supercinnamaldehyde,7,-2.9036,0.4964,0,3,1.0,PARTIAL,0.0,0.5486,5,0,0.7406,0.4578,122,False,True,canonical
+15,JS-K,js-k,7,-2.6396,0.4559,6,117,0.7183006533285811,PARTIAL,0.4582,0.5483,10,2,0.6529,0.5254,41,False,False,canonical
+16,ET-18-OCH3,et-18-och3,7,-1.0349,0.1639,3,201,0.7993133362240126,PARTIAL,0.8115,0.5482,7,6,0.699,0.5131,55,False,False,canonical
+17,Hydroquinone,hydroquinone,7,-3.5476,0.8007,114,7475,0.3131007198821294,well-studied,0.4582,0.5444,12,2,0.6287,0.6549,2,False,False,canonical
+18,Bay 11-7085,bay 11-7085,7,-3.7865,0.7584,35,241,0.48123249974423754,PARTIAL,0.2891,0.5441,14,1,0.608,0.5884,13,False,False,canonical
+19,Daphnetin,daphnetin,5,0.2801,0.1067,6,265,0.7183006533285811,PARTIAL,1.0,0.5441,11,10,0.6403,0.5168,50,False,False,canonical
+20,K114,k114,7,-3.0594,0.4833,0,51,1.0,PARTIAL,0.0,0.5433,4,0,0.767,0.4618,114,False,True,canonical
+21,Idarubicin,idarubicin,7,-2.4212,0.4103,24,2707,0.5340199971093207,PARTIAL,0.7472,0.5378,12,5,0.6287,0.571,18,False,False,canonical
+22,Fusaric acid,fusaric acid,3,0.399,0.0951,3,562,0.7993133362240126,PARTIAL,0.8672,0.5346,7,7,0.699,0.4995,68,False,False,canonical
+23,Dihydrocapsaicin,dihydrocapsaicin,3,0.1181,0.0914,3,368,0.7993133362240126,PARTIAL,0.8672,0.5331,8,7,0.6819,0.492,77,False,False,canonical
+24,Brefeldin A from Penicillium brefeldianum,brefeldin a from penicillium brefeldianum,7,-2.8215,0.4539,0,3,1.0,PARTIAL,0.0,0.5316,2,0,0.841,0.4759,97,False,True,canonical
+25,Pifithrin-mu,pifithrin-mu,7,-2.2867,0.447,0,108,1.0,PARTIAL,0.0,0.5288,3,0,0.7993,0.4585,119,False,True,canonical
+26,CGP-74514A hydrochloride,cgp-74514a,7,-2.2491,0.4396,0,4,1.0,PARTIAL,0.0,0.5258,4,0,0.767,0.4443,144,False,True,canonical
+27,Cantharidic Acid,cantharidic acid,7,-2.0737,0.3783,2,36,0.8409595817601125,PARTIAL,0.2891,0.5179,2,1,0.841,0.518,46,False,True,canonical
+28,XCT790,xct790,7,-1.6731,0.3669,11,91,0.6402729179841251,PARTIAL,0.5781,0.5154,11,3,0.6403,0.5154,53,False,False,canonical
+29,AC-93253 iodide,ac-93253,7,-2.8211,0.4082,0,7,1.0,PARTIAL,0.0,0.5133,5,0,0.7406,0.4225,188,False,True,canonical
+30,loxoprofen,loxoprofen,1,0.0614,0.0927,7,473,0.6989700043360187,PARTIAL,0.9163,0.5108,10,8,0.6529,0.4947,72,False,False,canonical
+31,RepSox,repsox,4,0.6352,0.1556,11,100,0.6402729179841251,PARTIAL,0.8672,0.5031,7,7,0.699,0.5237,43,False,False,canonical
+32,N-Oleoylethanolamine,n-oleoylethanolamine,1,-0.1704,0.1006,7,192,0.6989700043360187,PARTIAL,0.8672,0.5017,10,7,0.6529,0.4855,85,False,False,canonical
+33,PF-431396 hydrate,pf-431396,7,-2.1983,0.3787,0,22,1.0,PARTIAL,0.0,0.5015,5,0,0.7406,0.4107,212,False,True,canonical
+34,PD-166285 hydrate,pd-166285,7,-3.5402,0.5175,2,8,0.8409595817601125,PARTIAL,0.0,0.5013,5,0,0.7406,0.4662,110,False,True,canonical
+35,BNTX maleate salt hydrate,bntx,7,-3.0243,0.4642,1,125,0.8996566681120063,TRUE-DARK,0.0,0.5006,0,0,1.0,0.5357,32,True,True,canonical
+36,Dihydroouabain,dihydroouabain,7,-3.003,0.4453,7,181,0.6989700043360187,PARTIAL,0.2891,0.495,9,1,0.6667,0.4837,87,False,False,canonical
+37,Podophyllotoxin,podophyllotoxin,7,-2.6687,0.4456,52,3193,0.42524137679973695,PARTIAL,0.6712,0.4949,12,4,0.6287,0.5661,20,False,False,canonical
+38,PD173952,pd173952,7,-2.555,0.359,0,6,1.0,PARTIAL,0.0,0.4936,3,0,0.7993,0.4234,184,False,True,canonical
+39,Aurothioglucose,aurothioglucose,1,-0.6191,0.2946,5,949,0.7406162498721187,PARTIAL,0.4582,0.4916,8,2,0.6819,0.4711,104,False,False,canonical
+40,Enoximone,enoximone,6,0.5169,0.1242,8,601,0.6819191635202251,PARTIAL,0.8115,0.4912,10,6,0.6529,0.4811,89,False,False,canonical
+41,PD-161570,pd-161570,7,-1.8525,0.309,2,6,0.8409595817601125,PARTIAL,0.2891,0.4902,2,1,0.841,0.4902,79,False,True,canonical
+42,Ebastine,ebastine,2,0.3805,0.0988,12,398,0.6286855492310544,PARTIAL,0.9163,0.4886,11,8,0.6403,0.4927,74,False,False,canonical
+43,Varenicline tartrate,varenicline,4,0.1955,0.1579,16,2761,0.5898503595405753,PARTIAL,0.8672,0.4864,6,7,0.7183,0.5314,36,False,False,canonical
+44,R(-)-Propylnorapomorphine hydrochloride,r(-)-propylnorapomorphine,7,-2.0683,0.3339,0,40,1.0,PARTIAL,0.0,0.4836,5,0,0.7406,0.3928,268,False,True,canonical
+45,BW 284c51,bw 284c51,4,-0.0766,0.1501,0,35,1.0,PARTIAL,0.2891,0.4823,1,1,0.8997,0.4472,138,False,True,canonical
+46,4-Hydroxybenzhydrazide,4-hydroxybenzhydrazide,7,-1.4598,0.3288,0,11,1.0,PARTIAL,0.0,0.4815,4,0,0.767,0.4,241,False,True,canonical
+47,Clemastine fumarate,clemastine,7,-0.5501,0.1701,7,614,0.6989700043360187,PARTIAL,0.6712,0.4805,3,4,0.7993,0.5156,52,False,False,canonical
+48,(-)-alpha-Methylnorepinephrine,alpha-methylnorepinephrine,6,0.4016,0.1266,1,113,0.8996566681120063,PARTIAL,0.4582,0.4801,2,2,0.841,0.4595,117,False,False,canonical
+49,DCEBIO,dcebio,7,-0.8131,0.1721,2,46,0.8409595817601125,PARTIAL,0.4582,0.4777,2,2,0.841,0.4777,92,False,True,canonical
+50,"7-Cyclopentyl-5-(4-phenoxy)phenyl-7H-pyrrolo[2,3-d]pyrimidin-4-ylamine","7-cyclopentyl-5-(4-phenoxy)phenyl-7h-pyrrolo[2,3-d]pyrimidin-4-ylamine",7,-2.0878,0.3177,0,0,1.0,PARTIAL,0.0,0.4771,4,0,0.767,0.3955,258,False,True,canonical
+51,N-p-Tosyl-L-phenylalanine chloromethyl ketone,n-p-tosyl-l-phenylalanine chloromethyl ketone,7,-1.8077,0.4043,1,23,0.8996566681120063,PARTIAL,0.0,0.4766,1,0,0.8997,0.4766,95,False,True,canonical
+52,TBBz,tbbz,7,-1.835,0.3153,0,20,1.0,PARTIAL,0.0,0.4761,1,0,0.8997,0.441,154,False,True,canonical
+53,Ethopropazine hydrochloride,ethopropazine,4,0.8742,0.1345,0,129,1.0,PARTIAL,0.2891,0.4761,5,1,0.7406,0.3853,296,False,False,canonical
+54,Bisdemethoxycurcumin,bisdemethoxycurcumin,5,0.4232,0.1708,17,626,0.5815758316322313,PARTIAL,0.8115,0.4747,13,6,0.618,0.4875,81,False,False,canonical
+55,cis-(Z)-Flupenthixol dihydrochloride,cis-(z)-flupenthixol,7,-1.867,0.307,0,42,1.0,PARTIAL,0.0,0.4728,5,0,0.7406,0.382,315,False,True,canonical
+56,2-Chloroadenosine triphosphate tetrasodium,2-chloroadenosine triphosphate tetrasodium,4,0.1563,0.1256,0,0,1.0,PARTIAL,0.2891,0.4725,5,1,0.7406,0.3817,316,False,False,canonical
+57,PF-573228,pf-573228,7,-1.5886,0.266,6,62,0.7183006533285811,PARTIAL,0.4582,0.4724,9,2,0.6667,0.4543,125,False,False,canonical
+58,Tolazamide,tolazamide,4,-0.0764,0.1464,4,230,0.7670099985546603,PARTIAL,0.5781,0.4715,7,3,0.699,0.4478,136,False,False,canonical
+59,Lonidamine,lonidamine,1,0.1655,0.0958,7,576,0.6989700043360187,PARTIAL,0.7472,0.4698,12,5,0.6287,0.4452,141,False,False,canonical
+60,N-Oleoyldopamine,n-oleoyldopamine,7,-2.4906,0.3838,1,63,0.8996566681120063,PARTIAL,0.0,0.4684,1,0,0.8997,0.4684,109,False,True,canonical
+61,BTO-1,bto-1,7,-1.8366,0.2936,0,5,1.0,PARTIAL,0.0,0.4674,4,0,0.767,0.3859,294,False,True,canonical
+62,Suramin sodium salt,suramin,7,-4.5294,0.8722,408,4786,0.12942556399755267,well-studied,0.2891,0.4665,1,1,0.8997,0.7361,1,False,False,canonical
+63,Benidipine hydrochloride,benidipine,3,0.7214,0.1202,36,376,0.47726609197766834,PARTIAL,1.0,0.4651,6,10,0.7183,0.5495,27,False,False,canonical
+64,3-deazaadenosine,3-deazaadenosine,3,0.5912,0.1056,17,365,0.5815758316322313,PARTIAL,0.8672,0.4626,9,7,0.6667,0.4924,75,False,False,canonical
+65,LP 12 hydrochloride hydrate,lp 12,6,1.3061,0.2807,0,65,1.0,PARTIAL,0.0,0.4623,5,0,0.7406,0.3715,371,False,True,canonical
+66,Bay 11-7082,bay 11-7082,7,-3.8433,0.8308,82,806,0.3603073025413087,PARTIAL,0.0,0.4584,15,0,0.5986,0.5418,30,False,False,canonical
+67,Raloxifene hydrochloride,raloxifene,7,-1.2705,0.2938,169,4489,0.2565170262072419,well-studied,1.0,0.4573,13,14,0.618,0.5838,16,False,False,canonical
+68,DL-erythro-Dihydrosphingosine,erythro-dihydrosphingosine,7,-2.6178,0.4008,2,18,0.8409595817601125,PARTIAL,0.0,0.4547,4,0,0.767,0.4288,180,False,True,canonical
+69,Cambinol,cambinol,1,-0.0017,0.0806,0,48,1.0,PARTIAL,0.2891,0.4545,2,1,0.841,0.3988,243,False,False,canonical
+70,Auranofin,auranofin,7,-2.8482,0.5396,37,1735,0.47340546779439663,PARTIAL,0.2891,0.4538,15,1,0.5986,0.4976,70,False,False,canonical
+71,"6-Nitroso-1,2-benzopyrone","6-nitroso-1,2-benzopyrone",7,-1.3852,0.2587,0,6,1.0,PARTIAL,0.0,0.4535,1,0,0.8997,0.4184,200,False,True,canonical
+72,Fenobam,fenobam,4,0.9294,0.1627,1,74,0.8996566681120063,PARTIAL,0.2891,0.4522,6,1,0.7183,0.3888,278,False,True,canonical
+73,Harmane,harmane,2,0.5211,0.1395,3,292,0.7993133362240126,PARTIAL,0.4582,0.4501,11,2,0.6403,0.3945,262,False,False,canonical
+74,Colchicine,colchicine,7,-2.5511,0.6158,557,24452,0.1,well-studied,0.6712,0.4491,14,4,0.608,0.6269,4,False,False,canonical
+75,GANT61,gant61,3,0.2205,0.1286,22,301,0.546090721327469,PARTIAL,0.8115,0.4454,17,6,0.5816,0.4579,120,False,False,canonical
+76,Gossypol,gossypol,1,-0.3819,0.1776,86,2423,0.3534935824604605,PARTIAL,1.0,0.4448,14,15,0.608,0.5338,34,False,False,canonical
+77,S-(p-Azidophenacyl)glutathione,s-(p-azidophenacyl)glutathione,7,-0.8028,0.236,0,4,1.0,PARTIAL,0.0,0.4444,2,0,0.841,0.3887,280,False,True,canonical
+78,Venlafaxine hydrochloride,venlafaxine,6,-0.0529,0.1203,15,5556,0.5986266724480251,PARTIAL,0.7472,0.4444,10,5,0.6529,0.4634,113,False,False,canonical
+79,Sanguinarine chloride,sanguinarine,7,-2.4623,0.4098,37,1188,0.47340546779439663,CORPUS-MISSED,0.4582,0.4442,3,2,0.7993,0.5582,25,False,False,canonical
+80,Bosutinib,bosutinib,7,-1.7362,0.3694,49,936,0.4336766652213271,PARTIAL,0.5781,0.4441,14,3,0.608,0.5051,60,False,False,canonical
+81,Ifenprodil tartrate,ifenprodil,2,0.0808,0.1243,3,1222,0.7993133362240126,PARTIAL,0.4582,0.444,3,2,0.7993,0.444,147,False,False,canonical
+82,GBR-12909 dihydrochloride,gbr-12909,1,0.7253,0.2347,0,597,1.0,PARTIAL,0.0,0.4439,4,0,0.767,0.3623,422,False,True,canonical
+83,L-azetidine-2-carboxylic acid,azetidine-2-carboxylic acid,6,0.6227,0.1189,6,278,0.7183006533285811,PARTIAL,0.5781,0.4435,10,3,0.6529,0.4206,191,False,False,canonical
+84,SC-236,sc-236,5,0.6579,0.1289,23,120,0.5399295860961313,PARTIAL,0.8115,0.4434,13,6,0.618,0.4707,105,False,False,canonical
+85,GW5074,gw5074,1,0.2536,0.1352,7,119,0.6989700043360187,PARTIAL,0.5781,0.4432,11,3,0.6403,0.4227,187,False,False,canonical
+86,Cyclothiazide,cyclothiazide,2,0.191,0.0793,2,592,0.8409595817601125,PARTIAL,0.4582,0.4406,6,2,0.7183,0.3977,249,False,False,canonical
+87,N-Desmethylclozapine,n-desmethylclozapine,5,0.4687,0.1317,1,208,0.8996566681120063,PARTIAL,0.2891,0.4398,6,1,0.7183,0.3763,341,False,False,canonical
+88,BLI-489 hydrate,bli-489,4,0.2018,0.2239,0,9,1.0,PARTIAL,0.0,0.4396,5,0,0.7406,0.3488,514,False,True,canonical
+89,"5,7-Dichlorokynurenic acid","5,7-dichlorokynurenic acid",5,0.869,0.1118,3,176,0.7993133362240126,PARTIAL,0.4582,0.439,7,2,0.699,0.4039,230,False,False,canonical
+90,Retinoic acid p-hydroxyanilide,retinoic acid p-hydroxyanilide,7,-1.5667,0.2215,0,3,1.0,PARTIAL,0.0,0.4386,5,0,0.7406,0.3478,522,False,True,canonical
+91,CP-135807,cp-135807,7,-0.714,0.2204,0,6,1.0,PARTIAL,0.0,0.4382,2,0,0.841,0.3825,312,False,True,canonical
+92,KB-R7493,kb-r7493,4,1.0403,0.2197,0,1,1.0,PARTIAL,0.0,0.4379,5,0,0.7406,0.3471,529,False,True,canonical
+93,5-Hydroxy-L-tryptophan,5-hydroxy-l-tryptophan,2,0.3131,0.0721,2,307,0.8409595817601125,PARTIAL,0.4582,0.4377,7,2,0.699,0.388,283,False,False,canonical
+94,DL-p-Chlorophenylalanine methyl ester hydrochloride,p-chlorophenylalanine methyl ester,2,0.3529,0.1241,1,66,0.8996566681120063,PARTIAL,0.2891,0.4368,5,1,0.7406,0.3811,317,False,False,canonical
+95,Chlorzoxazone,chlorzoxazone,2,-0.1711,0.1034,3,949,0.7993133362240126,PARTIAL,0.4582,0.4357,8,2,0.6819,0.3946,260,False,False,canonical
+96,BMS-193885,bms-193885,1,0.2387,0.2135,0,14,1.0,PARTIAL,0.0,0.4354,4,0,0.767,0.3538,475,False,True,canonical
+97,Tetradecylthioacetic acid,tetradecylthioacetic acid,1,-0.0596,0.1195,1,133,0.8996566681120063,PARTIAL,0.2891,0.435,3,1,0.7993,0.3998,242,False,False,canonical
+98,DMH4,dmh4,7,-0.0927,0.1527,5,8,0.7406162498721187,PARTIAL,0.4582,0.4348,5,2,0.7406,0.4348,165,False,False,canonical
+99,17alpha-hydroxyprogesterone,17alpha-hydroxyprogesterone,4,0.6934,0.1184,1,846,0.8996566681120063,PARTIAL,0.2891,0.4345,6,1,0.7183,0.371,374,False,False,canonical
+100,Chloroquine diphosphate,chloroquine diphosphate,4,0.566,0.1703,6,648,0.7183006533285811,PARTIAL,0.4582,0.4341,8,2,0.6819,0.4213,190,False,False,canonical
+101,SR 27897 hydrate,sr 27897,7,-1.3186,0.21,0,41,1.0,PARTIAL,0.0,0.434,5,0,0.7406,0.3432,553,False,True,canonical
+102,Tyrphostin 51,tyrphostin 51,4,0.2024,0.114,1,37,0.8996566681120063,PARTIAL,0.2891,0.4328,1,1,0.8997,0.4328,173,False,False,canonical
+103,CBIQ,cbiq,4,-0.6069,0.2058,0,9,1.0,PARTIAL,0.0,0.4323,1,0,0.8997,0.3972,250,False,True,canonical
+104,CPNQ,cpnq,2,0.7338,0.2041,0,9,1.0,PARTIAL,0.0,0.4316,6,0,0.7183,0.3331,626,False,True,canonical
+105,Imazodan,imazodan,6,0.2008,0.1102,1,46,0.8996566681120063,PARTIAL,0.2891,0.4312,6,1,0.7183,0.3677,395,False,False,canonical
+106,Pyridostigmine bromide,pyridostigmine,4,0.046,0.1271,21,3005,0.5525257730592645,PARTIAL,0.7472,0.431,13,5,0.618,0.454,128,False,False,canonical
+107,PF-4708671,pf-4708671,2,0.1044,0.1091,1,75,0.8996566681120063,PARTIAL,0.2891,0.4308,4,1,0.767,0.3844,303,False,False,canonical
+108,Chlorothiazide,chlorothiazide,2,-0.1487,0.1079,1,2589,0.8996566681120063,PARTIAL,0.2891,0.4303,5,1,0.7406,0.3746,351,False,False,canonical
+109,Epinastine hydrochloride,epinastine,6,0.0248,0.0898,3,255,0.7993133362240126,PARTIAL,0.4582,0.4302,5,2,0.7406,0.4097,217,False,False,canonical
+110,A-77636 hydrochloride,a-77636,7,-0.7938,0.1984,0,53,1.0,PARTIAL,0.0,0.4294,3,0,0.7993,0.3591,438,False,True,canonical
+111,NNC 55-0396,nnc 55-0396,7,-1.3327,0.1878,8,99,0.6819191635202251,PARTIAL,0.4582,0.4283,7,2,0.699,0.4343,166,False,False,canonical
+112,Tyrphostin AG 879,tyrphostin ag 879,7,-0.4178,0.1943,0,6,1.0,PARTIAL,0.0,0.4277,4,0,0.767,0.3462,533,False,True,canonical
+113,Fluspirilene,fluspirilene,1,0.3357,0.193,0,208,1.0,PARTIAL,0.0,0.4272,5,0,0.7406,0.3364,605,False,True,canonical
+114,Paroxetine hydrochloride hemihydrate (MW = 374.83),paroxetine hemihydrate (mw = 374.83),7,-0.4015,0.1897,0,0,1.0,PARTIAL,0.0,0.4259,4,0,0.767,0.3443,544,False,True,canonical
+115,Moclobemide,moclobemide,1,-0.8907,0.3931,4,1091,0.7670099985546603,PARTIAL,0.0,0.4257,7,0,0.699,0.4019,232,False,False,canonical
+116,Actinonin,actinonin,6,0.5018,0.0907,7,254,0.6989700043360187,PARTIAL,0.5781,0.4254,9,3,0.6667,0.4141,205,False,False,canonical
+117,Bezafibrate,bezafibrate,5,0.1735,0.0955,55,2084,0.4172706576645998,PARTIAL,0.9603,0.4243,12,9,0.6287,0.4983,69,False,False,canonical
+118,Prochlorperazine dimaleate,prochlorperazine dimaleate,7,-0.9983,0.1836,0,12,1.0,PARTIAL,0.0,0.4234,2,0,0.841,0.3678,393,False,True,canonical
+119,Tazarotene,tazarotene,1,0.0049,0.0976,13,747,0.6179573214405873,PARTIAL,0.6712,0.4231,18,4,0.5737,0.4077,226,False,False,canonical
+120,CP-100356 monohydrochloride,cp-100356 monohydrochloride,4,0.3384,0.1808,0,0,1.0,PARTIAL,0.0,0.4223,5,0,0.7406,0.3315,638,False,True,canonical
+121,Aminoguanidine hemisulfate,aminoguanidine hemisulfate,6,-0.2333,0.0983,4,24,0.7670099985546603,PARTIAL,0.4582,0.4223,3,2,0.7993,0.4336,170,False,False,canonical
+122,"L-703,606 oxalate salt hydrate","703,606",1,0.2789,0.18,0,0,1.0,PARTIAL,0.0,0.422,5,0,0.7406,0.3312,642,False,True,canonical
+123,"1,7-Dimethylxanthine","1,7-dimethylxanthine",2,0.2573,0.0861,1,389,0.8996566681120063,PARTIAL,0.2891,0.4216,6,1,0.7183,0.3581,443,False,False,canonical
+124,ARL 67156 trisodium salt,arl 67156 trisodium,4,0.5551,0.1775,0,2,1.0,PARTIAL,0.0,0.421,5,0,0.7406,0.3302,648,False,True,canonical
+125,ZM 39923 hydrochloride,zm 39923,7,-1.1946,0.1767,0,1,1.0,PARTIAL,0.0,0.4207,4,0,0.767,0.3391,581,False,True,canonical
+126,Sunitinib malate,sunitinib,7,-2.1792,0.3385,2860,8400,0.1,well-studied,1.0,0.4204,8,14,0.6819,0.624,6,False,False,canonical
+127,"P1,P4-Di(adenosine-5')tetraphosphate triammonium","p1,p4-di(adenosine-5)tetraphosphate triammonium",2,-0.8659,0.1761,0,0,1.0,PARTIAL,0.0,0.4204,4,0,0.767,0.3389,583,False,True,canonical
+128,AS605240,as605240,2,-0.1802,0.0931,8,94,0.6819191635202251,PARTIAL,0.5781,0.4204,9,3,0.6667,0.4151,203,False,False,canonical
+129,2-Methylthioadenosine triphosphate tetrasodium,2-methylthioadenosine triphosphate tetrasodium,4,0.0031,0.1757,0,3,1.0,PARTIAL,0.0,0.4203,5,0,0.7406,0.3295,651,False,True,canonical
+130,BP 897,bp 897,7,-0.8896,0.1756,0,69,1.0,PARTIAL,0.0,0.4202,2,0,0.841,0.3646,414,False,True,canonical
+131,3-Aminopropionitrile fumarate,3-aminopropionitrile,2,0.2437,0.1346,6,28,0.7183006533285811,PARTIAL,0.4582,0.4198,6,2,0.7183,0.4198,195,False,False,canonical
+132,3-Tropanylindole-3-carboxylate methiodide,3-tropanylindole-3-carboxylate methiodide,7,-0.8472,0.1742,0,3,1.0,PARTIAL,0.0,0.4197,5,0,0.7406,0.3289,657,False,True,canonical
+133,Cytosine-1-beta-D-arabinofuranoside hydrochloride,cytosine-1-beta-d-arabinofuranoside,7,-0.8857,0.2611,1,18,0.8996566681120063,PARTIAL,0.0,0.4193,6,0,0.7183,0.3559,457,False,True,canonical
+134,Auraptene,auraptene,7,-0.0022,0.1363,12,249,0.6286855492310544,PARTIAL,0.5781,0.4191,12,3,0.6287,0.4191,199,False,False,canonical
+135,"Quipazine, 6-nitro-, maleate","quipazine, 6-nitro",1,0.03,0.1716,0,13,1.0,PARTIAL,0.0,0.4186,3,0,0.7993,0.3484,518,False,True,canonical
+136,"6-Methoxy-1,2,3,4-tetrahydro-9H-pyrido[3,4b] indole","6-methoxy-1,2,3,4-tetrahydro-9h-pyrido[3,4b] indole",6,0.2407,0.1715,0,0,1.0,PARTIAL,0.0,0.4186,5,0,0.7406,0.3278,664,False,True,canonical
+137,2-methoxyestradiol,2-methoxyestradiol,7,-3.0698,0.4729,301,1188,0.17333101901428316,well-studied,0.6712,0.4176,10,4,0.6529,0.5855,15,False,False,canonical
+138,N-Methylhistaprodifen dioxalate salt,n-methylhistaprodifen dioxalate,4,0.666,0.1688,0,0,1.0,PARTIAL,0.0,0.4175,5,0,0.7406,0.3267,676,False,True,canonical
+139,"(-)-trans-(1S,2S)-U-50488 hydrochloride","trans-(1s,2s)-u-50488",7,-0.8615,0.1685,0,6,1.0,PARTIAL,0.0,0.4174,5,0,0.7406,0.3266,677,False,True,raw_after_retry
+140,Chlorpropamide,chlorpropamide,6,0.0829,0.1447,7,2112,0.6989700043360187,PARTIAL,0.4582,0.4171,8,2,0.6819,0.4111,211,False,False,canonical
+141,Alloxazine,alloxazine,7,-0.547,0.1274,6,183,0.7183006533285811,PARTIAL,0.4582,0.4169,7,2,0.699,0.4102,214,False,False,canonical
+142,Ro 8-4304,ro 8-4304,4,0.8503,0.1669,0,5,1.0,PARTIAL,0.0,0.4168,5,0,0.7406,0.326,682,False,True,canonical
+143,"L-162,313","162,313",5,1.0468,0.1665,0,15,1.0,PARTIAL,0.0,0.4166,2,0,0.841,0.3609,427,False,True,raw_after_retry
+144,Hispidin,hispidin,6,0.0891,0.126,6,170,0.7183006533285811,PARTIAL,0.4582,0.4164,9,2,0.6667,0.3983,245,False,False,canonical
+145,"(±)-SKF 38393, N-allyl-, hydrobromide","skf 38393, n-allyl",4,0.3389,0.1649,0,3,1.0,PARTIAL,0.0,0.416,1,0,0.8997,0.3808,320,False,True,canonical
+146,Rutaecarpine,rutaecarpine,7,-0.0579,0.0783,27,397,0.5176139895525935,PARTIAL,0.8115,0.4154,12,6,0.6287,0.4542,126,False,False,canonical
+147,Chlorprothixene hydrochloride,chlorprothixene,7,-0.8844,0.1629,0,738,1.0,PARTIAL,0.0,0.4152,5,0,0.7406,0.3244,686,False,True,canonical
+148,GBR-12935 dihydrochloride,gbr-12935,6,0.7122,0.1628,0,205,1.0,PARTIAL,0.0,0.4151,4,0,0.767,0.3336,624,False,True,canonical
+149,"6,7-ADTN hydrobromide","6,7-adtn",4,0.3904,0.1616,0,48,1.0,PARTIAL,0.0,0.4146,5,0,0.7406,0.3238,689,False,True,canonical
+150,"LY-367,265","ly-367,265",5,0.8908,0.1614,0,0,1.0,PARTIAL,0.0,0.4146,5,0,0.7406,0.3238,690,False,True,canonical
+151,Oxiracetam,oxiracetam,6,0.6468,0.1194,2,220,0.8409595817601125,PARTIAL,0.2891,0.4144,7,1,0.699,0.3647,413,False,False,canonical
+152,N-Methyl-1-deoxynojirimycin,n-methyl-1-deoxynojirimycin,2,-0.0709,0.0682,1,44,0.8996566681120063,PARTIAL,0.2891,0.4144,1,1,0.8997,0.4144,204,False,False,canonical
+153,Pentolinium di[L(+)-tartrate],pentolinium di[l(+)-],7,-0.4627,0.1599,0,16,1.0,PARTIAL,0.0,0.414,5,0,0.7406,0.3232,698,False,True,canonical
+154,Felodipine,felodipine,6,0.5779,0.0915,41,1834,0.4589169032006998,PARTIAL,0.8672,0.414,12,7,0.6287,0.4734,99,False,False,canonical
+155,SB 415286,sb 415286,7,-0.9785,0.1578,0,36,1.0,PARTIAL,0.0,0.4131,4,0,0.767,0.3316,637,False,True,canonical
+156,Pirfenidone,pirfenidone,7,-0.9006,0.2652,93,2645,0.34229071546676715,PARTIAL,0.7472,0.4127,11,5,0.6403,0.517,48,False,False,canonical
+157,Aniracetam,aniracetam,5,-0.0606,0.1515,3,320,0.7993133362240126,PARTIAL,0.2891,0.4126,6,1,0.7183,0.3843,304,False,False,canonical
+158,Betaine aldehyde chloride,betaine aldehyde,7,-0.0987,0.1555,0,436,1.0,PARTIAL,0.0,0.4122,5,0,0.7406,0.3214,707,False,True,canonical
+159,N-Bromoacetamide,n-bromoacetamide,7,-0.3367,0.1555,0,76,1.0,PARTIAL,0.0,0.4122,2,0,0.841,0.3566,451,False,True,canonical
+160,R(-)-Apocodeine hydrochloride,r(-)-apocodeine,5,0.9261,0.1548,0,2,1.0,PARTIAL,0.0,0.4119,1,0,0.8997,0.3768,339,False,True,canonical
+161,(±)-gamma-Vinyl GABA,gamma-vinyl gaba,7,-0.192,0.1541,0,378,1.0,PARTIAL,0.0,0.4116,5,0,0.7406,0.3209,709,False,True,canonical
+162,Benazoline oxalate,benazoline,7,-0.6455,0.1534,0,8,1.0,PARTIAL,0.0,0.4114,1,0,0.8997,0.3763,340,False,True,canonical
+163,Aminobenztropine,aminobenztropine,4,-0.1834,0.1526,0,1,1.0,PARTIAL,0.0,0.411,5,0,0.7406,0.3202,713,False,True,canonical
+164,6-Hydroxy-DL-DOPA,6-hydroxy-dl-dopa,4,0.316,0.152,0,3,1.0,PARTIAL,0.0,0.4108,3,0,0.7993,0.3405,571,False,True,canonical
+165,Niclosamide,niclosamide,7,-0.7958,0.2406,34,1665,0.4853106518832414,PARTIAL,0.5781,0.4106,14,3,0.608,0.4535,130,False,False,canonical
+166,Aconitine,aconitine,1,-0.1015,0.1398,24,2338,0.5340199971093207,PARTIAL,0.6712,0.4106,17,4,0.5816,0.4273,181,False,False,canonical
+167,Tranilast,tranilast,7,-0.7863,0.1336,62,840,0.40021981684880614,PARTIAL,0.8672,0.4103,13,7,0.618,0.4865,83,False,False,canonical
+168,Aprindine hydrochloride,aprindine,7,-0.7963,0.1503,0,388,1.0,PARTIAL,0.0,0.4101,5,0,0.7406,0.3193,722,False,True,canonical
+169,BRL 54443 maleate,brl 54443,2,0.1367,0.1495,0,2,1.0,PARTIAL,0.0,0.4098,5,0,0.7406,0.319,725,False,True,canonical
+170,Gisadenafil besylate salt,gisadenafil,4,0.6004,0.1491,0,1,1.0,PARTIAL,0.0,0.4096,5,0,0.7406,0.3189,727,False,True,canonical
+171,R-(+)-8-Hydroxy-DPAT hydrobromide,r-(+)-8-hydroxy-dpat,2,0.2923,0.1483,0,1,1.0,PARTIAL,0.0,0.4093,5,0,0.7406,0.3185,730,False,True,canonical
+172,Chloro-IB-MECA,chloro-ib-meca,4,0.5162,0.1482,0,3,1.0,PARTIAL,0.0,0.4093,5,0,0.7406,0.3185,732,False,True,canonical
+173,KRM-III,krm-iii,2,-0.5028,0.1482,0,2,1.0,PARTIAL,0.0,0.4093,5,0,0.7406,0.3185,733,False,True,canonical
+174,2-Chloro-2-deoxy-D-glucose,2-chloro-2-deoxy-d-glucose,4,0.5039,0.148,0,6,1.0,PARTIAL,0.0,0.4092,1,0,0.8997,0.3741,354,False,True,canonical
+175,Wortmannin from Penicillium funiculosum,wortmannin from penicillium funiculosum,1,0.1694,0.1475,0,1,1.0,PARTIAL,0.0,0.409,4,0,0.767,0.3274,668,False,True,canonical
+176,Methapyrilene hydrochloride,methapyrilene,2,-0.5232,0.1466,0,269,1.0,PARTIAL,0.0,0.4086,1,0,0.8997,0.3736,357,False,True,canonical
+177,SB-525334,sb-525334,2,0.5902,0.1049,2,23,0.8409595817601125,PARTIAL,0.2891,0.4086,2,1,0.841,0.4086,223,False,False,canonical
+178,PHA 767491 hydrochloride,pha 767491,7,-0.5847,0.1462,0,26,1.0,TRUE-DARK,0.0,0.4085,0,0,1.0,0.4085,225,True,True,canonical
+179,Pergolide methanesulfonate,pergolide methanesulfonate,1,-0.1583,0.1462,0,1,1.0,PARTIAL,0.0,0.4085,5,0,0.7406,0.3177,740,False,True,canonical
+180,Parthenolide,parthenolide,7,-2.222,0.4159,80,1192,0.36383832704045005,PARTIAL,0.4582,0.4083,14,2,0.608,0.4937,73,False,False,canonical
+181,(±)-p-Aminoglutethimide,p-aminoglutethimide,5,0.3169,0.1454,0,5,1.0,PARTIAL,0.0,0.4082,4,0,0.767,0.3266,678,False,True,canonical
+182,D-Cycloserine,cycloserine,7,-0.0406,0.1039,2,3820,0.8409595817601125,PARTIAL,0.2891,0.4082,5,1,0.7406,0.373,360,False,False,canonical
+183,DL-Cycloserine,cycloserine,7,-0.0406,0.1039,2,3820,0.8409595817601125,PARTIAL,0.2891,0.4082,5,1,0.7406,0.373,361,False,False,canonical
+184,L-Cycloserine,cycloserine,7,-0.0406,0.1039,2,3820,0.8409595817601125,PARTIAL,0.2891,0.4082,3,1,0.7993,0.3936,265,False,False,canonical
+185,CNS-1102,cns-1102,7,-0.5621,0.1451,0,22,1.0,PARTIAL,0.0,0.408,3,0,0.7993,0.3378,591,False,True,canonical
+186,CP-380736,cp-380736,2,-0.417,0.1449,0,0,1.0,PARTIAL,0.0,0.408,5,0,0.7406,0.3172,743,False,True,canonical
+187,Caffeic acid phenethyl ester,caffeic acid phenethyl ester,7,-1.415,0.2242,102,1329,0.3290542584316093,well-studied,0.8115,0.4077,12,6,0.6287,0.5126,56,False,False,canonical
+188,S(+)-Ibuprofen,s(+)-ibuprofen,5,0.12,0.1421,0,364,1.0,PARTIAL,0.0,0.4068,5,0,0.7406,0.316,755,False,True,canonical
+189,Opipramol dihydrochloride,opipramol,2,-0.3668,0.1419,0,314,1.0,PARTIAL,0.0,0.4068,2,0,0.841,0.3511,500,False,True,canonical
+190,Fiduxosin hydrochloride,fiduxosin,7,-0.3816,0.1405,0,8,1.0,PARTIAL,0.0,0.4062,5,0,0.7406,0.3154,758,False,False,canonical
+191,N-(2-[4-(4-Chlorophenyl)piperazin-1-yl]ethyl)-3-methoxybenzamide,n-(2-[4-(4-chlorophenyl)piperazin-1-yl]ethyl)-3-methoxybenzamide,6,0.1516,0.1405,0,7,1.0,PARTIAL,0.0,0.4062,5,0,0.7406,0.3154,759,False,False,canonical
+192,Nilutamide,nilutamide,2,0.2041,0.1006,6,341,0.7183006533285811,PARTIAL,0.4582,0.4062,10,2,0.6529,0.3833,310,False,False,canonical
+193,Nylidrin hydrochloride,nylidrin,5,0.8546,0.1402,0,188,1.0,PARTIAL,0.0,0.4061,3,0,0.7993,0.3359,608,False,False,canonical
+194,Gabaculine hydrochloride,gabaculine,6,0.241,0.0987,2,212,0.8409595817601125,PARTIAL,0.2891,0.4061,5,1,0.7406,0.3709,377,False,False,canonical
+195,Org 24598 lithium salt,org 24598 lithium,2,-0.2344,0.1394,0,2,1.0,PARTIAL,0.0,0.4058,1,0,0.8997,0.3707,380,False,False,canonical
+196,PD-407824,pd-407824,1,-0.411,0.1391,0,5,1.0,PARTIAL,0.0,0.4056,1,0,0.8997,0.3705,381,False,False,canonical
+197,4-Imidazoleacrylic acid,4-imidazoleacrylic acid,6,0.7599,0.1388,0,4,1.0,PARTIAL,0.0,0.4055,3,0,0.7993,0.3353,611,False,False,canonical
+198,O-(Carboxymethyl)hydroxylamine hemihydrochloride,o-(carboxymethyl)hydroxylamine hemihydrochloride,6,0.3362,0.1388,0,12,1.0,PARTIAL,0.0,0.4055,4,0,0.767,0.324,687,False,False,canonical
+199,Pyrocatechol,pyrocatechol,7,-1.0909,0.2263,1,754,0.8996566681120063,PARTIAL,0.0,0.4054,5,0,0.7406,0.3497,506,False,True,canonical
+200,Phosphomycin disodium,phosphomycin,5,0.2988,0.1383,0,123,1.0,PARTIAL,0.0,0.4053,5,0,0.7406,0.3145,766,False,False,canonical
+201,(±)-Octoclothepin maleate,octoclothepin,6,0.2796,0.1379,0,52,1.0,PARTIAL,0.0,0.4052,3,0,0.7993,0.3349,613,False,False,canonical
+202,FSCPX,fscpx,6,0.4526,0.1378,0,15,1.0,PARTIAL,0.0,0.4051,5,0,0.7406,0.3143,767,False,False,canonical
+203,"R(-)-2,10,11-Trihydroxyaporphine hybrobromide","r(-)-2,10,11-trihydroxyaporphine hybrobromide",7,-0.8747,0.1374,0,2,1.0,PARTIAL,0.0,0.405,5,0,0.7406,0.3142,769,False,False,canonical
+204,PAC-1,pac-1,7,-0.4157,0.1768,74,1112,0.37497957886943334,PARTIAL,0.8115,0.4048,14,6,0.608,0.4864,84,False,False,canonical
+205,SB 205384,sb 205384,7,-0.3927,0.1369,0,11,1.0,PARTIAL,0.0,0.4048,5,0,0.7406,0.314,770,False,False,canonical
+206,Cantharidin,cantharidin,7,-1.7662,0.2919,32,1321,0.4938286867073708,PARTIAL,0.4582,0.4042,12,2,0.6287,0.4514,133,False,False,canonical
+207,Naltriben methanesulfonate,naltriben methanesulfonate,6,0.4199,0.1356,0,4,1.0,PARTIAL,0.0,0.4042,4,0,0.767,0.3227,701,False,False,canonical
+208,U-69593,u-69593,2,0.0445,0.1356,0,506,1.0,PARTIAL,0.0,0.4042,5,0,0.7406,0.3135,774,False,False,canonical
+209,JFD00244,jfd00244,4,0.6942,0.1354,0,1,1.0,PARTIAL,0.0,0.4042,5,0,0.7406,0.3134,775,False,False,canonical
+210,R-(-)-Desmethyldeprenyl hydrochloride,r-(-)-desmethyldeprenyl,4,0.6121,0.1353,0,4,1.0,PARTIAL,0.0,0.4041,5,0,0.7406,0.3133,777,False,False,raw_after_retry
+211,"N-(3,3-Diphenylpropyl)glycinamide","n-(3,3-diphenylpropyl)glycinamide",4,0.4918,0.1339,0,0,1.0,PARTIAL,0.0,0.4036,5,0,0.7406,0.3128,781,False,False,canonical
+212,"2',3'-dideoxycytidine","2,3-dideoxycytidine",4,0.5942,0.1337,0,513,1.0,PARTIAL,0.0,0.4035,5,0,0.7406,0.3127,785,False,False,canonical
+213,(±)-6-Chloro-PB hydrobromide,6-chloro-pb,5,0.7222,0.1336,0,7,1.0,PARTIAL,0.0,0.4034,5,0,0.7406,0.3126,787,False,False,canonical
+214,Hexamethonium dichloride,hexamethonium dichloride,2,-0.3332,0.1335,0,5,1.0,PARTIAL,0.0,0.4034,5,0,0.7406,0.3126,788,False,False,canonical
+215,Psora-4,psora-4,2,0.7238,0.1327,0,20,1.0,PARTIAL,0.0,0.4031,5,0,0.7406,0.3123,792,False,False,canonical
+216,DNQX,dnqx,4,0.0227,0.1557,4,747,0.7670099985546603,PARTIAL,0.2891,0.403,9,1,0.6667,0.3679,392,False,False,canonical
+217,"L-165,041","165,041",2,0.8472,0.1326,0,1,1.0,PARTIAL,0.0,0.403,3,0,0.7993,0.3328,627,False,False,canonical
+218,PF 3845 hydrate,pf 3845,5,0.8561,0.1323,0,66,1.0,PARTIAL,0.0,0.4029,5,0,0.7406,0.3121,794,False,False,canonical
+219,Metrazoline oxalate,metrazoline,2,0.2222,0.1321,0,4,1.0,PARTIAL,0.0,0.4028,1,0,0.8997,0.3677,394,False,False,canonical
+220,"2',3'-didehydro-3'-deoxythymidine","2,3-didehydro-3-deoxythymidine",2,0.4365,0.1317,0,78,1.0,PARTIAL,0.0,0.4027,7,0,0.699,0.2973,1022,False,False,canonical
+221,L-Cysteinesulfinic Acid,cysteinesulfinic acid,6,0.3119,0.1317,0,79,1.0,PARTIAL,0.0,0.4027,1,0,0.8997,0.3676,396,False,False,canonical
+222,"PD 168,077 maleate","pd 168,077",4,0.4954,0.1313,0,24,1.0,PARTIAL,0.0,0.4025,5,0,0.7406,0.3117,801,False,False,canonical
+223,NO-711 hydrochloride,no-711,4,0.3572,0.131,0,107,1.0,PARTIAL,0.0,0.4024,5,0,0.7406,0.3116,803,False,False,canonical
+224,Metolazone,metolazone,5,0.3597,0.0893,2,349,0.8409595817601125,PARTIAL,0.2891,0.4023,7,1,0.699,0.3526,483,False,False,canonical
+225,SCH-202676 hydrobromide,sch-202676,7,-1.069,0.2184,1,12,0.8996566681120063,PARTIAL,0.0,0.4022,5,0,0.7406,0.3466,531,False,True,canonical
+226,U-101958 maleate,u-101958,7,-0.5498,0.1303,0,11,1.0,PARTIAL,0.0,0.4021,5,0,0.7406,0.3113,805,False,False,canonical
+227,R-(+)-7-Hydroxy-DPAT hydrobromide,r-(+)-7-hydroxy-dpat,6,0.7918,0.1302,0,0,1.0,PARTIAL,0.0,0.4021,5,0,0.7406,0.3113,806,False,False,canonical
+228,Triamterene,triamterene,2,0.1093,0.0836,11,1461,0.6402729179841251,PARTIAL,0.5781,0.4021,12,3,0.6287,0.398,247,False,False,canonical
+229,(+)-MK-801 hydrogen maleate,mk-801 hydrogen,6,0.7149,0.1299,0,26,1.0,PARTIAL,0.0,0.402,1,0,0.8997,0.3668,399,False,False,canonical
+230,(-)-MK-801 hydrogen maleate,mk-801 hydrogen,6,0.7149,0.1299,0,26,1.0,PARTIAL,0.0,0.402,1,0,0.8997,0.3668,400,False,False,canonical
+231,"1,3,5-tris(4-hydroxyphenyl)-4-propyl-1H-pyrazole","1,3,5-tris(4-hydroxyphenyl)-4-propyl-1h-pyrazole",6,1.7726,0.2687,2,27,0.8409595817601125,PARTIAL,0.0,0.4018,2,0,0.841,0.4018,233,False,True,canonical
+232,Piribedil maleate,piribedil,5,0.5675,0.1295,0,593,1.0,PARTIAL,0.0,0.4018,5,0,0.7406,0.311,810,False,False,canonical
+233,S(-)-Pindolol,s(-)-pindolol,4,0.5481,0.1292,0,24,1.0,PARTIAL,0.0,0.4017,1,0,0.8997,0.3666,403,False,False,canonical
+234,O-Phospho-L-serine,o-phospho-l-serine,6,0.492,0.1227,3,120,0.7993133362240126,PARTIAL,0.2891,0.4011,7,1,0.699,0.366,404,False,False,canonical
+235,SU 4312,su 4312,7,-1.1091,0.2151,1,1,0.8996566681120063,PARTIAL,0.0,0.4009,1,0,0.8997,0.4009,235,False,True,canonical
+236,N2-Ethyl-2'-deoxyguanosine,n2-ethyl-2-deoxyguanosine,4,0.2511,0.1267,0,21,1.0,TRUE-DARK,0.0,0.4007,0,0,1.0,0.4007,237,False,False,canonical
+237,(+)-Bromocriptine methanesulfonate,bromocriptine methanesulfonate,6,0.6318,0.1264,0,2,1.0,PARTIAL,0.0,0.4006,5,0,0.7406,0.3098,827,False,False,canonical
+238,CGP-13501,cgp-13501,7,-0.2914,0.1263,0,2,1.0,PARTIAL,0.0,0.4005,5,0,0.7406,0.3097,828,False,False,canonical
+239,Demeclocycline hydrochloride,demeclocycline,3,1.0732,0.1261,0,1075,1.0,PARTIAL,0.0,0.4004,1,0,0.8997,0.3653,408,False,False,canonical
+240,1-Phenylbiguanide,1-phenylbiguanide,2,-0.0376,0.126,0,61,1.0,PARTIAL,0.0,0.4004,5,0,0.7406,0.3096,831,False,False,canonical
+241,SC-57461A,sc-57461a,4,0.1484,0.1255,0,10,1.0,PARTIAL,0.0,0.4002,5,0,0.7406,0.3094,835,False,False,canonical
+242,BMS-299897,bms-299897,1,0.107,0.1253,0,11,1.0,PARTIAL,0.0,0.4001,5,0,0.7406,0.3093,836,False,False,canonical
+243,S-(+)-PD 123177 trifluoroacetate salt hydrate,s-(+)-pd 123177 trifluoroacetate,7,-0.0473,0.125,0,0,1.0,PARTIAL,0.0,0.4,5,0,0.7406,0.3092,838,False,False,canonical
+244,Tyrphostin AG 538,tyrphostin ag 538,6,-0.2753,0.1245,0,5,1.0,PARTIAL,0.0,0.3998,5,0,0.7406,0.309,841,False,False,canonical
+245,K 185,k 185,6,0.5307,0.1241,0,26,1.0,PARTIAL,0.0,0.3996,5,0,0.7406,0.3088,843,False,False,canonical
+246,SIB 1893,sib 1893,7,-0.3702,0.1241,0,31,1.0,PARTIAL,0.0,0.3996,4,0,0.767,0.3181,738,False,False,canonical
+247,Pyrazinecarboxamide,pyrazinecarboxamide,1,0.3843,0.124,0,75,1.0,PARTIAL,0.0,0.3996,3,0,0.7993,0.3294,653,False,False,canonical
+248,4-Hydroxy-3-methoxyphenylacetic acid,4-hydroxy-3-methoxyphenylacetic acid,2,0.3168,0.1239,0,71,1.0,PARTIAL,0.0,0.3996,2,0,0.841,0.3439,548,False,False,canonical
+249,S-(-)-Eticlopride hydrochloride,s-(-)-eticlopride,5,0.8174,0.1239,0,24,1.0,PARTIAL,0.0,0.3996,2,0,0.841,0.3439,546,False,False,canonical
+250,5-Fluoroindole-2-carboxylic acid,5-fluoroindole-2-carboxylic acid,7,-0.4294,0.123,0,4,1.0,PARTIAL,0.0,0.3992,5,0,0.7406,0.3084,849,False,False,canonical
+251,R(+)-SCH-23390 hydrochloride,r(+)-sch-23390,4,-0.2456,0.1223,0,40,1.0,PARTIAL,0.0,0.3989,5,0,0.7406,0.3081,851,False,False,canonical
+252,Isoguvacine hydrochloride,isoguvacine,5,0.7416,0.1222,0,358,1.0,PARTIAL,0.0,0.3989,5,0,0.7406,0.3081,852,False,False,canonical
+253,3-(1H-Imidazol-4-yl)propyl di(p-fluorophenyl)methyl ether hydrochloride,3-(1h-imidazol-4-yl)propyl di(p-fluorophenyl)methyl ether,6,0.6991,0.1216,0,0,1.0,PARTIAL,0.0,0.3986,5,0,0.7406,0.3079,853,False,False,canonical
+254,Emetine dihydrochloride hydrate,emetine,7,-2.8646,0.4251,10,2273,0.6528691049472584,CORPUS-MISSED,0.0,0.3985,4,0,0.767,0.4385,156,False,False,canonical
+255,Ivermectin,ivermectin,7,-1.8186,0.3279,48,11951,0.4366013066571621,PARTIAL,0.4582,0.3985,12,2,0.6287,0.4658,111,False,False,canonical
+256,IMID-4F hydrochloride,imid-4f,7,-0.1637,0.1208,0,3,1.0,PARTIAL,0.0,0.3983,5,0,0.7406,0.3075,854,False,False,canonical
+257,m-Iodobenzylguanidine hemisulfate,m-iodobenzylguanidine hemisulfate,5,0.3238,0.1208,0,1,1.0,PARTIAL,0.0,0.3983,4,0,0.767,0.3168,746,False,False,canonical
+258,Lidocaine N-ethyl bromide quaternary salt,lidocaine n-ethyl quaternary,5,0.3539,0.1207,0,8,1.0,PARTIAL,0.0,0.3983,5,0,0.7406,0.3075,855,False,False,canonical
+259,"1-Allyl-3,7-dimethyl-8-p-sulfophenylxanthine","1-allyl-3,7-dimethyl-8-p-sulfophenylxanthine",6,0.349,0.1205,0,0,1.0,PARTIAL,0.0,0.3982,5,0,0.7406,0.3074,856,False,False,canonical
+260,Rhodblock 6,rhodblock 6,1,-0.0961,0.1204,0,1,1.0,PARTIAL,0.0,0.3982,5,0,0.7406,0.3074,857,False,False,canonical
+261,Phenylbenzene-omega-phosphono-alpha-amino acid,phenylbenzene-omega-phosphono-alpha-amino acid,4,-0.1034,0.1203,0,3,1.0,PARTIAL,0.0,0.3981,4,0,0.767,0.3166,751,False,False,canonical
+262,CCT007093,cct007093,7,-0.797,0.1201,0,16,1.0,PARTIAL,0.0,0.398,2,0,0.841,0.3424,559,False,False,canonical
+263,Phenamil methanesulfonate,phenamil methanesulfonate,4,-0.1749,0.1198,0,2,1.0,PARTIAL,0.0,0.3979,5,0,0.7406,0.3071,861,False,False,canonical
+264,ABT-418 hydrochloride,abt-418,7,-0.3318,0.1197,0,69,1.0,PARTIAL,0.0,0.3979,5,0,0.7406,0.3071,862,False,False,canonical
+265,Biperiden hydrochloride,biperiden,7,-0.0993,0.1197,0,772,1.0,PARTIAL,0.0,0.3979,1,0,0.8997,0.3628,419,False,False,canonical
+266,CB 1954,cb 1954,2,0.0789,0.1193,0,74,1.0,PARTIAL,0.0,0.3977,1,0,0.8997,0.3626,420,False,False,canonical
+267,AMN082,amn082,4,0.5114,0.1192,0,88,1.0,PARTIAL,0.0,0.3977,2,0,0.841,0.342,564,False,False,canonical
+268,Zofenopril calcium,zofenopril calcium,6,-0.1281,0.119,0,21,1.0,PARTIAL,0.0,0.3976,2,0,0.841,0.342,565,False,False,canonical
+269,N-Acetylprocainamide hydrochloride,n-acetylprocainamide,2,0.2669,0.1184,0,287,1.0,PARTIAL,0.0,0.3974,5,0,0.7406,0.3066,866,False,False,canonical
+270,GW9508,gw9508,4,0.4076,0.1236,9,135,0.6666666666666667,PARTIAL,0.4582,0.3973,6,2,0.7183,0.4154,201,False,False,canonical
+271,"L-745,870 hydrochloride","745,870",5,0.5136,0.1181,0,5,1.0,PARTIAL,0.0,0.3972,5,0,0.7406,0.3064,867,False,False,canonical
+272,Ganaxolone,ganaxolone,6,0.7149,0.1179,0,245,1.0,PARTIAL,0.0,0.3972,5,0,0.7406,0.3064,868,False,False,canonical
+273,Tulobuterol hydrochloride,tulobuterol,1,-0.0248,0.1178,0,202,1.0,PARTIAL,0.0,0.3971,5,0,0.7406,0.3063,872,False,False,canonical
+274,Thio-NADP sodium,thio-nadp,1,-0.1056,0.1177,0,32,1.0,PARTIAL,0.0,0.3971,5,0,0.7406,0.3063,873,False,False,canonical
+275,"WIN 62,577","win 62,577",1,-0.1196,0.1177,0,6,1.0,PARTIAL,0.0,0.3971,5,0,0.7406,0.3063,874,False,False,canonical
+276,Carbetapentane citrate,carbetapentane,7,-0.3743,0.1175,0,85,1.0,PARTIAL,0.0,0.397,5,0,0.7406,0.3062,877,False,False,canonical
+277,Noscapine hydrchloride,noscapine hydrchloride,6,0.4534,0.1175,0,0,1.0,PARTIAL,0.0,0.397,5,0,0.7406,0.3062,875,False,False,canonical
+278,1-Aminocyclopropanecarboxylic acid hydrochloride,1-aminocyclopropanecarboxylic acid,7,-0.5778,0.1173,0,110,1.0,PARTIAL,0.0,0.3969,5,0,0.7406,0.3061,879,False,False,canonical
+279,Methoctramine tetrahydrochloride,methoctramine tetrahydrochloride,6,0.6224,0.1173,0,1,1.0,PARTIAL,0.0,0.3969,5,0,0.7406,0.3061,878,False,False,canonical
+280,Nitisinone,nitisinone,5,0.4622,0.1172,0,444,1.0,PARTIAL,0.0,0.3969,4,0,0.767,0.3153,760,False,False,canonical
+281,Tyrphostin AG 835,tyrphostin ag 835,7,-0.1224,0.1172,0,0,1.0,PARTIAL,0.0,0.3969,4,0,0.767,0.3153,761,False,False,canonical
+282,Cortisone 21-acetate,cortisone 21,2,-0.3778,0.117,0,12,1.0,PARTIAL,0.0,0.3968,5,0,0.7406,0.306,880,False,False,canonical
+283,S(-)-Atenolol,s(-)-atenolol,2,0.1767,0.117,0,49,1.0,PARTIAL,0.0,0.3968,2,0,0.841,0.3412,568,False,False,canonical
+284,p-Fluoro-L-phenylalanine,p-fluoro-l-phenylalanine,6,0.3508,0.117,0,3,1.0,PARTIAL,0.0,0.3968,5,0,0.7406,0.306,881,False,False,canonical
+285,4-Amidinophenylmethanesulfonyl fluoride hydrochloride,4-amidinophenylmethanesulfonyl fluoride,2,0.3018,0.1169,0,6,1.0,PARTIAL,0.0,0.3968,4,0,0.767,0.3152,763,False,False,canonical
+286,Metaproterenol hemisulfate,metaproterenol hemisulfate,6,0.562,0.1165,0,1,1.0,PARTIAL,0.0,0.3966,5,0,0.7406,0.3058,883,False,False,canonical
+287,"1-(2-Chlorophenyl)-1-(4-chlorophenyl)-2,2-dichloroethane","1-(2-chlorophenyl)-1-(4-chlorophenyl)-2,2-dichloroethane",6,0.1257,0.1162,0,0,1.0,PARTIAL,0.0,0.3965,5,0,0.7406,0.3057,886,False,False,canonical
+288,AB-MECA,ab-meca,6,0.4761,0.1162,0,48,1.0,PARTIAL,0.0,0.3965,5,0,0.7406,0.3057,885,False,False,canonical
+289,MG 624,mg 624,6,0.1303,0.1158,0,8,1.0,PARTIAL,0.0,0.3963,5,0,0.7406,0.3055,887,False,False,canonical
+290,(-)-Eseroline fumarate,eseroline,7,-0.6054,0.1157,0,48,1.0,PARTIAL,0.0,0.3963,5,0,0.7406,0.3055,888,False,False,canonical
+291,Topotecan hydrochloride hydrate,topotecan,7,-1.9407,0.3055,178,3947,0.24904898967336886,well-studied,0.7472,0.3962,1,5,0.8997,0.6239,7,False,False,canonical
+292,Oxotremorine methiodide,oxotremorine methiodide,3,0.5977,0.1156,0,38,1.0,PARTIAL,0.0,0.3962,5,0,0.7406,0.3055,889,False,False,canonical
+293,Nisoxetine hydrochloride,nisoxetine,5,0.5549,0.1104,3,513,0.7993133362240126,PARTIAL,0.2891,0.3962,8,1,0.6819,0.3551,465,False,False,canonical
+294,Propantheline bromide,propantheline,7,-0.1086,0.1151,0,701,1.0,TRUE-DARK,0.0,0.396,0,0,1.0,0.396,254,False,False,canonical
+295,alpha-Lobeline hydrochloride,alpha-lobeline,6,0.0389,0.1149,0,16,1.0,PARTIAL,0.0,0.396,5,0,0.7406,0.3052,890,False,False,canonical
+296,GR-89696 fumarate,gr-89696,5,0.7937,0.1148,0,43,1.0,PARTIAL,0.0,0.3959,5,0,0.7406,0.3051,891,False,False,canonical
+297,Agmatine sulfate,agmatine,6,0.1624,0.1141,71,1917,0.3808891678562438,CORPUS-MISSED,0.8672,0.3958,4,7,0.767,0.5309,37,False,False,canonical
+298,Avridine,avridine,6,0.2043,0.1136,0,85,1.0,PARTIAL,0.0,0.3954,5,0,0.7406,0.3047,895,False,False,canonical
+299,"Histamine, R(-)-alpha-methyl-, dihydrochloride","histamine, r(-)-alpha-methyl",4,0.58,0.1134,0,46,1.0,PARTIAL,0.0,0.3954,5,0,0.7406,0.3046,896,False,False,canonical
+300,"L-655,708","655,708",7,-0.0356,0.1133,0,91,1.0,PARTIAL,0.0,0.3953,1,0,0.8997,0.3602,429,False,False,raw_after_retry
+301,Vancomycin hydrochloride from Streptomyces orientalis,vancomycin from streptomyces orientalis,6,0.1639,0.1131,0,58,1.0,PARTIAL,0.0,0.3952,5,0,0.7406,0.3044,899,False,False,canonical
+302,Mitiglinide calcium,mitiglinide calcium,4,0.2292,0.113,0,7,1.0,PARTIAL,0.0,0.3952,2,0,0.841,0.3395,579,False,False,canonical
+303,YM 976,ym 976,6,0.5155,0.1129,0,14,1.0,PARTIAL,0.0,0.3952,5,0,0.7406,0.3044,901,False,False,canonical
+304,R(+)-6-Bromo-APB hydrobromide,r(+)-6-bromo-apb,7,-0.2554,0.1124,0,2,1.0,PARTIAL,0.0,0.395,5,0,0.7406,0.3042,905,False,False,canonical
+305,Tomoxetine,tomoxetine,3,0.4471,0.1121,0,68,1.0,TRUE-DARK,0.0,0.3948,0,0,1.0,0.3948,259,False,False,canonical
+306,4-DAMP methiodide,4-damp methiodide,3,0.1345,0.1119,0,10,1.0,PARTIAL,0.0,0.3948,5,0,0.7406,0.304,911,False,False,canonical
+307,CX 546,cx 546,6,0.2419,0.1113,0,8,1.0,PARTIAL,0.0,0.3945,5,0,0.7406,0.3037,913,False,False,canonical
+308,NF 023,nf 023,2,-0.2991,0.111,0,5,1.0,PARTIAL,0.0,0.3944,5,0,0.7406,0.3036,917,False,False,canonical
+309,S-(+)-Fluoxetine hydrochloride,s-(+)-fluoxetine,4,0.4426,0.111,0,67,1.0,PARTIAL,0.0,0.3944,4,0,0.767,0.3128,782,False,False,canonical
+310,Oxotremorine sesquifumarate salt,oxotremorine sesquifumarate,1,0.0655,0.1106,0,20,1.0,PARTIAL,0.0,0.3942,5,0,0.7406,0.3035,918,False,False,canonical
+311,S(-)-p-Bromotetramisole oxalate,s(-)-p-bromotetramisole,7,0.2412,0.11,0,4,1.0,PARTIAL,0.0,0.394,4,0,0.767,0.3125,791,False,False,raw_after_retry
+312,HEMADO,hemado,3,0.3521,0.1099,0,7,1.0,PARTIAL,0.0,0.394,1,0,0.8997,0.3589,439,False,False,canonical
+313,5-Aminovaleric acid hydrochloride,5-aminovaleric acid,2,-0.0487,0.1094,0,259,1.0,PARTIAL,0.0,0.3938,3,0,0.7993,0.3235,694,False,False,canonical
+314,Molindone hydrochloride,molindone,4,0.243,0.1091,0,259,1.0,PARTIAL,0.0,0.3936,2,0,0.841,0.338,588,False,False,canonical
+315,SKF 83959 hydrobromide,skf 83959,2,-0.2191,0.109,0,43,1.0,PARTIAL,0.0,0.3936,5,0,0.7406,0.3028,923,False,False,canonical
+316,GR 113808,gr 113808,7,-0.2167,0.1089,0,195,1.0,PARTIAL,0.0,0.3936,3,0,0.7993,0.3233,695,False,False,canonical
+317,Tyrphostin AG 112,tyrphostin ag 112,7,-0.3317,0.1089,0,0,1.0,PARTIAL,0.0,0.3936,4,0,0.767,0.312,796,False,False,canonical
+318,Eliprodil,eliprodil,1,0.3596,0.1088,0,126,1.0,PARTIAL,0.0,0.3935,2,0,0.841,0.3379,590,False,False,canonical
+319,VER-3323 hemifumarate salt,ver-3323 hemifumarate,1,0.2041,0.1086,0,0,1.0,PARTIAL,0.0,0.3934,5,0,0.7406,0.3026,925,False,False,canonical
+320,S-(-)-Carbidopa,s-(-)-carbidopa,6,0.1242,0.1084,0,9,1.0,PARTIAL,0.0,0.3934,4,0,0.767,0.3118,800,False,False,canonical
+321,Phenserine,phenserine,6,0.2341,0.1083,0,106,1.0,PARTIAL,0.0,0.3933,5,0,0.7406,0.3025,927,False,False,canonical
+322,"alpha,beta-Methylene adenosine 5'-triphosphate dilithium","alpha,beta-methylene adenosine 5-triphosphate dilithium",4,0.302,0.1083,0,0,1.0,PARTIAL,0.0,0.3933,5,0,0.7406,0.3025,926,False,False,canonical
+323,3-n-Propylxanthine,3-n-propylxanthine,6,-0.1152,0.0666,2,7,0.8409595817601125,PARTIAL,0.2891,0.3933,2,1,0.841,0.3933,267,False,False,canonical
+324,A-315456,a-315456,6,0.2626,0.1078,0,1,1.0,PARTIAL,0.0,0.3931,5,0,0.7406,0.3023,928,False,False,canonical
+325,Chlormezanone,chlormezanone,6,0.373,0.1077,0,191,1.0,PARTIAL,0.0,0.3931,2,0,0.841,0.3374,594,False,False,canonical
+326,N-Acetyl-5-hydroxytryptamine,n-acetyl-5-hydroxytryptamine,6,0.5007,0.1077,0,83,1.0,PARTIAL,0.0,0.3931,3,0,0.7993,0.3229,700,False,False,canonical
+327,"R(-)-2,10,11-Trihydroxy-N-propylnoraporphine hydrobromide","r(-)-2,10,11-trihydroxy-n-propylnoraporphine",7,-1.5239,0.2466,2,0,0.8409595817601125,PARTIAL,0.0,0.393,5,0,0.7406,0.3578,445,False,True,canonical
+328,CP-226269,cp-226269,3,0.1718,0.107,0,2,1.0,PARTIAL,0.0,0.3928,5,0,0.7406,0.302,934,False,False,canonical
+329,Fenspiride hydrochloride,fenspiride,2,0.6945,0.107,0,79,1.0,PARTIAL,0.0,0.3928,5,0,0.7406,0.302,935,False,False,canonical
+330,JX401,jx401,3,0.3227,0.1064,0,1,1.0,PARTIAL,0.0,0.3926,4,0,0.767,0.311,811,False,False,canonical
+331,Cilostamide,cilostamide,7,-1.9228,0.2917,17,355,0.5815758316322313,PARTIAL,0.2891,0.3925,11,1,0.6403,0.4131,206,False,False,canonical
+332,Ro 04-6790 dihydrochloride,ro 04-6790,4,0.3918,0.106,0,33,1.0,PARTIAL,0.0,0.3924,5,0,0.7406,0.3016,945,False,False,canonical
+333,FAUC 213,fauc 213,2,0.0962,0.1059,0,4,1.0,PARTIAL,0.0,0.3924,5,0,0.7406,0.3016,947,False,False,canonical
+334,SR-95531,sr-95531,6,-0.0968,0.1059,0,165,1.0,PARTIAL,0.0,0.3924,2,0,0.841,0.3367,601,False,False,canonical
+335,"3-alpha,21-Dihydroxy-5-alpha-pregnan-20-one","3-alpha,21-dihydroxy-5-alpha-pregnan-20-one",6,0.1011,0.1056,0,0,1.0,PARTIAL,0.0,0.3922,5,0,0.7406,0.3015,949,False,False,canonical
+336,Trifluperidol hydrochloride,trifluperidol,1,0.2617,0.1056,0,214,1.0,PARTIAL,0.0,0.3922,5,0,0.7406,0.3014,950,False,False,canonical
+337,Lercanidipine hydrochloride hemihydrate,lercanidipine hemihydrate,7,-0.4564,0.1055,0,0,1.0,PARTIAL,0.0,0.3922,5,0,0.7406,0.3014,951,False,False,canonical
+338,PD-184161,pd-184161,3,0.1532,0.1055,0,0,1.0,PARTIAL,0.0,0.3922,6,0,0.7183,0.2936,1066,False,False,canonical
+339,R(-)-Me5,r(-)-me5,6,0.1065,0.1055,0,0,1.0,PARTIAL,0.0,0.3922,1,0,0.8997,0.3571,448,False,False,canonical
+340,Altretamine,altretamine,5,0.1999,0.1054,0,473,1.0,PARTIAL,0.0,0.3922,4,0,0.767,0.3106,819,False,False,canonical
+341,Dipropyldopamine hydrobromide,dipropyldopamine,6,-0.0063,0.1053,0,7,1.0,PARTIAL,0.0,0.3921,5,0,0.7406,0.3013,952,False,False,canonical
+342,Glipizide,glipizide,3,0.1622,0.1121,28,1332,0.512534000700348,PARTIAL,0.6712,0.392,13,4,0.618,0.429,179,False,False,canonical
+343,Anisotropine methyl bromide,anisotropine methyl,4,0.4468,0.105,0,2,1.0,PARTIAL,0.0,0.392,4,0,0.767,0.3104,821,False,False,canonical
+344,rac BHFF,rac bhff,3,0.4686,0.105,0,16,1.0,PARTIAL,0.0,0.392,5,0,0.7406,0.3012,955,False,False,canonical
+345,Albuterol hemisulfate,albuterol hemisulfate,2,0.191,0.1049,0,2,1.0,PARTIAL,0.0,0.392,5,0,0.7406,0.3012,957,False,False,canonical
+346,CP-91149,cp-91149,3,0.6623,0.1048,0,24,1.0,PARTIAL,0.0,0.3919,2,0,0.841,0.3363,606,False,False,canonical
+347,U-62066,u-62066,6,0.1221,0.1045,0,17,1.0,PARTIAL,0.0,0.3918,5,0,0.7406,0.301,960,False,False,canonical
+348,Stevioside,stevioside,2,0.2086,0.0816,7,874,0.6989700043360187,PARTIAL,0.4582,0.3918,10,2,0.6529,0.3757,344,False,False,canonical
+349,(±) trans-U-50488 methanesulfonate,trans-u-50488 methanesulfonate,5,0.7689,0.1043,0,7,1.0,PARTIAL,0.0,0.3917,4,0,0.767,0.3102,824,False,False,canonical
+350,SKF 95282 dimaleate,skf 95282 dimaleate,1,-0.1467,0.1043,0,5,1.0,PARTIAL,0.0,0.3917,5,0,0.7406,0.3009,961,False,False,canonical
+351,Loxiglumide,loxiglumide,4,0.4697,0.1042,0,277,1.0,PARTIAL,0.0,0.3917,5,0,0.7406,0.3009,962,False,False,canonical
+352,Sodium Oxamate,oxamate,2,0.3725,0.0771,13,572,0.6179573214405873,PARTIAL,0.5781,0.3917,7,3,0.699,0.42,194,False,False,canonical
+353,3-Amino-1-propanesulfonic acid sodium,3-amino-1-propanesulfonic acid,2,0.3896,0.1041,0,21,1.0,PARTIAL,0.0,0.3916,5,0,0.7406,0.3008,964,False,False,canonical
+354,1-Methylimidazole,1-methylimidazole,5,0.6864,0.1035,0,760,1.0,PARTIAL,0.0,0.3914,5,0,0.7406,0.3006,968,False,False,canonical
+355,CP-471474,cp-471474,4,0.4719,0.1032,0,1,1.0,TRUE-DARK,0.0,0.3913,0,0,1.0,0.3913,271,False,False,canonical
+356,Dihydroergotamine methanesulfonate,dihydroergotamine methanesulfonate,1,-0.0584,0.103,0,11,1.0,PARTIAL,0.0,0.3912,5,0,0.7406,0.3004,972,False,False,canonical
+357,Na-p-Tosyl-L-lysine chloromethyl ketone hydrochloride,na-p-tosyl-l-lysine chloromethyl ketone,2,0.3147,0.1029,0,9,1.0,PARTIAL,0.0,0.3912,5,0,0.7406,0.3004,974,False,False,canonical
+358,GW2974,gw2974,6,1.1271,0.1897,1,22,0.8996566681120063,PARTIAL,0.0,0.3908,1,0,0.8997,0.3908,273,False,True,canonical
+359,(±)-2-Amino-3-phosphonopropionic acid,2-amino-3-phosphonopropionic acid,6,-0.0684,0.1021,0,217,1.0,PARTIAL,0.0,0.3908,4,0,0.767,0.3093,837,False,False,canonical
+360,Phaclofen,phaclofen,5,0.551,0.1021,0,505,1.0,PARTIAL,0.0,0.3908,5,0,0.7406,0.3,977,False,False,canonical
+361,Imiloxan hydrochloride,imiloxan,6,0.3722,0.102,0,67,1.0,PARTIAL,0.0,0.3908,5,0,0.7406,0.3,979,False,False,canonical
+362,L2-b,l2-b,2,-0.0608,0.102,0,26,1.0,PARTIAL,0.0,0.3908,1,0,0.8997,0.3557,459,False,False,canonical
+363,Chelidamic acid,chelidamic acid,3,0.3571,0.1016,0,40,1.0,PARTIAL,0.0,0.3906,1,0,0.8997,0.3555,462,False,False,canonical
+364,ML 10302,ml 10302,6,0.1166,0.1015,0,6,1.0,PARTIAL,0.0,0.3906,2,0,0.841,0.3349,614,False,False,canonical
+365,CP-101537,cp-101537,1,-0.0524,0.1014,0,0,1.0,TRUE-DARK,0.0,0.3906,0,0,1.0,0.3906,274,False,False,canonical
+366,CP-346086 dihydrate,cp-346086,4,0.154,0.1009,0,5,1.0,PARTIAL,0.0,0.3904,5,0,0.7406,0.2996,985,False,False,canonical
+367,Propionylpromazine hydrochloride,propionylpromazine,2,0.0903,0.1006,0,42,1.0,PARTIAL,0.0,0.3902,5,0,0.7406,0.2994,987,False,False,canonical
+368,Dihydrokainic acid,dihydrokainic acid,2,0.2214,0.1004,0,230,1.0,PARTIAL,0.0,0.3902,5,0,0.7406,0.2994,989,False,False,canonical
+369,1-Amino-1-cyclohexanecarboxylic acid hydrochloride,1-amino-1-cyclohexanecarboxylic acid,6,0.0934,0.1003,0,2,1.0,PARTIAL,0.0,0.3901,5,0,0.7406,0.2993,991,False,False,canonical
+370,(-)-Scopolamine methyl bromide,scopolamine methyl,5,-0.3685,0.1001,0,81,1.0,PARTIAL,0.0,0.39,5,0,0.7406,0.2993,992,False,False,canonical
+371,(-)-Scopolamine methyl nitrate,scopolamine methyl,5,-0.3685,0.1001,0,81,1.0,PARTIAL,0.0,0.39,5,0,0.7406,0.2993,993,False,False,canonical
+372,CP-335963,cp-335963,3,0.4917,0.1001,0,0,1.0,PARTIAL,0.0,0.39,4,0,0.767,0.3085,848,False,False,canonical
+373,8-Methoxymethyl-3-isobutyl-1-methylxanthine,8-methoxymethyl-3-isobutyl-1-methylxanthine,5,0.622,0.0996,0,25,1.0,PARTIAL,0.0,0.3898,5,0,0.7406,0.2991,996,False,False,canonical
+374,Isonipecotic acid,isonipecotic acid,7,-0.457,0.0995,0,40,1.0,PARTIAL,0.0,0.3898,2,0,0.841,0.3341,620,False,False,canonical
+375,Etazolate hydrochloride,etazolate,3,0.2632,0.0994,0,109,1.0,PARTIAL,0.0,0.3898,1,0,0.8997,0.3547,467,False,False,canonical
+376,"(±)-cis-Piperidine-2,3-dicarboxylic acid","cis-piperidine-2,3-dicarboxylic acid",3,0.2561,0.0989,0,7,1.0,PARTIAL,0.0,0.3896,1,0,0.8997,0.3545,471,False,False,canonical
+377,6-Methyl-2-(phenylethynyl)pyridine hydrochloride,6-methyl-2-(phenylethynyl)pyridine,5,0.2083,0.0985,0,533,1.0,PARTIAL,0.0,0.3894,5,0,0.7406,0.2986,1003,False,False,canonical
+378,R(+)-Butylindazone,r(+)-butylindazone,6,0.3468,0.0985,0,0,1.0,PARTIAL,0.0,0.3894,1,0,0.8997,0.3543,472,False,False,canonical
+379,"(±)-2,3-Dichloro-alpha-methylbenzylamine hydrochloride","2,3-dichloro-alpha-methylbenzylamine",2,0.1978,0.0984,0,38,1.0,PARTIAL,0.0,0.3894,5,0,0.7406,0.2986,1004,False,False,canonical
+380,Riluzole,riluzole,1,-0.0173,0.0855,35,2265,0.48123249974423754,PARTIAL,0.7472,0.3894,11,5,0.6403,0.4451,142,False,False,canonical
+381,(+)-Hydrastine,hydrastine,3,0.3666,0.098,0,104,1.0,PARTIAL,0.0,0.3892,1,0,0.8997,0.3541,473,False,False,canonical
+382,p-MPPF dihydrochloride,p-mppf,7,-0.4778,0.0979,0,29,1.0,PARTIAL,0.0,0.3892,5,0,0.7406,0.2984,1007,False,False,canonical
+383,Picotamide,picotamide,4,0.4899,0.1261,11,117,0.6402729179841251,PARTIAL,0.4582,0.3891,9,2,0.6667,0.3983,244,False,False,canonical
+384,Fosmidomycin sodium salt hydrate,fosmidomycin,1,0.2715,0.0978,0,420,1.0,PARTIAL,0.0,0.3891,5,0,0.7406,0.2983,1009,False,False,canonical
+385,cis(+/-)-8-OH-PBZI hydrobromide,cis(+/-)-8-oh-pbzi,3,0.8205,0.0976,0,5,1.0,PARTIAL,0.0,0.389,5,0,0.7406,0.2983,1010,False,False,canonical
+386,O6-benzylguanine,o6-benzylguanine,7,-0.2251,0.0975,0,333,1.0,PARTIAL,0.0,0.389,5,0,0.7406,0.2982,1011,False,False,canonical
+387,UCL 2077,ucl 2077,3,0.3429,0.0974,0,5,1.0,PARTIAL,0.0,0.389,5,0,0.7406,0.2982,1013,False,False,canonical
+388,Eupatorin,eupatorin,1,-0.0423,0.1796,7,111,0.6989700043360187,PARTIAL,0.2891,0.3888,10,1,0.6529,0.3726,366,False,False,canonical
+389,Spermine tetrahydrochloride,spermine tetrahydrochloride,3,0.2698,0.0971,0,15,1.0,PARTIAL,0.0,0.3888,5,0,0.7406,0.298,1014,False,False,canonical
+390,10058-F4,10058-f4,7,-0.3058,0.12,4,143,0.7670099985546603,PARTIAL,0.2891,0.3887,7,1,0.699,0.3649,411,False,False,canonical
+391,Pirenperone,pirenperone,1,-0.1751,0.0965,0,146,1.0,PARTIAL,0.0,0.3886,1,0,0.8997,0.3535,476,False,False,canonical
+392,6(5H)-Phenanthridinone,6(5h)-phenanthridinone,1,0.2819,0.0961,0,31,1.0,PARTIAL,0.0,0.3884,1,0,0.8997,0.3533,480,False,False,canonical
+393,Guanidinyl-naltrindole di-trifluoroacetate,guanidinyl-naltrindole di-trifluoroacetate,7,-0.4244,0.0961,0,1,1.0,PARTIAL,0.0,0.3884,1,0,0.8997,0.3533,481,False,False,canonical
+394,NCS-382,ncs-382,2,0.2249,0.0961,0,109,1.0,PARTIAL,0.0,0.3884,3,0,0.7993,0.3182,736,False,False,canonical
+395,Sulfaphenazole,sulfaphenazole,1,-0.2182,0.1173,64,538,0.3956955477857148,PARTIAL,0.8115,0.3883,17,6,0.5816,0.4534,131,False,False,canonical
+396,Rilmenidine hemifumarate,rilmenidine hemifumarate,6,0.069,0.0957,0,0,1.0,PARTIAL,0.0,0.3883,5,0,0.7406,0.2975,1021,False,False,canonical
+397,Kynurenic acid,kynurenic acid,5,0.4874,0.0891,51,4623,0.4279988854550669,PARTIAL,0.8115,0.3883,15,6,0.5986,0.448,135,False,False,canonical
+398,"1,3-Dimethyl-8-phenylxanthine","1,3-dimethyl-8-phenylxanthine",1,0.0561,0.0947,0,0,1.0,PARTIAL,0.0,0.3879,5,0,0.7406,0.2971,1027,False,False,canonical
+399,CR 2249,cr 2249,5,0.549,0.0947,0,3,1.0,PARTIAL,0.0,0.3879,5,0,0.7406,0.2971,1026,False,False,canonical
+400,Cinoxacin,cinoxacin,2,-0.0857,0.0945,0,241,1.0,PARTIAL,0.0,0.3878,5,0,0.7406,0.297,1029,False,False,canonical
+401,"L-687,384 hydrochloride","687,384",6,0.5138,0.0942,0,1,1.0,PARTIAL,0.0,0.3877,5,0,0.7406,0.2969,1030,False,False,canonical
+402,R(+)-3PPP hydrochloride,r(+)-3ppp,6,-0.0752,0.094,0,4,1.0,PARTIAL,0.0,0.3876,5,0,0.7406,0.2968,1031,False,False,raw_after_retry
+403,BRL 50481,brl 50481,7,-0.2378,0.0938,0,23,1.0,PARTIAL,0.0,0.3875,5,0,0.7406,0.2967,1032,False,False,canonical
+404,Bicalutamide (CDX),bicalutamide (cdx),4,-0.1321,0.0937,0,6,1.0,PARTIAL,0.0,0.3875,1,0,0.8997,0.3524,485,False,False,canonical
+405,L-Beta-threo-benzyl-aspartate,beta-threo-benzyl,3,0.5284,0.0935,0,3,1.0,PARTIAL,0.0,0.3874,5,0,0.7406,0.2966,1033,False,False,raw_after_retry
+406,Lometrexol hydrate,lometrexol,1,0.448,0.0934,0,132,1.0,PARTIAL,0.0,0.3874,5,0,0.7406,0.2966,1034,False,False,canonical
+407,Perphenazine,perphenazine,1,-0.3238,0.1806,1,2086,0.8996566681120063,PARTIAL,0.0,0.3871,6,0,0.7183,0.3236,692,False,True,canonical
+408,8-(3-Chlorostyryl)caffeine,8-(3-chlorostyryl)caffeine,2,-0.4665,0.098,9,147,0.6666666666666667,PARTIAL,0.4582,0.3871,10,2,0.6529,0.3823,314,False,False,canonical
+409,Vanillic acid diethylamide,vanillic acid diethylamide,4,0.4229,0.0927,0,15,1.0,PARTIAL,0.0,0.3871,5,0,0.7406,0.2963,1035,False,False,canonical
+410,U-99194A maleate,u-99194a,3,0.5452,0.0924,0,29,1.0,PARTIAL,0.0,0.387,5,0,0.7406,0.2962,1036,False,False,canonical
+411,BF-170 hydrochloride,bf-170,1,-0.034,0.0922,0,4,1.0,PARTIAL,0.0,0.3869,1,0,0.8997,0.3518,494,False,False,canonical
+412,5-Hydroxyindolacetic acid,5-hydroxyindolacetic acid,7,-0.1521,0.1579,6,553,0.7183006533285811,PARTIAL,0.2891,0.3868,10,1,0.6529,0.364,415,False,False,canonical
+413,SB-215505,sb-215505,6,0.4869,0.0917,0,15,1.0,PARTIAL,0.0,0.3867,1,0,0.8997,0.3516,496,False,False,canonical
+414,CGS-12066A maleate,cgs-12066a,6,1.102,0.1794,1,31,0.8996566681120063,PARTIAL,0.0,0.3866,1,0,0.8997,0.3867,290,False,True,canonical
+415,Clozapine,clozapine,1,0.1111,0.1327,37,16259,0.47340546779439663,PARTIAL,0.6712,0.3866,14,4,0.608,0.4337,169,False,False,canonical
+416,AEG 3482,aeg 3482,6,0.121,0.0915,0,5,1.0,PARTIAL,0.0,0.3866,5,0,0.7406,0.2958,1037,False,False,canonical
+417,cDPCP,cdpcp,3,0.3367,0.091,0,12,1.0,PARTIAL,0.0,0.3864,5,0,0.7406,0.2956,1039,False,False,canonical
+418,Rufinamide,rufinamide,2,0.1932,0.0908,0,393,1.0,PARTIAL,0.0,0.3863,3,0,0.7993,0.3161,754,False,False,canonical
+419,DM 235,dm 235,3,0.5777,0.0903,0,14,1.0,PARTIAL,0.0,0.3861,3,0,0.7993,0.3159,756,False,False,canonical
+420,MRS 2159,mrs 2159,1,0.173,0.0902,0,6,1.0,PARTIAL,0.0,0.3861,5,0,0.7406,0.2953,1043,False,False,canonical
+421,"(2S,1'S,2'S)-2-(carboxycyclopropyl)glycine","(2s,1s,2s)-2-(carboxycyclopropyl)glycine",2,0.1437,0.0901,0,0,1.0,PARTIAL,0.0,0.386,5,0,0.7406,0.2953,1044,False,False,canonical
+422,CP-100263 dihydrochloride hydrate,cp-100263,3,0.1388,0.09,0,2,1.0,PARTIAL,0.0,0.386,5,0,0.7406,0.2952,1045,False,False,canonical
+423,3-Aminopropylphosphonic acid,3-aminopropylphosphonic acid,6,0.2231,0.0899,0,47,1.0,PARTIAL,0.0,0.386,2,0,0.841,0.3303,647,False,False,canonical
+424,"N,N-Dihexyl-2-(4-fluorophenyl)indole-3-acetamide","n,n-dihexyl-2-(4-fluorophenyl)indole-3-acetamide",2,0.1081,0.0897,0,0,1.0,PARTIAL,0.0,0.3859,5,0,0.7406,0.2951,1048,False,False,canonical
+425,CGP-7930,cgp-7930,6,0.2343,0.0896,0,4,1.0,PARTIAL,0.0,0.3858,1,0,0.8997,0.3507,503,False,False,canonical
+426,Furafylline,furafylline,6,0.4782,0.0893,0,283,1.0,PARTIAL,0.0,0.3857,1,0,0.8997,0.3506,504,False,False,canonical
+427,Orphenadrine hydrochloride,orphenadrine,1,-0.0171,0.0892,0,702,1.0,PARTIAL,0.0,0.3857,5,0,0.7406,0.2949,1051,False,False,canonical
+428,Imperatorin,imperatorin,6,0.0842,0.0872,26,618,0.5228787452803376,PARTIAL,0.6712,0.3857,11,4,0.6403,0.4268,182,False,False,canonical
+429,(-)-Perillic acid,perillic acid,6,0.4284,0.1122,4,102,0.7670099985546603,PARTIAL,0.2891,0.3856,7,1,0.699,0.3618,424,False,False,canonical
+430,"ICI 63,137","ici 63,137",2,0.2221,0.0889,0,0,1.0,PARTIAL,0.0,0.3856,5,0,0.7406,0.2948,1052,False,False,canonical
+431,Indirubin-3'-oxime,indirubin-3-oxime,7,-1.6016,0.2644,3,91,0.7993133362240126,PARTIAL,0.0,0.3855,5,0,0.7406,0.365,410,False,False,canonical
+432,9-cyclopentyladenine,9-cyclopentyladenine,2,0.0733,0.0883,0,8,1.0,PARTIAL,0.0,0.3853,5,0,0.7406,0.2945,1055,False,False,canonical
+433,Epibestatin hydrochloride,epibestatin,6,0.0181,0.0882,0,3,1.0,PARTIAL,0.0,0.3853,4,0,0.767,0.3037,915,False,False,canonical
+434,Donitriptan monohydrochloride,donitriptan monohydrochloride,4,0.3455,0.0881,0,0,1.0,PARTIAL,0.0,0.3852,5,0,0.7406,0.2945,1056,False,False,canonical
+435,"(-)-Scopolamine,n-Butyl-, bromide","scopolamine,n-butyl",2,-0.0111,0.0878,0,6,1.0,PARTIAL,0.0,0.3851,5,0,0.7406,0.2943,1058,False,False,canonical
+436,3-Tropanyl-indole-3-carboxylate hydrochloride,3-tropanyl-indole-3-carboxylate,7,-0.2301,0.0875,0,26,1.0,PARTIAL,0.0,0.385,5,0,0.7406,0.2942,1060,False,False,canonical
+437,AC-55649,ac-55649,6,0.0049,0.0873,0,2,1.0,PARTIAL,0.0,0.3849,5,0,0.7406,0.2941,1061,False,False,canonical
+438,BIA 2-093,bia 2-093,3,0.1871,0.0871,0,26,1.0,PARTIAL,0.0,0.3848,1,0,0.8997,0.3497,507,False,False,canonical
+439,L-allylglycine,allylglycine,2,-0.3654,0.087,0,276,1.0,PARTIAL,0.0,0.3848,3,0,0.7993,0.3146,765,False,False,canonical
+440,Tyrphostin 1,tyrphostin 1,7,-0.9397,0.2258,2,19,0.8409595817601125,PARTIAL,0.0,0.3847,2,0,0.841,0.3847,299,False,True,canonical
+441,Sematilide monohydrochloride monohydrate,sematilide monohydrochloride,6,0.4805,0.0868,0,0,1.0,TRUE-DARK,0.0,0.3847,0,0,1.0,0.3847,300,False,False,canonical
+442,Amsacrine hydrochloride,amsacrine,7,-1.8222,0.3499,7,1496,0.6989700043360187,PARTIAL,0.0,0.3846,1,0,0.8997,0.4549,124,False,False,canonical
+443,Nefiracetam,nefiracetam,7,-0.0956,0.0865,0,144,1.0,PARTIAL,0.0,0.3846,1,0,0.8997,0.3495,508,False,False,canonical
+444,Debrisoquin sulfate,debrisoquin,7,-0.1292,0.2254,2,966,0.8409595817601125,PARTIAL,0.0,0.3845,5,0,0.7406,0.3494,509,False,True,canonical
+445,"L-3,4-Dihydroxyphenylalanine methyl ester hydrochloride","3,4-dihydroxyphenylalanine methyl ester",2,0.1036,0.0863,0,4,1.0,PARTIAL,0.0,0.3845,2,0,0.841,0.3289,658,False,False,raw_after_retry
+446,(±)-Chloro-APB hydrobromide,chloro-apb,2,1.1908,0.1739,1,35,0.8996566681120063,PARTIAL,0.0,0.3844,1,0,0.8997,0.3845,302,False,True,canonical
+447,N-Methyl-beta-carboline-3-carboxamide,n-methyl-beta-carboline-3-carboxamide,3,0.2392,0.0857,0,75,1.0,PARTIAL,0.0,0.3843,1,0,0.8997,0.3492,511,False,False,canonical
+448,S-Methylisothiourea hemisulfate,s-methylisothiourea hemisulfate,2,0.3853,0.0856,0,9,1.0,PARTIAL,0.0,0.3842,1,0,0.8997,0.3491,512,False,False,canonical
+449,Ketorolac tris salt,ketorolac tris,2,0.3104,0.085,0,4,1.0,PARTIAL,0.0,0.384,5,0,0.7406,0.2932,1069,False,False,canonical
+450,1-Methylhistamine dihydrochloride,1-methylhistamine,2,-0.3305,0.0844,0,64,1.0,PARTIAL,0.0,0.3838,2,0,0.841,0.3281,662,False,False,canonical
+451,Cephalosporin C zinc salt,cephalosporin c zinc,1,-0.1016,0.0843,0,1,1.0,PARTIAL,0.0,0.3837,5,0,0.7406,0.2929,1070,False,False,canonical
+452,Nemadipine-A,nemadipine-a,6,0.4525,0.0842,0,9,1.0,PARTIAL,0.0,0.3837,5,0,0.7406,0.2929,1071,False,False,canonical
+453,Ro 61-8048,ro 61-8048,1,0.0944,0.0836,0,64,1.0,PARTIAL,0.0,0.3834,4,0,0.767,0.3019,939,False,False,canonical
+454,4-Hydroxyphenethylamine hydrochloride,4-hydroxyphenethylamine,2,0.1466,0.0835,0,123,1.0,PARTIAL,0.0,0.3834,4,0,0.767,0.3019,940,False,False,raw_after_retry
+455,Zimelidine dihydrochloride,zimelidine,2,-0.009,0.0834,0,434,1.0,PARTIAL,0.0,0.3834,4,0,0.767,0.3018,942,False,False,canonical
+456,4-Imidazolemethanol hydrochloride,4-imidazolemethanol,2,-0.0023,0.0829,0,1,1.0,PARTIAL,0.0,0.3832,5,0,0.7406,0.2924,1075,False,False,canonical
+457,SKF 86466,skf 86466,6,0.0308,0.0829,0,37,1.0,PARTIAL,0.0,0.3832,1,0,0.8997,0.348,521,False,False,canonical
+458,OBAA,obaa,7,-0.2927,0.1702,1,22,0.8996566681120063,PARTIAL,0.0,0.383,1,0,0.8997,0.383,311,False,True,canonical
+459,L-Mimosine from Koa hoale seeds,mimosine from koa hoale seeds,3,0.4562,0.0824,0,0,1.0,PARTIAL,0.0,0.383,5,0,0.7406,0.2922,1079,False,False,canonical
+460,YS-035 hydrochloride,ys-035,2,-0.0923,0.0824,0,4,1.0,PARTIAL,0.0,0.383,5,0,0.7406,0.2922,1080,False,False,canonical
+461,(±)-7-Hydroxy-DPAT hydrobromide,7-hydroxy-dpat,6,0.1918,0.0814,0,8,1.0,PARTIAL,0.0,0.3826,5,0,0.7406,0.2918,1086,False,False,canonical
+462,Olvanil,olvanil,2,-0.0702,0.0807,0,99,1.0,PARTIAL,0.0,0.3823,5,0,0.7406,0.2915,1090,False,False,canonical
+463,Arcaine sulfate,arcaine,5,0.0628,0.0806,0,159,1.0,PARTIAL,0.0,0.3822,5,0,0.7406,0.2915,1091,False,False,canonical
+464,S(+)-Raclopride L-tartrate,s(+)-raclopride l,2,0.1671,0.0805,0,5,1.0,PARTIAL,0.0,0.3822,5,0,0.7406,0.2914,1092,False,False,canonical
+465,S(-)-Timolol maleate,s(-)-timolol,2,0.258,0.0801,0,20,1.0,PARTIAL,0.0,0.382,5,0,0.7406,0.2913,1093,False,False,canonical
+466,"1,10-Diaminodecane","1,10-diaminodecane",2,-0.2054,0.08,0,51,1.0,PARTIAL,0.0,0.382,1,0,0.8997,0.3469,530,False,False,canonical
+467,"2,6-Difluoro-4-[2-(phenylsulfonylamino)ethylthio]phenoxyacetamide","2,6-difluoro-4-[2-(phenylsulfonylamino)ethylthio]phenoxyacetamide",6,0.2341,0.0799,0,0,1.0,PARTIAL,0.0,0.382,5,0,0.7406,0.2912,1094,False,False,canonical
+468,Phosphonoacetic acid,phosphonoacetic acid,5,0.3608,0.125,5,1644,0.7406162498721187,PARTIAL,0.2891,0.3815,15,1,0.5986,0.3318,632,False,False,canonical
+469,LE 300,le 300,1,-0.1021,0.0788,0,14,1.0,PARTIAL,0.0,0.3815,5,0,0.7406,0.2907,1098,False,False,canonical
+470,Decamethonium dibromide,decamethonium dibromide,2,-0.0213,0.0784,0,1,1.0,PARTIAL,0.0,0.3814,5,0,0.7406,0.2906,1100,False,False,canonical
+471,1-(4-Chlorobenzyl)-5-methoxy-2-methylindole-3-acetic acid,1-(4-chlorobenzyl)-5-methoxy-2-methylindole-3-acetic acid,2,-0.0279,0.0782,0,1,1.0,PARTIAL,0.0,0.3813,4,0,0.767,0.2997,983,False,False,canonical
+472,N-(4-Amino-2-chlorophenyl)phthalimide,n-(4-amino-2-chlorophenyl)phthalimide,6,0.2017,0.0777,0,1,1.0,PARTIAL,0.0,0.3811,3,0,0.7993,0.3108,814,False,False,canonical
+473,DBO-83,dbo-83,6,-0.1407,0.0776,0,1,1.0,PARTIAL,0.0,0.381,5,0,0.7406,0.2902,1104,False,False,canonical
+474,Astaxanthin,astaxanthin,4,0.4039,0.1522,98,4497,0.33478826846748333,PARTIAL,0.8115,0.3809,12,6,0.6287,0.4838,86,False,False,canonical
+475,DL-threo-beta-hydroxyaspartic acid,threo-beta-hydroxyaspartic acid,2,0.254,0.0767,0,16,1.0,PARTIAL,0.0,0.3807,5,0,0.7406,0.2899,1105,False,False,raw_after_retry
+476,1-Phenyl-3-(2-thiazolyl)-2-thiourea,1-phenyl-3-(2-thiazolyl)-2-thiourea,2,0.149,0.0763,0,16,1.0,PARTIAL,0.0,0.3805,4,0,0.767,0.299,998,False,False,canonical
+477,Oxaprozin,oxaprozin,2,0.0678,0.0762,0,195,1.0,PARTIAL,0.0,0.3805,3,0,0.7993,0.3102,825,False,False,canonical
+478,"5alpha-Pregnan-3alpha-ol-11,20-dione","5alpha-pregnan-3alpha-ol-11,20-dione",3,0.5898,0.076,0,0,1.0,PARTIAL,0.0,0.3804,5,0,0.7406,0.2896,1108,False,False,canonical
+479,Ziprasidone hydrochloride monohydrate,ziprasidone,7,-0.2499,0.1628,1,2291,0.8996566681120063,TRUE-DARK,0.0,0.38,0,0,1.0,0.4151,202,True,True,canonical
+480,"(-)-cis-(1S,2R)-U-50488 tartrate","cis-(1s,2r)-u-50488",1,0.1085,0.0744,0,0,1.0,PARTIAL,0.0,0.3798,5,0,0.7406,0.289,1111,False,False,canonical
+481,2-Cyclooctyl-2-hydroxyethylamine hydrochloride,2-cyclooctyl-2-hydroxyethylamine,6,0.2201,0.0743,0,7,1.0,PARTIAL,0.0,0.3797,5,0,0.7406,0.2889,1113,False,False,canonical
+482,GW7647,gw7647,2,0.3716,0.1203,5,114,0.7406162498721187,PARTIAL,0.2891,0.3796,5,1,0.7406,0.3796,325,False,False,canonical
+483,Uridine 5'-diphosphate sodium,uridine 5-diphosphate,4,0.2478,0.112,12,539,0.6286855492310544,CORPUS-MISSED,0.4582,0.3794,2,2,0.841,0.4537,129,False,False,canonical
+484,S(-)-3PPP hydrochloride,s(-)-3ppp,3,-0.0719,0.0731,0,1,1.0,PARTIAL,0.0,0.3792,5,0,0.7406,0.2884,1116,False,False,canonical
+485,Terbutaline hemisulfate,terbutaline hemisulfate,2,0.0201,0.0725,0,1,1.0,PARTIAL,0.0,0.379,5,0,0.7406,0.2882,1118,False,False,canonical
+486,Acetylthiocholine chloride,acetylthiocholine,4,0.3944,0.1601,1,1050,0.8996566681120063,PARTIAL,0.0,0.3789,3,0,0.7993,0.3438,549,False,True,canonical
+487,SIB 1757,sib 1757,7,-0.3381,0.072,0,13,1.0,PARTIAL,0.0,0.3788,4,0,0.767,0.2973,1023,False,False,canonical
+488,Rotenone,rotenone,7,-4.3694,0.7692,246,8172,0.2024343489134447,well-studied,0.0,0.3785,12,0,0.6287,0.5277,40,False,False,canonical
+489,(+)-Brompheniramine maleate,brompheniramine,2,-0.0402,0.1167,5,419,0.7406162498721187,PARTIAL,0.2891,0.3782,1,1,0.8997,0.4338,167,False,False,canonical
+490,(±)-Brompheniramine maleate,brompheniramine,2,-0.0402,0.1167,5,419,0.7406162498721187,PARTIAL,0.2891,0.3782,1,1,0.8997,0.4338,168,False,False,canonical
+491,S15535,s15535,1,-0.023,0.0703,0,18,1.0,PARTIAL,0.0,0.3781,5,0,0.7406,0.2873,1122,False,False,canonical
+492,Stattic,stattic,7,-2.6142,0.4055,58,544,0.4097159961192852,PARTIAL,0.2891,0.3779,14,1,0.608,0.4473,137,False,False,canonical
+493,Cephradine,cephradine,6,0.104,0.0926,4,937,0.7670099985546603,PARTIAL,0.2891,0.3778,8,1,0.6819,0.348,520,False,False,canonical
+494,TPMPA,tpmpa,7,-0.0835,0.0696,0,114,1.0,PARTIAL,0.0,0.3778,2,0,0.841,0.3222,704,False,False,canonical
+495,"L-701,324","701,324",2,-0.1912,0.0688,0,93,1.0,PARTIAL,0.0,0.3775,2,0,0.841,0.3219,706,False,False,raw_after_retry
+496,2-Hydroxysaclofen,2-hydroxysaclofen,2,-0.321,0.1553,1,260,0.8996566681120063,PARTIAL,0.0,0.377,6,0,0.7183,0.3135,773,False,True,canonical
+497,Droxinostat,droxinostat,6,0.4649,0.1545,1,10,0.8996566681120063,PARTIAL,0.0,0.3767,2,0,0.841,0.3562,455,False,True,canonical
+498,Doxylamine succinate,doxylamine,6,0.9285,0.1543,1,585,0.8996566681120063,PARTIAL,0.0,0.3766,5,0,0.7406,0.3209,708,False,True,canonical
+499,Vinblastine sulfate salt,vinblastine,7,-3.9829,0.6224,335,17450,0.15788690753671863,well-studied,0.2891,0.3765,7,1,0.699,0.5659,21,False,False,canonical
+500,Quinelorane dihydrochloride,quinelorane,3,0.3402,0.0662,0,156,1.0,PARTIAL,0.0,0.3765,5,0,0.7406,0.2857,1132,False,False,canonical
+501,Dofetilide,dofetilide,5,0.0864,0.112,5,1163,0.7406162498721187,PARTIAL,0.2891,0.3763,8,1,0.6819,0.3558,458,False,False,canonical
+502,5-azacytidine,5-azacytidine,7,-1.0314,0.2792,93,3668,0.34229071546676715,PARTIAL,0.5781,0.376,13,3,0.618,0.4725,102,False,False,canonical
+503,Chlormethiazole hydrochloride,chlormethiazole,7,-0.3318,0.2011,2,883,0.8409595817601125,PARTIAL,0.0,0.3748,2,0,0.841,0.3748,349,False,True,canonical
+504,BWB70C,bwb70c,3,0.1481,0.1486,1,10,0.8996566681120063,PARTIAL,0.0,0.3743,1,0,0.8997,0.3743,352,False,True,canonical
+505,Etodolac,etodolac,6,-0.1033,0.0888,21,796,0.5525257730592645,PARTIAL,0.5781,0.3734,12,3,0.6287,0.4001,240,False,False,canonical
+506,Ranolazine dihydrochloride,ranolazine,3,0.3432,0.0793,46,1329,0.44263404735476086,CORPUS-MISSED,0.7472,0.3734,5,5,0.7406,0.4777,93,False,False,canonical
+507,GYKI 52466 hydrochloride,gyki 52466,4,0.617,0.1455,1,440,0.8996566681120063,PARTIAL,0.0,0.3731,5,0,0.7406,0.3174,742,False,True,canonical
+508,4-Aminobenzamidine dihydrochloride,4-aminobenzamidine,4,-0.2641,0.1448,1,106,0.8996566681120063,PARTIAL,0.0,0.3728,1,0,0.8997,0.3728,365,False,True,canonical
+509,"8-Cyclopentyl-1,3-dimethylxanthine","8-cyclopentyl-1,3-dimethylxanthine",2,0.2823,0.0795,4,303,0.7670099985546603,PARTIAL,0.2891,0.3725,7,1,0.699,0.3487,516,False,False,canonical
+510,Diacylglycerol Kinase Inhibitor II,diacylglycerol kinase inhibitor ii,2,-0.468,0.1439,1,6,0.8996566681120063,PARTIAL,0.0,0.3724,1,0,0.8997,0.3725,367,False,True,canonical
+511,PD-166866,pd-166866,7,-1.2634,0.2312,3,18,0.7993133362240126,PARTIAL,0.0,0.3722,3,0,0.7993,0.3722,369,False,False,canonical
+512,Olprinone hydrochloride,olprinone,7,-0.9187,0.1992,12,188,0.6286855492310544,CORPUS-MISSED,0.2891,0.372,2,1,0.841,0.4463,139,False,False,canonical
+513,(±)-2-Amino-5-phosphonopentanoic acid,2-amino-5-phosphonopentanoic acid,7,-0.1167,0.1009,5,818,0.7406162498721187,PARTIAL,0.2891,0.3719,8,1,0.6819,0.3513,499,False,False,canonical
+514,Vincristine sulfate,vincristine,7,-3.1489,0.5366,434,35720,0.12050358101512082,well-studied,0.4582,0.3714,12,2,0.6287,0.5492,28,False,False,canonical
+515,Cefsulodin sodium salt hydrate,cefsulodin,4,0.5225,0.14,1,655,0.8996566681120063,PARTIAL,0.0,0.3709,5,0,0.7406,0.3152,762,False,False,canonical
+516,Amoxapine,amoxapine,7,-0.983,0.1861,2,504,0.8409595817601125,PARTIAL,0.0,0.3688,7,0,0.699,0.3191,724,False,True,canonical
+517,Artemether,artemether,2,-0.2992,0.1522,21,2913,0.5525257730592645,PARTIAL,0.4582,0.3688,14,2,0.608,0.3882,281,False,False,canonical
+518,CP-154526 hydrochloride,cp-154526,4,-0.0883,0.1346,1,128,0.8996566681120063,PARTIAL,0.0,0.3687,5,0,0.7406,0.313,779,False,False,canonical
+519,Atropine methyl bromide,atropine methyl,6,0.1049,0.1335,1,247,0.8996566681120063,PARTIAL,0.0,0.3683,2,0,0.841,0.3477,524,False,False,canonical
+520,Atropine methyl nitrate,atropine methyl,6,0.1049,0.1335,1,247,0.8996566681120063,PARTIAL,0.0,0.3683,2,0,0.841,0.3477,525,False,False,canonical
+521,Oxybutynin Chloride,oxybutynin,4,0.3169,0.1315,1,1853,0.8996566681120063,PARTIAL,0.0,0.3675,5,0,0.7406,0.3118,799,False,False,canonical
+522,SCH-28080,sch-28080,1,-0.0293,0.1309,1,274,0.8996566681120063,PARTIAL,0.0,0.3672,5,0,0.7406,0.3116,804,False,False,canonical
+523,L-Hyoscyamine,hyoscyamine,4,0.7146,0.1307,1,638,0.8996566681120063,PARTIAL,0.0,0.3672,1,0,0.8997,0.3672,398,False,False,canonical
+524,Bropirimine,bropirimine,4,0.7797,0.1304,1,104,0.8996566681120063,PARTIAL,0.0,0.367,6,0,0.7183,0.3036,916,False,False,canonical
+525,TBB,tbb,1,-0.0937,0.1219,17,1383,0.5815758316322313,PARTIAL,0.4582,0.3669,11,2,0.6403,0.3874,288,False,False,canonical
+526,TG003,tg003,2,0.196,0.1295,1,35,0.8996566681120063,PARTIAL,0.0,0.3667,1,0,0.8997,0.3667,402,False,False,canonical
+527,Piracetam,piracetam,1,0.2959,0.1025,27,4016,0.5176139895525935,PARTIAL,0.5781,0.3667,11,3,0.6403,0.4096,219,False,False,canonical
+528,Nocodazole,nocodazole,7,-2.5326,0.4164,184,4824,0.2442760905323288,well-studied,0.4582,0.3666,15,2,0.5986,0.4906,78,False,False,canonical
+529,(±)-HA-966,ha-966,6,0.1775,0.1294,1,246,0.8996566681120063,PARTIAL,0.0,0.3666,4,0,0.767,0.3202,714,False,False,canonical
+530,Trihexyphenidyl hydrochloride,trihexyphenidyl,4,0.7207,0.1291,1,1354,0.8996566681120063,PARTIAL,0.0,0.3665,4,0,0.767,0.3201,716,False,False,canonical
+531,D(-)-2-Amino-5-phosphonopentanoic acid,d(-)-2-amino-5-phosphonopentanoic acid,6,0.2055,0.1278,1,343,0.8996566681120063,PARTIAL,0.0,0.366,10,0,0.6529,0.2796,1151,False,False,canonical
+532,(±)-2-Amino-4-phosphonobutyric acid,2-amino-4-phosphonobutyric acid,6,0.6796,0.1277,1,776,0.8996566681120063,PARTIAL,0.0,0.366,10,0,0.6529,0.2796,1152,False,False,canonical
+533,DL-alpha-Methyl-p-tyrosine,alpha-methyl-p-tyrosine,3,-0.3352,0.1258,1,1381,0.8996566681120063,PARTIAL,0.0,0.3652,5,0,0.7406,0.3095,832,False,False,canonical
+534,L-alpha-Methyl-p-tyrosine,alpha-methyl-p-tyrosine,3,-0.3352,0.1258,1,1381,0.8996566681120063,PARTIAL,0.0,0.3652,5,0,0.7406,0.3095,833,False,False,canonical
+535,Protriptyline hydrochloride,protriptyline,3,0.4225,0.1258,1,420,0.8996566681120063,PARTIAL,0.0,0.3652,5,0,0.7406,0.3095,834,False,False,canonical
+536,Ciproxifan hydrochloride,ciproxifan,2,0.6638,0.1254,1,140,0.8996566681120063,PARTIAL,0.0,0.365,1,0,0.8997,0.3651,409,False,False,canonical
+537,Cilnidipine,cilnidipine,4,1.2591,0.19,13,355,0.6179573214405873,PARTIAL,0.2891,0.3646,10,1,0.6529,0.3768,338,False,False,canonical
+538,Tizanidine hydrochloride,tizanidine,4,-0.0524,0.1242,1,713,0.8996566681120063,PARTIAL,0.0,0.3646,4,0,0.767,0.3181,737,False,False,canonical
+539,Y-27632 dihydrochloride,y-27632,6,2.0249,0.3166,559,3189,0.1,well-studied,0.8115,0.3645,4,6,0.767,0.598,11,False,False,canonical
+540,Carvedilol,carvedilol,3,-0.0004,0.1167,173,4535,0.2531502505724669,well-studied,0.9163,0.3644,13,8,0.618,0.4921,76,False,False,canonical
+541,PD 169316,pd 169316,5,0.658,0.1213,1,29,0.8996566681120063,PARTIAL,0.0,0.3634,2,0,0.841,0.3429,555,False,False,canonical
+542,Diphenyleneiodonium chloride,diphenyleneiodonium,7,-3.9928,0.5607,268,1858,0.19008257333253065,well-studied,0.2891,0.3631,16,1,0.5899,0.503,63,False,False,canonical
+543,Bisoprolol hemifumarate salt,bisoprolol hemifumarate,4,0.2978,0.1205,1,24,0.8996566681120063,PARTIAL,0.0,0.3631,3,0,0.7993,0.328,663,False,False,raw_after_retry
+544,Ancitabine hydrochloride,ancitabine,3,0.1447,0.1204,1,105,0.8996566681120063,PARTIAL,0.0,0.363,5,0,0.7406,0.3074,858,False,False,canonical
+545,SB 242084 dihydrochloride hydrate,sb 242084,5,0.7296,0.1202,1,173,0.8996566681120063,PARTIAL,0.0,0.363,5,0,0.7406,0.3073,859,False,False,canonical
+546,AMG 9810,amg 9810,1,0.1613,0.1201,1,35,0.8996566681120063,PARTIAL,0.0,0.3629,1,0,0.8997,0.3629,418,False,False,canonical
+547,Sandoz 58-035,sandoz 58-035,7,-0.315,0.1198,1,23,0.8996566681120063,PARTIAL,0.0,0.3628,2,0,0.841,0.3423,560,False,False,canonical
+548,trans-(±)-ACPD,trans-(±)-acpd,4,-0.0066,0.1196,1,199,0.8996566681120063,PARTIAL,0.0,0.3627,5,0,0.7406,0.307,863,False,False,canonical
+549,A-68930 hydrochloride,a-68930,4,0.4088,0.1189,1,67,0.8996566681120063,PARTIAL,0.0,0.3624,5,0,0.7406,0.3068,865,False,False,canonical
+550,Tyrphostin AG 1478,tyrphostin ag 1478,7,-1.0081,0.2061,3,52,0.7993133362240126,PARTIAL,0.0,0.3622,4,0,0.767,0.3509,501,False,False,canonical
+551,Nordihydroguaiaretic acid from Larrea divaricata (creosote bush),nordihydroguaiaretic acid from larrea divaricata (creosote bush),7,-0.5186,0.1178,1,29,0.8996566681120063,PARTIAL,0.0,0.362,3,0,0.7993,0.3269,670,False,False,canonical
+552,"Hexahydro-sila-difenidol hydrochloride, p-fluoro analog","hexahydro-sila-difenidol , p-fluoro analog",5,0.89,0.169,2,15,0.8409595817601125,PARTIAL,0.0,0.3619,5,0,0.7406,0.3268,672,False,True,canonical
+553,Esomeprazole magnesium dihydrate,esomeprazole magnesium,4,0.4861,0.1175,1,93,0.8996566681120063,PARTIAL,0.0,0.3619,5,0,0.7406,0.3062,876,False,False,canonical
+554,L(-)-Norepinephrine bitartrate,l(-)-norepinephrine bitartrate,2,0.12,0.1164,1,5,0.8996566681120063,PARTIAL,0.0,0.3614,5,0,0.7406,0.3058,884,False,False,canonical
+555,(±)-Baclofen,baclofen,7,-1.2699,0.2331,20,9206,0.5592602350886935,PARTIAL,0.2891,0.3613,12,1,0.6287,0.3856,295,False,False,canonical
+556,"PD 98,059","pd 98,059",2,0.1703,0.1157,1,10,0.8996566681120063,PARTIAL,0.0,0.3612,6,0,0.7183,0.2977,1017,False,False,canonical
+557,Fenofibrate,fenofibrate,5,1.0419,0.1459,355,4817,0.1495166673423749,well-studied,1.0,0.3607,15,10,0.5986,0.5179,47,False,False,canonical
+558,McN-A-343,mcn-a-343,4,-0.4932,0.1316,21,459,0.5525257730592645,PARTIAL,0.4582,0.3606,10,2,0.6529,0.3957,257,False,False,canonical
+559,Cortexolone,cortexolone,7,-0.1768,0.0918,6,176,0.7183006533285811,PARTIAL,0.2891,0.3604,8,1,0.6819,0.3477,526,False,False,canonical
+560,ZD 7114 hydrochloride,zd 7114,7,-0.362,0.1132,1,12,0.8996566681120063,PARTIAL,0.0,0.3602,1,0,0.8997,0.3602,430,False,False,canonical
+561,Cefazolin sodium,cefazolin,6,-0.1731,0.1983,67,7122,0.38916369576458787,PARTIAL,0.5781,0.3601,9,3,0.6667,0.4572,123,False,False,canonical
+562,MHPG piperazine,mhpg piperazine,6,0.5698,0.1122,1,59,0.8996566681120063,PARTIAL,0.0,0.3598,2,0,0.841,0.3392,580,False,False,canonical
+563,Trimipramine maleate,trimipramine,7,-0.4622,0.1635,2,558,0.8409595817601125,PARTIAL,0.0,0.3597,4,0,0.767,0.3339,621,False,True,canonical
+564,Clemizole hydrochloride,clemizole,7,-0.4816,0.1632,2,79,0.8409595817601125,PARTIAL,0.0,0.3596,1,0,0.8997,0.3802,322,False,True,canonical
+565,N6-2-(4-Aminophenyl)ethyladenosine,n6-2-(4-aminophenyl)ethyladenosine,4,0.4824,0.1632,2,34,0.8409595817601125,PARTIAL,0.0,0.3596,2,0,0.841,0.3596,435,False,True,canonical
+566,1-(2-Methoxyphenyl)piperazine hydrochloride,1-(2-methoxyphenyl)piperazine,3,0.1626,0.1119,1,110,0.8996566681120063,PARTIAL,0.0,0.3596,5,0,0.7406,0.304,910,False,False,canonical
+567,Acetyl-beta-methylcholine chloride,acetyl-beta-methylcholine,7,-0.2749,0.1111,1,164,0.8996566681120063,PARTIAL,0.0,0.3593,5,0,0.7406,0.3037,914,False,False,canonical
+568,BAY 61-3606 hydrochloride hydrate,bay 61-3606,7,-0.6536,0.1619,2,23,0.8409595817601125,PARTIAL,0.0,0.3591,1,0,0.8997,0.3796,324,False,True,canonical
+569,Levallorphan tartrate,levallorphan,5,0.6165,0.1106,1,503,0.8996566681120063,PARTIAL,0.0,0.3591,4,0,0.767,0.3127,786,False,False,canonical
+570,Ciprofibrate,ciprofibrate,1,0.0262,0.1148,19,564,0.5663233347786729,PARTIAL,0.4582,0.3587,12,2,0.6287,0.3805,321,False,False,canonical
+571,Forskolin,forskolin,4,0.9604,0.1841,898,20272,0.1,well-studied,1.0,0.3586,15,10,0.5986,0.5332,35,False,False,canonical
+572,NBI 27914,nbi 27914,2,0.4926,0.1088,1,56,0.8996566681120063,PARTIAL,0.0,0.3584,1,0,0.8997,0.3584,441,False,False,canonical
+573,CGS-15943,cgs-15943,6,0.2376,0.0859,6,103,0.7183006533285811,PARTIAL,0.2891,0.358,4,1,0.767,0.3751,348,False,False,canonical
+574,alpha-Methyl-DL-tyrosine methyl ester hydrochloride,alpha-methyl-dl-tyrosine methyl ester,2,0.3213,0.1076,1,137,0.8996566681120063,PARTIAL,0.0,0.3579,5,0,0.7406,0.3022,929,False,False,canonical
+575,Ro 41-0960,ro 41-0960,6,0.3001,0.1068,1,29,0.8996566681120063,PARTIAL,0.0,0.3576,5,0,0.7406,0.3019,936,False,False,canonical
+576,1-(m-Chlorophenyl)-biguanide hydrochloride,1-(m-chlorophenyl)-biguanide,2,0.5723,0.1065,1,87,0.8996566681120063,PARTIAL,0.0,0.3575,5,0,0.7406,0.3018,941,False,False,canonical
+577,(+)-Cyclazocine,cyclazocine,2,0.526,0.1064,1,1015,0.8996566681120063,PARTIAL,0.0,0.3574,4,0,0.767,0.311,812,False,False,canonical
+578,Amiodarone hydrochloride,amiodarone,1,-0.2923,0.1724,92,12837,0.34383901714868836,PARTIAL,0.6712,0.3571,7,4,0.699,0.4814,88,False,False,canonical
+579,BU224 hydrochloride,bu224,6,0.3554,0.1049,1,83,0.8996566681120063,PARTIAL,0.0,0.3568,5,0,0.7406,0.3012,956,False,False,canonical
+580,"1,1-Dimethyl-4-phenyl-piperazinium iodide","1,1-dimethyl-4-phenyl-piperazinium",3,0.5985,0.1045,1,93,0.8996566681120063,PARTIAL,0.0,0.3567,5,0,0.7406,0.301,959,False,False,canonical
+581,Triflupromazine hydrochloride,triflupromazine,7,-0.9632,0.1918,3,453,0.7993133362240126,PARTIAL,0.0,0.3565,3,0,0.7993,0.3565,453,False,False,canonical
+582,R(-)-Isoproterenol (+)-bitartrate,r(-)-isoproterenol (+)-bitartrate,4,0.5133,0.104,1,2,0.8996566681120063,PARTIAL,0.0,0.3565,5,0,0.7406,0.3008,966,False,False,canonical
+583,NU2058,nu2058,1,0.0635,0.1037,1,13,0.8996566681120063,PARTIAL,0.0,0.3564,1,0,0.8997,0.3564,454,False,False,canonical
+584,Dolasetron mesylate hydrate,dolasetron,3,0.3834,0.1034,1,313,0.8996566681120063,TRUE-DARK,0.0,0.3562,0,0,1.0,0.3914,270,False,False,canonical
+585,5alpha-Pregnan-3alpha-ol-20-one,5alpha-pregnan-3alpha-ol-20-one,1,0.2625,0.1031,1,139,0.8996566681120063,PARTIAL,0.0,0.3561,5,0,0.7406,0.3004,971,False,False,canonical
+586,Imidazole-4-acetic acid hydrochloride,imidazole-4-acetic acid,6,0.4023,0.1022,1,185,0.8996566681120063,PARTIAL,0.0,0.3558,6,0,0.7183,0.2923,1077,False,False,raw_after_retry
+587,Cyclobenzaprine hydrochloride,cyclobenzaprine,6,0.2124,0.1019,1,403,0.8996566681120063,PARTIAL,0.0,0.3556,2,0,0.841,0.3351,612,False,False,canonical
+588,Acetohexamide,acetohexamide,6,0.1791,0.1017,1,311,0.8996566681120063,PARTIAL,0.0,0.3556,5,0,0.7406,0.2999,981,False,False,canonical
+589,(+)-Butaclamol hydrochloride,butaclamol,6,-0.2117,0.189,3,546,0.7993133362240126,PARTIAL,0.0,0.3554,5,0,0.7406,0.3348,615,False,False,canonical
+590,(±)-Butaclamol hydrochloride,butaclamol,6,-0.2117,0.189,3,546,0.7993133362240126,PARTIAL,0.0,0.3554,5,0,0.7406,0.3348,616,False,False,canonical
+591,"2,3-Butanedione monoxime","2,3-butanedione monoxime",3,0.251,0.1103,8,442,0.6819191635202251,PARTIAL,0.2891,0.3551,10,1,0.6529,0.3449,538,False,False,canonical
+592,SB 200646 hydrochloride,sb 200646,6,0.0255,0.0998,1,10,0.8996566681120063,PARTIAL,0.0,0.3548,5,0,0.7406,0.2991,995,False,False,canonical
+593,"3,5-Dinitrocatechol","3,5-dinitrocatechol",2,-0.0702,0.0995,1,25,0.8996566681120063,PARTIAL,0.0,0.3547,3,0,0.7993,0.3196,721,False,False,canonical
+594,Norcantharidin,norcantharidin,6,0.2747,0.0851,30,397,0.5028794353885757,PARTIAL,0.5781,0.3546,10,3,0.6529,0.4071,227,False,False,canonical
+595,"1,3-Dipropyl-8-p-sulfophenylxanthine","1,3-dipropyl-8-p-sulfophenylxanthine",6,0.187,0.0991,1,54,0.8996566681120063,PARTIAL,0.0,0.3545,1,0,0.8997,0.3545,470,False,False,canonical
+596,SR 142948A,sr 142948a,3,0.5939,0.0987,1,36,0.8996566681120063,PARTIAL,0.0,0.3544,2,0,0.841,0.3338,622,False,False,canonical
+597,Indatraline hydrochloride,indatraline,7,-1.6015,0.2135,4,64,0.7670099985546603,PARTIAL,0.0,0.3539,4,0,0.767,0.3538,474,False,False,canonical
+598,Sertraline hydrochloride,sertraline,7,-0.899,0.1906,39,6942,0.4659800028906792,PARTIAL,0.4582,0.3539,6,2,0.7183,0.4422,151,False,False,canonical
+599,NS8593 hydrochloride,ns8593,3,0.4172,0.0966,1,64,0.8996566681120063,PARTIAL,0.0,0.3535,5,0,0.7406,0.2978,1016,False,False,canonical
+600,Roscovitine,roscovitine,7,-1.7803,0.2818,35,1489,0.48123249974423754,PARTIAL,0.2891,0.3534,14,1,0.608,0.3978,248,False,False,canonical
+601,EBPC,ebpc,2,-0.0209,0.0964,1,168,0.8996566681120063,PARTIAL,0.0,0.3534,4,0,0.767,0.307,864,False,False,canonical
+602,Centrophenoxine hydrochloride,centrophenoxine,2,0.4411,0.0962,1,214,0.8996566681120063,PARTIAL,0.0,0.3534,1,0,0.8997,0.3534,477,False,False,raw_after_retry
+603,Cibenzoline succinate,cibenzoline,1,0.2208,0.0959,1,338,0.8996566681120063,PARTIAL,0.0,0.3532,5,0,0.7406,0.2976,1018,False,False,canonical
+604,PD 0325901,pd 0325901,7,-1.0665,0.2114,4,78,0.7670099985546603,PARTIAL,0.0,0.353,8,0,0.6819,0.3232,697,False,False,canonical
+605,NS5806,ns5806,6,0.2494,0.0948,1,38,0.8996566681120063,PARTIAL,0.0,0.3528,4,0,0.767,0.3064,870,False,False,canonical
+606,NBQX disodium,nbqx,4,0.813,0.146,2,1246,0.8409595817601125,PARTIAL,0.0,0.3527,5,0,0.7406,0.3176,741,False,True,canonical
+607,Amisulpride,amisulpride,3,0.0806,0.0893,7,1619,0.6989700043360187,PARTIAL,0.2891,0.3526,10,1,0.6529,0.3365,604,False,False,canonical
+608,Doxepin hydrochloride,doxepin,2,0.3997,0.094,1,1620,0.8996566681120063,TRUE-DARK,0.0,0.3525,0,0,1.0,0.3876,286,False,False,canonical
+609,Kenpaullone,kenpaullone,1,-0.0674,0.145,2,103,0.8409595817601125,PARTIAL,0.0,0.3523,3,0,0.7993,0.3378,592,False,True,canonical
+610,Lomefloxacin hydrochloride,lomefloxacin,5,0.5368,0.0936,1,1048,0.8996566681120063,PARTIAL,0.0,0.3523,2,0,0.841,0.3318,633,False,False,canonical
+611,N-Phenylanthranilic acid,n-phenylanthranilic acid,7,-1.6215,0.3304,12,106,0.6286855492310544,PARTIAL,0.0,0.3522,8,0,0.6819,0.3708,379,False,False,canonical
+612,3'-Azido-3'-deoxythymidine,3-azido-3-deoxythymidine,6,-0.0052,0.1032,8,1089,0.6819191635202251,PARTIAL,0.2891,0.3522,10,1,0.6529,0.3421,562,False,False,canonical
+613,Loxapine succinate,loxapine,2,0.0006,0.0934,1,576,0.8996566681120063,PARTIAL,0.0,0.3522,1,0,0.8997,0.3523,486,False,False,canonical
+614,Benztropine mesylate,benztropine,7,-0.5013,0.1441,2,1085,0.8409595817601125,PARTIAL,0.0,0.352,5,0,0.7406,0.3168,745,False,True,canonical
+615,Olomoucine,olomoucine,2,0.3013,0.1027,8,318,0.6819191635202251,PARTIAL,0.2891,0.352,10,1,0.6529,0.3419,566,False,False,canonical
+616,(+)-Norfenfluramine hydrochloride,norfenfluramine,2,-0.0858,0.0929,1,271,0.8996566681120063,PARTIAL,0.0,0.352,3,0,0.7993,0.3169,744,False,False,canonical
+617,"L-Glutamic acid, N-phthaloyl-","glutamic acid, n-phthaloyl",2,0.2081,0.0928,1,5,0.8996566681120063,PARTIAL,0.0,0.352,1,0,0.8997,0.352,490,False,False,canonical
+618,Sobuzoxane,sobuzoxane,1,-0.2047,0.0926,1,62,0.8996566681120063,PARTIAL,0.0,0.3519,3,0,0.7993,0.3168,747,False,False,canonical
+619,"(S)-3,5-Dihydroxyphenylglycine","3,5-dihydroxyphenylglycine",5,0.949,0.1435,2,770,0.8409595817601125,PARTIAL,0.0,0.3517,5,0,0.7406,0.3166,750,False,True,canonical
+620,(-)-Epinephrine bitartrate,epinephrine bitartrate,3,0.4215,0.09,1,34,0.8996566681120063,PARTIAL,0.0,0.3509,1,0,0.8997,0.3509,502,False,False,canonical
+621,NADPH tetrasodium,nadph tetrasodium,3,0.4436,0.0899,1,13,0.8996566681120063,PARTIAL,0.0,0.3508,6,0,0.7183,0.2874,1120,False,False,canonical
+622,SNC80,snc80,3,0.1755,0.1404,2,295,0.8409595817601125,PARTIAL,0.0,0.3505,3,0,0.7993,0.3359,607,False,False,canonical
+623,Ro 90-7501,ro 90-7501,7,0.008,0.0874,1,13,0.8996566681120063,PARTIAL,0.0,0.3498,1,0,0.8997,0.3498,505,False,False,canonical
+624,Trazodone hydrochloride,trazodone,3,0.5009,0.0866,1,2636,0.8996566681120063,PARTIAL,0.0,0.3495,5,0,0.7406,0.2939,1064,False,False,canonical
+625,AS-252424,as-252424,7,-0.5969,0.1371,2,12,0.8409595817601125,PARTIAL,0.0,0.3492,2,0,0.841,0.3492,510,False,False,canonical
+626,Maprotiline hydrochloride,maprotiline,6,0.7113,0.1366,2,1332,0.8409595817601125,PARTIAL,0.0,0.349,4,0,0.767,0.3231,699,False,False,canonical
+627,Triflusal,triflusal,6,0.2138,0.1196,10,206,0.6528691049472584,PARTIAL,0.2891,0.3486,10,1,0.6529,0.3486,517,False,False,canonical
+628,JW74,jw74,2,0.1362,0.0839,1,12,0.8996566681120063,PARTIAL,0.0,0.3484,1,0,0.8997,0.3484,519,False,False,canonical
+629,"1,5-Isoquinolinediol","1,5-isoquinolinediol",4,0.5975,0.1063,9,38,0.6666666666666667,PARTIAL,0.2891,0.3481,7,1,0.699,0.3594,437,False,False,canonical
+630,CGP 20712A methanesulfonate,cgp 20712a methanesulfonate,6,0.0454,0.0821,1,12,0.8996566681120063,PARTIAL,0.0,0.3477,5,0,0.7406,0.2921,1083,False,False,canonical
+631,p-Iodoclonidine hydrochloride,p-iodoclonidine,6,0.1051,0.0819,1,28,0.8996566681120063,PARTIAL,0.0,0.3476,5,0,0.7406,0.292,1084,False,False,canonical
+632,(-)-Sulpiride,sulpiride,1,-0.0492,0.104,22,6544,0.546090721327469,PARTIAL,0.4582,0.3473,18,2,0.5737,0.3569,449,False,False,canonical
+633,(±)-Sulpiride,sulpiride,1,-0.0492,0.104,22,6544,0.546090721327469,PARTIAL,0.4582,0.3473,18,2,0.5737,0.3569,450,False,False,canonical
+634,Brequinar sodium salt hydrate,brequinar,1,-0.0855,0.081,1,338,0.8996566681120063,PARTIAL,0.0,0.3473,1,0,0.8997,0.3473,527,False,False,canonical
+635,CP-66713,cp-66713,6,0.167,0.0808,1,16,0.8996566681120063,PARTIAL,0.0,0.3472,1,0,0.8997,0.3472,528,False,False,canonical
+636,Cefmetazole sodium,cefmetazole,2,0.0233,0.0789,1,842,0.8996566681120063,PARTIAL,0.0,0.3464,1,0,0.8997,0.3464,532,False,False,canonical
+637,Indomethacin,indomethacin,4,0.7492,0.1526,5015,45211,0.1,well-studied,1.0,0.346,14,10,0.608,0.5238,42,False,False,canonical
+638,Betaxolol hydrochloride,betaxolol,7,-0.1411,0.1298,28,1053,0.512534000700348,CORPUS-MISSED,0.4582,0.3459,2,2,0.841,0.4608,115,False,False,canonical
+639,Tetrabenazine,tetrabenazine,4,0.0485,0.1288,2,1886,0.8409595817601125,PARTIAL,0.0,0.3459,6,0,0.7183,0.3029,921,False,False,canonical
+640,Bupropion hydrochloride,bupropion,6,0.2084,0.1006,9,6347,0.6666666666666667,PARTIAL,0.2891,0.3458,4,1,0.767,0.381,319,False,False,canonical
+641,Cilostazol,cilostazol,3,0.2422,0.097,326,2449,0.16181741577990472,well-studied,1.0,0.3454,14,20,0.608,0.5016,66,False,False,canonical
+642,Thapsigargin,thapsigargin,7,-3.2554,0.4893,726,10107,0.1,well-studied,0.4582,0.3453,12,2,0.6287,0.5303,38,False,False,canonical
+643,"1,4-Dideoxy-1,4-imino-D-arabinitol","1,4-dideoxy-1,4-imino-d-arabinitol",2,0.3588,0.0757,1,91,0.8996566681120063,PARTIAL,0.0,0.3452,4,0,0.767,0.2987,1000,False,False,canonical
+644,2-(Methylthio)adenosine 5'-diphosphate trisodium salt hydrate,2-(methylthio)adenosine 5-diphosphate trisodium,6,0.0199,0.0757,1,7,0.8996566681120063,PARTIAL,0.0,0.3452,5,0,0.7406,0.2895,1109,False,False,canonical
+645,Isoliquiritigenin,isoliquiritigenin,6,0.8151,0.1449,59,1087,0.40728291653878546,PARTIAL,0.5781,0.345,9,3,0.6667,0.4358,162,False,False,canonical
+646,BIX 01294 trihydrochloride hydrate,bix 01294,1,0.3595,0.2142,5,152,0.7406162498721187,PARTIAL,0.0,0.3449,5,0,0.7406,0.3449,537,False,False,canonical
+647,p-Aminoclonidine hydrochloride,p-aminoclonidine,2,0.3124,0.0747,1,162,0.8996566681120063,PARTIAL,0.0,0.3448,5,0,0.7406,0.2891,1110,False,False,canonical
+648,3-Iodo-L-tyrosine,3-iodo-l-tyrosine,6,0.6662,0.1254,2,67,0.8409595817601125,PARTIAL,0.0,0.3445,2,0,0.841,0.3445,542,False,False,canonical
+649,Terfenadine,terfenadine,7,-2.6422,0.3776,21,2310,0.5525257730592645,PARTIAL,0.0,0.3444,11,0,0.6403,0.3752,347,False,False,canonical
+650,Ro 25-6981 hydrochloride,ro 25-6981,7,-0.2739,0.0733,1,309,0.8996566681120063,PARTIAL,0.0,0.3442,2,0,0.841,0.3237,691,False,False,canonical
+651,Trequinsin hydrochloride,trequinsin,6,0.9103,0.2315,6,84,0.7183006533285811,PARTIAL,0.0,0.344,5,0,0.7406,0.3518,492,False,False,canonical
+652,Mitoxantrone,mitoxantrone,7,-1.8787,0.2868,103,7033,0.3276555535670732,well-studied,0.4582,0.3439,15,2,0.5986,0.4388,155,False,False,canonical
+653,p-Benzoquinone,p-benzoquinone,4,-0.9841,0.2313,6,1880,0.7183006533285811,PARTIAL,0.0,0.3439,15,0,0.5986,0.302,932,False,False,canonical
+654,Alaproclate hydrochloride,alaproclate,2,0.1081,0.1234,2,114,0.8409595817601125,PARTIAL,0.0,0.3437,3,0,0.7993,0.3291,654,False,False,canonical
+655,Chelerythrine chloride,chelerythrine,7,-0.8611,0.2812,180,2747,0.2474404750436051,well-studied,0.5781,0.3436,14,3,0.608,0.4698,107,False,False,canonical
+656,6-Hydroxymelatonin,6-hydroxymelatonin,2,0.1432,0.0718,1,309,0.8996566681120063,PARTIAL,0.0,0.3436,6,0,0.7183,0.2801,1150,False,False,canonical
+657,Piceatannol,piceatannol,5,0.227,0.1073,72,1068,0.37889237995984804,PARTIAL,0.6712,0.3433,15,4,0.5986,0.4202,192,False,False,canonical
+658,(-)-Quinpirole hydrochloride,quinpirole,2,0.0719,0.094,9,3444,0.6666666666666667,PARTIAL,0.2891,0.3432,1,1,0.8997,0.4248,183,False,False,canonical
+659,CP-31398 dihydrochloride hydrate,cp-31398,7,-0.2636,0.1583,3,83,0.7993133362240126,PARTIAL,0.0,0.3431,4,0,0.767,0.3318,631,False,False,canonical
+660,LP44,lp44,1,0.3129,0.1206,2,35,0.8409595817601125,PARTIAL,0.0,0.3426,2,0,0.841,0.3426,557,False,False,canonical
+661,L-alpha-Methyl DOPA,alpha-methyl dopa,2,0.2774,0.0694,1,298,0.8996566681120063,PARTIAL,0.0,0.3426,1,0,0.8997,0.3427,556,False,False,canonical
+662,5-fluoro-5'-deoxyuridine,5-fluoro-5-deoxyuridine,2,0.1713,0.0689,1,15,0.8996566681120063,PARTIAL,0.0,0.3424,3,0,0.7993,0.3073,860,False,False,canonical
+663,"9-Amino-1,2,3,4-tetrahydroacridine hydrochloride","9-amino-1,2,3,4-tetrahydroacridine",7,-0.388,0.1196,2,141,0.8409595817601125,PARTIAL,0.0,0.3422,2,0,0.841,0.3422,561,False,False,canonical
+664,SC-51322,sc-51322,6,0.3999,0.1189,2,35,0.8409595817601125,PARTIAL,0.0,0.3419,1,0,0.8997,0.3624,421,False,False,canonical
+665,TCPOBOP,tcpobop,5,0.4055,0.1187,2,210,0.8409595817601125,PARTIAL,0.0,0.3418,7,0,0.699,0.2921,1081,False,False,canonical
+666,(-)-Physostigmine,physostigmine,3,0.2684,0.0962,43,7478,0.4521824411712708,PARTIAL,0.5781,0.3413,10,3,0.6529,0.4115,210,False,False,canonical
+667,AA-861,aa-861,7,-0.4251,0.205,24,247,0.5340199971093207,PARTIAL,0.2891,0.3412,9,1,0.6667,0.3876,285,False,False,canonical
+668,Atorvastatin calcium salt trihydrate,atorvastatin,6,0.5928,0.1406,1299,12862,0.1,well-studied,1.0,0.3412,5,12,0.7406,0.5655,22,False,False,canonical
+669,Muscimol hydrobromide,muscimol,2,0.6715,0.1305,13,7020,0.6179573214405873,CORPUS-MISSED,0.2891,0.3408,5,1,0.7406,0.3837,308,False,False,canonical
+670,"LY-294,002 hydrochloride","ly-294,002",7,-0.7855,0.1513,3,25,0.7993133362240126,PARTIAL,0.0,0.3403,4,0,0.767,0.329,655,False,False,canonical
+671,Mizoribine,mizoribine,6,0.5312,0.115,2,805,0.8409595817601125,PARTIAL,0.0,0.3403,7,0,0.699,0.2906,1099,False,False,canonical
+672,(±)-Octopamine hydrochloride,octopamine,3,0.3636,0.0985,10,2661,0.6528691049472584,CORPUS-MISSED,0.2891,0.3402,5,1,0.7406,0.3709,378,False,False,canonical
+673,Tetraisopropyl pyrophosphoramide,tetraisopropyl pyrophosphoramide,4,0.1111,0.1134,2,34,0.8409595817601125,PARTIAL,0.0,0.3397,2,0,0.841,0.3397,578,False,False,canonical
+674,Naphazoline hydrochloride,naphazoline,2,0.3604,0.0852,9,585,0.6666666666666667,PARTIAL,0.2891,0.3397,3,1,0.7993,0.3861,292,False,False,canonical
+675,BTCP hydrochloride,btcp,2,0.0371,0.1124,2,312,0.8409595817601125,PARTIAL,0.0,0.3393,5,0,0.7406,0.3042,904,False,False,canonical
+676,Vinpocetine,vinpocetine,4,-0.0554,0.104,26,904,0.5228787452803376,PARTIAL,0.4582,0.3392,12,2,0.6287,0.3762,342,False,False,canonical
+677,Benoxathian hydrochloride,benoxathian,7,-0.6047,0.1113,2,93,0.8409595817601125,PARTIAL,0.0,0.3389,1,0,0.8997,0.3594,436,False,False,canonical
+678,ATPA,atpa,6,0.5027,0.11,2,851,0.8409595817601125,PARTIAL,0.0,0.3383,7,0,0.699,0.2886,1115,False,False,canonical
+679,Quazinone,quazinone,2,-0.1661,0.1096,2,28,0.8409595817601125,PARTIAL,0.0,0.3382,2,0,0.841,0.3382,585,False,False,canonical
+680,Fexofenadine hydrochloride,fexofenadine,3,0.5033,0.1038,11,1212,0.6402729179841251,CORPUS-MISSED,0.2891,0.3379,5,1,0.7406,0.373,362,False,False,canonical
+681,Memantine hydrochloride,memantine,5,0.3702,0.1128,53,5137,0.4225354133923438,PARTIAL,0.5781,0.3375,6,3,0.7183,0.4411,153,False,False,canonical
+682,SMER28,smer28,2,0.0404,0.1077,2,23,0.8409595817601125,PARTIAL,0.0,0.3374,2,0,0.841,0.3374,595,False,False,canonical
+683,Edrophonium chloride,edrophonium,7,-0.1569,0.1073,2,1415,0.8409595817601125,PARTIAL,0.0,0.3373,5,0,0.7406,0.3021,930,False,False,canonical
+684,L-N6-(1-Iminoethyl)lysine hydrochloride,n6-(1-iminoethyl)lysine,4,0.6274,0.1072,2,10,0.8409595817601125,PARTIAL,0.0,0.3372,5,0,0.7406,0.3021,931,False,False,canonical
+685,Ara-G hydrate,ara-g,2,0.2042,0.1066,2,210,0.8409595817601125,PARTIAL,0.0,0.337,5,0,0.7406,0.3019,938,False,False,canonical
+686,SB 222200,sb 222200,4,0.4028,0.1423,3,46,0.7993133362240126,PARTIAL,0.0,0.3367,3,0,0.7993,0.3367,600,False,False,canonical
+687,Mexiletene hydrochloride,mexiletene,7,-0.228,0.1057,2,95,0.8409595817601125,PARTIAL,0.0,0.3366,7,0,0.699,0.2869,1124,False,False,raw_after_retry
+688,"5,5-Diphenylhydantoin","5,5-diphenylhydantoin",6,0.1408,0.1056,2,218,0.8409595817601125,PARTIAL,0.0,0.3366,6,0,0.7183,0.2937,1065,False,False,canonical
+689,Histamine dihydrochloride,histamine,2,0.172,0.1282,3077,95650,0.1,well-studied,1.0,0.3363,8,20,0.6819,0.5399,31,False,False,canonical
+690,"Urapidil, 5-Methyl-","urapidil, 5-methyl",2,-0.0675,0.1401,3,131,0.7993133362240126,PARTIAL,0.0,0.3358,1,0,0.8997,0.3709,376,False,False,canonical
+691,Telenzepine dihydrochloride,telenzepine,3,0.3196,0.1035,2,184,0.8409595817601125,PARTIAL,0.0,0.3357,5,0,0.7406,0.3006,969,False,False,canonical
+692,PRE-084,pre-084,4,0.1539,0.0981,11,177,0.6402729179841251,PARTIAL,0.2891,0.3356,9,1,0.6667,0.3449,539,False,False,canonical
+693,Thioridazine hydrochloride,thioridazine,7,-1.7968,0.2777,11,3351,0.6402729179841251,CORPUS-MISSED,0.0,0.3352,4,0,0.767,0.3795,326,False,False,canonical
+694,Oxolinic acid,oxolinic acid,4,0.2253,0.1012,2,819,0.8409595817601125,PARTIAL,0.0,0.3348,6,0,0.7183,0.2919,1085,False,False,canonical
+695,Adenosine,adenosine,7,-0.3211,0.1242,10216,301323,0.1,well-studied,1.0,0.3347,12,59,0.6287,0.5197,45,False,False,canonical
+696,THIP hydrochloride,thip,2,0.287,0.0985,2,617,0.8409595817601125,PARTIAL,0.0,0.3337,5,0,0.7406,0.2986,1002,False,False,canonical
+697,SB 206553 hydrochloride,sb 206553,2,0.322,0.0978,2,115,0.8409595817601125,PARTIAL,0.0,0.3335,5,0,0.7406,0.2983,1008,False,False,canonical
+698,Nimesulide,nimesulide,5,0.2579,0.0894,76,1901,0.3711697582758394,PARTIAL,0.6712,0.3335,15,4,0.5986,0.4131,207,False,False,canonical
+699,(±)-CGP-12177A hydrochloride,cgp-12177a,4,0.4877,0.161,4,47,0.7670099985546603,PARTIAL,0.0,0.3329,2,0,0.841,0.3587,440,False,False,canonical
+700,"SDZ-205,557 hydrochloride","sdz-205,557",2,-0.0124,0.0958,2,72,0.8409595817601125,PARTIAL,0.0,0.3327,5,0,0.7406,0.2975,1020,False,False,canonical
+701,Hydralazine hydrochloride,hydralazine,3,0.4913,0.0858,316,6546,0.1663135792607494,well-studied,0.9603,0.3326,10,9,0.6529,0.5029,64,False,False,canonical
+702,Caroverine hydrochloride,caroverine,2,-0.0692,0.0954,2,53,0.8409595817601125,TRUE-DARK,0.0,0.3325,0,0,1.0,0.3882,282,False,False,canonical
+703,ATPO,atpo,1,-0.1469,0.0952,2,261,0.8409595817601125,PARTIAL,0.0,0.3324,11,0,0.6403,0.2622,1223,False,False,canonical
+704,IRAK-1/4 Inhibitor I,irak-1/4 inhibitor i,2,-0.161,0.095,2,17,0.8409595817601125,PARTIAL,0.0,0.3323,2,0,0.841,0.3323,628,False,False,canonical
+705,beta-Lapachone,beta-lapachone,7,-1.7005,0.3633,24,671,0.5340199971093207,PARTIAL,0.0,0.3322,12,0,0.6287,0.3653,407,False,False,canonical
+706,WAY-100635 maleate,way-100635,7,-0.2171,0.0947,2,1365,0.8409595817601125,PARTIAL,0.0,0.3322,5,0,0.7406,0.2971,1028,False,False,canonical
+707,Lorglumide sodium,lorglumide,5,0.2835,0.1582,4,277,0.7670099985546603,PARTIAL,0.0,0.3317,5,0,0.7406,0.3225,703,False,False,canonical
+708,(S)-Propranolol hydrochloride,propranolol,4,0.0353,0.1167,1323,47783,0.1,well-studied,1.0,0.3317,2,14,0.841,0.591,12,False,False,canonical
+709,(±)-Propranolol hydrochloride,propranolol,4,0.0353,0.1167,1323,47783,0.1,well-studied,1.0,0.3317,12,14,0.6287,0.5167,51,False,False,canonical
+710,Genipin,genipin,7,-0.6372,0.1243,152,2018,0.2717695230608004,well-studied,0.7472,0.3316,15,5,0.5986,0.446,140,False,False,canonical
+711,Guvacine hydrochloride,guvacine,4,0.2354,0.129,3,121,0.7993133362240126,PARTIAL,0.0,0.3314,3,0,0.7993,0.3313,640,False,False,canonical
+712,CP-93129 dihydrochloride hydrate,cp-93129,1,0.1359,0.0925,2,61,0.8409595817601125,TRUE-DARK,0.0,0.3313,0,0,1.0,0.387,289,False,False,canonical
+713,R(+)-IAA-94,r(+)-iaa-94,2,0.1217,0.0924,2,0,0.8409595817601125,PARTIAL,0.0,0.3313,3,0,0.7993,0.3167,749,False,False,canonical
+714,Phenylephrine hydrochloride,phenylephrine,4,0.3989,0.1155,5077,24415,0.1,well-studied,1.0,0.3312,9,13,0.6667,0.5295,39,False,False,canonical
+715,1-(1-Naphthyl)piperazine hydrochloride,1-(1-naphthyl)piperazine,4,0.217,0.128,3,45,0.7993133362240126,PARTIAL,0.0,0.331,5,0,0.7406,0.3104,820,False,False,canonical
+716,L-Dopa ethyl ester,dopa ethyl ester,6,0.1805,0.0901,2,43,0.8409595817601125,PARTIAL,0.0,0.3304,3,0,0.7993,0.3158,757,False,False,canonical
+717,2-Methyl-5-hydroxytryptamine maleate,2-methyl-5-hydroxytryptamine,1,0.0249,0.0894,2,86,0.8409595817601125,PARTIAL,0.0,0.3301,5,0,0.7406,0.295,1049,False,False,canonical
+718,Nomifensine maleate,nomifensine,6,0.0118,0.089,2,1649,0.8409595817601125,PARTIAL,0.0,0.3299,4,0,0.767,0.304,912,False,False,canonical
+719,RX 821002 hydrochloride,rx 821002,7,-0.1074,0.1247,3,128,0.7993133362240126,PARTIAL,0.0,0.3296,1,0,0.8997,0.3648,412,False,False,canonical
+720,MK-912,mk-912,2,0.278,0.0881,2,41,0.8409595817601125,PARTIAL,0.0,0.3296,5,0,0.7406,0.2945,1057,False,False,canonical
+721,Isoxanthopterin,isoxanthopterin,5,0.8884,0.1523,4,142,0.7670099985546603,PARTIAL,0.0,0.3294,5,0,0.7406,0.3201,715,False,False,canonical
+722,"1,3-Dipropyl-7-methylxanthine","1,3-dipropyl-7-methylxanthine",2,0.6311,0.0873,2,37,0.8409595817601125,PARTIAL,0.0,0.3293,3,0,0.7993,0.3147,764,False,False,canonical
+723,N-Methyldopamine hydrochloride,n-methyldopamine,2,0.0831,0.1235,3,79,0.7993133362240126,PARTIAL,0.0,0.3292,5,0,0.7406,0.3086,845,False,False,canonical
+724,(±)-8-Hydroxy-DPAT hydrobromide,8-hydroxy-dpat,6,0.5189,0.1231,3,26,0.7993133362240126,PARTIAL,0.0,0.329,3,0,0.7993,0.329,656,False,False,canonical
+725,(±)-Vesamicol hydrochloride,vesamicol,4,0.0057,0.0867,2,345,0.8409595817601125,PARTIAL,0.0,0.329,5,0,0.7406,0.2939,1063,False,False,canonical
+726,8-(p-Sulfophenyl)theophylline,8-(p-sulfophenyl)theophylline,7,-0.5775,0.1582,21,249,0.5525257730592645,PARTIAL,0.2891,0.3289,9,1,0.6667,0.3689,387,False,False,canonical
+727,GR 55562 dihydrobromide,gr 55562,6,0.6335,0.1226,3,37,0.7993133362240126,PARTIAL,0.0,0.3288,5,0,0.7406,0.3082,850,False,False,canonical
+728,5'-N-Ethylcarboxamidoadenosine,5-n-ethylcarboxamidoadenosine,7,-0.446,0.1027,136,1580,0.2877598109478644,well-studied,0.7472,0.3286,13,5,0.618,0.4442,146,False,False,canonical
+729,Primidone,primidone,2,0.109,0.0853,2,1985,0.8409595817601125,PARTIAL,0.0,0.3285,6,0,0.7183,0.2855,1133,False,False,canonical
+730,Bromoacetylcholine bromide,bromoacetylcholine,7,-0.7742,0.1494,4,90,0.7670099985546603,PARTIAL,0.0,0.3282,5,0,0.7406,0.319,726,False,False,canonical
+731,TMPH hydrochloride,tmph,1,0.1363,0.0841,2,65,0.8409595817601125,PARTIAL,0.0,0.328,5,0,0.7406,0.2928,1072,False,False,canonical
+732,B-HT 933 dihydrochloride,b-ht 933,6,0.0286,0.1482,4,156,0.7670099985546603,PARTIAL,0.0,0.3277,5,0,0.7406,0.3185,731,False,False,canonical
+733,SB-366791,sb-366791,1,0.0603,0.1185,3,75,0.7993133362240126,PARTIAL,0.0,0.3272,3,0,0.7993,0.3272,669,False,False,canonical
+734,Promazine hydrochloride,promazine,4,0.055,0.1463,4,1374,0.7670099985546603,PARTIAL,0.0,0.327,1,0,0.8997,0.3734,358,False,False,canonical
+735,SB 204741,sb 204741,1,-0.2187,0.1176,3,26,0.7993133362240126,PARTIAL,0.0,0.3268,3,0,0.7993,0.3268,674,False,False,canonical
+736,Lumefantrine,lumefantrine,5,0.5209,0.1456,4,2189,0.7670099985546603,PARTIAL,0.0,0.3267,11,0,0.6403,0.2824,1142,False,False,canonical
+737,Olanzapine,olanzapine,6,-0.0309,0.0819,28,11778,0.512534000700348,PARTIAL,0.4582,0.3267,14,2,0.608,0.3601,432,False,False,canonical
+738,Pinacidil,pinacidil,3,0.2368,0.0921,179,1548,0.248242498298898,well-studied,0.8115,0.3266,19,6,0.5663,0.4379,157,False,False,canonical
+739,Sildenafil citrate salt,sildenafil,6,0.0189,0.1038,835,9373,0.1,well-studied,1.0,0.3265,5,10,0.7406,0.5507,26,False,False,canonical
+740,Methylergonovine maleate,methylergonovine,7,-0.134,0.1165,3,588,0.7993133362240126,PARTIAL,0.0,0.3264,5,0,0.7406,0.3058,882,False,False,canonical
+741,Ranitidine hydrochloride,ranitidine,7,-0.349,0.1801,63,7581,0.3979400086720376,PARTIAL,0.4582,0.3259,7,2,0.699,0.4312,177,False,False,canonical
+742,Pimozide,pimozide,6,0.4442,0.1385,19,2718,0.5663233347786729,PARTIAL,0.2891,0.3259,11,1,0.6403,0.3518,493,False,False,canonical
+743,X80,x80,6,0.2377,0.0778,2,135,0.8409595817601125,PARTIAL,0.0,0.3255,7,0,0.699,0.2758,1171,False,False,canonical
+744,5-(N-Ethyl-N-isopropyl)amiloride,5-(n-ethyl-n-isopropyl)amiloride,7,-0.0809,0.1655,24,418,0.5340199971093207,PARTIAL,0.2891,0.3254,14,1,0.608,0.3513,497,False,False,canonical
+745,Tiapride hydrochloride,tiapride,2,-0.3421,0.0777,2,539,0.8409595817601125,PARTIAL,0.0,0.3254,1,0,0.8997,0.346,534,False,False,canonical
+746,Loratadine,loratadine,6,0.3387,0.159,23,1949,0.5399295860961313,PARTIAL,0.2891,0.3249,13,1,0.618,0.3522,487,False,False,canonical
+747,Trifluoperazine dihydrochloride,trifluoperazine,7,-0.4334,0.2339,99,5313,0.33333333333333337,CORPUS-MISSED,0.4582,0.3248,2,2,0.841,0.5025,65,False,False,canonical
+748,Tamoxifen,tamoxifen,6,0.0012,0.1242,1126,32737,0.1,well-studied,0.9603,0.3248,13,9,0.618,0.506,59,False,False,canonical
+749,Tamoxifen citrate,tamoxifen,6,0.0012,0.1242,1126,32737,0.1,well-studied,0.9603,0.3248,11,9,0.6403,0.5139,54,False,False,canonical
+750,(±)-PPHT hydrochloride,ppht,3,0.1654,0.0762,2,92,0.8409595817601125,PARTIAL,0.0,0.3248,5,0,0.7406,0.2897,1106,False,False,canonical
+751,PHA-543613,pha-543613,6,0.344,0.0762,2,55,0.8409595817601125,PARTIAL,0.0,0.3248,2,0,0.841,0.3248,685,False,False,canonical
+752,Cytidine 5'-diphosphocholine sodium salt hydrate,cytidine 5-diphosphocholine,7,-0.2048,0.1119,3,159,0.7993133362240126,PARTIAL,0.0,0.3245,5,0,0.7406,0.304,909,False,False,canonical
+753,Haloperidol,haloperidol,6,0.3943,0.1293,79,23992,0.3656366710026855,PARTIAL,0.5781,0.3242,13,3,0.618,0.4126,208,False,False,canonical
+754,Chlorpromazine hydrochloride,chlorpromazine,7,-1.5279,0.2498,114,22030,0.3131007198821294,well-studied,0.4582,0.3241,8,2,0.6819,0.4531,132,False,False,canonical
+755,MTEP hydrochloride,mtep,4,0.3531,0.1103,3,314,0.7993133362240126,PARTIAL,0.0,0.3239,4,0,0.767,0.3126,789,False,False,canonical
+756,Melatonin,melatonin,5,0.2248,0.1218,928,37185,0.1,well-studied,0.9603,0.3238,12,9,0.6287,0.5089,57,False,False,canonical
+757,Granisetron hydrochloride,granisetron,4,0.0926,0.1094,3,1906,0.7993133362240126,PARTIAL,0.0,0.3235,2,0,0.841,0.3381,587,False,False,canonical
+758,Resveratrol,resveratrol,2,0.151,0.0962,1654,21224,0.1,well-studied,1.0,0.3235,13,11,0.618,0.5048,61,False,False,canonical
+759,Formoterol,formoterol,6,0.3664,0.0972,34,3374,0.4853106518832414,PARTIAL,0.4582,0.3233,13,2,0.618,0.3697,385,False,False,canonical
+760,8-(4-Chlorophenylthio)-cAMP sodium,8-(4-chlorophenylthio)-camp,6,0.178,0.1361,4,195,0.7670099985546603,PARTIAL,0.0,0.3229,7,0,0.699,0.2991,994,False,False,canonical
+761,SCH 58261,sch 58261,6,0.2438,0.0934,14,263,0.6079695803147729,PARTIAL,0.2891,0.3224,11,1,0.6403,0.3337,623,False,False,canonical
+762,(±)-Thalidomide,thalidomide,2,-0.4178,0.1181,2000,13843,0.1,well-studied,0.9603,0.3223,13,9,0.618,0.5036,62,False,False,canonical
+763,Alfuzosin hydrochloride,alfuzosin,7,-0.2963,0.1051,3,678,0.7993133362240126,PARTIAL,0.0,0.3218,5,0,0.7406,0.3012,954,False,False,canonical
+764,Iodoacetamide,iodoacetamide,6,1.126,0.3994,40,3663,0.46240538109342155,PARTIAL,0.0,0.3216,11,0,0.6403,0.3839,307,False,False,canonical
+765,Pheniramine maleate,pheniramine,2,-0.0247,0.104,3,398,0.7993133362240126,PARTIAL,0.0,0.3214,2,0,0.841,0.3359,609,False,False,canonical
+766,Rolipram,rolipram,3,0.6483,0.0924,145,2485,0.2785490480718543,well-studied,0.7472,0.3213,20,5,0.5593,0.4195,198,False,False,canonical
+767,Tetrahydrozoline hydrochloride,tetrahydrozoline,6,0.0333,0.1035,3,168,0.7993133362240126,PARTIAL,0.0,0.3212,5,0,0.7406,0.3006,970,False,False,canonical
+768,Propofol,propofol,6,0.0595,0.077,297,29528,0.17526124530791487,well-studied,0.9163,0.3212,13,8,0.618,0.4762,96,False,False,canonical
+769,"L-741,626","741,626",6,0.7236,0.1317,4,83,0.7670099985546603,PARTIAL,0.0,0.3211,5,0,0.7406,0.3119,798,False,False,raw_after_retry
+770,MNS,mns,7,-4.1553,0.5664,154,6854,0.26988943394323617,well-studied,0.0,0.321,15,0,0.5986,0.4361,160,False,False,canonical
+771,Cyclosporin A,cyclosporin a,7,-1.3004,0.4279,580,15141,0.1,well-studied,0.4582,0.3207,15,2,0.5986,0.4952,71,False,False,canonical
+772,"L-732,138","732,138",4,0.2882,0.1536,5,44,0.7406162498721187,PARTIAL,0.0,0.3207,5,0,0.7406,0.3207,710,False,False,raw_after_retry
+773,Metoclopramide hydrochloride,metoclopramide,5,0.7022,0.1186,18,7666,0.5737487996823905,CORPUS-MISSED,0.2891,0.3205,5,1,0.7406,0.3789,328,False,False,canonical
+774,Aurintricarboxylic acid,aurintricarboxylic acid,7,-1.0008,0.2058,37,795,0.47340546779439663,PARTIAL,0.2891,0.3203,13,1,0.618,0.3709,375,False,False,canonical
+775,Eletriptan hydrobromide,eletriptan,4,0.4757,0.1296,4,323,0.7670099985546603,PARTIAL,0.0,0.3203,5,0,0.7406,0.311,808,False,False,canonical
+776,6-Aminohexanoic acid,6-aminohexanoic acid,5,0.3246,0.1023,16,359,0.5898503595405753,PARTIAL,0.2891,0.3196,10,1,0.6529,0.3417,567,False,False,canonical
+777,Phenelzine sulfate,phenelzine,6,-0.0854,0.0974,3,1714,0.7993133362240126,PARTIAL,0.0,0.3187,5,0,0.7406,0.2982,1012,False,False,canonical
+778,Mevastatin,mevastatin,6,1.1296,0.2202,43,629,0.4521824411712708,PARTIAL,0.2891,0.3186,18,1,0.5737,0.3612,426,False,False,canonical
+779,(±)-Epinephrine hydrochloride,epinephrine,6,0.8688,0.136,1000,75374,0.1,well-studied,0.9163,0.3185,6,8,0.7183,0.5349,33,False,False,canonical
+780,Palmitoyl-DL-Carnitine chloride,palmitoyl-dl-carnitine,2,0.0176,0.0961,3,28,0.7993133362240126,PARTIAL,0.0,0.3182,3,0,0.7993,0.3182,735,False,False,canonical
+781,1-Aminobenzotriazole,1-aminobenzotriazole,2,0.0891,0.1187,19,493,0.5663233347786729,PARTIAL,0.2891,0.318,12,1,0.6287,0.3398,577,False,False,canonical
+782,Cefaclor,cefaclor,4,-0.0265,0.166,6,1949,0.7183006533285811,PARTIAL,0.0,0.3178,10,0,0.6529,0.2949,1050,False,False,canonical
+783,"3,7-Dimethyl-1-propargylxanthine","3,7-dimethyl-1-propargylxanthine",4,-0.2311,0.1183,19,291,0.5663233347786729,PARTIAL,0.2891,0.3178,11,1,0.6403,0.3437,551,False,False,canonical
+784,MDL 28170,mdl 28170,4,0.9737,0.1826,7,121,0.6989700043360187,PARTIAL,0.0,0.3177,11,0,0.6403,0.2972,1024,False,False,canonical
+785,BMY 7378 dihydrochloride,bmy 7378,7,-0.5119,0.1652,28,378,0.512534000700348,CORPUS-MISSED,0.2891,0.3177,2,1,0.841,0.4327,174,False,False,canonical
+786,DAPH,daph,4,0.525,0.146,5,86,0.7406162498721187,PARTIAL,0.0,0.3176,4,0,0.767,0.3268,673,False,False,canonical
+787,Cinnarizine,cinnarizine,6,0.4887,0.1176,19,1220,0.5663233347786729,PARTIAL,0.2891,0.3175,11,1,0.6403,0.3434,552,False,False,canonical
+788,SC-58125,sc-58125,5,1.0039,0.1454,5,74,0.7406162498721187,PARTIAL,0.0,0.3174,6,0,0.7183,0.3096,830,False,False,canonical
+789,L-Canavanine,canavanine,6,0.4392,0.0984,39,1092,0.4659800028906792,PARTIAL,0.4582,0.317,15,2,0.5986,0.3634,417,False,False,canonical
+790,L-Canavanine sulfate,canavanine,6,0.4392,0.0984,39,1092,0.4659800028906792,CORPUS-MISSED,0.4582,0.317,4,2,0.767,0.4223,189,False,False,canonical
+791,Myricetin,myricetin,5,0.9798,0.1375,98,3633,0.33478826846748333,PARTIAL,0.5781,0.3167,12,3,0.6287,0.4196,196,False,False,canonical
+792,Tocainide hydrochloride,tocainide,3,0.4253,0.0922,3,513,0.7993133362240126,PARTIAL,0.0,0.3166,2,0,0.841,0.3312,643,False,False,canonical
+793,Dicyclomine hydrochloride,dicyclomine,5,0.7768,0.1425,5,559,0.7406162498721187,PARTIAL,0.0,0.3162,2,0,0.841,0.3513,498,False,False,canonical
+794,Agomelatine,agomelatine,3,0.5565,0.0857,15,1155,0.5986266724480251,PARTIAL,0.2891,0.3161,12,1,0.6287,0.3266,679,False,False,canonical
+795,(±)-alpha-Methyl-4-carboxyphenylglycine,alpha-methyl-4-carboxyphenylglycine,6,0.34,0.0906,3,558,0.7993133362240126,PARTIAL,0.0,0.316,8,0,0.6819,0.2749,1174,False,False,canonical
+796,N6-Cyclopentyladenosine,n6-cyclopentyladenosine,6,-0.0203,0.0986,40,631,0.46240538109342155,PARTIAL,0.4582,0.3158,11,2,0.6403,0.3781,333,False,False,canonical
+797,Diazoxide,diazoxide,5,1.173,0.1557,117,4572,0.3093726642312915,well-studied,0.5781,0.3151,20,3,0.5593,0.4025,231,False,False,canonical
+798,Naratriptan hydrochloride,naratriptan,4,0.4747,0.1163,4,364,0.7670099985546603,PARTIAL,0.0,0.315,2,0,0.841,0.3409,570,False,False,canonical
+799,Caffeine,caffeine,6,0.1336,0.0749,627,42095,0.1,well-studied,1.0,0.315,15,12,0.5986,0.4895,80,False,False,canonical
+800,Aminopterin,aminopterin,3,0.3934,0.1386,5,1861,0.7406162498721187,PARTIAL,0.0,0.3147,9,0,0.6667,0.2888,1114,False,False,canonical
+801,Naftopidil dihydrochloride,naftopidil,5,0.8378,0.1327,5,317,0.7406162498721187,PARTIAL,0.0,0.3123,5,0,0.7406,0.3123,793,False,False,canonical
+802,TTNPB,ttnpb,7,-0.6384,0.1322,5,167,0.7406162498721187,PARTIAL,0.0,0.3121,14,0,0.608,0.2657,1206,False,False,canonical
+803,Dequalinium chloride hydrate,dequalinium,6,0.2397,0.1509,6,396,0.7183006533285811,PARTIAL,0.0,0.3118,5,0,0.7406,0.3196,720,False,False,canonical
+804,(+)-Quisqualic acid,quisqualic acid,1,-0.1082,0.1077,4,1554,0.7670099985546603,PARTIAL,0.0,0.3115,9,0,0.6667,0.2764,1168,False,False,canonical
+805,Beclomethasone,beclomethasone,3,0.7445,0.1297,24,4123,0.5340199971093207,PARTIAL,0.2891,0.3111,13,1,0.618,0.3404,573,False,False,canonical
+806,N-Acetyltryptamine,n-acetyltryptamine,2,0.0548,0.0775,3,171,0.7993133362240126,PARTIAL,0.0,0.3108,6,0,0.7183,0.2824,1143,False,False,canonical
+807,L-798106,798106,7,-0.326,0.1268,5,27,0.7406162498721187,PARTIAL,0.0,0.3099,3,0,0.7993,0.3305,646,False,False,canonical
+808,(±)-Vanillylmandelic acid,vanillylmandelic acid,3,0.468,0.0751,3,944,0.7993133362240126,PARTIAL,0.0,0.3098,12,0,0.6287,0.2501,1263,False,False,canonical
+809,"7,7-Dimethyl-(5Z,8Z)-eicosadienoic acid","7,7-dimethyl-(5z,8z)-eicosadienoic acid",1,-0.029,0.0742,3,7,0.7993133362240126,PARTIAL,0.0,0.3094,1,0,0.8997,0.3446,541,False,False,canonical
+810,MRS 1523,mrs 1523,6,0.1236,0.0735,3,34,0.7993133362240126,PARTIAL,0.0,0.3092,3,0,0.7993,0.3092,840,False,False,canonical
+811,SANT-1,sant-1,2,0.1224,0.073,3,39,0.7993133362240126,PARTIAL,0.0,0.309,5,0,0.7406,0.2884,1117,False,False,canonical
+812,Xylometazoline hydrochloride,xylometazoline,1,0.0845,0.1011,4,363,0.7670099985546603,PARTIAL,0.0,0.3089,5,0,0.7406,0.2996,984,False,False,canonical
+813,CNQX disodium,cnqx,5,-0.1844,0.1239,5,2420,0.7406162498721187,PARTIAL,0.0,0.3088,5,0,0.7406,0.3088,844,False,False,canonical
+814,Nialamide,nialamide,4,0.5981,0.1239,5,1644,0.7406162498721187,PARTIAL,0.0,0.3088,6,0,0.7183,0.301,958,False,False,canonical
+815,Ropinirole hydrochloride,ropinirole,5,0.256,0.1007,4,1109,0.7670099985546603,PARTIAL,0.0,0.3087,3,0,0.7993,0.32,719,False,False,canonical
+816,Ammonium pyrrolidinedithiocarbamate,ammonium pyrrolidinedithiocarbamate,7,-0.9721,0.1881,9,150,0.6666666666666667,PARTIAL,0.0,0.3086,8,0,0.6819,0.3139,771,False,False,canonical
+817,Imetit dihydrobromide,imetit,6,0.4962,0.1235,5,131,0.7406162498721187,PARTIAL,0.0,0.3086,5,0,0.7406,0.3086,846,False,False,canonical
+818,Mifamurtide,mifamurtide,7,-0.5696,0.1407,6,222,0.7183006533285811,PARTIAL,0.0,0.3077,9,0,0.6667,0.2896,1107,False,False,canonical
+819,Paromomycin sulfate,paromomycin,7,-0.5233,0.1207,5,2159,0.7406162498721187,PARTIAL,0.0,0.3075,4,0,0.767,0.3167,748,False,False,canonical
+820,AGK2,agk2,7,-0.1419,0.1198,5,116,0.7406162498721187,PARTIAL,0.0,0.3071,8,0,0.6819,0.2866,1125,False,False,canonical
+821,Flunarizine dihydrochloride,flunarizine,6,1.053,0.2083,50,2023,0.43080994130068795,CORPUS-MISSED,0.2891,0.3064,1,1,0.8997,0.4705,106,False,False,canonical
+822,Milrinone,milrinone,5,0.3585,0.1499,73,2655,0.3769227600896746,PARTIAL,0.4582,0.3064,12,2,0.6287,0.3945,261,False,False,canonical
+823,Quinolinic acid,quinolinic acid,4,-0.3269,0.1046,51,3389,0.4279988854550669,PARTIAL,0.4582,0.3062,18,2,0.5737,0.3572,447,False,False,canonical
+824,Propafenone hydrochloride,propafenone,4,0.4359,0.1169,5,2024,0.7406162498721187,PARTIAL,0.0,0.306,2,0,0.841,0.3411,569,False,False,canonical
+825,"2,2'-Bipyridyl","2,2-bipyridyl",6,0.3327,0.092,4,1842,0.7670099985546603,PARTIAL,0.0,0.3053,13,0,0.618,0.2531,1253,False,False,canonical
+826,Felbamate,felbamate,3,0.4997,0.1126,5,799,0.7406162498721187,PARTIAL,0.0,0.3043,9,0,0.6667,0.2784,1153,False,False,canonical
+827,Pindolol,pindolol,3,0.5029,0.0859,46,4758,0.44263404735476086,PARTIAL,0.4582,0.3038,11,2,0.6403,0.373,363,False,False,canonical
+828,Amantadine hydrochloride,amantadine,2,-0.3275,0.0858,46,6028,0.44263404735476086,PARTIAL,0.4582,0.3038,8,2,0.6819,0.3875,287,False,False,canonical
+829,Ellipticine,ellipticine,7,-1.158,0.1984,11,829,0.6402729179841251,PARTIAL,0.0,0.3035,9,0,0.6667,0.3127,784,False,False,canonical
+830,Promethazine hydrochloride,promethazine,6,0.5915,0.1296,28,4275,0.512534000700348,PARTIAL,0.2891,0.3035,6,1,0.7183,0.3755,345,False,False,canonical
+831,Pentamidine isethionate,pentamidine isethionate,6,-0.0009,0.0869,4,299,0.7670099985546603,PARTIAL,0.0,0.3032,6,0,0.7183,0.2862,1130,False,False,canonical
+832,Lamotrigine,lamotrigine,1,0.024,0.1147,25,7279,0.5283422173430607,PARTIAL,0.2891,0.3031,14,1,0.608,0.331,644,False,False,canonical
+833,Leflunomide,leflunomide,5,0.7547,0.1126,58,3223,0.4097159961192852,PARTIAL,0.4582,0.303,14,2,0.608,0.3724,368,False,False,canonical
+834,Fluphenazine dihydrochloride,fluphenazine,7,-0.5184,0.1732,9,3325,0.6666666666666667,PARTIAL,0.0,0.3026,1,0,0.8997,0.3842,306,False,False,canonical
+835,Bumetanide,bumetanide,4,0.3639,0.1234,116,3696,0.31060471275127943,well-studied,0.5781,0.3026,16,3,0.5899,0.4004,238,False,False,canonical
+836,(±)-Taxifolin,taxifolin,2,-0.1987,0.0761,44,1393,0.4489291620748854,PARTIAL,0.4582,0.3021,13,2,0.618,0.3613,425,False,False,canonical
+837,Steviol,steviol,6,-0.0274,0.0834,4,810,0.7670099985546603,PARTIAL,0.0,0.3018,7,0,0.699,0.278,1156,False,False,canonical
+838,1-[2-(Trifluoromethyl)phenyl]imidazole,1-[2-(trifluoromethyl)phenyl]imidazole,2,-0.254,0.1249,6,18,0.7183006533285811,PARTIAL,0.0,0.3014,5,0,0.7406,0.3092,839,False,False,canonical
+839,FPL 64176,fpl 64176,4,0.1818,0.1245,6,120,0.7183006533285811,PARTIAL,0.0,0.3012,7,0,0.699,0.2945,1054,False,False,canonical
+840,Benserazide hydrochloride,benserazide,7,-0.4179,0.1685,9,1641,0.6666666666666667,PARTIAL,0.0,0.3007,4,0,0.767,0.3358,610,False,False,canonical
+841,(±)-p-Chlorophenylalanine,p-chlorophenylalanine,2,0.1767,0.123,6,1790,0.7183006533285811,PARTIAL,0.0,0.3006,10,0,0.6529,0.2777,1158,False,False,canonical
+842,Cephalexin hydrate,cephalexin,2,-0.4147,0.1528,8,4247,0.6819191635202251,PARTIAL,0.0,0.2998,1,0,0.8997,0.376,343,False,False,canonical
+843,Gallamine triethiodide,gallamine triethiodide,2,0.1434,0.0775,4,1551,0.7670099985546603,PARTIAL,0.0,0.2995,8,0,0.6819,0.2697,1187,False,False,canonical
+844,ANA-12,ana-12,4,0.4735,0.1368,7,300,0.6989700043360187,PARTIAL,0.0,0.2994,14,0,0.608,0.2675,1199,False,False,canonical
+845,(+)-Chlorpheniramine maleate,chlorpheniramine,2,-0.0132,0.103,58,3078,0.4097159961192852,PARTIAL,0.4582,0.2992,8,2,0.6819,0.3944,263,False,False,canonical
+846,(±)-Chlorpheniramine maleate,chlorpheniramine,2,-0.0132,0.103,58,3078,0.4097159961192852,PARTIAL,0.4582,0.2992,8,2,0.6819,0.3944,264,False,False,canonical
+847,(±)-alpha-Lipoic Acid,alpha-lipoic acid,1,-0.1187,0.1094,258,3934,0.1955667453062494,well-studied,0.7472,0.299,14,5,0.608,0.4433,149,False,False,canonical
+848,Levetiracetam,levetiracetam,2,0.3443,0.094,23,6657,0.5399295860961313,PARTIAL,0.2891,0.2989,18,1,0.5737,0.3107,816,False,False,canonical
+849,Lidocaine hydrochloride,lidocaine,1,0.2475,0.0867,393,37997,0.13483459272480858,well-studied,0.8672,0.2987,11,7,0.6403,0.4756,98,False,False,canonical
+850,Tyrphostin 23,tyrphostin 23,7,-0.4845,0.1497,8,102,0.6819191635202251,PARTIAL,0.0,0.2986,7,0,0.699,0.3045,897,False,False,canonical
+851,Cisplatin,cisplatin,6,0.9716,0.1504,2474,98568,0.1,well-studied,0.8115,0.298,15,6,0.5986,0.4726,100,False,False,canonical
+852,R(-)-N6-(2-Phenylisopropyl)adenosine,r(-)-n6-(2-phenylisopropyl)adenosine,5,0.3101,0.1152,6,88,0.7183006533285811,PARTIAL,0.0,0.2975,2,0,0.841,0.3404,574,False,False,canonical
+853,(±)-SKF-38393 hydrochloride,skf-38393,6,0.5307,0.1146,6,1655,0.7183006533285811,PARTIAL,0.0,0.2972,5,0,0.7406,0.305,893,False,False,canonical
+854,Acepromazine maleate,acepromazine,2,-0.2456,0.1145,6,1399,0.7183006533285811,PARTIAL,0.0,0.2972,2,0,0.841,0.3402,576,False,False,canonical
+855,Praziquantel,praziquantel,6,0.6238,0.112,28,7462,0.512534000700348,PARTIAL,0.2891,0.2965,17,1,0.5816,0.3206,712,False,False,canonical
+856,(±)-Norepinephrine (+)bitartrate,norepinephrine (+)bitartrate,2,0.5057,0.0929,5,47,0.7406162498721187,PARTIAL,0.0,0.2964,2,0,0.841,0.3315,639,False,False,canonical
+857,Famciclovir,famciclovir,6,0.1928,0.0919,5,949,0.7406162498721187,PARTIAL,0.0,0.296,9,0,0.6667,0.2701,1186,False,False,canonical
+858,Phenylbutazone,phenylbutazone,2,0.2097,0.0754,21,7289,0.5525257730592645,PARTIAL,0.2891,0.2958,16,1,0.5899,0.3089,842,False,False,canonical
+859,Xylazine hydrochloride,xylazine,3,0.1995,0.0994,111,4331,0.3169273257766062,well-studied,0.5781,0.2952,8,3,0.6819,0.4229,185,False,False,canonical
+860,Pargyline hydrochloride,pargyline,7,-0.2196,0.1167,30,3650,0.5028794353885757,CORPUS-MISSED,0.2891,0.295,5,1,0.7406,0.3782,332,False,False,canonical
+861,"3,4-Dichloroisocoumarin","3,4-dichloroisocoumarin",6,0.4383,0.1091,6,195,0.7183006533285811,PARTIAL,0.0,0.295,10,0,0.6529,0.2722,1183,False,False,canonical
+862,NAN-190 hydrobromide,nan-190,6,0.2974,0.1087,6,432,0.7183006533285811,PARTIAL,0.0,0.2949,5,0,0.7406,0.3027,924,False,False,canonical
+863,Pramipexole dihydrochloride,pramipexole,2,-0.0952,0.1079,6,1893,0.7183006533285811,PARTIAL,0.0,0.2946,1,0,0.8997,0.3581,442,False,False,canonical
+864,CyPPA,cyppa,1,0.1803,0.107,6,60,0.7183006533285811,PARTIAL,0.0,0.2942,5,0,0.7406,0.302,933,False,False,canonical
+865,(±)-threo-1-Phenyl-2-decanoylamino-3-morpholino-1-propanol hydrochloride,threo-1-phenyl-2-decanoylamino-3-morpholino-1-propanol,1,0.0881,0.1062,6,147,0.7183006533285811,PARTIAL,0.0,0.2939,5,0,0.7406,0.3017,943,False,False,canonical
+866,3-Nitropropionic acid,3-nitropropionic acid,4,0.5133,0.1326,35,1315,0.48123249974423754,PARTIAL,0.2891,0.2937,14,1,0.608,0.3381,586,False,False,canonical
+867,"5,5-Dimethyl-1-pyrroline-N-oxide","5,5-dimethyl-1-pyrroline-n-oxide",4,0.5661,0.1284,34,1039,0.4853106518832414,PARTIAL,0.2891,0.2935,12,1,0.6287,0.3437,550,False,False,canonical
+868,Phloretin,phloretin,4,0.497,0.1162,73,2408,0.3769227600896746,PARTIAL,0.4582,0.293,12,2,0.6287,0.3811,318,False,False,canonical
+869,(±)-Synephrine,synephrine,2,-0.1578,0.0614,4,686,0.7670099985546603,PARTIAL,0.0,0.293,8,0,0.6819,0.2632,1217,False,False,canonical
+870,Efaroxan hydrochloride,efaroxan,4,-0.0761,0.0836,5,304,0.7406162498721187,PARTIAL,0.0,0.2927,2,0,0.841,0.3278,665,False,False,canonical
+871,Progesterone,progesterone,6,0.4255,0.1015,3168,126538,0.1,well-studied,0.8672,0.2924,12,7,0.6287,0.4774,94,False,False,canonical
+872,S-(4-Nitrobenzyl)-6-thioinosine,s-(4-nitrobenzyl)-6-thioinosine,7,-0.5666,0.1338,8,83,0.6819191635202251,PARTIAL,0.0,0.2922,11,0,0.6403,0.2776,1161,False,False,canonical
+873,Amifostine,amifostine,2,0.3731,0.1198,77,2064,0.3693017991031732,PARTIAL,0.4582,0.2917,14,2,0.608,0.3753,346,False,False,canonical
+874,Apigenin,apigenin,7,-1.365,0.2378,358,8129,0.14830185047389355,well-studied,0.5781,0.2916,11,3,0.6403,0.4638,112,False,False,canonical
+875,Clofibrate,clofibrate,4,0.2233,0.1489,42,4695,0.4555105148068045,PARTIAL,0.2891,0.2913,12,1,0.6287,0.3519,491,False,False,canonical
+876,DPO-1,dpo-1,2,-0.2427,0.0989,6,48,0.7183006533285811,PARTIAL,0.0,0.291,3,0,0.7993,0.3193,723,False,False,canonical
+877,Cystamine dihydrochloride,cystamine,3,0.1468,0.109,72,2186,0.37889237995984804,PARTIAL,0.4582,0.2908,6,2,0.7183,0.4096,218,False,False,canonical
+878,SC-51089 hydrate,sc-51089,4,0.4041,0.0981,6,56,0.7183006533285811,PARTIAL,0.0,0.2906,5,0,0.7406,0.2984,1006,False,False,canonical
+879,Proglumide,proglumide,5,0.8068,0.1295,8,954,0.6819191635202251,PARTIAL,0.0,0.2905,9,0,0.6667,0.2851,1135,False,False,canonical
+880,N-omega-Methyl-5-hydroxytryptamine oxalate salt,n-omega-methyl-5-hydroxytryptamine,2,0.4419,0.0976,6,1301,0.7183006533285811,PARTIAL,0.0,0.2904,8,0,0.6819,0.2777,1160,False,False,raw_after_retry
+881,GR 127935 hydrochloride hydrate,gr 127935,1,0.2485,0.1939,14,291,0.6079695803147729,CORPUS-MISSED,0.0,0.2903,5,0,0.7406,0.3368,597,False,False,canonical
+882,Serotonin hydrochloride,serotonin,6,0.8842,0.131,3412,165454,0.1,well-studied,0.8115,0.2903,1,6,0.8997,0.5702,19,False,False,canonical
+883,(±)-Nipecotic acid,nipecotic acid,6,-0.2827,0.1137,7,764,0.6989700043360187,PARTIAL,0.0,0.2901,10,0,0.6529,0.274,1177,False,False,canonical
+884,U-73343,u-73343,1,-0.0058,0.141,9,156,0.6666666666666667,PARTIAL,0.0,0.2897,13,0,0.618,0.2727,1181,False,False,canonical
+885,Ipratropium bromide,ipratropium,6,0.5391,0.0939,6,2785,0.7183006533285811,PARTIAL,0.0,0.289,7,0,0.699,0.2822,1145,False,False,canonical
+886,Danazol,danazol,5,0.9242,0.1226,36,3323,0.47726609197766834,PARTIAL,0.2891,0.2884,11,1,0.6403,0.3454,535,False,False,canonical
+887,Disopyramide,disopyramide,5,0.506,0.1088,7,2175,0.6989700043360187,PARTIAL,0.0,0.2882,8,0,0.6819,0.2822,1144,False,False,canonical
+888,Disopyramide phosphate,disopyramide,5,0.506,0.1088,7,2175,0.6989700043360187,PARTIAL,0.0,0.2882,3,0,0.7993,0.3233,696,False,False,canonical
+889,"8-Cyclopentyl-1,3-dipropylxanthine","8-cyclopentyl-1,3-dipropylxanthine",2,0.1505,0.0956,29,912,0.5076262484267793,PARTIAL,0.2891,0.2882,13,1,0.618,0.3268,675,False,False,canonical
+890,PNU-282987,pnu-282987,4,0.4162,0.1228,8,253,0.6819191635202251,PARTIAL,0.0,0.2878,11,0,0.6403,0.2732,1179,False,False,canonical
+891,"5-(N,N-hexamethylene)amiloride","5-(n,n-hexamethylene)amiloride",6,-0.0406,0.178,13,209,0.6179573214405873,PARTIAL,0.0,0.2875,10,0,0.6529,0.2997,982,False,False,canonical
+892,Moxisylyte hydrochloride,moxisylyte,2,0.3347,0.0707,5,291,0.7406162498721187,PARTIAL,0.0,0.2875,5,0,0.7406,0.2875,1119,False,False,canonical
+893,Arecaidine propargyl ester hydrobromide,arecaidine propargyl ester,6,-0.0072,0.1062,7,62,0.6989700043360187,PARTIAL,0.0,0.2871,5,0,0.7406,0.3017,944,False,False,canonical
+894,GABA,gaba,4,0.4181,0.1471,442,85638,0.1178654245923102,well-studied,0.7472,0.2869,11,5,0.6403,0.4698,108,False,False,canonical
+895,4-Methylpyrazole hydrochloride,4-methylpyrazole,2,0.383,0.1057,7,733,0.6989700043360187,PARTIAL,0.0,0.2869,4,0,0.767,0.3107,815,False,False,canonical
+896,Nimodipine,nimodipine,3,0.7466,0.1134,147,5036,0.2765794282016808,well-studied,0.5781,0.2867,16,3,0.5899,0.3963,253,False,False,canonical
+897,Nimustine hydrochloride,nimustine,6,0.537,0.1198,8,951,0.6819191635202251,PARTIAL,0.0,0.2866,6,0,0.7183,0.2993,990,False,False,canonical
+898,L-2-aminoadipic acid,2-aminoadipic acid,4,-0.4113,0.1844,14,658,0.6079695803147729,CORPUS-MISSED,0.0,0.2865,2,0,0.841,0.3681,389,False,False,canonical
+899,DL-Homatropine hydrobromide,homatropine,2,0.1626,0.1042,7,321,0.6989700043360187,PARTIAL,0.0,0.2863,5,0,0.7406,0.3009,963,False,False,canonical
+900,"4-Amino-1,8-naphthalimide","4-amino-1,8-naphthalimide",6,0.1279,0.0677,5,127,0.7406162498721187,PARTIAL,0.0,0.2863,8,0,0.6819,0.2657,1208,False,False,canonical
+901,Niflumic acid,niflumic acid,6,-0.1719,0.0866,66,1304,0.3913083990997245,PARTIAL,0.4582,0.2861,13,2,0.618,0.3655,406,False,False,canonical
+902,"5-(N,N-Dimethyl)amiloride hydrochloride","5-(n,n-dimethyl)amiloride",6,-0.3308,0.1299,9,131,0.6666666666666667,PARTIAL,0.0,0.2853,3,0,0.7993,0.3317,634,False,False,canonical
+903,Ritodrine hydrochloride,ritodrine,4,-0.0932,0.1162,8,1272,0.6819191635202251,PARTIAL,0.0,0.2852,6,0,0.7183,0.2979,1015,False,False,canonical
+904,alpha-Methyl-5-hydroxytryptamine maleate,alpha-methyl-5-hydroxytryptamine,5,0.5505,0.1295,9,110,0.6666666666666667,PARTIAL,0.0,0.2851,5,0,0.7406,0.311,809,False,False,canonical
+905,Cyproterone acetate,cyproterone,6,0.0752,0.1027,33,3843,0.4895070276525816,PARTIAL,0.2891,0.2847,12,1,0.6287,0.3334,625,False,False,canonical
+906,Carmofur,carmofur,2,0.1551,0.0826,6,299,0.7183006533285811,PARTIAL,0.0,0.2844,9,0,0.6667,0.2664,1204,False,False,canonical
+907,Clomipramine hydrochloride,clomipramine,1,0.2201,0.1506,11,4256,0.6402729179841251,CORPUS-MISSED,0.0,0.2843,2,0,0.841,0.3546,468,False,False,canonical
+908,Flupirtine maleate,flupirtine,2,0.1145,0.0615,5,409,0.7406162498721187,PARTIAL,0.0,0.2838,3,0,0.7993,0.3044,902,False,False,canonical
+909,Naltrindole hydrochloride,naltrindole,1,0.3354,0.0805,6,1629,0.7183006533285811,PARTIAL,0.0,0.2836,3,0,0.7993,0.312,797,False,False,canonical
+910,Nicardipine hydrochloride,nicardipine,5,1.2787,0.1669,242,4325,0.2047979088005626,well-studied,0.5781,0.283,11,3,0.6403,0.4354,163,False,False,canonical
+911,Ribavirin,ribavirin,1,-0.1907,0.0917,74,18737,0.37497957886943334,PARTIAL,0.4582,0.2825,13,2,0.618,0.3675,397,False,False,canonical
+912,Emodin,emodin,6,-0.205,0.1032,148,3882,0.2756045771959087,well-studied,0.5781,0.2823,12,3,0.6287,0.4058,228,False,False,canonical
+913,Minoxidil,minoxidil,4,0.1096,0.1075,154,3339,0.26988943394323617,well-studied,0.5781,0.282,14,3,0.608,0.4003,239,False,False,canonical
+914,2-Phenylaminoadenosine,2-phenylaminoadenosine,6,0.095,0.0935,7,80,0.6989700043360187,PARTIAL,0.0,0.282,2,0,0.841,0.3317,635,False,False,canonical
+915,Ketoconazole,ketoconazole,4,0.5219,0.1148,90,10367,0.3469862025596354,PARTIAL,0.4582,0.2819,15,2,0.5986,0.37,382,False,False,canonical
+916,Nortriptyline hydrochloride,nortriptyline,1,0.5165,0.1723,14,3437,0.6079695803147729,CORPUS-MISSED,0.0,0.2817,5,0,0.7406,0.3281,661,False,False,canonical
+917,Icilin,icilin,3,0.6931,0.0925,7,213,0.6989700043360187,PARTIAL,0.0,0.2816,8,0,0.6819,0.2757,1172,False,False,canonical
+918,L-Arginine,arginine,2,-0.1463,0.0742,16423,145907,0.1,well-studied,0.8672,0.2815,14,7,0.608,0.4593,118,False,False,canonical
+919,WB-4101 hydrochloride,wb-4101,6,0.7324,0.1319,10,491,0.6528691049472584,CORPUS-MISSED,0.0,0.2813,5,0,0.7406,0.312,795,False,False,canonical
+920,MK-886,mk-886,7,-0.6217,0.1347,46,627,0.44263404735476086,PARTIAL,0.2891,0.2811,13,1,0.618,0.3424,558,False,False,canonical
+921,2-(2-Aminoethyl)isothiourea dihydrobromide,2-(2-aminoethyl)isothiourea,2,0.0117,0.1305,10,0,0.6528691049472584,CORPUS-MISSED,0.0,0.2807,4,0,0.767,0.3207,711,False,False,canonical
+922,Succinylcholine chloride,succinylcholine,2,-0.1171,0.0902,7,8199,0.6989700043360187,PARTIAL,0.0,0.2807,4,0,0.767,0.3045,898,False,False,canonical
+923,Alprenolol hydrochloride,alprenolol,2,-0.4389,0.1179,9,1605,0.6666666666666667,PARTIAL,0.0,0.2805,5,0,0.7406,0.3064,869,False,False,canonical
+924,SR 59230A oxalate,sr 59230a,6,0.7002,0.1841,16,90,0.5898503595405753,PARTIAL,0.0,0.2801,7,0,0.699,0.3183,734,False,False,canonical
+925,Captopril,captopril,6,0.5358,0.1056,780,14180,0.1,well-studied,0.8115,0.2801,14,6,0.608,0.4579,121,False,False,canonical
+926,SB 269970 hydrochloride,sb 269970,7,-0.2062,0.0886,7,275,0.6989700043360187,PARTIAL,0.0,0.2801,5,0,0.7406,0.2946,1053,False,False,canonical
+927,Triprolidine hydrochloride,triprolidine,3,0.4284,0.0879,7,420,0.6989700043360187,PARTIAL,0.0,0.2798,2,0,0.841,0.3295,652,False,False,canonical
+928,3-Isobutyl-1-methylxanthine,3-isobutyl-1-methylxanthine,5,0.6733,0.1189,98,2412,0.33478826846748333,PARTIAL,0.4582,0.2793,13,2,0.618,0.3784,330,False,False,canonical
+929,Cysteamine hydrochloride,cysteamine,2,0.1882,0.0696,66,5247,0.3913083990997245,CORPUS-MISSED,0.4582,0.2793,5,2,0.7406,0.4016,234,False,False,canonical
+930,Trovafloxacin mesylate,trovafloxacin,7,-0.3207,0.1376,11,820,0.6402729179841251,CORPUS-MISSED,0.0,0.2791,1,0,0.8997,0.3699,383,False,False,canonical
+931,BRL 37344 sodium,brl 37344,6,0.0796,0.1061,38,432,0.469645130991167,CORPUS-MISSED,0.2891,0.2791,5,1,0.7406,0.3739,356,False,False,canonical
+932,Mibefradil dihydrochloride,mibefradil,1,0.0801,0.1398,50,935,0.43080994130068795,CORPUS-MISSED,0.2891,0.279,1,1,0.8997,0.4431,150,False,False,canonical
+933,Rizatriptan benzoate salt,rizatriptan,5,0.3783,0.1005,8,574,0.6819191635202251,PARTIAL,0.0,0.2789,5,0,0.7406,0.2994,988,False,False,canonical
+934,"7,8-Dihydroxyflavone hydrate","7,8-dihydroxyflavone",7,-0.1059,0.1128,9,385,0.6666666666666667,PARTIAL,0.0,0.2785,5,0,0.7406,0.3043,903,False,False,canonical
+935,(±)-AMPA hydrobromide,ampa,2,0.1695,0.1014,87,20701,0.3518391092832771,CORPUS-MISSED,0.4582,0.2783,3,2,0.7993,0.4349,164,False,False,canonical
+936,Ethosuximide,ethosuximide,6,0.353,0.0657,6,1778,0.7183006533285811,PARTIAL,0.0,0.2777,14,0,0.608,0.2391,1276,False,False,canonical
+937,Buspirone hydrochloride,buspirone,2,0.2421,0.0822,7,3255,0.6989700043360187,PARTIAL,0.0,0.2775,5,0,0.7406,0.2921,1082,False,False,canonical
+938,Staurosporine aglycone,staurosporine aglycone,4,0.3056,0.1912,18,740,0.5737487996823905,PARTIAL,0.0,0.2773,10,0,0.6529,0.305,892,False,False,canonical
+939,Prazosin hydrochloride,prazosin,1,0.1869,0.0975,591,13267,0.1,well-studied,0.8115,0.2769,5,6,0.7406,0.5011,67,False,False,canonical
+940,PD-156707,pd-156707,6,0.3726,0.12,10,68,0.6528691049472584,PARTIAL,0.0,0.2765,7,0,0.699,0.2927,1073,False,False,canonical
+941,Nalidixic acid sodium,nalidixic acid,3,0.1766,0.0788,7,7893,0.6989700043360187,PARTIAL,0.0,0.2762,5,0,0.7406,0.2907,1097,False,False,canonical
+942,ONO-RS-082,ono-rs-082,5,0.6371,0.1067,9,69,0.6666666666666667,PARTIAL,0.0,0.276,5,0,0.7406,0.3019,937,False,False,canonical
+943,BW 723C86,bw 723c86,1,-0.2148,0.0784,7,54,0.6989700043360187,PARTIAL,0.0,0.276,5,0,0.7406,0.2906,1101,False,False,canonical
+944,SB 202190,sb 202190,6,0.8748,0.206,21,190,0.5525257730592645,PARTIAL,0.0,0.2758,10,0,0.6529,0.3109,813,False,False,canonical
+945,Zoledronic acid monohydrate,zoledronic acid,6,0.1017,0.0897,351,6633,0.15115244550728957,well-studied,0.7472,0.2756,2,5,0.841,0.517,49,False,False,canonical
+946,D-ribofuranosylbenzimidazole,ribofuranosylbenzimidazole,7,-0.414,0.1723,16,423,0.5898503595405753,PARTIAL,0.0,0.2754,16,0,0.5899,0.2754,1173,False,False,canonical
+947,CI-976,ci-976,7,-0.1446,0.0899,8,58,0.6819191635202251,PARTIAL,0.0,0.2746,5,0,0.7406,0.2952,1046,False,False,canonical
+948,(+)-Catechin Hydrate,catechin,6,0.3721,0.1312,929,20262,0.1,well-studied,0.7472,0.2743,9,5,0.6667,0.4726,101,False,False,canonical
+949,Mianserin hydrochloride,mianserin,6,0.3299,0.1353,12,3558,0.6286855492310544,CORPUS-MISSED,0.0,0.2742,5,0,0.7406,0.3133,776,False,False,canonical
+950,Paliperidone,paliperidone,2,0.4031,0.1136,10,2083,0.6528691049472584,PARTIAL,0.0,0.2739,11,0,0.6403,0.2696,1189,False,False,canonical
+951,T0070907,t0070907,1,0.337,0.189,19,276,0.5663233347786729,PARTIAL,0.0,0.2738,18,0,0.5737,0.2764,1166,False,False,canonical
+952,CGS-21680 hydrochloride,cgs-21680,2,0.3719,0.0958,92,952,0.34383901714868836,CORPUS-MISSED,0.4582,0.2732,5,2,0.7406,0.4121,209,False,False,canonical
+953,4-Aminopyridine,4-aminopyridine,2,0.2599,0.0874,549,7400,0.1,well-studied,0.8115,0.2728,13,6,0.618,0.4541,127,False,False,canonical
+954,Flumazenil,flumazenil,4,0.4752,0.1308,12,5183,0.6286855492310544,PARTIAL,0.0,0.2724,11,0,0.6403,0.2764,1167,False,False,canonical
+955,Zonisamide sodium,zonisamide,2,-0.2203,0.069,7,1786,0.6989700043360187,PARTIAL,0.0,0.2722,9,0,0.6667,0.261,1229,False,False,canonical
+956,Valproic acid sodium,valproic acid,4,0.8453,0.1573,280,19630,0.1837645600316401,well-studied,0.5781,0.2718,10,3,0.6529,0.436,161,False,False,canonical
+957,(±)-Methoxyverapamil hydrochloride,methoxyverapamil,1,0.3117,0.0948,9,334,0.6666666666666667,PARTIAL,0.0,0.2713,5,0,0.7406,0.2971,1025,False,False,canonical
+958,Dextromethorphan hydrobromide monohydrate,dextromethorphan,4,-0.1995,0.1277,12,3480,0.6286855492310544,CORPUS-MISSED,0.0,0.2711,5,0,0.7406,0.3103,822,False,False,canonical
+959,Picrotoxin,picrotoxin,2,0.2008,0.0945,9,6321,0.6666666666666667,PARTIAL,0.0,0.2711,9,0,0.6667,0.2711,1185,False,False,canonical
+960,Zaprinast,zaprinast,3,0.167,0.0784,152,939,0.2717695230608004,well-studied,0.5781,0.271,12,3,0.6287,0.3959,256,False,False,canonical
+961,(-)-Isoproterenol hydrochloride,isoproterenol,6,0.5294,0.1226,1300,40210,0.1,well-studied,0.7472,0.2708,7,5,0.699,0.4805,90,False,False,canonical
+962,(±)-Isoproterenol hydrochloride,isoproterenol,6,0.5294,0.1226,1300,40210,0.1,well-studied,0.7472,0.2708,7,5,0.699,0.4805,91,False,False,canonical
+963,3-Bromo-7-nitroindazole,3-bromo-7-nitroindazole,2,0.2842,0.1153,11,60,0.6402729179841251,PARTIAL,0.0,0.2702,7,0,0.699,0.2908,1096,False,False,canonical
+964,Acetazolamide,acetazolamide,3,0.1877,0.0794,247,10742,0.20184943972459457,well-studied,0.6712,0.2702,12,4,0.6287,0.4196,197,False,False,canonical
+965,Amitriptyline hydrochloride,amitriptyline,7,-0.3436,0.1173,50,10491,0.43080994130068795,CORPUS-MISSED,0.2891,0.27,5,1,0.7406,0.3784,331,False,False,canonical
+966,Nifedipine,nifedipine,5,0.8234,0.1187,1149,24612,0.1,well-studied,0.7472,0.2693,15,5,0.5986,0.4438,148,False,False,canonical
+967,Ceftriaxone sodium,ceftriaxone,7,-0.8971,0.1586,71,18434,0.3808891678562438,PARTIAL,0.2891,0.269,11,1,0.6403,0.3598,434,False,False,canonical
+968,Iproniazid phosphate,iproniazid,6,-0.0885,0.1097,11,1832,0.6402729179841251,CORPUS-MISSED,0.0,0.268,5,0,0.7406,0.3031,920,False,False,canonical
+969,Pancuronium bromide,pancuronium,5,0.6939,0.1093,11,3445,0.6402729179841251,PARTIAL,0.0,0.2678,6,0,0.7183,0.2951,1047,False,False,canonical
+970,Trandolapril,trandolapril,4,0.3552,0.0926,43,754,0.4521824411712708,PARTIAL,0.2891,0.2676,13,1,0.618,0.3256,684,False,False,canonical
+971,Metergoline,metergoline,6,0.6287,0.1593,17,1099,0.5815758316322313,PARTIAL,0.0,0.2673,10,0,0.6529,0.2923,1076,False,False,canonical
+972,Azelaic acid,azelaic acid,6,0.2895,0.0963,10,1119,0.6528691049472584,PARTIAL,0.0,0.267,16,0,0.5899,0.245,1269,False,False,canonical
+973,(-)-Tetramisole hydrochloride,tetramisole,1,-0.4683,0.0962,10,480,0.6528691049472584,CORPUS-MISSED,0.0,0.267,1,0,0.8997,0.3534,478,False,False,canonical
+974,Tetramisole hydrochloride,tetramisole,1,-0.4683,0.0962,10,480,0.6528691049472584,CORPUS-MISSED,0.0,0.267,1,0,0.8997,0.3534,479,False,False,canonical
+975,Tolbutamide,tolbutamide,6,-0.0022,0.0844,41,6862,0.4589169032006998,PARTIAL,0.2891,0.2667,12,1,0.6287,0.3261,681,False,False,canonical
+976,(±)-Sotalol hydrochloride,sotalol,2,-0.1605,0.1061,11,3568,0.6402729179841251,CORPUS-MISSED,0.0,0.2665,2,0,0.841,0.3368,599,False,False,canonical
+977,Carbachol,carbachol,7,-0.9366,0.1591,659,19551,0.1,well-studied,0.6712,0.2664,14,4,0.608,0.4442,145,False,False,canonical
+978,SU 6656,su 6656,1,-0.3762,0.1152,12,136,0.6286855492310544,PARTIAL,0.0,0.2661,13,0,0.618,0.2624,1220,False,False,canonical
+979,Estrone,estrone,3,0.4812,0.1171,126,15811,0.29873209301468107,well-studied,0.4582,0.2659,14,2,0.608,0.3742,353,False,False,canonical
+980,SP600125,sp600125,7,-1.0894,0.1809,388,4300,0.13668346622476413,well-studied,0.5781,0.2647,12,3,0.6287,0.4369,159,False,False,canonical
+981,4-(2-Aminoethyl)benzenesulfonyl fluoride hydrochloride,4-(2-aminoethyl)benzenesulfonyl fluoride,2,-0.187,0.1117,12,179,0.6286855492310544,PARTIAL,0.0,0.2647,8,0,0.6819,0.2833,1138,False,False,canonical
+982,Hydrochlorothiazide,hydrochlorothiazide,7,-0.1591,0.1285,144,9682,0.2795439992550084,well-studied,0.4582,0.2638,12,2,0.6287,0.386,293,False,False,canonical
+983,Dilazep hydrochloride,dilazep,1,-0.0623,0.1259,14,429,0.6079695803147729,CORPUS-MISSED,0.0,0.2631,4,0,0.767,0.3188,729,False,False,canonical
+984,Quercetin dihydrate,quercetin,6,0.2898,0.1028,1461,34503,0.1,well-studied,0.7472,0.2629,5,5,0.7406,0.4871,82,False,False,canonical
+985,Azathioprine,azathioprine,6,-0.1154,0.115,239,26294,0.20659625276279803,well-studied,0.5781,0.2628,12,3,0.6287,0.4106,213,False,False,canonical
+986,Benzamidine hydrochloride,benzamidine,4,0.1639,0.1476,17,1288,0.5815758316322313,CORPUS-MISSED,0.0,0.2626,4,0,0.767,0.3275,667,False,False,canonical
+987,Procainamide hydrochloride,procainamide,7,-0.3815,0.0954,11,4566,0.6402729179841251,CORPUS-MISSED,0.0,0.2623,3,0,0.7993,0.3179,739,False,False,canonical
+988,Gemcitabine hydrochloride,gemcitabine,7,-0.7502,0.1483,1078,24732,0.1,well-studied,0.6712,0.2621,9,4,0.6667,0.4605,116,False,False,canonical
+989,SC 19220,sc 19220,3,0.7802,0.1033,12,145,0.6286855492310544,PARTIAL,0.0,0.2614,9,0,0.6667,0.2747,1175,False,False,canonical
+990,Droperidol,droperidol,6,0.02,0.1126,13,2938,0.6179573214405873,PARTIAL,0.0,0.2613,9,0,0.6667,0.2784,1154,False,False,canonical
+991,Temsirolimus,temsirolimus,2,0.1357,0.0865,459,1776,0.11241405610614186,well-studied,0.7472,0.2607,10,5,0.6529,0.4499,134,False,False,canonical
+992,Guanabenz acetate,guanabenz,6,0.8705,0.1352,16,686,0.5898503595405753,CORPUS-MISSED,0.0,0.2605,1,0,0.8997,0.369,386,False,False,canonical
+993,Calmidazolium chloride,calmidazolium,7,-1.5473,0.3219,75,984,0.3730621359064029,CORPUS-MISSED,0.0,0.2593,3,0,0.7993,0.4085,224,False,False,canonical
+994,N-Acetyl-L-Cysteine,n-acetyl-l-cysteine,6,-0.081,0.1568,364,5587,0.1459023785145085,well-studied,0.5781,0.2583,11,3,0.6403,0.4314,176,False,False,canonical
+995,Domperidone,domperidone,5,0.871,0.122,15,3038,0.5986266724480251,PARTIAL,0.0,0.2583,10,0,0.6529,0.2773,1163,False,False,canonical
+996,L-DOPS,dops,6,0.111,0.0939,12,886,0.6286855492310544,PARTIAL,0.0,0.2576,6,0,0.7183,0.2889,1112,False,False,canonical
+997,Clonidine hydrochloride,clonidine,5,0.3203,0.1241,292,19420,0.17771079321529681,well-studied,0.5781,0.2564,8,3,0.6819,0.4328,172,False,False,canonical
+998,5-Fluorouracil,5-fluorouracil,5,1.0172,0.1338,1399,38973,0.1,well-studied,0.6712,0.2563,12,4,0.6287,0.4414,152,False,False,canonical
+999,Prilocaine hydrochloride,prilocaine,6,0.3949,0.1246,16,2916,0.5898503595405753,CORPUS-MISSED,0.0,0.2563,3,0,0.7993,0.3296,650,False,False,canonical
+1000,Capsazepine,capsazepine,7,-1.0389,0.1659,98,1588,0.33478826846748333,PARTIAL,0.2891,0.2558,13,1,0.618,0.3549,466,False,False,canonical
+1001,2-Chloroadenosine,2-chloroadenosine,3,0.3653,0.1105,63,1368,0.3979400086720376,PARTIAL,0.2891,0.2558,17,1,0.5816,0.32,718,False,False,canonical
+1002,Sepiapterin,sepiapterin,4,0.2194,0.1223,161,730,0.26349499515245645,well-studied,0.4582,0.2557,12,2,0.6287,0.3835,309,False,False,canonical
+1003,Cephalothin sodium,cephalothin,6,0.0436,0.1073,14,4740,0.6079695803147729,CORPUS-MISSED,0.0,0.2557,3,0,0.7993,0.3227,702,False,False,canonical
+1004,Fusidic acid sodium,fusidic acid,2,-0.0406,0.1073,14,2972,0.6079695803147729,CORPUS-MISSED,0.0,0.2557,1,0,0.8997,0.3578,446,False,False,canonical
+1005,"2,3-Butanedione","2,3-butanedione",5,0.5334,0.0869,12,1177,0.6286855492310544,PARTIAL,0.0,0.2548,16,0,0.5899,0.2412,1273,False,False,canonical
+1006,N6-Cyclohexyladenosine,n6-cyclohexyladenosine,2,-0.1068,0.1116,15,365,0.5986266724480251,PARTIAL,0.0,0.2542,8,0,0.6819,0.2833,1139,False,False,canonical
+1007,Naltrexone hydrochloride,naltrexone,6,0.4566,0.0884,55,12317,0.4172706576645998,CORPUS-MISSED,0.2891,0.2537,5,1,0.7406,0.3668,401,False,False,canonical
+1008,"N^G,N^G-Dimethylarginine hydrochloride","n^g,n^g-dimethylarginine",2,0.1806,0.0729,11,60,0.6402729179841251,CORPUS-MISSED,0.0,0.2533,4,0,0.767,0.2976,1019,False,False,canonical
+1009,S-Nitroso-N-acetylpenicillamine,s-nitroso-n-acetylpenicillamine,6,0.1187,0.1055,425,2239,0.12353013363242704,well-studied,0.6712,0.2532,14,4,0.608,0.4228,186,False,False,canonical
+1010,Neostigmine bromide,neostigmine,5,0.1547,0.1239,17,6829,0.5815758316322313,CORPUS-MISSED,0.0,0.2531,2,0,0.841,0.3439,547,False,False,canonical
+1011,Bendamustine hydrochloride,bendamustine,6,0.3885,0.1282,18,2288,0.5737487996823905,PARTIAL,0.0,0.2521,13,0,0.618,0.2676,1197,False,False,canonical
+1012,Bestatin hydrochloride,bestatin,7,-0.4028,0.1244,76,1429,0.3711697582758394,CORPUS-MISSED,0.2891,0.2519,4,1,0.767,0.3905,275,False,False,canonical
+1013,Amiloride hydrochloride,amiloride,7,-0.594,0.1356,357,12573,0.14870565778537514,well-studied,0.5781,0.2508,8,3,0.6819,0.4374,158,False,False,canonical
+1014,CIQ,ciq,1,0.4081,0.111,16,856,0.5898503595405753,PARTIAL,0.0,0.2508,9,0,0.6667,0.2777,1159,False,False,canonical
+1015,(S)-MAP4 hydrochloride,map4,6,0.067,0.0852,13,455,0.6179573214405873,PARTIAL,0.0,0.2504,9,0,0.6667,0.2674,1201,False,False,canonical
+1016,U-74389G maleate,u-74389g,6,0.3188,0.0986,15,125,0.5986266724480251,CORPUS-MISSED,0.0,0.249,5,0,0.7406,0.2986,1001,False,False,canonical
+1017,Rottlerin,rottlerin,7,-0.4083,0.3266,96,1204,0.3377427552445851,PARTIAL,0.0,0.2488,15,0,0.5986,0.3402,575,False,False,canonical
+1018,Ibudilast,ibudilast,2,0.4531,0.0888,14,304,0.6079695803147729,PARTIAL,0.0,0.2483,11,0,0.6403,0.2596,1233,False,False,canonical
+1019,Cefotaxime sodium,cefotaxime,2,0.0926,0.1481,23,13170,0.5399295860961313,PARTIAL,0.0,0.2482,6,0,0.7183,0.3106,818,False,False,canonical
+1020,Sulindac sulfone,sulindac sulfone,7,-0.3513,0.1113,17,201,0.5815758316322313,PARTIAL,0.0,0.2481,13,0,0.618,0.2608,1230,False,False,canonical
+1021,1-(5-Isoquinolinylsulfonyl)-2-methylpiperazine dihydrochloride,1-(5-isoquinolinylsulfonyl)-2-methylpiperazine,6,0.6298,0.1177,18,244,0.5737487996823905,PARTIAL,0.0,0.2479,9,0,0.6667,0.2804,1149,False,False,canonical
+1022,AIDA,aida,4,-0.3378,0.1199,80,4864,0.36383832704045005,PARTIAL,0.2891,0.2476,13,1,0.618,0.3365,603,False,False,canonical
+1023,Piroxicam,piroxicam,2,-0.0001,0.0939,65,4366,0.3934853548193771,PARTIAL,0.2891,0.2476,13,1,0.618,0.3261,680,False,False,canonical
+1024,(±)-AMT hydrochloride,amt,4,0.5641,0.1449,98,5054,0.33478826846748333,CORPUS-MISSED,0.2891,0.2474,3,1,0.7993,0.41,215,False,False,canonical
+1025,PK 11195,pk 11195,7,-0.4227,0.1286,20,1190,0.5592602350886935,PARTIAL,0.0,0.2472,12,0,0.6287,0.2715,1184,False,False,canonical
+1026,"2,3-Dimethoxy-1,4-naphthoquinone","2,3-dimethoxy-1,4-naphthoquinone",7,-0.3894,0.0937,15,140,0.5986266724480251,PARTIAL,0.0,0.247,8,0,0.6819,0.2762,1169,False,False,canonical
+1027,Candesartan cilexetil,candesartan cilexetil,7,-0.234,0.0883,64,894,0.3956955477857148,PARTIAL,0.2891,0.2461,13,1,0.618,0.3239,688,False,False,canonical
+1028,Bethanechol chloride,bethanechol,1,-0.1371,0.0988,16,2427,0.5898503595405753,PARTIAL,0.0,0.246,6,0,0.7183,0.2909,1095,False,False,canonical
+1029,Fenoterol hydrobromide,fenoterol,3,0.4725,0.0822,14,2202,0.6079695803147729,CORPUS-MISSED,0.0,0.2457,1,0,0.8997,0.3478,523,False,False,canonical
+1030,S-Ethylisothiourea hydrobromide,s-ethylisothiourea,2,0.086,0.0732,13,42,0.6179573214405873,CORPUS-MISSED,0.0,0.2456,1,0,0.8997,0.3442,545,False,False,canonical
+1031,4-DAMP,4-damp,6,0.345,0.0782,61,859,0.402536103500582,PARTIAL,0.2891,0.2444,12,1,0.6287,0.3236,693,False,False,canonical
+1032,Daidzein,daidzein,2,0.0947,0.1073,180,4744,0.2474404750436051,well-studied,0.4582,0.2441,12,2,0.6287,0.3775,336,False,False,canonical
+1033,Bepridil hydrochloride,bepridil,2,0.0246,0.1139,19,1056,0.5663233347786729,CORPUS-MISSED,0.0,0.2438,5,0,0.7406,0.3048,894,False,False,canonical
+1034,DFB,dfb,2,0.568,0.0999,17,1558,0.5815758316322313,PARTIAL,0.0,0.2435,13,0,0.618,0.2563,1245,False,False,canonical
+1035,Ro 20-1724,ro 20-1724,2,0.2214,0.0998,17,491,0.5815758316322313,PARTIAL,0.0,0.2435,9,0,0.6667,0.2732,1180,False,False,canonical
+1036,Spiperone hydrochloride,spiperone,7,-1.1151,0.1939,37,4148,0.47340546779439663,CORPUS-MISSED,0.0,0.2433,5,0,0.7406,0.3368,598,False,False,canonical
+1037,Eprosartan mesylate,eprosartan,2,-0.3737,0.1178,20,439,0.5592602350886935,CORPUS-MISSED,0.0,0.2429,3,0,0.7993,0.3269,671,False,False,canonical
+1038,Linopirdine,linopirdine,6,-0.249,0.0823,15,254,0.5986266724480251,PARTIAL,0.0,0.2424,6,0,0.7183,0.2843,1137,False,False,canonical
+1039,Tryptamine hydrochloride,tryptamine,5,0.126,0.0801,65,6507,0.3934853548193771,CORPUS-MISSED,0.2891,0.242,5,1,0.7406,0.3635,416,False,False,canonical
+1040,S-Nitrosoglutathione,s-nitrosoglutathione,6,0.5151,0.1324,230,2286,0.21212934003595185,well-studied,0.4582,0.2418,19,2,0.5663,0.3657,405,False,False,canonical
+1041,Benzamil hydrochloride,benzamil,7,-0.6884,0.1495,27,601,0.5176139895525935,CORPUS-MISSED,0.0,0.241,0,0,1.0,0.4098,216,True,False,canonical
+1042,Fulvestrant,fulvestrant,6,-0.1122,0.1302,238,4383,0.20720069968395416,well-studied,0.4582,0.2392,12,2,0.6287,0.3867,291,False,False,canonical
+1043,Celecoxib,celecoxib,4,0.4803,0.1481,720,9051,0.1,well-studied,0.5781,0.2388,13,3,0.618,0.4201,193,False,False,canonical
+1044,Pirenzepine dihydrochloride,pirenzepine,6,0.5185,0.1432,115,5216,0.3118473369243605,well-studied,0.2891,0.2387,5,1,0.7406,0.3888,279,False,False,canonical
+1045,Quinidine sulfate,quinidine,1,-0.0953,0.1043,86,9489,0.3534935824604605,CORPUS-MISSED,0.2891,0.2377,5,1,0.7406,0.3732,359,False,False,canonical
+1046,NS 2028,ns 2028,6,0.2669,0.0704,15,55,0.5986266724480251,PARTIAL,0.0,0.2377,8,0,0.6819,0.2668,1203,False,False,canonical
+1047,Dobutamine hydrochloride,dobutamine,6,0.1391,0.0931,184,10827,0.2442760905323288,well-studied,0.4582,0.2373,3,2,0.7993,0.4315,175,False,False,canonical
+1048,"(±)-3-(3,4-dihydroxyphenyl)-2-methyl-DL-alanine","3-(3,4-dihydroxyphenyl)-2-methyl-dl-alanine",5,-0.0512,0.0913,18,0,0.5737487996823905,CORPUS-MISSED,0.0,0.2373,5,0,0.7406,0.2957,1038,False,False,canonical
+1049,Sulindac,sulindac,2,0.0066,0.1,84,2222,0.35686035809523575,PARTIAL,0.2891,0.2372,13,1,0.618,0.3286,660,False,False,canonical
+1050,Iofetamine hydrochloride,iofetamine,1,0.0489,0.0686,15,917,0.5986266724480251,CORPUS-MISSED,0.0,0.237,5,0,0.7406,0.2866,1127,False,False,canonical
+1051,Hypotaurine,hypotaurine,6,0.4234,0.0959,19,1248,0.5663233347786729,PARTIAL,0.0,0.2366,12,0,0.6287,0.2584,1237,False,False,canonical
+1052,Reactive Blue 2,reactive blue 2,7,-0.9402,0.2358,60,472,0.40489005499641095,PARTIAL,0.0,0.236,9,0,0.6667,0.3277,666,False,False,canonical
+1053,Oxymetazoline hydrochloride,oxymetazoline,4,0.2779,0.1059,21,1241,0.5525257730592645,CORPUS-MISSED,0.0,0.2357,5,0,0.7406,0.3016,948,False,False,canonical
+1054,Fluvoxamine maleate,fluvoxamine,3,0.3506,0.0868,18,3570,0.5737487996823905,CORPUS-MISSED,0.0,0.2355,4,0,0.767,0.3032,919,False,False,canonical
+1055,"(6R)-5,6,7,8-Tetrahydro-L-biopterin hydrochloride","(6r)-5,6,7,8-tetrahydro-l-biopterin",3,0.3603,0.0991,20,0,0.5592602350886935,CORPUS-MISSED,0.0,0.2354,1,0,0.8997,0.3546,469,False,False,canonical
+1056,Hemicholinium-3,hemicholinium-3,2,0.0742,0.0644,15,1346,0.5986266724480251,PARTIAL,0.0,0.2353,15,0,0.5986,0.2353,1278,False,False,canonical
+1057,Phentolamine mesylate,phentolamine,4,-0.3508,0.118,424,13858,0.1238703566498961,well-studied,0.5781,0.2351,8,3,0.6819,0.4304,178,False,False,canonical
+1058,SU 5416,su 5416,7,-1.1335,0.1773,39,47,0.4659800028906792,PARTIAL,0.0,0.234,8,0,0.6819,0.3096,829,False,False,canonical
+1059,IB-MECA,ib-meca,6,0.3109,0.1097,23,414,0.5399295860961313,PARTIAL,0.0,0.2329,10,0,0.6529,0.2724,1182,False,False,canonical
+1060,Tyrphostin 47,tyrphostin 47,2,0.2117,0.0789,18,245,0.5737487996823905,PARTIAL,0.0,0.2324,12,0,0.6287,0.2516,1258,False,False,canonical
+1061,Dantrolene sodium,dantrolene,7,-0.0329,0.1267,27,3344,0.5176139895525935,PARTIAL,0.0,0.2318,7,0,0.699,0.2953,1041,False,False,canonical
+1062,Morin,morin,5,0.4736,0.0996,217,13155,0.22051450213179846,well-studied,0.4582,0.2316,18,2,0.5737,0.3552,464,False,False,canonical
+1063,Reserpine,reserpine,2,0.2704,0.1004,95,18804,0.33924292232014386,PARTIAL,0.2891,0.2312,16,1,0.5899,0.3189,728,False,False,canonical
+1064,Meclofenamic acid sodium,meclofenamic acid,5,0.3119,0.0916,90,1212,0.3469862025596354,CORPUS-MISSED,0.2891,0.2304,5,1,0.7406,0.3681,390,False,False,canonical
+1065,Pentoxifylline,pentoxifylline,2,0.1341,0.0879,372,6044,0.14276372273043736,well-studied,0.5781,0.2297,13,3,0.618,0.396,255,False,False,canonical
+1066,Minocycline hydrochloride,minocycline,2,0.1091,0.0927,215,11650,0.22184874961635648,well-studied,0.4582,0.2293,12,2,0.6287,0.3717,370,False,False,canonical
+1067,"3,4-Dihydroxyphenylacetic acid","3,4-dihydroxyphenylacetic acid",2,0.2287,0.0893,21,6842,0.5525257730592645,PARTIAL,0.0,0.2291,12,0,0.6287,0.2557,1246,False,False,canonical
+1068,Glybenclamide,glybenclamide,4,-0.1158,0.0882,90,489,0.3469862025596354,PARTIAL,0.2891,0.229,11,1,0.6403,0.3317,636,False,False,canonical
+1069,Fluoxetine hydrochloride,fluoxetine,5,1.0922,0.1492,148,17066,0.2756045771959087,well-studied,0.2891,0.2284,5,1,0.7406,0.3911,272,False,False,canonical
+1070,"ICI 204,448 hydrochloride","ici 204,448",5,0.6625,0.1034,24,223,0.5340199971093207,PARTIAL,0.0,0.2283,11,0,0.6403,0.2655,1210,False,False,raw_after_retry
+1071,Ouabain,ouabain,7,-1.7995,0.3023,773,22676,0.1,well-studied,0.2891,0.2282,13,1,0.618,0.4095,220,False,False,canonical
+1072,Urapidil hydrochloride,urapidil,2,0.043,0.0677,18,840,0.5737487996823905,CORPUS-MISSED,0.0,0.2279,5,0,0.7406,0.2863,1129,False,False,canonical
+1073,Moxonidine hydrochloride,moxonidine,6,0.0381,0.086,21,676,0.5525257730592645,CORPUS-MISSED,0.0,0.2278,5,0,0.7406,0.2936,1067,False,False,canonical
+1074,erythro-9-(2-Hydroxy-3-nonyl)adenine hydrochloride,erythro-9-(2-hydroxy-3-nonyl)adenine,2,0.1788,0.0798,20,388,0.5592602350886935,CORPUS-MISSED,0.0,0.2277,4,0,0.767,0.3004,975,False,False,canonical
+1075,8-Bromo-cAMP sodium,8-bromo-camp,6,0.1247,0.0872,93,2129,0.34229071546676715,PARTIAL,0.2891,0.227,11,1,0.6403,0.3313,641,False,False,canonical
+1076,(±)-Muscarine chloride,muscarine,6,0.1421,0.0877,22,1881,0.546090721327469,CORPUS-MISSED,0.0,0.2262,5,0,0.7406,0.2943,1059,False,False,canonical
+1077,Clorgyline hydrochloride,clorgyline,6,0.3711,0.0908,23,1444,0.5399295860961313,CORPUS-MISSED,0.0,0.2253,5,0,0.7406,0.2955,1040,False,False,canonical
+1078,SKF-89145 hydrobromide,skf-89145,1,-0.088,0.1291,32,2336,0.4938286867073708,PARTIAL,0.0,0.2245,13,0,0.618,0.268,1196,False,False,raw_after_retry
+1079,TMB-8 hydrochloride,tmb-8,4,-0.0155,0.1759,47,873,0.4395862542081376,CORPUS-MISSED,0.0,0.2242,5,0,0.7406,0.3296,649,False,False,canonical
+1080,Ritanserin,ritanserin,1,0.11,0.1244,31,1396,0.4982833405600313,PARTIAL,0.0,0.2242,9,0,0.6667,0.2831,1140,False,False,canonical
+1081,Linezolid,linezolid,6,0.2091,0.1197,30,10009,0.5028794353885757,PARTIAL,0.0,0.2239,8,0,0.6819,0.2866,1126,False,False,canonical
+1082,Phenytoin sodium,phenytoin,2,-0.0664,0.1027,112,19724,0.31564051883886,well-studied,0.2891,0.2238,8,1,0.6819,0.352,489,False,False,canonical
+1083,SB 216763,sb 216763,1,0.1858,0.0971,25,366,0.5283422173430607,PARTIAL,0.0,0.2238,15,0,0.5986,0.2484,1264,False,False,canonical
+1084,Aminophylline ethylenediamine,aminophylline ethylenediamine,2,-0.1838,0.1013,26,4326,0.5228787452803376,PARTIAL,0.0,0.2235,10,0,0.6529,0.269,1194,False,False,canonical
+1085,Ibandronate sodium,ibandronate,2,0.1663,0.1132,29,1197,0.5076262484267793,CORPUS-MISSED,0.0,0.2229,1,0,0.8997,0.3602,431,False,False,canonical
+1086,"L-3,4-Dihydroxyphenylalanine","3,4-dihydroxyphenylalanine",2,0.0524,0.1456,38,2868,0.469645130991167,PARTIAL,0.0,0.2226,12,0,0.6287,0.2783,1155,False,False,canonical
+1087,Fenoldopam bromide,fenoldopam,3,0.5731,0.1029,27,893,0.5176139895525935,CORPUS-MISSED,0.0,0.2223,5,0,0.7406,0.3004,973,False,False,canonical
+1088,Betamethasone,betamethasone,2,-0.2442,0.1298,146,9075,0.27756088841727466,well-studied,0.2891,0.2213,13,1,0.618,0.3405,572,False,False,canonical
+1089,DL-alpha-Difluoromethylornithine hydrochloride,alpha-difluoromethylornithine,4,-0.0687,0.104,28,1435,0.512534000700348,CORPUS-MISSED,0.0,0.221,5,0,0.7406,0.3008,965,False,False,canonical
+1090,Clotrimazole,clotrimazole,7,-0.2236,0.121,138,3548,0.285661733248635,well-studied,0.2891,0.2207,13,1,0.618,0.337,596,False,False,canonical
+1091,Methotrexate hydrate,methotrexate,6,0.3549,0.1029,870,66586,0.1,well-studied,0.5781,0.2207,5,3,0.7406,0.4449,143,False,False,canonical
+1092,"UK 14,304","uk 14,304",3,0.1995,0.1109,30,464,0.5028794353885757,PARTIAL,0.0,0.2204,8,0,0.6819,0.283,1141,False,False,canonical
+1093,(-)-Cotinine,cotinine,7,-0.682,0.1337,155,7841,0.26895846721517946,well-studied,0.2891,0.2199,13,1,0.618,0.342,563,False,False,canonical
+1094,Calcimycin,calcimycin,7,-2.4409,0.4597,1195,12056,0.1,well-studied,0.0,0.2189,14,0,0.608,0.3967,252,False,False,canonical
+1095,Cimetidine,cimetidine,6,0.3708,0.1096,302,12893,0.17285245716589837,well-studied,0.4582,0.2189,11,2,0.6403,0.3825,313,False,False,canonical
+1096,S-Methyl-L-thiocitrulline acetate,s-methyl-l-thiocitrulline,2,0.1515,0.1215,34,133,0.4853106518832414,CORPUS-MISSED,0.0,0.2185,2,0,0.841,0.3429,554,False,False,canonical
+1097,Nelfinavir mesylate hydrate,nelfinavir,2,0.1709,0.093,28,2024,0.512534000700348,CORPUS-MISSED,0.0,0.2166,1,0,0.8997,0.3521,488,False,False,canonical
+1098,EGTA,egta,2,0.1132,0.0683,414,11815,0.12731730109596917,well-studied,0.5781,0.2164,14,3,0.608,0.3846,301,False,False,canonical
+1099,13-cis-retinoic acid,13-cis-retinoic acid,5,0.6282,0.1038,31,1640,0.4982833405600313,PARTIAL,0.0,0.2159,11,0,0.6403,0.2656,1209,False,False,canonical
+1100,Ketotifen fumarate,ketotifen,2,0.2161,0.1111,33,1806,0.4895070276525816,PARTIAL,0.0,0.2158,9,0,0.6667,0.2778,1157,False,False,canonical
+1101,Genistein,genistein,6,0.3395,0.0907,997,13904,0.1,well-studied,0.5781,0.2158,13,3,0.618,0.3971,251,False,False,canonical
+1102,Apomorphine hydrochloride hemihydrate,apomorphine hemihydrate,7,-1.0695,0.2263,86,12654,0.3534935824604605,PARTIAL,0.0,0.2142,12,0,0.6287,0.3106,817,False,False,raw_after_retry
+1103,Loperamide hydrochloride,loperamide,2,0.2102,0.102,32,2778,0.4938286867073708,CORPUS-MISSED,0.0,0.2136,5,0,0.7406,0.3,978,False,False,canonical
+1104,Imipenem monohydrate,imipenem,4,0.3929,0.1306,41,15214,0.4589169032006998,CORPUS-MISSED,0.0,0.2129,3,0,0.7993,0.332,629,False,False,canonical
+1105,1-Deoxynojirimycin hydrochloride,1-deoxynojirimycin,2,-0.2486,0.1018,33,1900,0.4895070276525816,CORPUS-MISSED,0.0,0.212,1,0,0.8997,0.3556,460,False,False,canonical
+1106,"DL-Buthionine-[S,R]-sulfoximine","buthionine-[s,r]-sulfoximine",2,0.0713,0.0894,30,812,0.5028794353885757,PARTIAL,0.0,0.2118,6,0,0.7183,0.2872,1123,False,False,canonical
+1107,L-Methionine sulfoximine,methionine sulfoximine,2,0.2323,0.1005,33,1876,0.4895070276525816,PARTIAL,0.0,0.2115,6,0,0.7183,0.2916,1087,False,False,canonical
+1108,Tropicamide,tropicamide,2,0.0868,0.1063,35,1228,0.48123249974423754,PARTIAL,0.0,0.211,12,0,0.6287,0.2625,1219,False,False,canonical
+1109,Dopamine hydrochloride,dopamine,6,0.0587,0.0786,1383,187883,0.1,well-studied,0.5781,0.211,10,3,0.6529,0.4045,229,False,False,canonical
+1110,Lansoprazole,lansoprazole,6,-0.0005,0.0913,31,3445,0.4982833405600313,PARTIAL,0.0,0.2109,13,0,0.618,0.2528,1255,False,False,canonical
+1111,(+/-)-Anisodamine,(+/-)-anisodamine,3,0.2738,0.0742,27,466,0.5176139895525935,PARTIAL,0.0,0.2108,15,0,0.5986,0.2392,1275,False,False,canonical
+1112,Atropine sulfate,atropine,7,-0.3102,0.1524,942,43329,0.1,well-studied,0.4582,0.2105,9,2,0.6667,0.4089,222,False,False,canonical
+1113,Cetirizine dihydrochloride,cetirizine,4,0.4569,0.0998,34,2334,0.4853106518832414,CORPUS-MISSED,0.0,0.2098,2,0,0.841,0.3343,618,False,False,canonical
+1114,Famotidine,famotidine,6,0.0099,0.1063,36,2671,0.47726609197766834,PARTIAL,0.0,0.2096,14,0,0.608,0.2553,1250,False,False,canonical
+1115,N-Methyl-D-aspartic acid,n-methyl-d-aspartic acid,5,0.2568,0.1058,36,2318,0.47726609197766834,PARTIAL,0.0,0.2094,13,0,0.618,0.2586,1235,False,False,canonical
+1116,Thioperamide maleate,thioperamide,3,0.3214,0.0747,28,833,0.512534000700348,CORPUS-MISSED,0.0,0.2093,1,0,0.8997,0.3448,540,False,False,canonical
+1117,NG-Monomethyl-L-arginine acetate,ng-monomethyl-l-arginine,5,0.0652,0.1477,920,2264,0.1,well-studied,0.4582,0.2086,5,2,0.7406,0.4329,171,False,False,canonical
+1118,(±)-Normetanephrine hydrochloride,normetanephrine,6,0.2062,0.0851,31,2245,0.4982833405600313,CORPUS-MISSED,0.0,0.2084,5,0,0.7406,0.2933,1068,False,False,canonical
+1119,Bexarotene,bexarotene,6,0.112,0.096,34,1019,0.4853106518832414,PARTIAL,0.0,0.2083,13,0,0.618,0.2547,1252,False,False,canonical
+1120,Gabapentin,gabapentin,4,0.3034,0.0919,33,9537,0.4895070276525816,PARTIAL,0.0,0.2081,13,0,0.618,0.2531,1254,False,False,canonical
+1121,Cirazoline hydrochloride,cirazoline,2,-0.4051,0.1121,39,420,0.4659800028906792,CORPUS-MISSED,0.0,0.2079,5,0,0.7406,0.3041,907,False,False,canonical
+1122,Methiothepin mesylate,methiothepin,6,0.8188,0.198,78,1003,0.3674576362365195,CORPUS-MISSED,0.0,0.2078,5,0,0.7406,0.3384,584,False,False,canonical
+1123,Naloxone hydrochloride,naloxone,2,0.1693,0.0966,149,31477,0.2746362469814395,well-studied,0.2891,0.207,7,1,0.699,0.3556,461,False,False,canonical
+1124,Hexamethonium bromide,hexamethonium,2,-0.1596,0.0832,134,7440,0.28988874383499796,well-studied,0.2891,0.207,3,1,0.7993,0.3853,297,False,False,canonical
+1125,Methoxamine hydrochloride,methoxamine,2,-0.0567,0.0894,329,3256,0.16049535337403753,well-studied,0.4582,0.2065,5,2,0.7406,0.4095,221,False,False,canonical
+1126,Pyrilamine maleate,pyrilamine,2,-0.1276,0.1152,175,2541,0.2514957773952834,well-studied,0.2891,0.2064,6,1,0.7183,0.3698,384,False,False,canonical
+1127,Brinzolamide,brinzolamide,3,0.4121,0.1005,37,508,0.47340546779439663,PARTIAL,0.0,0.2059,11,0,0.6403,0.2643,1213,False,False,canonical
+1128,E-64,e-64,2,0.1023,0.0685,29,1459,0.5076262484267793,PARTIAL,0.0,0.2051,14,0,0.608,0.2402,1274,False,False,canonical
+1129,Pregnenolone sulfate sodium,pregnenolone,2,0.3479,0.1015,38,7828,0.469645130991167,CORPUS-MISSED,0.0,0.205,1,0,0.8997,0.3555,463,False,False,canonical
+1130,Maraviroc,maraviroc,6,-0.009,0.13,48,1422,0.4366013066571621,PARTIAL,0.0,0.2048,9,0,0.6667,0.2853,1134,False,False,canonical
+1131,Papaverine hydrochloride,papaverine,4,0.6513,0.1377,620,8096,0.1,well-studied,0.4582,0.2046,12,2,0.6287,0.3897,276,False,False,canonical
+1132,G15,g15,7,-0.3318,0.1154,43,1422,0.4521824411712708,PARTIAL,0.0,0.2044,12,0,0.6287,0.2662,1205,False,False,canonical
+1133,Dipyridamole,dipyridamole,5,0.6393,0.1354,546,10906,0.1,well-studied,0.4582,0.2037,11,2,0.6403,0.3928,269,False,False,canonical
+1134,YC-1,yc-1,4,0.2189,0.1004,165,668,0.259963970653315,well-studied,0.2891,0.2034,11,1,0.6403,0.3366,602,False,False,canonical
+1135,Tetracaine hydrochloride,tetracaine,6,0.4249,0.1093,42,3571,0.4555105148068045,CORPUS-MISSED,0.0,0.2031,5,0,0.7406,0.3029,922,False,False,canonical
+1136,Tegafur,tegafur,3,0.1641,0.078,140,7083,0.2835936291148734,well-studied,0.2891,0.2027,15,1,0.5986,0.313,780,False,False,canonical
+1137,Mecamylamine hydrochloride,mecamylamine,2,0.3794,0.1018,40,3488,0.46240538109342155,CORPUS-MISSED,0.0,0.2026,5,0,0.7406,0.2999,980,False,False,canonical
+1138,Indinavir sulfate salt hydrate,indinavir,4,0.2206,0.145,57,2833,0.4121906688123542,CORPUS-MISSED,0.0,0.2023,1,0,0.8997,0.3729,364,False,False,canonical
+1139,5-hydroxydecanoic acid sodium,5-hydroxydecanoic acid,3,0.3777,0.081,34,579,0.4853106518832414,CORPUS-MISSED,0.0,0.2023,5,0,0.7406,0.2916,1089,False,False,canonical
+1140,Allopurinol,allopurinol,6,0.3524,0.1285,704,12166,0.1,well-studied,0.4582,0.201,14,2,0.608,0.3788,329,False,False,canonical
+1141,Carboplatin,carboplatin,7,-0.2628,0.1274,761,23401,0.1,well-studied,0.4582,0.2005,11,2,0.6403,0.3896,277,False,False,canonical
+1142,(-)-Scopolamine hydrobromide,scopolamine,4,-0.0071,0.1314,53,13541,0.4225354133923438,PARTIAL,0.0,0.2004,6,0,0.7183,0.304,908,False,False,canonical
+1143,Pentylenetetrazole,pentylenetetrazole,6,0.1942,0.1069,44,8435,0.4489291620748854,PARTIAL,0.0,0.1999,14,0,0.608,0.2556,1247,False,False,canonical
+1144,TNP,tnp,4,1.2484,0.2149,442,4273,0.1178654245923102,well-studied,0.2891,0.1995,14,1,0.608,0.371,373,False,False,canonical
+1145,Trimethoprim,trimethoprim,3,0.0892,0.0849,38,28715,0.469645130991167,PARTIAL,0.0,0.1983,9,0,0.6667,0.2673,1202,False,False,canonical
+1146,Ofloxacin,ofloxacin,4,0.0117,0.1469,63,11211,0.3979400086720376,PARTIAL,0.0,0.198,10,0,0.6529,0.2873,1121,False,False,canonical
+1147,Ketoprofen,ketoprofen,2,0.3709,0.1006,44,5257,0.4489291620748854,PARTIAL,0.0,0.1974,13,0,0.618,0.2566,1243,False,False,canonical
+1148,Arecoline hydrobromide,arecoline,6,-0.0552,0.0826,38,1737,0.469645130991167,CORPUS-MISSED,0.0,0.1974,5,0,0.7406,0.2923,1078,False,False,canonical
+1149,H-8 dihydrochloride,h-8,6,0.5751,0.1714,79,8395,0.3656366710026855,PARTIAL,0.0,0.1965,6,0,0.7183,0.32,717,False,False,canonical
+1150,L-Glutamine,glutamine,4,0.2899,0.1163,1086,57656,0.1,well-studied,0.4582,0.1961,11,2,0.6403,0.3852,298,False,False,canonical
+1151,U0126,u0126,6,0.0539,0.1155,563,6702,0.1,well-studied,0.4582,0.1957,13,2,0.618,0.3771,337,False,False,canonical
+1152,Labetalol hydrochloride,labetalol,6,0.1887,0.113,51,2892,0.4279988854550669,CORPUS-MISSED,0.0,0.195,5,0,0.7406,0.3044,900,False,False,canonical
+1153,Taurine,taurine,3,0.3348,0.0836,400,19591,0.1322852091266059,well-studied,0.4582,0.1943,14,2,0.608,0.3608,428,False,False,canonical
+1154,Citalopram hydrobromide,citalopram,6,0.2851,0.1004,47,8330,0.4395862542081376,PARTIAL,0.0,0.194,6,0,0.7183,0.2916,1088,False,False,canonical
+1155,Sorbinil,sorbinil,6,-0.0819,0.094,45,613,0.44574738943947534,PARTIAL,0.0,0.1936,12,0,0.6287,0.2577,1241,False,False,canonical
+1156,ML-9,ml-9,6,0.3658,0.1602,77,1208,0.3693017991031732,PARTIAL,0.0,0.1933,13,0,0.618,0.2804,1148,False,False,canonical
+1157,Cyproheptadine hydrochloride,cyproheptadine,7,-0.298,0.11,53,3407,0.4225354133923438,CORPUS-MISSED,0.0,0.1919,4,0,0.767,0.3125,790,False,False,canonical
+1158,DL-Thiorphan,thiorphan,7,-0.4942,0.1353,65,1029,0.3934853548193771,CORPUS-MISSED,0.0,0.1918,5,0,0.7406,0.3133,778,False,False,canonical
+1159,Aminoguanidine hydrochloride,aminoguanidine,1,0.0239,0.1043,500,3825,0.1000540913775847,well-studied,0.4582,0.1913,7,2,0.699,0.4009,236,False,False,canonical
+1160,SKF-525A hydrochloride,skf-525a,5,0.7595,0.1187,59,811,0.40728291653878546,PARTIAL,0.0,0.19,8,0,0.6819,0.2861,1131,False,False,canonical
+1161,Hydrocortisone,hydrocortisone,4,0.2183,0.1006,665,87815,0.1,well-studied,0.4582,0.1898,12,2,0.6287,0.3748,350,False,False,canonical
+1162,(±)-CPP,cpp,5,0.5569,0.131,276,16787,0.18584007697851712,well-studied,0.2891,0.1897,11,1,0.6403,0.3488,515,False,False,canonical
+1163,D-Serine,serine,7,-0.0323,0.0987,11241,255155,0.1,well-studied,0.4582,0.189,12,2,0.6287,0.3741,355,False,False,canonical
+1164,Phorbol 12-myristate 13-acetate,phorbol 12-myristate 13,1,-0.1489,0.0976,926,12481,0.1,well-studied,0.4582,0.1886,11,2,0.6403,0.3777,334,False,False,canonical
+1165,Idazoxan hydrochloride,idazoxan,1,0.0748,0.0783,44,2396,0.4489291620748854,CORPUS-MISSED,0.0,0.1884,5,0,0.7406,0.2905,1102,False,False,canonical
+1166,Tetraethylammonium chloride,tetraethylammonium,7,-0.3115,0.092,978,9808,0.1,well-studied,0.4582,0.1864,10,2,0.6529,0.3798,323,False,False,canonical
+1167,Ketanserin tartrate,ketanserin,6,0.6027,0.1406,327,5281,0.1613753854294403,well-studied,0.2891,0.185,5,1,0.7406,0.3877,284,False,False,canonical
+1168,(S)-(+)-Camptothecin,(+)-camptothecin,7,-2.327,0.3722,796,16450,0.1,well-studied,0.0,0.1839,7,0,0.699,0.3935,266,False,False,canonical
+1169,Desipramine hydrochloride,desipramine,5,0.5591,0.1229,70,8073,0.3829138837603082,PARTIAL,0.0,0.1832,6,0,0.7183,0.3006,967,False,False,canonical
+1170,5-Carboxamidotryptamine maleate,5-carboxamidotryptamine,3,0.218,0.1117,66,688,0.3913083990997245,CORPUS-MISSED,0.0,0.1816,2,0,0.841,0.339,582,False,False,canonical
+1171,SQ 22536,sq 22536,2,0.0321,0.0732,49,272,0.4336766652213271,PARTIAL,0.0,0.1811,9,0,0.6667,0.2626,1218,False,False,canonical
+1172,"1,10-Phenanthroline monohydrate","1,10-phenanthroline",7,-1.2274,0.1842,121,8642,0.30454672310841724,well-studied,0.0,0.1803,2,0,0.841,0.368,391,False,False,canonical
+1173,Tranylcypromine hydrochloride,tranylcypromine,7,-0.2107,0.1078,66,2365,0.3913083990997245,CORPUS-MISSED,0.0,0.1801,1,0,0.8997,0.358,444,False,False,canonical
+1174,7-Nitroindazole,7-nitroindazole,6,0.2095,0.086,242,1472,0.2047979088005626,well-studied,0.2891,0.1784,15,1,0.5986,0.3162,753,False,False,canonical
+1175,Acetylsalicylic acid,acetylsalicylic acid,7,-0.1435,0.1609,441,11410,0.11819257688363605,well-studied,0.2891,0.178,13,1,0.618,0.3529,482,False,False,canonical
+1176,Quinacrine dihydrochloride,quinacrine,4,-0.9005,0.2246,175,5305,0.2514957773952834,well-studied,0.0,0.1779,2,0,0.841,0.3842,305,False,False,canonical
+1177,NS-1619,ns-1619,6,0.1941,0.0982,64,272,0.3956955477857148,PARTIAL,0.0,0.1778,11,0,0.6403,0.2634,1216,False,False,canonical
+1178,Furegrelate sodium,furegrelate,2,0.2851,0.0922,61,188,0.402536103500582,CORPUS-MISSED,0.0,0.1778,1,0,0.8997,0.3518,495,False,False,canonical
+1179,Kainic acid,kainic acid,7,-0.0794,0.1552,102,13893,0.3290542584316093,well-studied,0.0,0.1772,20,0,0.5593,0.2579,1238,False,False,canonical
+1180,Quinine sulfate,quinine,4,0.3275,0.1146,74,12393,0.37497957886943334,CORPUS-MISSED,0.0,0.1771,4,0,0.767,0.3143,768,False,False,canonical
+1181,Doxazosin mesylate,doxazosin,3,0.7896,0.1041,68,2071,0.3870503030875816,CORPUS-MISSED,0.0,0.1771,1,0,0.8997,0.3566,452,False,False,canonical
+1182,Theobromine,theobromine,6,0.4564,0.0976,66,2770,0.3913083990997245,PARTIAL,0.0,0.176,10,0,0.6529,0.2676,1198,False,False,canonical
+1183,L-Tryptophan,tryptophan,4,-0.3591,0.1641,959,76544,0.1,well-studied,0.2891,0.1729,11,1,0.6403,0.362,423,False,False,canonical
+1184,Hydroxylamine hydrochloride,hydroxylamine,2,-0.1799,0.1012,73,7975,0.3769227600896746,PARTIAL,0.0,0.1724,7,0,0.699,0.2851,1136,False,False,canonical
+1185,PPADS,ppads,4,-0.2616,0.1128,81,950,0.3620620492054277,PARTIAL,0.0,0.1718,13,0,0.618,0.2614,1225,False,False,canonical
+1186,Corticosterone,corticosterone,3,0.0329,0.1229,371,39392,0.14315235337270094,well-studied,0.2891,0.1715,14,1,0.608,0.3342,619,False,False,canonical
+1187,Carbamazepine,carbamazepine,6,0.3079,0.0941,71,21409,0.3808891678562438,PARTIAL,0.0,0.171,12,0,0.6287,0.2577,1240,False,False,canonical
+1188,Rauwolscine hydrochloride,rauwolscine,4,0.1845,0.1233,91,1366,0.3454040575514815,CORPUS-MISSED,0.0,0.1702,5,0,0.7406,0.3085,847,False,False,canonical
+1189,Theophylline,theophylline,7,-0.1715,0.0991,316,26009,0.1663135792607494,well-studied,0.2891,0.1701,12,1,0.6287,0.332,630,False,False,canonical
+1190,Budesonide,budesonide,6,-0.1515,0.098,75,8178,0.3730621359064029,PARTIAL,0.0,0.1698,13,0,0.618,0.2555,1249,False,False,canonical
+1191,Meloxicam sodium,meloxicam,5,-0.1307,0.0903,71,3195,0.3808891678562438,CORPUS-MISSED,0.0,0.1694,5,0,0.7406,0.2953,1042,False,False,canonical
+1192,Diclofenac sodium,diclofenac,5,0.4668,0.1109,363,17193,0.146299538783648,well-studied,0.2891,0.1678,10,1,0.6529,0.3451,536,False,False,canonical
+1193,Sivelestat sodium salt hydrate,sivelestat,5,0.323,0.0795,68,555,0.3870503030875816,CORPUS-MISSED,0.0,0.1673,4,0,0.767,0.3002,976,False,False,canonical
+1194,Azithromycin dihydrate,azithromycin,7,0.0659,0.1207,95,15622,0.33924292232014386,CORPUS-MISSED,0.0,0.167,0,0,1.0,0.3983,246,False,False,canonical
+1195,Imipramine hydrochloride,imipramine,4,0.5788,0.1272,101,13785,0.3304666094126941,well-studied,0.0,0.1665,5,0,0.7406,0.3101,826,False,False,canonical
+1196,Diltiazem hydrochloride,diltiazem,5,0.2971,0.1149,385,10136,0.1378042317760816,well-studied,0.2891,0.1665,5,1,0.7406,0.3775,335,False,False,canonical
+1197,PMEG hydrate,pmeg,2,0.0724,0.0992,81,217,0.3620620492054277,CORPUS-MISSED,0.0,0.1664,5,0,0.7406,0.2989,999,False,False,canonical
+1198,Valganciclovir hydrochloride hydrate,valganciclovir,2,-0.2381,0.0725,66,2070,0.3913083990997245,CORPUS-MISSED,0.0,0.166,0,0,1.0,0.379,327,False,False,canonical
+1199,Lithium Chloride,lithium,2,0.336,0.0923,326,89270,0.16181741577990472,well-studied,0.2891,0.1658,14,1,0.608,0.322,705,False,False,canonical
+1200,Spironolactone,spironolactone,4,0.0453,0.2896,375,10761,0.14160405169077972,well-studied,0.0,0.1654,14,0,0.608,0.3286,659,False,False,canonical
+1201,Voriconazole,voriconazole,5,0.446,0.1012,84,10349,0.35686035809523575,PARTIAL,0.0,0.1654,19,0,0.5663,0.2387,1277,False,False,canonical
+1202,Flutamide,flutamide,2,0.4178,0.1105,93,4021,0.34229071546676715,PARTIAL,0.0,0.164,13,0,0.618,0.2605,1232,False,False,canonical
+1203,5-Nitro-2-(3-phenylpropylamino)benzoic acid,5-nitro-2-(3-phenylpropylamino)benzoic acid,3,0.3329,0.0791,75,816,0.3730621359064029,PARTIAL,0.0,0.1622,13,0,0.618,0.2479,1266,False,False,canonical
+1204,Acyclovir,acyclovir,7,-0.1285,0.1531,136,13963,0.2877598109478644,well-studied,0.0,0.162,13,0,0.618,0.2775,1162,False,False,canonical
+1205,(±)-Verapamil hydrochloride,verapamil,7,-0.2654,0.136,1002,27358,0.1,well-studied,0.2891,0.1617,7,1,0.699,0.3713,372,False,False,canonical
+1206,Diethylenetriaminepentaacetic acid,diethylenetriaminepentaacetic acid,2,0.1331,0.0806,78,2465,0.3674576362365195,PARTIAL,0.0,0.1609,14,0,0.608,0.245,1270,False,False,canonical
+1207,Carmustine,carmustine,6,-0.1531,0.0975,94,4979,0.3407587982370507,PARTIAL,0.0,0.1583,13,0,0.618,0.2553,1251,False,False,canonical
+1208,Tirofiban hydrochloride monohydrate,tirofiban,2,0.0113,0.0776,81,2021,0.3620620492054277,CORPUS-MISSED,0.0,0.1578,5,0,0.7406,0.2903,1103,False,False,canonical
+1209,Cortisone,cortisone,7,-0.2722,0.1515,147,24508,0.2765794282016808,well-studied,0.0,0.1574,12,0,0.6287,0.2806,1147,False,False,canonical
+1210,Hydroxyurea,hydroxyurea,2,0.412,0.0738,334,14446,0.15831839765438493,well-studied,0.2891,0.1572,15,1,0.5986,0.3113,807,False,False,canonical
+1211,Clodronic acid,clodronic acid,4,0.5664,0.1118,108,1844,0.32085783401979207,well-studied,0.0,0.157,13,0,0.618,0.261,1227,False,False,canonical
+1212,(±)-Ibuprofen,ibuprofen,2,0.2073,0.0714,352,19879,0.15074176487072588,well-studied,0.2891,0.1536,15,1,0.5986,0.3103,823,False,False,canonical
+1213,Sodium Taurocholate hydrate,taurocholate,6,0.1575,0.109,114,5748,0.3131007198821294,well-studied,0.0,0.1532,2,0,0.841,0.338,589,False,False,canonical
+1214,ML-7,ml-7,6,0.3129,0.123,128,1749,0.29647009656691703,well-studied,0.0,0.153,12,0,0.6287,0.2692,1191,False,False,canonical
+1215,Nitrendipine,nitrendipine,3,0.2252,0.0898,99,3200,0.33333333333333337,PARTIAL,0.0,0.1526,13,0,0.618,0.2522,1256,False,False,canonical
+1216,Methysergide maleate,methysergide,4,0.0702,0.1032,112,4681,0.31564051883886,well-studied,0.0,0.1518,1,0,0.8997,0.3562,456,False,False,canonical
+1217,Procaine hydrochloride,procaine,6,0.3158,0.119,130,13727,0.2942429014480785,well-studied,0.0,0.1506,6,0,0.7183,0.299,997,False,False,canonical
+1218,Retinoic acid,retinoic acid,2,0.037,0.1059,1222,41185,0.1,well-studied,0.2891,0.1496,12,1,0.6287,0.3347,617,False,False,canonical
+1219,Betaine hydrochloride,betaine,2,-0.3226,0.1351,151,11168,0.2727188040184091,well-studied,0.0,0.1495,1,0,0.8997,0.3689,388,False,False,canonical
+1220,Enalaprilat dihydrate,enalaprilat,2,0.1844,0.1127,130,1292,0.2942429014480785,well-studied,0.0,0.1481,1,0,0.8997,0.36,433,False,False,canonical
+1221,Argatroban monohydrate,argatroban,1,-0.1253,0.0872,109,1876,0.319535771613925,well-studied,0.0,0.1467,5,0,0.7406,0.2941,1062,False,False,canonical
+1222,(-)-Naproxen sodium,naproxen,6,0.183,0.0718,98,8333,0.33478826846748333,PARTIAL,0.0,0.1459,7,0,0.699,0.2734,1178,False,False,canonical
+1223,Diphenhydramine hydrochloride,diphenhydramine,2,0.5245,0.1044,128,6439,0.29647009656691703,well-studied,0.0,0.1455,7,0,0.699,0.2864,1128,False,False,canonical
+1224,(±)-Bay K 8644,bay k 8644,7,-0.5518,0.1186,147,2458,0.2765794282016808,well-studied,0.0,0.1442,13,0,0.618,0.2637,1215,False,False,canonical
+1225,Acetamide,acetamide,6,-0.0047,0.1144,144,7000,0.2795439992550084,well-studied,0.0,0.1436,13,0,0.618,0.2621,1224,False,False,canonical
+1226,Putrescine dihydrochloride,putrescine,1,-0.1134,0.0835,117,10420,0.3093726642312915,well-studied,0.0,0.1417,5,0,0.7406,0.2926,1074,False,False,canonical
+1227,L-Buthionine-sulfoximine,buthionine-sulfoximine,6,-0.1962,0.1333,181,3706,0.2466428706716418,well-studied,0.0,0.1396,13,0,0.618,0.2696,1188,False,False,canonical
+1228,N-Ethylmaleimide,n-ethylmaleimide,7,-0.4152,0.1128,163,9474,0.261718717317434,well-studied,0.0,0.1367,14,0,0.608,0.2579,1239,False,False,canonical
+1229,"Adenosine 3',5'-cyclic monophosphate","adenosine 3,5-cyclic monophosphate",6,0.2199,0.1306,189,3990,0.24041546634905708,well-studied,0.0,0.1364,14,0,0.608,0.265,1212,False,False,canonical
+1230,3-Morpholinosydnonimine hydrochloride,3-morpholinosydnonimine,6,0.36,0.0774,126,811,0.29873209301468107,well-studied,0.0,0.1355,8,0,0.6819,0.2696,1190,False,False,canonical
+1231,NG-Nitro-L-arginine methyl ester hydrochloride,ng-nitro-l-arginine methyl ester,2,0.2401,0.0687,886,2594,0.1,well-studied,0.2891,0.1348,7,1,0.699,0.3444,543,False,False,canonical
+1232,Spermidine trihydrochloride,spermidine,2,0.2827,0.0787,131,12429,0.29314202293138336,well-studied,0.0,0.1341,2,0,0.841,0.3258,683,False,False,canonical
+1233,Semicarbazide hydrochloride,semicarbazide,2,-0.0257,0.0937,150,1603,0.2736743509022769,well-studied,0.0,0.1333,1,0,0.8997,0.3524,484,False,False,canonical
+1234,8-Bromo-cGMP sodium,8-bromo-cgmp,6,0.236,0.1311,202,1093,0.230834654028929,well-studied,0.0,0.1332,14,0,0.608,0.2652,1211,False,False,canonical
+1235,Benzamide,benzamide,3,0.2586,0.1066,178,6833,0.24904898967336886,well-studied,0.0,0.1298,14,0,0.608,0.2555,1248,False,False,canonical
+1236,BIO,bio,7,-0.6728,0.2337,7119,293408,0.1,well-studied,0.0,0.1285,14,0,0.608,0.3063,871,False,False,canonical
+1237,Furosemide,furosemide,2,0.3581,0.0875,162,18811,0.2626041318653475,well-studied,0.0,0.1269,11,0,0.6403,0.2591,1234,False,False,canonical
+1238,Ruthenium red,ruthenium red,5,0.6167,0.1316,235,4483,0.2090293323432978,well-studied,0.0,0.1258,15,0,0.5986,0.2622,1221,False,False,canonical
+1239,(+)-Pilocarpine hydrochloride,pilocarpine,2,0.2075,0.0853,166,10609,0.25909450961747227,well-studied,0.0,0.1248,9,0,0.6667,0.2674,1200,False,False,canonical
+1240,Pilocarpine nitrate,pilocarpine,2,0.2075,0.0853,166,10609,0.25909450961747227,well-studied,0.0,0.1248,1,0,0.8997,0.349,513,False,False,canonical
+1241,(±)-Metoprolol (+)-tartrate,metoprolol (+),6,0.4004,0.108,203,9530,0.2301232775247004,well-studied,0.0,0.1237,9,0,0.6667,0.2766,1165,False,False,canonical
+1242,Mifepristone,mifepristone,6,0.583,0.1324,257,8355,0.19612676467892332,well-studied,0.0,0.1216,11,0,0.6403,0.2771,1164,False,False,canonical
+1243,Protoporphyrin IX disodium,protoporphyrin ix,7,-0.7749,0.131,287,6458,0.1802025040802563,well-studied,0.0,0.1155,5,0,0.7406,0.3116,802,False,False,canonical
+1244,(±)-Atenolol,atenolol,6,-0.0285,0.1197,264,8935,0.1922513753543974,well-studied,0.0,0.1152,15,0,0.5986,0.2574,1242,False,False,canonical
+1245,GW9662,gw9662,1,-0.0478,0.074,191,1746,0.23889959043215014,well-studied,0.0,0.1132,14,0,0.608,0.2424,1272,False,False,canonical
+1246,PAPP,papp,4,0.1245,0.1407,340,10813,0.15574854033583418,well-studied,0.0,0.1108,14,0,0.608,0.2691,1192,False,False,canonical
+1247,Etoposide,etoposide,7,-0.9558,0.1704,434,30332,0.12050358101512082,well-studied,0.0,0.1103,14,0,0.608,0.281,1146,False,False,canonical
+1248,Yohimbine hydrochloride,yohimbine,6,0.457,0.0912,234,9751,0.2096440459094212,well-studied,0.0,0.1099,3,0,0.7993,0.3162,752,False,False,canonical
+1249,Phosphoramidon disodium,phosphoramidon,3,0.171,0.0754,212,1480,0.22387346552042076,well-studied,0.0,0.1085,4,0,0.767,0.2986,1005,False,False,canonical
+1250,Ganciclovir,ganciclovir,4,0.3209,0.1209,329,10134,0.16049535337403753,well-studied,0.0,0.1045,12,0,0.6287,0.2684,1195,False,False,canonical
+1251,5-Bromo-2'-deoxyuridine,5-bromo-2-deoxyuridine,6,0.1543,0.1017,288,4539,0.1797007190811507,well-studied,0.0,0.1036,17,0,0.5816,0.2442,1271,False,False,canonical
+1252,Molsidomine,molsidomine,5,0.5209,0.1117,323,2184,0.16315166326446262,well-studied,0.0,0.1018,13,0,0.618,0.261,1228,False,False,canonical
+1253,Caffeic Acid,caffeic acid,6,0.103,0.0961,290,9991,0.1787023370046975,well-studied,0.0,0.101,12,0,0.6287,0.2585,1236,False,False,canonical
+1254,"LY-310,762 hydrochloride","ly-310,762",4,0.7597,0.1359,407,0,0.1297799456367067,well-studied,0.0,0.0998,5,0,0.7406,0.3136,772,False,False,canonical
+1255,Antozoline hydrochloride,antozoline,4,-0.4946,0.1574,2133,82418,0.1,well-studied,0.0,0.098,14,0,0.608,0.2758,1170,False,False,raw_after_retry
+1256,A3 hydrochloride,a3,1,0.2315,0.145,552,26818,0.1,well-studied,0.0,0.093,3,0,0.7993,0.3377,593,False,False,canonical
+1257,Doxycycline hydrochloride,doxycycline,4,0.3511,0.1369,636,23729,0.1,well-studied,0.0,0.0898,7,0,0.699,0.2994,986,False,False,canonical
+1258,Cyclophosphamide monohydrate,cyclophosphamide,6,-0.1208,0.1279,1312,83001,0.1,well-studied,0.0,0.0862,3,0,0.7993,0.3309,645,False,False,canonical
+1259,NG-Nitro-L-arginine,ng-nitro-l-arginine,4,0.6171,0.1263,1524,4093,0.1,well-studied,0.0,0.0855,11,0,0.6403,0.2746,1176,False,False,canonical
+1260,ODQ,odq,6,0.4188,0.1234,866,2568,0.1,well-studied,0.0,0.0844,13,0,0.618,0.2657,1207,False,False,canonical
+1261,beta-Estradiol,beta-estradiol,2,-0.1912,0.0852,374,8825,0.14198957742409368,well-studied,0.0,0.0838,13,0,0.618,0.2504,1262,False,False,canonical
+1262,Isotharine mesylate,isotharine,6,0.7013,0.1195,906,38243,0.1,well-studied,0.0,0.0828,14,0,0.608,0.2606,1231,False,False,raw_after_retry
+1263,Oleic Acid,oleic acid,5,0.6323,0.1189,534,24643,0.1,well-studied,0.0,0.0826,13,0,0.618,0.2638,1214,False,False,canonical
+1264,Triamcinolone,triamcinolone,3,0.3197,0.1125,1225,14202,0.1,well-studied,0.0,0.08,11,0,0.6403,0.2691,1193,False,False,canonical
+1265,L-Glutamic acid hydrochloride,glutamic acid,4,0.2091,0.1122,803,69064,0.1,well-studied,0.0,0.0799,5,0,0.7406,0.3041,906,False,False,canonical
+1266,D-609 potassium,609,6,0.0305,0.1108,653,37147,0.1,well-studied,0.0,0.0793,4,0,0.767,0.3128,783,False,False,canonical
+1267,O-Methylserotonin hydrochloride,o-methylserotonin,6,0.0616,0.1094,2133,82418,0.1,well-studied,0.0,0.0788,14,0,0.608,0.2565,1244,False,False,raw_after_retry
+1268,L-Histidine hydrochloride,histidine,5,0.7931,0.106,791,60481,0.1,well-studied,0.0,0.0774,5,0,0.7406,0.3016,946,False,False,canonical
+1269,Choline bromide,choline,6,0.4004,0.1052,838,57745,0.1,well-studied,0.0,0.0771,5,0,0.7406,0.3013,953,False,False,canonical
+1270,Pseudocantharidin C,pseudocantharidin c,3,0.1967,0.0956,89291,3390550,0.1,well-studied,0.0,0.0732,14,0,0.608,0.2511,1259,False,False,canonical
+1271,(E)-4-amino-2-butenoic acid,4-amino-2-butenoic acid,2,-0.306,0.0953,71305,3754199,0.1,well-studied,0.0,0.0731,11,0,0.6403,0.2622,1222,False,False,canonical
+1272,L-Aspartic acid,aspartic acid,5,0.2685,0.095,2053,52763,0.1,well-studied,0.0,0.073,14,0,0.608,0.2508,1260,False,False,canonical
+1273,gamma-Acetylinic GABA,gamma-acetylinic gaba,1,-0.0438,0.093,557,109602,0.1,well-studied,0.0,0.0722,11,0,0.6403,0.2613,1226,False,False,canonical
+1274,CP-64434 hydrate,cp-64434,2,-0.0066,0.0886,1064,87700,0.1,well-studied,0.0,0.0704,13,0,0.618,0.2517,1257,False,False,raw_after_retry
+1275,Mephetyl tetrazole,mephetyl tetrazole,4,0.2412,0.0861,2087,36043,0.1,well-studied,0.0,0.0694,13,0,0.618,0.2507,1261,False,False,canonical
+1276,GR 79236X,gr 79236x,2,0.0238,0.08,2716,98597,0.1,well-studied,0.0,0.067,13,0,0.618,0.2483,1265,False,False,canonical
+1277,"N,N,N',N'-Tetramethylazodicarboxamide","n,n,n,n-tetramethylazodicarboxamide",2,-0.0931,0.0782,569,0,0.1,well-studied,0.0,0.0663,13,0,0.618,0.2476,1267,False,False,canonical
+1278,"2,4-Diamino-6-pyrimidinone","2,4-diamino-6-pyrimidinone",2,0.0658,0.0644,305729,0,0.1,well-studied,0.0,0.0608,12,0,0.6287,0.2458,1268,False,False,canonical

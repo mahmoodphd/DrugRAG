@@ -1,0 +1,26 @@
+# v5_final — Top-20 pro-angiogenic candidates
+
+Sorted by `score_v5_final`. Pro = `net_direction > 0`.
+
+| rank_final | drug_name | cluster | net_direction | activity_magnitude | real_angio_pubmed_hits | novelty_real | novelty_status | kg_plausibility | score_v5_final | corpus_n_papers |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 19 | Daphnetin | 5 | 0.2801 | 0.1067 | 6 | 0.7183 | PARTIAL | 1.0000 | 0.5441 | 11 |
+| 22 | Fusaric acid | 3 | 0.3990 | 0.0951 | 3 | 0.7993 | PARTIAL | 0.8672 | 0.5346 | 7 |
+| 23 | Dihydrocapsaicin | 3 | 0.1181 | 0.0914 | 3 | 0.7993 | PARTIAL | 0.8672 | 0.5331 | 8 |
+| 30 | loxoprofen | 1 | 0.0614 | 0.0927 | 7 | 0.6990 | PARTIAL | 0.9163 | 0.5108 | 10 |
+| 31 | RepSox | 4 | 0.6352 | 0.1556 | 11 | 0.6403 | PARTIAL | 0.8672 | 0.5031 | 7 |
+| 40 | Enoximone | 6 | 0.5169 | 0.1242 | 8 | 0.6819 | PARTIAL | 0.8115 | 0.4912 | 10 |
+| 42 | Ebastine | 2 | 0.3805 | 0.0988 | 12 | 0.6287 | PARTIAL | 0.9163 | 0.4886 | 11 |
+| 43 | Varenicline tartrate | 4 | 0.1955 | 0.1579 | 16 | 0.5899 | PARTIAL | 0.8672 | 0.4864 | 6 |
+| 48 | (-)-alpha-Methylnorepinephrine | 6 | 0.4016 | 0.1266 | 1 | 0.8997 | PARTIAL | 0.4582 | 0.4801 | 2 |
+| 53 | Ethopropazine hydrochloride | 4 | 0.8742 | 0.1345 | 0 | 1.0000 | PARTIAL | 0.2891 | 0.4761 | 5 |
+| 54 | Bisdemethoxycurcumin | 5 | 0.4232 | 0.1708 | 17 | 0.5816 | PARTIAL | 0.8115 | 0.4747 | 13 |
+| 56 | 2-Chloroadenosine triphosphate tetrasodium | 4 | 0.1563 | 0.1256 | 0 | 1.0000 | PARTIAL | 0.2891 | 0.4725 | 5 |
+| 59 | Lonidamine | 1 | 0.1655 | 0.0958 | 7 | 0.6990 | PARTIAL | 0.7472 | 0.4698 | 12 |
+| 63 | Benidipine hydrochloride | 3 | 0.7214 | 0.1202 | 36 | 0.4773 | PARTIAL | 1.0000 | 0.4651 | 6 |
+| 64 | 3-deazaadenosine | 3 | 0.5912 | 0.1056 | 17 | 0.5816 | PARTIAL | 0.8672 | 0.4626 | 9 |
+| 65 | LP 12 hydrochloride hydrate | 6 | 1.3061 | 0.2807 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4623 | 5 |
+| 72 | Fenobam | 4 | 0.9294 | 0.1627 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4522 | 6 |
+| 73 | Harmane | 2 | 0.5211 | 0.1395 | 3 | 0.7993 | PARTIAL | 0.4582 | 0.4501 | 11 |
+| 75 | GANT61 | 3 | 0.2205 | 0.1286 | 22 | 0.5461 | PARTIAL | 0.8115 | 0.4454 | 17 |
+| 81 | Ifenprodil tartrate | 2 | 0.0808 | 0.1243 | 3 | 0.7993 | PARTIAL | 0.4582 | 0.4440 | 3 |

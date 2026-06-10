@@ -1,0 +1,280 @@
+{
+  "n_drugs": 1278,
+  "clusters": {
+    "1": {
+      "label": "Near-neutral (topology remodel, little net change)",
+      "paper_grounded": false,
+      "n": 110,
+      "mean_direction": 0.024,
+      "direction": "pro",
+      "mean_activity": 0.12
+    },
+    "2": {
+      "label": "Control-like / minimal effect",
+      "paper_grounded": true,
+      "n": 250,
+      "mean_direction": 0.099,
+      "direction": "pro",
+      "mean_activity": 0.101
+    },
+    "3": {
+      "label": "Pro-angiogenic",
+      "paper_grounded": false,
+      "n": 101,
+      "mean_direction": 0.354,
+      "direction": "pro",
+      "mean_activity": 0.099
+    },
+    "4": {
+      "label": "Pro-angiogenic (incl. glutamate-antagonist group)",
+      "paper_grounded": true,
+      "n": 165,
+      "mean_direction": 0.292,
+      "direction": "pro",
+      "mean_activity": 0.134
+    },
+    "5": {
+      "label": "Strongly pro-angiogenic",
+      "paper_grounded": false,
+      "n": 105,
+      "mean_direction": 0.524,
+      "direction": "pro",
+      "mean_activity": 0.12
+    },
+    "6": {
+      "label": "Pro-angiogenic",
+      "paper_grounded": false,
+      "n": 275,
+      "mean_direction": 0.3,
+      "direction": "pro",
+      "mean_activity": 0.116
+    },
+    "7": {
+      "label": "Tube disruption / anti-angiogenic (most active)",
+      "paper_grounded": true,
+      "n": 272,
+      "mean_direction": -1.126,
+      "direction": "anti",
+      "mean_activity": 0.239
+    }
+  },
+  "true_dark": [
+    {
+      "drug_name": "BNTX maleate salt hydrate",
+      "cluster": 7,
+      "direction": "anti",
+      "activity_magnitude": 0.464,
+      "real_angio_pubmed_hits": 1,
+      "active_dark_centerpiece": true
+    },
+    {
+      "drug_name": "Ziprasidone hydrochloride monohydrate",
+      "cluster": 7,
+      "direction": "anti",
+      "activity_magnitude": 0.163,
+      "real_angio_pubmed_hits": 1,
+      "active_dark_centerpiece": true
+    },
+    {
+      "drug_name": "PHA 767491 hydrochloride",
+      "cluster": 7,
+      "direction": "anti",
+      "activity_magnitude": 0.146,
+      "real_angio_pubmed_hits": 0,
+      "active_dark_centerpiece": true
+    },
+    {
+      "drug_name": "N2-Ethyl-2'-deoxyguanosine",
+      "cluster": 4,
+      "direction": "pro",
+      "activity_magnitude": 0.127,
+      "real_angio_pubmed_hits": 0,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "Propantheline bromide",
+      "cluster": 7,
+      "direction": "anti",
+      "activity_magnitude": 0.115,
+      "real_angio_pubmed_hits": 0,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "Tomoxetine",
+      "cluster": 3,
+      "direction": "pro",
+      "activity_magnitude": 0.112,
+      "real_angio_pubmed_hits": 0,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "Dolasetron mesylate hydrate",
+      "cluster": 3,
+      "direction": "pro",
+      "activity_magnitude": 0.103,
+      "real_angio_pubmed_hits": 1,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "CP-471474",
+      "cluster": 4,
+      "direction": "pro",
+      "activity_magnitude": 0.103,
+      "real_angio_pubmed_hits": 0,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "CP-101537",
+      "cluster": 1,
+      "direction": "anti",
+      "activity_magnitude": 0.101,
+      "real_angio_pubmed_hits": 0,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "Caroverine hydrochloride",
+      "cluster": 2,
+      "direction": "anti",
+      "activity_magnitude": 0.095,
+      "real_angio_pubmed_hits": 2,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "Doxepin hydrochloride",
+      "cluster": 2,
+      "direction": "pro",
+      "activity_magnitude": 0.094,
+      "real_angio_pubmed_hits": 1,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "CP-93129 dihydrochloride hydrate",
+      "cluster": 1,
+      "direction": "pro",
+      "activity_magnitude": 0.092,
+      "real_angio_pubmed_hits": 2,
+      "active_dark_centerpiece": false
+    },
+    {
+      "drug_name": "Sematilide monohydrochloride monohydrate",
+      "cluster": 6,
+      "direction": "pro",
+      "activity_magnitude": 0.087,
+      "real_angio_pubmed_hits": 0,
+      "active_dark_centerpiece": false
+    }
+  ],
+  "active_dark_centerpieces": [
+    "BNTX maleate salt hydrate",
+    "Ziprasidone hydrochloride monohydrate",
+    "PHA 767491 hydrochloride"
+  ],
+  "kg_coverage": {
+    "drugs_with_angio_edges": 390,
+    "pct": 30.5,
+    "case_study_drugs": [
+      {
+        "drug_name": "Adenosine",
+        "cluster": 7,
+        "angio_edges": 59
+      },
+      {
+        "drug_name": "Cilostazol",
+        "cluster": 3,
+        "angio_edges": 20
+      },
+      {
+        "drug_name": "Histamine dihydrochloride",
+        "cluster": 2,
+        "angio_edges": 20
+      },
+      {
+        "drug_name": "Gossypol",
+        "cluster": 1,
+        "angio_edges": 15
+      },
+      {
+        "drug_name": "Raloxifene hydrochloride",
+        "cluster": 7,
+        "angio_edges": 14
+      },
+      {
+        "drug_name": "(\u00b1)-Propranolol hydrochloride",
+        "cluster": 4,
+        "angio_edges": 14
+      },
+      {
+        "drug_name": "Sunitinib malate",
+        "cluster": 7,
+        "angio_edges": 14
+      },
+      {
+        "drug_name": "(S)-Propranolol hydrochloride",
+        "cluster": 4,
+        "angio_edges": 14
+      },
+      {
+        "drug_name": "Phenylephrine hydrochloride",
+        "cluster": 4,
+        "angio_edges": 13
+      },
+      {
+        "drug_name": "Atorvastatin calcium salt trihydrate",
+        "cluster": 6,
+        "angio_edges": 12
+      },
+      {
+        "drug_name": "Caffeine",
+        "cluster": 6,
+        "angio_edges": 12
+      },
+      {
+        "drug_name": "Resveratrol",
+        "cluster": 2,
+        "angio_edges": 11
+      }
+    ]
+  },
+  "pubmed_false_match_outliers": [
+    {
+      "drug_name": "2,4-Diamino-6-pyrimidinone",
+      "real_angio_pubmed_hits": 305729,
+      "real_total_pubmed_hits": 0
+    },
+    {
+      "drug_name": "N,N,N',N'-Tetramethylazodicarboxamide",
+      "real_angio_pubmed_hits": 569,
+      "real_total_pubmed_hits": 0
+    },
+    {
+      "drug_name": "LY-310,762 hydrochloride",
+      "real_angio_pubmed_hits": 407,
+      "real_total_pubmed_hits": 0
+    },
+    {
+      "drug_name": "(6R)-5,6,7,8-Tetrahydro-L-biopterin hydrochloride",
+      "real_angio_pubmed_hits": 20,
+      "real_total_pubmed_hits": 0
+    },
+    {
+      "drug_name": "(\u00b1)-3-(3,4-dihydroxyphenyl)-2-methyl-DL-alanine",
+      "real_angio_pubmed_hits": 18,
+      "real_total_pubmed_hits": 0
+    },
+    {
+      "drug_name": "2-(2-Aminoethyl)isothiourea dihydrobromide",
+      "real_angio_pubmed_hits": 10,
+      "real_total_pubmed_hits": 0
+    },
+    {
+      "drug_name": "R(-)-2,10,11-Trihydroxy-N-propylnoraporphine hydrobromide",
+      "real_angio_pubmed_hits": 2,
+      "real_total_pubmed_hits": 0
+    },
+    {
+      "drug_name": "R(+)-IAA-94",
+      "real_angio_pubmed_hits": 2,
+      "real_total_pubmed_hits": 0
+    }
+  ]
+}

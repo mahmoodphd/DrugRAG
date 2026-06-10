@@ -1,0 +1,189 @@
+{
+  "A_pc7_controls": {
+    "drugs": [
+      {
+        "drug_name": "Suramin sodium salt",
+        "rank_final": 62,
+        "net_direction": -4.529,
+        "real_angio_pubmed_hits": 408,
+        "novelty_real": 0.129,
+        "score_v5_final": 0.4665,
+        "novelty_status": "well-studied"
+      },
+      {
+        "drug_name": "DMH4",
+        "rank_final": 98,
+        "net_direction": -0.093,
+        "real_angio_pubmed_hits": 5,
+        "novelty_real": 0.741,
+        "score_v5_final": 0.4348,
+        "novelty_status": "PARTIAL"
+      },
+      {
+        "drug_name": "Sunitinib malate",
+        "rank_final": 126,
+        "net_direction": -2.179,
+        "real_angio_pubmed_hits": 2860,
+        "novelty_real": 0.1,
+        "score_v5_final": 0.4204,
+        "novelty_status": "well-studied"
+      },
+      {
+        "drug_name": "SU 5416",
+        "rank_final": 1058,
+        "net_direction": -1.133,
+        "real_angio_pubmed_hits": 39,
+        "novelty_real": 0.466,
+        "score_v5_final": 0.234,
+        "novelty_status": "PARTIAL"
+      }
+    ],
+    "all_anti": true,
+    "median_rank_final": 112,
+    "any_top_5_anti": false
+  },
+  "B_top5_composition": {
+    "anti_top5_status_breakdown": {
+      "PARTIAL": 5
+    },
+    "pro_top5_status_breakdown": {
+      "PARTIAL": 5
+    },
+    "anti_top5_median_real_angio": 0.0,
+    "pro_top5_median_real_angio": 6.0
+  },
+  "C_discovery_set": {
+    "n_discovery": 530,
+    "n_true_dark": 13,
+    "n_active_dark_real": 128,
+    "top10_discovery": [
+      {
+        "drug_name": "7-Chloro-4-hydroxy-2-phenyl-1,8-naphthyridine",
+        "rank_final": 2,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.6443,
+        "activity_magnitude": 0.8235,
+        "net_direction": -3.631
+      },
+      {
+        "drug_name": "cis-4-Aminocrotonic acid",
+        "rank_final": 3,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.6368,
+        "activity_magnitude": 0.7169,
+        "net_direction": -3.216
+      },
+      {
+        "drug_name": "NSC 95397",
+        "rank_final": 4,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.6314,
+        "activity_magnitude": 0.7034,
+        "net_direction": -3.586
+      },
+      {
+        "drug_name": "PD-180970",
+        "rank_final": 5,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.631,
+        "activity_magnitude": 0.7024,
+        "net_direction": -2.896
+      },
+      {
+        "drug_name": "Tetraethylthiuram disulfide",
+        "rank_final": 6,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.6246,
+        "activity_magnitude": 0.4879,
+        "net_direction": -3.24
+      },
+      {
+        "drug_name": "IC 261",
+        "rank_final": 7,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.6074,
+        "activity_magnitude": 0.7314,
+        "net_direction": -4.705
+      },
+      {
+        "drug_name": "IMS2186",
+        "rank_final": 8,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.6032,
+        "activity_magnitude": 0.4344,
+        "net_direction": -2.685
+      },
+      {
+        "drug_name": "Z-L-Phe chloromethyl ketone",
+        "rank_final": 9,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.5885,
+        "activity_magnitude": 0.5963,
+        "net_direction": -2.115
+      },
+      {
+        "drug_name": "IPA-3",
+        "rank_final": 11,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.5717,
+        "activity_magnitude": 0.5127,
+        "net_direction": -3.418
+      },
+      {
+        "drug_name": "Bromoacetyl alprenolol menthane",
+        "rank_final": 13,
+        "novelty_status": "PARTIAL",
+        "score_v5_final": 0.5632,
+        "activity_magnitude": 0.533,
+        "net_direction": -1.896
+      }
+    ]
+  },
+  "D_corpus_missed_demotions": [
+    {
+      "drug_name": "Suramin sodium salt",
+      "rank_v5_original": 1,
+      "rank_final": 62,
+      "delta_rank": 61,
+      "real_angio_pubmed_hits": 408,
+      "novelty_real": 0.1294,
+      "corpus_novelty_v5": 0.8997
+    },
+    {
+      "drug_name": "Y-27632 dihydrochloride",
+      "rank_v5_original": 11,
+      "rank_final": 539,
+      "delta_rank": 528,
+      "real_angio_pubmed_hits": 559,
+      "novelty_real": 0.1,
+      "corpus_novelty_v5": 0.767
+    },
+    {
+      "drug_name": "Atorvastatin calcium salt trihydrate",
+      "rank_v5_original": 22,
+      "rank_final": 668,
+      "delta_rank": 646,
+      "real_angio_pubmed_hits": 1299,
+      "novelty_real": 0.1,
+      "corpus_novelty_v5": 0.7406
+    },
+    {
+      "drug_name": "Sildenafil citrate salt",
+      "rank_v5_original": 26,
+      "rank_final": 739,
+      "delta_rank": 713,
+      "real_angio_pubmed_hits": 835,
+      "novelty_real": 0.1,
+      "corpus_novelty_v5": 0.7406
+    },
+    {
+      "drug_name": "Serotonin hydrochloride",
+      "rank_v5_original": 19,
+      "rank_final": 882,
+      "delta_rank": 863,
+      "real_angio_pubmed_hits": 3412,
+      "novelty_real": 0.1,
+      "corpus_novelty_v5": 0.8997
+    }
+  ]
+}

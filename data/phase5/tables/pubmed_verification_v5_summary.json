@@ -1,0 +1,166 @@
+{
+  "n_total": 65,
+  "n_true_dark": 13,
+  "n_corpus_missed": 14,
+  "n_partial": 38,
+  "n_error": 0,
+  "true_dark_drugs": [
+    "PHA 767491 hydrochloride",
+    "N2-Ethyl-2'-deoxyguanosine",
+    "Propantheline bromide",
+    "Tomoxetine",
+    "CP-471474",
+    "CP-101537",
+    "Sematilide monohydrochloride monohydrate",
+    "BNTX maleate salt hydrate",
+    "Ziprasidone hydrochloride monohydrate",
+    "Dolasetron mesylate hydrate",
+    "Doxepin hydrochloride",
+    "Caroverine hydrochloride",
+    "CP-93129 dihydrochloride hydrate"
+  ],
+  "corpus_missed_drugs": [
+    "Benzamil hydrochloride",
+    "Sanguinarine chloride",
+    "Valganciclovir hydrochloride hydrate",
+    "Agmatine sulfate",
+    "Azithromycin dihydrate",
+    "Topotecan hydrochloride hydrate",
+    "Zoledronic acid monohydrate",
+    "Suramin sodium salt",
+    "Y-27632 dihydrochloride",
+    "Prazosin hydrochloride",
+    "Sildenafil citrate salt",
+    "Atorvastatin calcium salt trihydrate",
+    "(S)-Propranolol hydrochloride",
+    "Serotonin hydrochloride"
+  ],
+  "false_novelty_flags": [
+    {
+      "drug_name": "Benzamil hydrochloride",
+      "corpus_n_papers": 0,
+      "real_angio_pubmed_hits": 27,
+      "novelty": 1.0,
+      "rank": 216,
+      "in_top_anti": false,
+      "in_top_pro": false
+    },
+    {
+      "drug_name": "Sanguinarine chloride",
+      "corpus_n_papers": 3,
+      "real_angio_pubmed_hits": 37,
+      "novelty": 0.7993,
+      "rank": 25,
+      "in_top_anti": true,
+      "in_top_pro": false
+    },
+    {
+      "drug_name": "Valganciclovir hydrochloride hydrate",
+      "corpus_n_papers": 0,
+      "real_angio_pubmed_hits": 66,
+      "novelty": 1.0,
+      "rank": 327,
+      "in_top_anti": false,
+      "in_top_pro": false
+    },
+    {
+      "drug_name": "Agmatine sulfate",
+      "corpus_n_papers": 4,
+      "real_angio_pubmed_hits": 71,
+      "novelty": 0.767,
+      "rank": 37,
+      "in_top_anti": false,
+      "in_top_pro": true
+    },
+    {
+      "drug_name": "Azithromycin dihydrate",
+      "corpus_n_papers": 0,
+      "real_angio_pubmed_hits": 95,
+      "novelty": 1.0,
+      "rank": 246,
+      "in_top_anti": false,
+      "in_top_pro": false
+    },
+    {
+      "drug_name": "Topotecan hydrochloride hydrate",
+      "corpus_n_papers": 1,
+      "real_angio_pubmed_hits": 178,
+      "novelty": 0.8997,
+      "rank": 7,
+      "in_top_anti": true,
+      "in_top_pro": false
+    },
+    {
+      "drug_name": "Zoledronic acid monohydrate",
+      "corpus_n_papers": 2,
+      "real_angio_pubmed_hits": 351,
+      "novelty": 0.841,
+      "rank": 49,
+      "in_top_anti": false,
+      "in_top_pro": true
+    },
+    {
+      "drug_name": "Suramin sodium salt",
+      "corpus_n_papers": 1,
+      "real_angio_pubmed_hits": 408,
+      "novelty": 0.8997,
+      "rank": 1,
+      "in_top_anti": true,
+      "in_top_pro": false
+    },
+    {
+      "drug_name": "Y-27632 dihydrochloride",
+      "corpus_n_papers": 4,
+      "real_angio_pubmed_hits": 559,
+      "novelty": 0.767,
+      "rank": 11,
+      "in_top_anti": false,
+      "in_top_pro": true
+    },
+    {
+      "drug_name": "Prazosin hydrochloride",
+      "corpus_n_papers": 5,
+      "real_angio_pubmed_hits": 591,
+      "novelty": 0.7406,
+      "rank": 67,
+      "in_top_anti": false,
+      "in_top_pro": true
+    },
+    {
+      "drug_name": "Sildenafil citrate salt",
+      "corpus_n_papers": 5,
+      "real_angio_pubmed_hits": 835,
+      "novelty": 0.7406,
+      "rank": 26,
+      "in_top_anti": false,
+      "in_top_pro": true
+    },
+    {
+      "drug_name": "Atorvastatin calcium salt trihydrate",
+      "corpus_n_papers": 5,
+      "real_angio_pubmed_hits": 1299,
+      "novelty": 0.7406,
+      "rank": 22,
+      "in_top_anti": false,
+      "in_top_pro": true
+    },
+    {
+      "drug_name": "(S)-Propranolol hydrochloride",
+      "corpus_n_papers": 2,
+      "real_angio_pubmed_hits": 1323,
+      "novelty": 0.841,
+      "rank": 12,
+      "in_top_anti": false,
+      "in_top_pro": true
+    },
+    {
+      "drug_name": "Serotonin hydrochloride",
+      "corpus_n_papers": 1,
+      "real_angio_pubmed_hits": 3412,
+      "novelty": 0.8997,
+      "rank": 19,
+      "in_top_anti": false,
+      "in_top_pro": true
+    }
+  ]
+}

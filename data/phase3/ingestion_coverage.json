@@ -1,0 +1,111 @@
+{
+  "label": "intermediate",
+  "corpus": {
+    "total_papers": 8514,
+    "unique_drugs": 1262,
+    "drugs_with_ge3_papers": 1055
+  },
+  "kg_ingestion": {
+    "papers_ingested": 697,
+    "papers_not_ingested": 7817,
+    "ingestion_rate_pct": 8.2,
+    "ingested_files_in_manifest": 697,
+    "text_chunks_in_kg": 4094,
+    "kg_entities_total": 4094,
+    "kg_entity_names_unique": 4094
+  },
+  "drug_kg_coverage": {
+    "drugs_with_entity_name_in_kg": 134,
+    "drugs_mentioned_in_entity_content_only": 22,
+    "drugs_with_zero_kg_presence": 1106,
+    "coverage_rate_pct": 10.6
+  },
+  "ingestion_failures": {
+    "drugs_ge3_papers_zero_kg": 906,
+    "drugs_ge3_papers_total": 1055,
+    "failure_rate_pct": 85.9,
+    "note": "These drugs have >=3 papers in the corpus but zero presence in the KG. This is an ingestion failure, not a literature gap. Root cause: only 8.2% of papers were ingested into LightRAG."
+  },
+  "examples_ingestion_failures": [
+    [
+      "Diazoxide",
+      20
+    ],
+    [
+      "Pinacidil",
+      19
+    ],
+    [
+      "S-Nitrosoglutathione",
+      19
+    ],
+    [
+      "Tazarotene",
+      18
+    ],
+    [
+      "Levetiracetam",
+      18
+    ],
+    [
+      "(-)-Sulpiride",
+      18
+    ],
+    [
+      "T0070907",
+      18
+    ],
+    [
+      "Mevastatin",
+      18
+    ],
+    [
+      "(\u00b1)-Sulpiride",
+      18
+    ],
+    [
+      "GANT61",
+      17
+    ],
+    [
+      "Praziquantel",
+      17
+    ],
+    [
+      "Aconitine",
+      17
+    ],
+    [
+      "Sulfaphenazole",
+      17
+    ],
+    [
+      "5-Bromo-2'-deoxyuridine",
+      17
+    ],
+    [
+      "Azelaic acid",
+      16
+    ],
+    [
+      "2,3-Butanedione",
+      16
+    ],
+    [
+      "Reserpine",
+      16
+    ],
+    [
+      "Bumetanide",
+      16
+    ],
+    [
+      "D-ribofuranosylbenzimidazole",
+      16
+    ],
+    [
+      "Phenylbutazone",
+      16
+    ]
+  ]
+}

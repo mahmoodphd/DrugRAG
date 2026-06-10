@@ -1,0 +1,210 @@
+{
+  "join": {
+    "n_total_pipeline": 1278,
+    "n_matched": 1278,
+    "match_pct": 100.0,
+    "n_unmatched": 0,
+    "unmatched_names": [],
+    "per_cluster_counts_matched": {
+      "1": 110,
+      "2": 250,
+      "3": 101,
+      "4": 165,
+      "5": 105,
+      "6": 275,
+      "7": 272
+    },
+    "pheno_side_totals": {
+      "1": 108,
+      "2": 248,
+      "3": 100,
+      "4": 164,
+      "5": 103,
+      "6": 269,
+      "7": 270
+    }
+  },
+  "sanity_check": {
+    "pc7_drugs": {
+      "Sunitinib": {
+        "found": true,
+        "in_pc7": true,
+        "rows": [
+          {
+            "drug_name": "Sunitinib malate",
+            "cluster": 7
+          }
+        ]
+      },
+      "SU5416": {
+        "found": true,
+        "in_pc7": true,
+        "rows": [
+          {
+            "drug_name": "SU 5416",
+            "cluster": 7
+          }
+        ]
+      },
+      "Suramin": {
+        "found": true,
+        "in_pc7": true,
+        "rows": [
+          {
+            "drug_name": "Suramin sodium salt",
+            "cluster": 7
+          }
+        ]
+      },
+      "DMH4": {
+        "found": true,
+        "in_pc7": true,
+        "rows": [
+          {
+            "drug_name": "DMH4",
+            "cluster": 7
+          }
+        ]
+      }
+    },
+    "pc4_or_5_drugs": {
+      "Memantine": {
+        "found": true,
+        "in_pc4_or_5": true,
+        "rows": [
+          {
+            "drug_name": "Memantine hydrochloride",
+            "cluster": 5
+          }
+        ]
+      }
+    },
+    "all_pc7_ok": true,
+    "all_pc45_ok": true,
+    "verdict": "JOIN VALIDATED"
+  },
+  "table6_structure": {
+    "n_drugs": 1280,
+    "n_features": 101,
+    "drug_column_name": "Perturbation",
+    "drug_names_quoted_in_source": true,
+    "feature_columns": [
+      "Analysedarea",
+      "AngularSecondMoment",
+      "Contrast",
+      "Correlation",
+      "InverseDifferenceMoment",
+      "Entropy",
+      "Nbextrem",
+      "Nbnodes",
+      "NbJunctions",
+      "Nbmasterjunction",
+      "Nbmastersegments",
+      "Totmastersegmentslength",
+      "Nbmeshes",
+      "Totmeshesarea",
+      "Nbpieces",
+      "Nbsegments",
+      "Nbbranches",
+      "Nbisolseg",
+      "Totlength",
+      "Totbranchinglength",
+      "Totsegmentslength",
+      "Totbrancheslength",
+      "Totisolbrancheslength",
+      "Branchinginterval",
+      "Meshindex",
+      "MeanMeshSize",
+      "MeanSegmentsLength",
+      "StdSegmentsLength",
+      "MeanBranchesLength",
+      "StdBranchesLength",
+      "MeanIsolatedLength",
+      "StdIsolatedLength",
+      "MeanLengthAll",
+      "MeanBranchThickness",
+      "StdBranchThickness",
+      "StdMeshSize",
+      "MeanMeshFeret",
+      "StdMeshFeret",
+      "MeanMeshMinFeret",
+      "StdMeshMinFeret",
+      "NoConnSets",
+      "MeanNoBranchPerSet",
+      "StdNoBranchPerSet",
+      "MeanMaxBranchLengthPerSet",
+      "StdMaxBranchLengthPerSet",
+      "MeanShortestPathPerSet",
+      "StdShortestPathPerSet",
+      "MaxShortestPath",
+      "Boxcountsize2",
+      "Boxcountsize3",
+      "Boxcountsize4",
+      "Boxcountsize6",
+      "Boxcountsize8",
+      "Boxcountsize12",
+      "Boxcountsize16",
+      "Boxcountsize32",
+      "Boxcountsize64",
+      "FractalDimension",
+      "nb_peices_corr",
+      "minspantree_length",
+      "mu_closeness",
+      "sd_closeness",
+      "mu_weighted_closenss",
+      "sd_weighted_closenss",
+      "mu_betweenness",
+      "sd_betweenness",
+      "mu_weighted_betweenness",
+      "sd_weighted_betweenness",
+      "mu_eigenvector",
+      "sd_eigenvector",
+      "mu_angle_ratio1",
+      "mu_angle_ratio2",
+      "sd_angle_ratio1",
+      "sd_angle_ratio2",
+      "mu_angle_1",
+      "mu_angle_2",
+      "mu_angle_3",
+      "sd_angle_1",
+      "sd_angle_2",
+      "sd_angle_3",
+      "num_degree_1",
+      "num_degree_2",
+      "num_degree_3",
+      "num_degree_4",
+      "mu_bthickness_mu",
+      "sd_bthickness_mu",
+      "mu_bthickness_sd",
+      "sd_bthickness_sd",
+      "mu_blength_mu",
+      "sd_blength_mu",
+      "mu_blength_sd",
+      "sd_blength_sd",
+      "mu_vornoi_area",
+      "sd_vornoi_area",
+      "mu_nb_vornoi_nodes",
+      "sd_nb_vornoi_nodes",
+      "mu_vornoi_dist_mu",
+      "sd_vornoi_dist_mu",
+      "mu_vornoi_dist_sd",
+      "sd_vornoi_dist_sd",
+      "NbMesh2NbPieces"
+    ],
+    "join_compatibility": {
+      "table6_to_pipeline_master": "1279/1280 (99.9%)",
+      "table6_to_moesm5_pheno": "1280/1280 (100.0%)",
+      "uses_same_normalizer": true
+    },
+    "note": "DMSO control row is included (n=1) -- excluded if computing only on perturbations."
+  },
+  "outputs": {
+    "drug_phenocluster_map_csv": "data/phase5/drug_phenocluster_map.csv",
+    "report_json": "data/phase5/phenocluster_join_report.json"
+  },
+  "policy": {
+    "v3_artifacts_modified": false,
+    "v4_locked_ranking_modified": false,
+    "score_integration": "DEFERRED -- separate step"
+  }
+}

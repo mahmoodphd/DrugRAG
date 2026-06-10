@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Private — internal only, must NOT be published
+AI_ASSISTANCE_LOG.md
+EDIT_REPORT.md
+
+# Internal process / planning / collaboration docs — not for the public repo
+CLAUDE.md
+ONBOARDING.md
+MANIFEST.md
+THESIS_ASSETS.md
+DECISIONS.md
+master_project_plan.md
+project_complete_summry.md
+
+# Scratch / one-off pipeline scripts (not part of the public release)
+Supplementary /
+analyze_results.py
+analyze_results_v3.py
+generate_figures_v3.py
+generate_thesis_deliverables_v4.py
+generate_v4_ragas_report.py
+rerun_evaluation.py
+rerun_v4_entity_boost.py
+run_post_evaluation.py
+scheduled_v4_run.py
+sanity_check_v3.py
+sensitivity_check_cytokines.py
+spot_check_evidence_only_kg.py
+false_negative_audit.py
+ingestion_coverage_analysis.py
+post_index_validation.py
+step1_normalize_remeasure.py
+step2_build_v4_candidates.py
+regenerate_ground_truth.py
+full_reindex.py
+pilot_reindex.py
+deploy_space.py
+hf_upload_backup.py
+results_dashboard.ipynb
+
+# Paper (LaTeX source + third-party IEEE class) — not part of the code release
+BHI_2026/
+
+# Logs, PIDs, scratch and test artifacts
+*.log
+*.pid
+.write_test*.txt
+test_*.py
+*_test.csv
+results_dashboard_executed.ipynb
+
+# Pipeline data outputs (can be regenerated)
+data/phase1/all_responses.json
+data/phase1/hallucination_log.json
+data/phase1/spend_log.json
+data/phase2/corpus_index.csv
+data/phase2/dark_drugs.csv
+data/phase2/papers/
+data/phase3/lightrag_working/
+data/phase3/lightrag_working_v2/
+data/phase3/ingested_files.json
+data/phase3/query_results.json
+data/phase3/graph_stats.json
+data/phase4/eval_results.json
+data/phase4/ragas_scores.csv
+data/phase4/comparison_report.html
+data/phase4/token_usage.csv
+data/phase4/figures/
+data/_archive/
+
+# Old-version / intermediate / pilot data — keep only final artifacts
+data/phase1/*_v1_*
+data/phase3/pilot_lightrag/
+data/phase3/pilot_*.json
+data/phase3/full_reindex_*.json
+data/phase3/ingestion_coverage_v2.json
+data/phase3/minilm_reindex_scope.json
+data/phase3/post_index_validation_run.txt
+data/phase3/target_entity_spot_check.json
+data/phase3/unique_papers_full.json
+data/phase4/*_v[1-4]*
+data/phase4/v[1-4]_*
+data/phase4/tables/v[1-4]_*
+data/phase4/drug_repurposing_candidates*.csv
+data/phase4/eval_results_v*
+data/phase4/ground_truth_v*
+data/phase4/analysis_summary_v*
+data/phase4/ragas_*_v*
+data/phase4/*_audit.txt
+data/phase4/normalization_remeasure.json
+data/phase5/drug_repurposing_candidates_v5.csv
+
+# Generated assets
+vibe_images/
+dashboard/screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Binary / non-code files
+*.m4a
+*.zip
+s41598-020-70440-0.pdf

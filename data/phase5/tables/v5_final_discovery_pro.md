@@ -1,0 +1,31 @@
+# v5_final — Discovery: top genuinely understudied pro-angiogenic
+
+Filter: `real_angio_pubmed_hits ≤ 2`, `net_direction > 0`.
+
+| rank_final | drug_name | cluster | net_direction | activity_magnitude | real_angio_pubmed_hits | novelty_real | novelty_status | kg_plausibility | score_v5_final | corpus_n_papers |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 48 | (-)-alpha-Methylnorepinephrine | 6 | 0.4016 | 0.1266 | 1 | 0.8997 | PARTIAL | 0.4582 | 0.4801 | 2 |
+| 53 | Ethopropazine hydrochloride | 4 | 0.8742 | 0.1345 | 0 | 1.0000 | PARTIAL | 0.2891 | 0.4761 | 5 |
+| 56 | 2-Chloroadenosine triphosphate tetrasodium | 4 | 0.1563 | 0.1256 | 0 | 1.0000 | PARTIAL | 0.2891 | 0.4725 | 5 |
+| 65 | LP 12 hydrochloride hydrate | 6 | 1.3061 | 0.2807 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4623 | 5 |
+| 72 | Fenobam | 4 | 0.9294 | 0.1627 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4522 | 6 |
+| 82 | GBR-12909 dihydrochloride | 1 | 0.7253 | 0.2347 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4439 | 4 |
+| 86 | Cyclothiazide | 2 | 0.1910 | 0.0793 | 2 | 0.8410 | PARTIAL | 0.4582 | 0.4406 | 6 |
+| 87 | N-Desmethylclozapine | 5 | 0.4687 | 0.1317 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4398 | 6 |
+| 88 | BLI-489 hydrate | 4 | 0.2018 | 0.2239 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4396 | 5 |
+| 92 | KB-R7493 | 4 | 1.0403 | 0.2197 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4379 | 5 |
+| 93 | 5-Hydroxy-L-tryptophan | 2 | 0.3131 | 0.0721 | 2 | 0.8410 | PARTIAL | 0.4582 | 0.4377 | 7 |
+| 94 | DL-p-Chlorophenylalanine methyl ester hydrochloride | 2 | 0.3529 | 0.1241 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4368 | 5 |
+| 96 | BMS-193885 | 1 | 0.2387 | 0.2135 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4354 | 4 |
+| 99 | 17alpha-hydroxyprogesterone | 4 | 0.6934 | 0.1184 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4345 | 6 |
+| 102 | Tyrphostin 51 | 4 | 0.2024 | 0.1140 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4328 | 1 |
+| 104 | CPNQ | 2 | 0.7338 | 0.2041 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4316 | 6 |
+| 105 | Imazodan | 6 | 0.2008 | 0.1102 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4312 | 6 |
+| 107 | PF-4708671 | 2 | 0.1044 | 0.1091 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4308 | 4 |
+| 113 | Fluspirilene | 1 | 0.3357 | 0.1930 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4272 | 5 |
+| 120 | CP-100356 monohydrochloride | 4 | 0.3384 | 0.1808 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4223 | 5 |
+| 122 | L-703,606 oxalate salt hydrate | 1 | 0.2789 | 0.1800 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4220 | 5 |
+| 123 | 1,7-Dimethylxanthine | 2 | 0.2573 | 0.0861 | 1 | 0.8997 | PARTIAL | 0.2891 | 0.4216 | 6 |
+| 124 | ARL 67156 trisodium salt | 4 | 0.5551 | 0.1775 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4210 | 5 |
+| 129 | 2-Methylthioadenosine triphosphate tetrasodium | 4 | 0.0031 | 0.1757 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4203 | 5 |
+| 135 | Quipazine, 6-nitro-, maleate | 1 | 0.0300 | 0.1716 | 0 | 1.0000 | PARTIAL | 0.0000 | 0.4186 | 3 |

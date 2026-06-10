@@ -1,0 +1,192 @@
+{
+  "method": {
+    "z_score_baseline": "DMSO",
+    "z_score_scale": "population SD across 1280 drugs (ddof=1)",
+    "distance": "Euclidean over z-scored features",
+    "normalization": "min-max to [0,1]",
+    "n_features_used": 101,
+    "n_features_dropped_zero_var": 0,
+    "raw_distance_range": [
+      0.0,
+      59.3895
+    ],
+    "dmso_row_index": 0
+  },
+  "join": {
+    "n_pipeline_drugs": 1278,
+    "n_with_activity": 1278,
+    "match_pct": 100.0
+  },
+  "cluster_validation": {
+    "per_cluster": [
+      {
+        "cluster": 1,
+        "mean": 0.1195,
+        "median": 0.1049,
+        "std": 0.046,
+        "count": 110,
+        "expected": "high",
+        "description": "strong-phenotype"
+      },
+      {
+        "cluster": 2,
+        "mean": 0.1006,
+        "median": 0.0982,
+        "std": 0.0227,
+        "count": 250,
+        "expected": "low",
+        "description": "control-like"
+      },
+      {
+        "cluster": 3,
+        "mean": 0.0993,
+        "median": 0.0985,
+        "std": 0.0163,
+        "count": 101,
+        "expected": "mid",
+        "description": "intermediate"
+      },
+      {
+        "cluster": 4,
+        "mean": 0.1341,
+        "median": 0.1284,
+        "std": 0.0312,
+        "count": 165,
+        "expected": "high",
+        "description": "strong-phenotype (glutamate/NMDA)"
+      },
+      {
+        "cluster": 5,
+        "mean": 0.1199,
+        "median": 0.1187,
+        "std": 0.0213,
+        "count": 105,
+        "expected": "mid",
+        "description": "intermediate (glutamate-related)"
+      },
+      {
+        "cluster": 6,
+        "mean": 0.1161,
+        "median": 0.1093,
+        "std": 0.0372,
+        "count": 275,
+        "expected": "mid",
+        "description": "intermediate"
+      },
+      {
+        "cluster": 7,
+        "mean": 0.2389,
+        "median": 0.1693,
+        "std": 0.1655,
+        "count": 272,
+        "expected": "high",
+        "description": "strong-phenotype (anti-angiogenic)"
+      }
+    ],
+    "ranked_by_mean": [
+      {
+        "rank": 1,
+        "cluster": 7,
+        "mean": 0.2389,
+        "expected": "high",
+        "description": "strong-phenotype (anti-angiogenic)"
+      },
+      {
+        "rank": 2,
+        "cluster": 4,
+        "mean": 0.1341,
+        "expected": "high",
+        "description": "strong-phenotype (glutamate/NMDA)"
+      },
+      {
+        "rank": 3,
+        "cluster": 5,
+        "mean": 0.1199,
+        "expected": "mid",
+        "description": "intermediate (glutamate-related)"
+      },
+      {
+        "rank": 4,
+        "cluster": 1,
+        "mean": 0.1195,
+        "expected": "high",
+        "description": "strong-phenotype"
+      },
+      {
+        "rank": 5,
+        "cluster": 6,
+        "mean": 0.1161,
+        "expected": "mid",
+        "description": "intermediate"
+      },
+      {
+        "rank": 6,
+        "cluster": 2,
+        "mean": 0.1006,
+        "expected": "low",
+        "description": "control-like"
+      },
+      {
+        "rank": 7,
+        "cluster": 3,
+        "mean": 0.0993,
+        "expected": "mid",
+        "description": "intermediate"
+      }
+    ],
+    "flags": [
+      "PC1 expected HIGH but ranks #4/7"
+    ]
+  },
+  "spot_check": {
+    "high": {
+      "Sunitinib": [
+        {
+          "drug_name": "Sunitinib malate",
+          "cluster": 7,
+          "activity_magnitude": 0.33845088746133867
+        }
+      ],
+      "SU5416": [
+        {
+          "drug_name": "SU 5416",
+          "cluster": 7,
+          "activity_magnitude": 0.17730089696370593
+        }
+      ],
+      "Suramin": [
+        {
+          "drug_name": "Suramin sodium salt",
+          "cluster": 7,
+          "activity_magnitude": 0.8722290499249199
+        }
+      ],
+      "DMH4": [
+        {
+          "drug_name": "DMH4",
+          "cluster": 7,
+          "activity_magnitude": 0.15268647178946268
+        }
+      ]
+    },
+    "low": {
+      "Thalidomide": [
+        {
+          "drug_name": "(\u00b1)-Thalidomide",
+          "cluster": 2,
+          "activity_magnitude": 0.11811477899996164
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "drug_activity_csv": "data/phase5/drug_activity.csv",
+    "validation_json": "data/phase5/activity_validation.json"
+  },
+  "policy": {
+    "v3_locked": true,
+    "v4_locked": true,
+    "v5_score_built": false,
+    "phase4_read_only": true
+  }
+}
