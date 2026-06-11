@@ -55,12 +55,14 @@ Opens a multi-tab interface at `http://localhost:7860`:
 
 | Tab | Description |
 |-----|-------------|
-| Drug Explorer | Leaderboard of 1,278 drugs scored for repurposing potential |
+| Drug Explorer | Per-drug card (screen activity, score, literature status, KG links) with a live-PubMed lookup button |
+| Leaderboard | All 1,278 drugs ranked by repurposing score, filterable by direction, PhenoCluster, or literature status |
 | Genuinely Understudied | The 13 TRUE-DARK candidates with zero corpus papers |
 | Gap Map | Screen activity vs. literature coverage scatter plot |
 | KG Explorer | Interactive knowledge-graph subgraph browser |
-| Chat (RAG vs plain LLM) | Side-by-side grounded vs. ungrounded answers |
-| Benchmarks | Evaluation tables and latency measurements |
+| Chat (RAG vs plain LLM) | Side-by-side grounded vs. ungrounded answers, each cited PMID badged in-corpus or unverifiable |
+| Benchmarks | Citation-audit and evaluation figures and latency measurements |
+| About | System overview and per-tab guide |
 
 ### Pipeline scripts
 
