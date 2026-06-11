@@ -749,6 +749,20 @@ def build_about():
             "by combining a high-content HUVEC tube-formation assay with a "
             "knowledge graph built over 6,500 biomedical abstracts.\n\n"
             "---\n\n"
+        )
+
+        # Architecture diagram (pipeline overview)
+        arch_diag = ROOT / "docs" / "architecture.png"
+        if arch_diag.exists():
+            gr.Image(value=str(arch_diag), show_label=False, container=False,
+                     height=400, interactive=False)
+            gr.Markdown(
+                "*Five-stage pipeline: phenotypic screen \u2192 literature corpus "
+                "\u2192 knowledge graph \u2192 grounded QA with citation verification "
+                "\u2192 repurposing discovery.*"
+            )
+
+        gr.Markdown(
             "### How each tab works\n\n"
             "| Tab | What it does |\n"
             "|---|---|\n"
@@ -759,6 +773,7 @@ def build_about():
             "| **KG Explorer** | Interactive knowledge-graph neighborhood for any drug — see the biology spine (drug to receptor to pathway to disease). |\n"
             "| **Chat** | Side-by-side comparison of DrugRAG (grounded in the corpus) vs. plain Gemma (no retrieval) — with verified citations. |\n"
             "| **Benchmarks** | Hallucination audit and faithfulness evaluation figures from the thesis. |\n"
+            "| **About** | System architecture, how each tab works, and data provenance. |\n"
         )
         gr.Markdown(
             "### How it works\n\n"
@@ -773,13 +788,6 @@ def build_about():
             "Green means the paper is real and in our library; red means unverifiable. "
             "This is how DrugRAG prevents hallucinated references.\n\n"
         )
-
-        # Architecture diagram
-        arch_path = ASSETS / "hero_architecture.png"
-        if arch_path.exists():
-            gr.Markdown("### System architecture")
-            gr.Image(value=str(arch_path), show_label=False, container=False,
-                     height=500, interactive=False)
 
         # Concept chain
         chain_path = ASSETS / "concept_chain.png"

@@ -8,7 +8,7 @@ real, retrievable abstract.
 
 **Live demo:** <https://huggingface.co/spaces/mshz88/DrugRAG>
 
-![DrugRAG pipeline: a phenotypic angiogenesis screen and a PubMed corpus feed a LightRAG knowledge graph; grounded question answering returns only corpus-verifiable citations; verified literature novelty and screen activity rank repurposing candidates.](docs/workflow.png)
+![DrugRAG pipeline architecture: five-stage flow from phenotypic screen through literature corpus, knowledge graph, grounded QA with citation verification, to repurposing discovery.](docs/architecture.png)
 
 ## What it does
 
