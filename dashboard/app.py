@@ -202,7 +202,14 @@ def build_drug_explorer():
                     canonical = str(val).strip() if pd.notna(val) else ""
                 if not canonical:
                     canonical = drug_name.split(" ")[0].strip("()[]+-±")
-                query = f"{canonical} AND angiogenesis"
+                # Field-restrict BOTH terms to Title/Abstract and phrase-match the drug
+                # name, so the live panel returns papers genuinely about this drug AND
+                # angiogenesis (avoids PubMed auto-expansion false matches).
+                query = (
+                    f'"{canonical}"[Title/Abstract] AND '
+                    '(angiogenesis[Title/Abstract] OR angiogenic[Title/Abstract] '
+                    'OR neovascularization[Title/Abstract] OR "endothelial cell"[Title/Abstract])'
+                )
                 display_name = canonical
 
                 # Search with a 10-second timeout
@@ -229,20 +236,9 @@ def build_drug_explorer():
                 finally:
                     socket.setdefaulttimeout(old_timeout)
 
-                # Read stored angiogenesis count for the header
-                _row = df_main[df_main["drug_name"] == drug_name]
-                _angio_count = ""
-                if not _row.empty:
-                    _val = _row.iloc[0].get("real_angio_pubmed_hits", None)
-                    if pd.notna(_val) and int(_val) > 0:
-                        if len(ids) == 1:
-                            _angio_count = f" the most recent of about {int(_val)}"
-                        else:
-                            _angio_count = f" the {len(ids)} most recent of about {int(_val)}"
-                if _angio_count:
-                    lines = [f"#### Latest from PubMed (live) \u2014{_angio_count} \"{display_name} + angiogenesis\" papers\n"]
-                else:
-                    lines = [f"#### Latest from PubMed (live) \u2014 \"{display_name} + angiogenesis\"\n"]
+                lines = [
+                    f"#### Latest from PubMed (live): recent angiogenesis papers mentioning {display_name}\n"
+                ]
                 for s in summaries:
                     title = s.get("Title", "(no title)")
                     pmid = s.get("Id", "?")
@@ -356,14 +352,16 @@ def build_dark_drugs():
         gr.Markdown(f"### Genuinely Understudied Drugs ({len(REF['true_dark'])})")
         gr.Markdown(
             f"These {len(REF['true_dark'])} drugs have **no papers in our 6,500-abstract corpus** and "
-            "**≤ 2 angiogenesis papers on PubMed** — genuinely understudied, "
-            "confirmed against live PubMed."
+            "**≤ 2 angiogenesis papers on PubMed**. They are understudied *for angiogenesis "
+            "specifically*: some are well-known drugs overall (for example Ziprasidone, an "
+            "approved antipsychotic), but almost nothing has been published on their role in "
+            "blood-vessel biology. All are confirmed against live PubMed."
         )
         gr.Dataframe(value=dark_display, interactive=False, wrap=True)
         cp_names = ", ".join(f"**{n}**" for n in REF["active_dark_centerpieces"])
         gr.Markdown(
-            f"Three of these — {cp_names} — are the verified active-dark discovery "
-            "candidates: bioactive in our assay AND genuinely understudied."
+            f"Three of these ({cp_names}) are the verified active-dark discovery "
+            "candidates: active in our assay yet understudied in the angiogenesis literature."
         )
 
 
@@ -509,7 +507,7 @@ def build_benchmark():
 # ════════════════════════════════════════════════════════════════════════════
 def build_kg_explorer():
     EMPTY_NO_MATCH = (
-        "No graph data — this drug is genuinely understudied<br>"
+        "No graph data: understudied in the angiogenesis literature<br>"
         "(no abstracts → no extracted entities).<br><br>"
         "<b>Try one of these instead:</b> Memantine · Adenosine · "
         "Sunitinib · Histamine · Resveratrol · Cilostazol"
@@ -531,8 +529,8 @@ def build_kg_explorer():
                     kg_utils.empty_placeholder_figure(EMPTY_NO_MATCH,
                         title=f"Knowledge-graph neighborhood of {drug_name}"),
                     f"*No matching node for **{drug_name}** in the LightRAG graph.*\n\n"
-                    "This drug is **genuinely understudied** — no abstracts in "
-                    "our 6,500-paper corpus, so no entities extracted.\n\n"
+                    "This drug is **understudied in the angiogenesis literature**: no abstracts "
+                    "in our 6,500-paper corpus, so no entities were extracted.\n\n"
                     "**Try one of these instead:** Memantine · Adenosine · Sunitinib · "
                     "Histamine · Resveratrol · Cilostazol",
                 )
