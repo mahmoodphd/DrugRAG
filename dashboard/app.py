@@ -335,6 +335,9 @@ def build_leaderboard():
 # ════════════════════════════════════════════════════════════════════════════
 def build_dark_drugs():
     dark = df_pubmed[df_pubmed["verification"] == "TRUE-DARK"].copy()
+    # Order by the paper's verified-novelty score (rank_final) so this tab
+    # matches Table IV in the manuscript rather than sorting by raw activity.
+    dark = dark.merge(df_main[["drug_name", "rank_final"]], on="drug_name", how="left")
     dark["direction"] = dark["net_direction"].apply(lambda x: "anti" if x < 0 else "pro")
     dark["cluster_meaning"] = dark["cluster"].map(CLUSTER_MAP)
     dark = dark.rename(columns={
@@ -346,7 +349,7 @@ def build_dark_drugs():
     })
     show_cols = ["Drug", "Cluster", "Cluster meaning", "Direction",
                  "Experimental activity", "Angio papers (PubMed)", "Total PubMed papers"]
-    dark_display = dark[show_cols].sort_values("Experimental activity", ascending=False)
+    dark_display = dark.sort_values("rank_final")[show_cols]
 
     with gr.Column():
         gr.Markdown(f"### Genuinely Understudied Drugs ({len(REF['true_dark'])})")
