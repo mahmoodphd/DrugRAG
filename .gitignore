@@ -109,6 +109,9 @@ dashboard/screenshots/
 .DS_Store
 Thumbs.db
 
+# IDE
+.vscode/
+
 # Binary / non-code files
 *.m4a
 *.zip
