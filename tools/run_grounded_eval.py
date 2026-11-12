@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-T-EVAL: Grounded-QA head-to-head evaluation for BHI 2026 Table II.
+T-EVAL: Grounded-QA head-to-head evaluation for BHI 2026 Table III.
 
 Runs the same 20 angiogenesis questions through three systems:
   1. Plain Gemma (no retrieval) — via dashboard/rag_chat.py plain_llm_answer()
@@ -14,7 +14,7 @@ Scores:
 
 Output:
   - data/phase4/eval_grounded_qa.csv      (per-question detail)
-  - data/phase4/eval_grounded_qa_summary.json  (aggregated for Table II)
+  - data/phase4/eval_grounded_qa_summary.json  (aggregated for Table III)
 
 Usage:
   source .venv/bin/activate
@@ -228,7 +228,7 @@ async def run_eval():
 
 
 def compute_summary(results):
-    """Aggregate per-system stats for Table II."""
+    """Aggregate per-system stats for Table III."""
     systems = {}
     for sys_name, prefix in [("Plain Gemma", "plain"),
                               ("Naive RAG", "naive"),
@@ -250,7 +250,7 @@ def compute_summary(results):
 
     # NOTE: RAGAS faithfulness / answer-relevancy are NOT computed here.
     # They come from the separate phase-4 evaluation (30-Q set, all models).
-    # Table II reports only what this 20-Q run directly measures.
+    # Table III reports only what this 20-Q run directly measures.
 
     return systems
 
@@ -277,9 +277,9 @@ def main():
         json.dump(summary, f, indent=2)
     print(f"Saved summary: {out_json}")
 
-    # Print Table II shell (20-Q measured metrics only)
+    # Print Table III shell (20-Q measured metrics only)
     print("\n" + "=" * 60)
-    print("  TABLE II — Grounded QA, head-to-head (20-Q run)")
+    print("  TABLE III — Grounded QA, head-to-head (20-Q run)")
     print("=" * 60)
     print(f"{'System':30s} {'Citations':>10s} {'Verif.':>7s} {'Verif. rate':>12s} {'Latency':>8s}")
     print("-" * 70)

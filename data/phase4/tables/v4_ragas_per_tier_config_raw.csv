@@ -1,0 +1,16 @@
+tier,tier_label,config,label,faithfulness_mean,faithfulness_ci_lo,faithfulness_ci_hi,faithfulness_n,answer_relevancy_mean,answer_relevancy_ci_lo,answer_relevancy_ci_hi,answer_relevancy_n,context_precision_mean,context_precision_ci_lo,context_precision_ci_hi,context_precision_n,context_recall_mean,context_recall_ci_lo,context_recall_ci_hi,context_recall_n
+1,Tier 1 (factual),baseline,A: Baseline (no retrieval),0.3032,0.1531,0.4635,30,0.7686,0.6599,0.8595,30,0.4,0.2,0.5667,30,0.3284,0.2218,0.4419,30
+1,Tier 1 (factual),naive_rag,B: Naive RAG (TF-IDF),0.525,0.4033,0.6474,35,0.5506,0.4171,0.6846,35,0.6452,0.4973,0.7817,35,0.6107,0.5125,0.7184,35
+1,Tier 1 (factual),lightrag_local,C: LightRAG local,0.7789,0.7114,0.8427,40,0.6081,0.4797,0.7246,40,0.8833,0.7833,0.9626,40,0.6398,0.5698,0.7158,40
+1,Tier 1 (factual),lightrag_global,D: LightRAG global,0.8401,0.7651,0.9089,40,0.3286,0.1989,0.4578,40,0.6417,0.5041,0.7625,40,0.2954,0.204,0.3959,40
+1,Tier 1 (factual),lightrag_hybrid,E: LightRAG hybrid,0.7891,0.7184,0.851,40,0.633,0.5074,0.7508,40,0.9083,0.825,0.9792,40,0.6206,0.525,0.7218,40
+2,Tier 2 (mechanistic),baseline,A: Baseline (no retrieval),0.5384,0.3669,0.7043,30,0.7885,0.6719,0.8886,30,0.5,0.3333,0.6667,30,0.6208,0.5241,0.7098,30
+2,Tier 2 (mechanistic),naive_rag,B: Naive RAG (TF-IDF),0.6494,0.5314,0.7608,34,0.2986,0.1595,0.4511,34,0.5242,0.3631,0.7001,33,0.7838,0.6986,0.8585,34
+2,Tier 2 (mechanistic),lightrag_local,C: LightRAG local,0.8417,0.7654,0.9024,40,0.2378,0.1192,0.3748,40,0.6645,0.5427,0.7842,39,0.4693,0.3617,0.5909,40
+2,Tier 2 (mechanistic),lightrag_global,D: LightRAG global,0.864,0.7818,0.9283,40,0.0966,0.0241,0.1932,40,0.5771,0.4333,0.7083,40,0.5307,0.4103,0.6463,40
+2,Tier 2 (mechanistic),lightrag_hybrid,E: LightRAG hybrid,0.9168,0.8673,0.9601,40,0.2052,0.0921,0.3262,40,0.5583,0.425,0.6917,40,0.5654,0.4438,0.6825,40
+3,Tier 3 (discovery),baseline,A: Baseline (no retrieval),0.4216,0.253,0.6051,27,0.4952,0.3378,0.6583,27,0.4815,0.2963,0.6667,27,0.5593,0.3793,0.7286,27
+3,Tier 3 (discovery),naive_rag,B: Naive RAG (TF-IDF),0.5391,0.4224,0.66,37,0.3731,0.2408,0.5199,37,0.7167,0.5951,0.8239,37,0.7789,0.6591,0.8789,37
+3,Tier 3 (discovery),lightrag_local,C: LightRAG local,0.9251,0.8794,0.9654,40,0.1208,0.0244,0.2182,40,0.5729,0.45,0.6896,40,0.4321,0.3225,0.5538,40
+3,Tier 3 (discovery),lightrag_global,D: LightRAG global,0.8028,0.715,0.8882,40,0.2054,0.094,0.3224,40,0.6917,0.5583,0.8083,40,0.4947,0.3945,0.5978,40
+3,Tier 3 (discovery),lightrag_hybrid,E: LightRAG hybrid,0.839,0.7655,0.9073,40,0.1149,0.0242,0.2144,40,0.5708,0.4394,0.6937,40,0.565,0.4472,0.6839,40

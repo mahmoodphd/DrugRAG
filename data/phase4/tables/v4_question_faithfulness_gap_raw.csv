@@ -1,0 +1,31 @@
+question_id,baseline,naive_rag,lightrag_local,lightrag_global,lightrag_hybrid,tier,user_input,faith_gap_LR_hyb_minus_baseline
+20,0.0,0.4272727272727273,0.9285714285714286,0.9166666666666666,1.0,2,How do cytoskeletal inhibitors like ML-7 and ML-9 affect tube formation?,1.0
+27,0.0172413793103448,0.8109265734265734,1.0,0.9444444444444444,1.0,3,Which drug classes in LOPAC1280 are most underrepresented in angiogenesis research?,0.9828
+4,0.0,0.6507554945054945,0.7916666666666666,0.9642857142857143,0.9285714285714286,1,What type of glutamate receptor does Memantine antagonize?,0.9286
+6,0.0,0.5714285714285714,0.533008658008658,1.0,0.8960227272727272,1,What is the mechanism of action of Suramin as an anti-angiogenic agent?,0.896
+19,0.25925925925925924,0.8265460030165913,1.0,1.0,1.0,2,How does GRIN3A expression relate to pro-angiogenic gene expression?,0.7407
+9,0.30303030303030304,0.7333333333333333,0.9654761904761905,0.7571428571428571,1.0,1,Does Minocycline have anti-angiogenic properties? What is the evidence?,0.697
+30,0.3125,0.0875,0.8173076923076923,0.21505681818181818,0.928921568627451,3,How does the Matrigel tube formation assay capture different aspects of endothelial cell behavior?,0.6164
+1,0.3066666666666667,0.2708333333333333,0.9583333333333334,0.475,0.9166666666666666,1,What receptor does SU5416 inhibit and what is its role in angiogenesis?,0.61
+18,0.3333333333333333,0.7266025641025642,0.875,0.8507936507936508,0.9333333333333333,2,What is the role of the GRM5 glutamate receptor in endothelial cells?,0.6
+24,0.05555555555555553,0.5892857142857143,1.0,1.0,0.6041666666666666,3,Which PhenoCluster drugs show the strongest discrepancy between experimental effects and literature coverage?,0.5486
+8,0.0,0.3140933140933141,0.5178571428571428,1.0,0.5456349206349206,1,What is the anti-angiogenic mechanism of 2-methoxyestradiol?,0.5456
+29,0.35714285714285715,0.29444444444444445,0.797979797979798,0.9722222222222222,0.9,3,What common mechanisms do PhenoCluster 7 drugs share that cause complete disruption of tube formation?,0.5429
+23,0.4820659971305595,0.7272058823529411,1.0,0.8603146853146854,1.0,3,What is the overall evidence that glutamate signaling plays a role in vascular biology?,0.5179
+28,0.4827586206896552,0.47248217468805703,1.0,0.9583333333333334,1.0,3,What biological pathways are shared by drugs in PhenoCluster 4 that enhance network connectivity?,0.5172
+17,0.5,0.1,0.7083333333333334,0.5,1.0,2,How do serotonin receptor antagonists influence angiogenic processes?,0.5
+14,0.2713178294573643,0.665954415954416,0.7098039215686275,1.0,0.7444444444444445,2,What is the role of ROCK signaling in endothelial tube morphogenesis?,0.4731
+10,0.3333333333333333,0.8153846153846155,0.9125000000000001,1.0,0.805239898989899,1,What kinases does Roscovitine inhibit?,0.4719
+16,0.30107526881720426,0.845925925925926,0.661013986013986,0.66875,0.7474025974025974,2,What is the connection between GABA signaling and vascular biology?,0.4463
+25,0.3333333333333333,0.7443922305764411,0.6979166666666667,0.3125,0.75,3,What are the most promising drug repurposing candidates for anti-angiogenic therapy based on LOPAC1280 screening?,0.4167
+5,0.3888888888888889,0.2722222222222222,0.890625,0.8214285714285714,0.6850961538461539,1,What kinase does Y-27632 inhibit and what is its effect on cell morphology?,0.2962
+21,0.2857142857142857,0.6963963963963963,0.96875,0.8214285714285714,0.5,3,Which LOPAC1280 drug classes modulate angiogenesis through neurotransmitter pathways?,0.2143
+2,0.6666666666666666,0.2889576883384933,0.8166666666666667,0.84375,0.8666666666666667,1,Which VEGF receptor subtypes does Sunitinib target?,0.2
+13,0.7386363636363636,0.41596638655462187,1.0,0.9642857142857143,0.9090909090909091,2,How do NMDA receptor antagonists influence angiogenesis in vitro?,0.1705
+3,0.49615384615384617,0.5833333333333333,0.6428571428571428,0.9583333333333334,0.655715811965812,1,What is the mechanism of DMH4 as a VEGF inhibitor?,0.1596
+11,0.9119106699751861,0.8203896103896104,1.0,0.9166666666666666,0.9444444444444444,2,How does glutamate receptor inhibition affect endothelial tube formation?,0.0325
+22,0.9785714285714286,0.5206971677559913,0.96875,0.94375,0.9642857142857143,3,Which drugs in the LOPAC library have phenotypic effects but lack angiogenesis literature?,-0.0143
+15,1.0,0.8055555555555556,0.9583333333333334,0.9,0.9513888888888888,2,How do dopamine receptor antagonists affect endothelial cell migration and branching?,-0.0486
+12,0.9885057471264368,0.5619678792569659,0.5763888888888888,0.9226190476190477,0.9375,2,What is the relationship between VEGF signaling and endothelial cell network formation?,-0.051
+7,0.6666666666666666,0.7398346435348333,0.7604166666666666,0.58125,0.5916666666666667,1,How does Thalidomide affect blood vessel formation?,-0.075
+26,0.9848484848484849,0.42113095238095233,1.0,1.0,0.7426136363636364,3,How do glutamate receptor genes relate to both angiogenesis and Alzheimer's disease?,-0.2422

@@ -1,4 +1,6 @@
 """Capture DrugRAG chat screenshot — v5: JS tab selection."""
+import os
+import tempfile
 import time
 from playwright.sync_api import sync_playwright
 
@@ -39,7 +41,7 @@ with sync_playwright() as p:
     print(f"JS result: {result}")
     time.sleep(5)
 
-    page.screenshot(path="/tmp/drugrag_v5_chat.png")
+    page.screenshot(path=os.path.join(tempfile.gettempdir(), "drugrag_v5_chat.png"))
     print("Chat tab screenshot taken.")
 
     # Now find the question input and Run button
@@ -92,7 +94,8 @@ with sync_playwright() as p:
     print(f"Taking screenshots...")
     page.screenshot(path=OUT, full_page=False)
     page.screenshot(path=OUT.replace(".png", "_full.png"), full_page=True)
-    page.screenshot(path="/tmp/drugrag_v5_result.png", full_page=False)
+    page.screenshot(path=os.path.join(tempfile.gettempdir(), "drugrag_v5_result.png"),
+                    full_page=False)
     print(f"Done! Saved {OUT}")
 
     browser.close()

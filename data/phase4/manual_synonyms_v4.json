@@ -1,0 +1,19 @@
+{
+  "SU5416_group": {
+    "canonical": "SU5416",
+    "synonyms": [
+      "SU5416",
+      "SU 5416",
+      "Semaxanib"
+    ],
+    "note": "Same molecule, different names. KG indexer created entity 'SU5416' only; 'Semaxanib' has 0 KG edges as a separate alias-resolution gap. Not in LOPAC1280; documented for reproducibility, no LOPAC rank impact."
+  },
+  "SU4312_group": {
+    "canonical": "SU4312",
+    "synonyms": [
+      "SU4312",
+      "SU 4312"
+    ],
+    "note": "Spacing-only variant; not in LOPAC1280."
+  }
+}

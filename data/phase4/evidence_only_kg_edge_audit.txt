@@ -1,0 +1,157 @@
+[load] KG dir: /home/mshz88/Samiha/data/phase3/lightrag_working_v2
+  entities (vdb): 36,576   relationships (vdb): 43,300
+Loaded 3072 rows from dataset
+Non-control rows: 2560
+Unique drugs extracted: 1278
+  LOPAC drugs: 1,278
+
+========================================================================
+RE-MEASUREMENT RESULTS
+========================================================================
+  LOPAC drugs total                              : 1,278
+  OLD logic, n_kg == 0  (the '642' figure)       : 642
+  NEW logic (normalized + exact-edge), edges == 0: 536
+  RECOVERED by normalization (was 0, now > 0)    : 126
+    of which had n_papers > 0 (was the '627')    : 123
+
+  Remaining zero-edge breakdown after fix:
+    still 0 edges, n_papers == 0  (true literature-dark) : 12
+    still 0 edges, n_papers >  0  (real extraction gaps) : 524
+
+  Match-kind distribution under NEW logic:
+match_kind
+exact         636
+none          501
+normalized    141
+
+========================================================================
+TARGET-DRUG EDGE COUNTS  (NEW vs OLD vs spot-check substring)
+========================================================================
+  Drug match                       norm                  old_n_kg  new_edges  sub_str  edge_rank
+  Sunitinib malate                 Sunitinib                    9         17       52        110/1278
+  (±)-Thalidomide                  Thalidomide                  0         44       46         12/1278
+  SU5416 (NOT IN LOPAC)                                         -          -       10          -
+  Y-27632 dihydrochloride          Y-27632                      0          6        7        326/1278
+  ROCK (NOT IN LOPAC)                                           -          -       15          -
+
+========================================================================
+TOP-20 BY NEW EDGE COUNT (no scoring change, raw KG signal only)
+========================================================================
+ edge_rank                            drug_name     normalized   kg_canonical match_kind  n_papers  old_n_kg  new_edges_exact
+         1                            Adenosine      Adenosine      Adenosine      exact        12       572              147
+         2                            Melatonin      Melatonin      Melatonin      exact        12        91              111
+         3                          Resveratrol    Resveratrol    Resveratrol      exact        13        50               83
+         4                           Cilostazol     Cilostazol     Cilostazol      exact        14        70               80
+         5                             Caffeine       Caffeine       Caffeine      exact        15        90               71
+         6                         Indomethacin   Indomethacin   Indomethacin      exact        14        43               71
+         7        (±)-Propranolol hydrochloride    Propranolol    Propranolol normalized        12         0               63
+         8        (S)-Propranolol hydrochloride    Propranolol    Propranolol normalized         2         0               63
+         9 Atorvastatin calcium salt trihydrate   Atorvastatin   Atorvastatin normalized         5         0               47
+        10                            Cisplatin      Cisplatin      Cisplatin      exact        15        44               45
+        11                  Quercetin dihydrate      Quercetin      Quercetin normalized         5         0               45
+        12                      (±)-Thalidomide    Thalidomide    Thalidomide normalized        13         0               44
+        13                          Fenofibrate    Fenofibrate    Fenofibrate      exact        15        36               44
+        14                           L-Arginine       Arginine     L-Arginine      exact        14       108               42
+        15                       Piperlongumine Piperlongumine Piperlongumine      exact        13        30               42
+        16                         Mitoxantrone   Mitoxantrone   Mitoxantrone      exact        15        30               40
+        17              Serotonin hydrochloride      Serotonin      Serotonin normalized         1         0               40
+        18      (-)-Isoproterenol hydrochloride  Isoproterenol  Isoproterenol normalized         7         0               39
+        19                          Bezafibrate    Bezafibrate    Bezafibrate      exact        12        26               39
+        20      (±)-Isoproterenol hydrochloride  Isoproterenol  Isoproterenol normalized         7         0               39
+
+========================================================================
+SAMPLES: still-zero-edges drugs after normalization
+========================================================================
+
+  [a] true literature-dark (n_papers == 0):
+      Azithromycin dihydrate
+      CP-101537
+      CP-471474
+      CP-93129 dihydrochloride hydrate
+      Caroverine hydrochloride
+      Dolasetron mesylate hydrate
+      N2-Ethyl-2'-deoxyguanosine
+      PHA 767491 hydrochloride
+      Propantheline bromide
+      Sematilide monohydrochloride monohydrate
+      Tomoxetine
+      Ziprasidone hydrochloride monohydrate
+      ... total: 12
+
+  [b] real extraction failures (n_papers > 0 but no KG entity):
+      (+/-)-Anisodamine                                  (n_papers=15, normalized='(+/-)-Anisodamine')
+      p-Benzoquinone                                     (n_papers=15, normalized='p-Benzoquinone')
+      MNS                                                (n_papers=15, normalized='MNS')
+      Isotharine mesylate                                (n_papers=14, normalized='Isotharine')
+      O-Methylserotonin hydrochloride                    (n_papers=14, normalized='O-Methylserotonin')
+      PAPP                                               (n_papers=14, normalized='PAPP')
+      BIO                                                (n_papers=14, normalized='BIO')
+      Pseudocantharidin C                                (n_papers=14, normalized='Pseudocantharidin C')
+      N-Ethylmaleimide                                   (n_papers=14, normalized='N-Ethylmaleimide')
+      Benzamide                                          (n_papers=14, normalized='Benzamide')
+      Antozoline hydrochloride                           (n_papers=14, normalized='Antozoline')
+      beta-Estradiol                                     (n_papers=13, normalized='beta-Estradiol')
+      Clodronic acid                                     (n_papers=13, normalized='Clodronic acid')
+      SU 6656                                            (n_papers=13, normalized='SU 6656')
+      CP-64434 hydrate                                   (n_papers=13, normalized='CP-64434')
+      ML-9                                               (n_papers=13, normalized='ML-9')
+      SKF-89145 hydrobromide                             (n_papers=13, normalized='SKF-89145')
+      Mephetyl tetrazole                                 (n_papers=13, normalized='Mephetyl tetrazole')
+      GR 79236X                                          (n_papers=13, normalized='GR 79236X')
+      DFB                                                (n_papers=13, normalized='DFB')
+      ... total: 524
+
+[save] measurement payload: /home/mshz88/Samiha/data/phase4/normalization_remeasure.json
+[load] /home/mshz88/Samiha/data/phase3/lightrag_working_v2
+
+============================================================================================
+DRUG: Valganciclovir hydrochloride hydrate
+  normalized: Valganciclovir
+  KG aliases (1): ['Valganciclovir']
+--------------------------------------------------------------------------------------------
+  unique edges (alias-union, dedup): 6
+
+  [1] CMV Anterior Uveitis  -->  Valganciclovir
+
+  [2] 12-Week Oral Regimen  -->  Valganciclovir
+
+  [3] Cytomegalovirus (CMV)  -->  Valganciclovir
+
+  [4] Therapeutic Drug Monitoring (TDM)  -->  Valganciclovir
+
+  [5] Hematological Toxicity  -->  Valganciclovir
+
+  [6] Cytomegalovirus  -->  Valganciclovir
+
+============================================================================================
+DRUG: Doxepin hydrochloride
+  normalized: Doxepin
+  KG aliases (2): ['Doxepin', 'Doxepin Hydrochloride']
+--------------------------------------------------------------------------------------------
+  unique edges (alias-union, dedup): 4
+
+  [1] Doxepin Hydrochloride  -->  Histamine H1 Receptor
+
+  [2] Doxepin Hydrochloride  -->  Muscarinic Acetylcholine Receptor
+
+  [3] Cultured Mouse Neuroblastoma Cells  -->  Doxepin Hydrochloride
+
+  [4] Doxepin  -->  P-Glycoprotein
+
+============================================================================================
+DRUG: BNTX maleate salt hydrate
+  normalized: BNTX
+  KG aliases (1): ['BNTX']
+--------------------------------------------------------------------------------------------
+  unique edges (alias-union, dedup): 1
+
+  [1] BNTX  -->  Eribis Peptide 94
+
+============================================================================================
+DRUG: Benzamil hydrochloride
+  normalized: Benzamil
+  KG aliases (1): ['Benzamil']
+--------------------------------------------------------------------------------------------
+  unique edges (alias-union, dedup): 1
+
+  [1] Benzamil  -->  Cortical Collecting Tubule

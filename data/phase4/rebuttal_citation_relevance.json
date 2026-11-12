@@ -1,0 +1,1051 @@
+{
+  "note": "Four-level citation audit. L1-L3 graded on the real PubMed record (title+abstract) for every system, so the reference source is identical across systems. L4 is corpus membership, reported separately rather than conflated with existence. Denominator is every PMID emitted; nothing filtered.",
+  "levels": {
+    "L1": "PMID resolves to a real PubMed record",
+    "L2": "resolved record is vascular/angiogenesis-topical (curated lexicon)",
+    "L3": "resolved record mentions the entity the question asks about",
+    "L4": "PMID is in the retrieved corpus, so the evidence is openable"
+  },
+  "n_questions": 20,
+  "summary": {
+    "Plain Gemma": {
+      "citations_generated": 16,
+      "L1_exists_in_pubmed": {
+        "n": 16,
+        "rate": 1.0
+      },
+      "L2_vascular_topical": {
+        "n": 2,
+        "rate": 0.125
+      },
+      "L3_matches_question_entity": {
+        "n": 0,
+        "rate": 0.0
+      },
+      "L4_traceable_to_retrieved_corpus": {
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    "Naive RAG": {
+      "citations_generated": 36,
+      "L1_exists_in_pubmed": {
+        "n": 36,
+        "rate": 1.0
+      },
+      "L2_vascular_topical": {
+        "n": 36,
+        "rate": 1.0
+      },
+      "L3_matches_question_entity": {
+        "n": 28,
+        "rate": 0.7778
+      },
+      "L4_traceable_to_retrieved_corpus": {
+        "n": 36,
+        "rate": 1.0
+      }
+    },
+    "DrugRAG": {
+      "citations_generated": 46,
+      "L1_exists_in_pubmed": {
+        "n": 46,
+        "rate": 1.0
+      },
+      "L2_vascular_topical": {
+        "n": 44,
+        "rate": 0.9565
+      },
+      "L3_matches_question_entity": {
+        "n": 40,
+        "rate": 0.8696
+      },
+      "L4_traceable_to_retrieved_corpus": {
+        "n": 46,
+        "rate": 1.0
+      }
+    }
+  },
+  "citations": [
+    {
+      "system": "Plain Gemma",
+      "q": 1,
+      "pmid": "15621547",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Preferential placental transfer of Helicobacter pylori specific IgG."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 3,
+      "pmid": "11132510",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Orthodontic treatment for an adolescent with a history of acute lymphoblastic leukemia."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 4,
+      "pmid": "18363415",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Characteristic heats of adsorption for slit pore and defected pore models."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 5,
+      "pmid": "10450134",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "[Psychodiagnosis--with and without a computer]."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 6,
+      "pmid": "11246342",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Proximal small bowel enteropathy in patients with microscopic colitis: is it gluten-sensitive?"
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 6,
+      "pmid": "15233644",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Reverse transcriptase polymerase chain reaction (RT-PCR) detection of HLP gene expression in Candida glabrata and its possible role in in vitro haemolysin production."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 8,
+      "pmid": "10444153",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Lasers in urology."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 8,
+      "pmid": "11424411",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "[Irinotecan (CPT-11) therapy for advanced gastric cancer]."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 14,
+      "pmid": "11532051",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Paediatric melioidosis in the Northern Territory of Australia: an expanding clinical spectrum."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 14,
+      "pmid": "11630155",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "[The case of Don Juan]."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 14,
+      "pmid": "15815125",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Building a multidisciplinary program: what toilets, dogs, young turks, and cartoons can teach us."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 14,
+      "pmid": "16481336",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Functional bioinformatics for Arabidopsis thaliana."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 16,
+      "pmid": "11511223",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Hydrogen-bonding cavities about metal ions: synthesis, structure, and physical properties for a series of monomeric M-OH complexes derived from water."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 16,
+      "pmid": "15631022",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Effects of tissue inhibitor of metalloproteinases on canine chondrocytes cultured in vitro with tumor necrosis factor-alpha."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 16,
+      "pmid": "8545444",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Dissociation of galaninergic and neurotrophic plasticity in Down syndrome and Alzheimer disease."
+    },
+    {
+      "system": "Plain Gemma",
+      "q": 19,
+      "pmid": "23344751",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": false,
+      "title": "Giant pulmonary artery aneurysm: 12 years of follow-up. case report and review of the literature."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 1,
+      "pmid": "33617800",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Effects of CYP3A inhibitors ketoconazole, voriconazole, and itraconazole on the pharmacokinetics of sunitinib and its main metabolite in rats."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 3,
+      "pmid": "15748877",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The effect of glutamate receptor blockers on glutamate release following spinal cord injury. Lack of evidence for an ongoing feedback cascade of damage --&gt; glutamate release --&gt; damage --&gt; glutamate release --&gt; etc."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 3,
+      "pmid": "22806212",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Antagonism of NMDA receptors as a potential treatment for Down syndrome: a pilot randomized controlled trial."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 3,
+      "pmid": "24991162",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Effectiveness and safety of generic memantine hydrochloride manufactured in China in the treatment of moderate to severe Alzheimer's disease: a multicenter, double-blind randomized controlled trial."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 6,
+      "pmid": "41931005",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The Multifaceted Legacy of Thalidomide: Chemistry and Biology Driving Modern Drug Design."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 7,
+      "pmid": "18155073",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The metabotropic glutamate receptor 7 (mGluR7) allosteric agonist AMN082 modulates nucleus accumbens GABA and glutamate, but not dopamine, in rats."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 7,
+      "pmid": "25536365",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Annexin-A1 regulates microRNA-26b* and microRNA-562 to directly target NF-&#x3ba;B and angiogenesis in breast cancer cells."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 7,
+      "pmid": "31401662",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Accuracy, discriminative properties and reliability of a human ESC-based in vitro toxicity assay to distinguish teratogens responsible for neural tube defects."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 7,
+      "pmid": "39087289",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Investigation of the Effect of Tenoxicam on Neural Tube Defect Using Chick Embryo Model."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 8,
+      "pmid": "26539695",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Astrocytes spatially restrict VEGF signaling by polarized secretion and incorporation of VEGF into the actively assembling extracellular matrix."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 8,
+      "pmid": "27036872",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Hepatocyte growth factor as a downstream mediator of vascular endothelial growth factor-dependent preservation of growth in the developing lung."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 8,
+      "pmid": "41691203",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Compartmentalized VEGF receptor expression in hypothalamic tanycytes reveals a novel non-endothelial axis of VEGF signaling : Tanycytes as a novel non-endothelial target of VEGF signaling."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 9,
+      "pmid": "10193902",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "GlycineB antagonists and partial agonists in rodent models of Parkinson's disease--comparison with uncompetitive N-methyl-D-aspartate receptor antagonist."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 9,
+      "pmid": "10536266",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Regulation of NMDA-stimulated [14C]GABA and [3H]acetylcholine release by striatal glutamate and dopamine receptors."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 9,
+      "pmid": "12112191",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Characterisation of striatal NMDA receptors involved in the generation of parkinsonian symptoms: intrastriatal microinjection studies in the 6-OHDA-lesioned rat."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 9,
+      "pmid": "22068228",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Coactivation of NMDA receptors by glutamate and D-serine induces dilation of isolated middle cerebral arteries."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 10,
+      "pmid": "18287881",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Nitric oxide does not downregulate Rho-kinase (ROCK-2) expression in rat coronary endothelial cells."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 10,
+      "pmid": "23307957",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The effect of Rho-associated kinase inhibition on the ocular penetration of timolol maleate."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 10,
+      "pmid": "28277985",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Indoxyl sulfate potentiates endothelial dysfunction via reciprocal role for reactive oxygen species and RhoA/ROCK signaling in 5/6 nephrectomized rats."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 10,
+      "pmid": "28743511",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Raf-1/CK2 and RhoA/ROCK signaling promote TNF-&#x3b1;-mediated endothelial apoptosis via regulating vimentin cytoskeleton."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 10,
+      "pmid": "39946654",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Efficacy of the Rho-Kinase Inhibitor for Corneal Endothelial Protection in Fuchs Endothelial Corneal Dystrophy After Phacoemulsification."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 12,
+      "pmid": "20930424",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Hypertonicity enhances GABA uptake by cultured rat retinal capillary endothelial cells."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 12,
+      "pmid": "3725199",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Cerebral endothelial GABA-T activity: effects of in vivo GABA-T inhibition."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 13,
+      "pmid": "20184550",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Identification of molecular targets associated with ethanol toxicity and implications in drug development."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 15,
+      "pmid": "19478043",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "An in vivo chemical library screen in Xenopus tadpoles reveals novel pathways involved in angiogenesis and lymphangiogenesis."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 15,
+      "pmid": "36469932",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Effects of second-generation H1-antihistamine drugs on angiogenesis in  in&#xa0;vivo  chick chorioallantoic membrane model."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 16,
+      "pmid": "18155073",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The metabotropic glutamate receptor 7 (mGluR7) allosteric agonist AMN082 modulates nucleus accumbens GABA and glutamate, but not dopamine, in rats."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 16,
+      "pmid": "18713880",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "The mechanism of helium-induced preconditioning: a direct role for nitric oxide in rabbits."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 16,
+      "pmid": "20880394",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Differential effects of uridine adenosine tetraphosphate on purinoceptors in the rat isolated perfused kidney."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 16,
+      "pmid": "38709202",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "A novel anoikis-related signature predicts prognosis risk and treatment responsiveness in diffuse large B-cell lymphoma."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 17,
+      "pmid": "30123923",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The anti-angiogenic potential of (&#xb1;) gossypol in comparison to suramin."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 17,
+      "pmid": "39272798",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Sulfamoylated Estradiol Analogs Targeting the Actin and Microtubule Cytoskeletons Demonstrate Anti-Cancer Properties In Vitro and In Ovo."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 18,
+      "pmid": "17046715",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Poly(ADP-ribose)polymerase inhibition decreases angiogenesis."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 18,
+      "pmid": "31401662",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Accuracy, discriminative properties and reliability of a human ESC-based in vitro toxicity assay to distinguish teratogens responsible for neural tube defects."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 18,
+      "pmid": "39087289",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Investigation of the Effect of Tenoxicam on Neural Tube Defect Using Chick Embryo Model."
+    },
+    {
+      "system": "Naive RAG",
+      "q": 19,
+      "pmid": "38526036",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "NEDD4L is a promoter for angiogenesis and cell proliferation in human umbilical vein endothelial cells."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 0,
+      "pmid": "14583492",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The antiangiogenic agent SU5416 down-regulates phorbol ester-mediated induction of cyclooxygenase 2 expression by inhibiting nicotinamide adenine dinucleotide phosphate oxidase activity."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 0,
+      "pmid": "22033393",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "VEGF regulates antidepressant effects of lamotrigine."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 0,
+      "pmid": "23049997",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Unexpected neuronal protection of SU5416 against 1-Methyl-4-phenylpyridinium ion-induced toxicity via inhibiting neuronal nitric oxide synthase."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 1,
+      "pmid": "39087579",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Design, Development of Pyrazole-Linked Spirocyclopropyl Oxindole-Carboxamides as Potential Cytotoxic Agents and Type III Allosteric VEGFR-2 Inhibitors."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 2,
+      "pmid": "27806094",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "EGF-Induced VEGF Exerts a PI3K-Dependent Positive Feedback on ERK and AKT through VEGFR2 in Hematological In Vitro Models."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 2,
+      "pmid": "29080796",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Vascular endothelial growth factor mediates ceramide 1-phosphate-stimulated macrophage proliferation."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 3,
+      "pmid": "21792308",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Open-label study of the short-term effects of memantine on FDG-PET in frontotemporal dementia."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 3,
+      "pmid": "24991162",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Effectiveness and safety of generic memantine hydrochloride manufactured in China in the treatment of moderate to severe Alzheimer's disease: a multicenter, double-blind randomized controlled trial."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 5,
+      "pmid": "20022380",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Endothelial P2Y2 receptor regulates LPS-induced neutrophil transendothelial migration in vitro."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 6,
+      "pmid": "16183272",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Angiogenesis inhibitors derived from thalidomide."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 6,
+      "pmid": "19912234",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Thalidomide attenuates nitric oxide-driven angiogenesis by interacting with soluble guanylyl cyclase."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 6,
+      "pmid": "40825547",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "[POEMS Syndrome]."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 6,
+      "pmid": "41917718",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Low-Dose Thalidomide for Chemoprevention of Oral Leukoplakia: A Retrospective Observational Study."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 6,
+      "pmid": "42049581",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Thalidomide for high-flow arteriovenous malformations: A case report and comprehensive literature review."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 7,
+      "pmid": "17245419",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The NMDA and AMPA/KA receptors are involved in glutamate-induced alterations of occludin expression and phosphorylation in brain endothelial cells."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 7,
+      "pmid": "25114926",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "GABAB receptors expressed in human aortic endothelial cells mediate intracellular calcium concentration regulation and endothelial nitric oxide synthase translocation."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 8,
+      "pmid": "17641225",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Mechanisms of integrin-vascular endothelial growth factor receptor cross-activation in angiogenesis."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 8,
+      "pmid": "24019254",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Pharmacologic characterization of a kinetic in vitro human co-culture angiogenesis model using clinically relevant compounds."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 8,
+      "pmid": "34541711",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Asiatic acid inhibits angiogenesis and vascular permeability through the VEGF/VEGFR2 signaling pathway to inhibit the growth and metastasis of breast cancer in mice."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 9,
+      "pmid": "10974418",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Inhibition of angiogenesis by blockers of volume-regulated anion channels."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 9,
+      "pmid": "22068228",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Coactivation of NMDA receptors by glutamate and D-serine induces dilation of isolated middle cerebral arteries."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 9,
+      "pmid": "24019254",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Pharmacologic characterization of a kinetic in vitro human co-culture angiogenesis model using clinically relevant compounds."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 10,
+      "pmid": "28743511",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Raf-1/CK2 and RhoA/ROCK signaling promote TNF-&#x3b1;-mediated endothelial apoptosis via regulating vimentin cytoskeleton."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 10,
+      "pmid": "34081532",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Calcium signaling mediates a biphasic mechanoadaptive response of endothelial cells to cyclic mechanical stretch."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 10,
+      "pmid": "42128717",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "ROCK2 inhibitor targets vascular niche angiocrine signaling in liver fibrosis."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 11,
+      "pmid": "25972152",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Role of Dopamine and D2 Dopamine Receptor in the Pathogenesis of Inflammatory Bowel Disease."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 13,
+      "pmid": "12404576",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Influence of the serotonin antagonist, metergoline, on the anxiogenic effects of carbon dioxide, and on heart rate and neuroendocrine measures, in healthy volunteers."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 14,
+      "pmid": "31171770",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Cholinergic neural activity directs retinal layer-specific angiogenesis and blood retinal barrier formation."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 14,
+      "pmid": "31926201",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Activating &#x3b1;7nAChRs enhances endothelial progenitor cell function partially through the JAK2/STAT3 signaling pathway."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 15,
+      "pmid": "34445773",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Paradoxical Pro-angiogenic Effect of Low-Dose Ellipticine Identified by In Silico Drug Repurposing."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 16,
+      "pmid": "12571450",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Ionotropic glutamate receptors in cerebral microvascular endothelium are functionally linked to heme oxygenase."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 16,
+      "pmid": "17245419",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "The NMDA and AMPA/KA receptors are involved in glutamate-induced alterations of occludin expression and phosphorylation in brain endothelial cells."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 16,
+      "pmid": "20571738",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "[Activation of mGluRI in neutrophils promotes the adherence of neutrophils to endothelial cells]."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 16,
+      "pmid": "22068228",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Coactivation of NMDA receptors by glutamate and D-serine induces dilation of isolated middle cerebral arteries."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 16,
+      "pmid": "23386721",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Astrocyte-induced cortical vasodilation is mediated by D-serine and endothelial nitric oxide synthase."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 16,
+      "pmid": "30451297",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Glutamate triggers intracellular Ca 2+  oscillations and nitric oxide release by inducing NAADP- and InsP 3  -dependent Ca 2+  release in mouse brain endothelial cells."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 16,
+      "pmid": "9538905",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Evidence that functional glutamate receptors are not expressed on rat or human cerebromicrovascular endothelial cells."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 17,
+      "pmid": "27923653",
+      "L1_exists": true,
+      "L2_topical": false,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "A fluorescence-based high-throughput assay to identify inhibitors of tyrosylprotein sulfotransferase activity."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 17,
+      "pmid": "34445773",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Paradoxical Pro-angiogenic Effect of Low-Dose Ellipticine Identified by In Silico Drug Repurposing."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 18,
+      "pmid": "10974418",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Inhibition of angiogenesis by blockers of volume-regulated anion channels."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 18,
+      "pmid": "16315320",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Intracellular proteolytic activity of cathepsin B is associated with capillary-like tube formation by endothelial cells in vitro."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 18,
+      "pmid": "21487803",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Anti-angiogenic effects of purine inhibitors of cyclin dependent kinases."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 18,
+      "pmid": "39689888",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": false,
+      "L4_traceable": true,
+      "title": "Comprehensive Biotechnological Strategies for Podophyllotoxin Production from Plant and Microbial Sources."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 19,
+      "pmid": "15166494",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Novel function of ascorbic acid as an angiostatic factor."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 19,
+      "pmid": "15548359",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Lonidamine causes inhibition of angiogenesis-related endothelial cell functions."
+    },
+    {
+      "system": "DrugRAG",
+      "q": 19,
+      "pmid": "16315320",
+      "L1_exists": true,
+      "L2_topical": true,
+      "L3_question_match": true,
+      "L4_traceable": true,
+      "title": "Intracellular proteolytic activity of cathepsin B is associated with capillary-like tube formation by endothelial cells in vitro."
+    }
+  ]
+}

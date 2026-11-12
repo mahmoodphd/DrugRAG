@@ -44,7 +44,7 @@ from pathlib import Path
 import pandas as pd
 from Bio import Entrez
 
-ROOT = Path("/home/mshz88/Samiha")
+ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 import config  # email, NCBI_API_KEY, PUBMED_RATE_LIMIT_SEC
 from drug_normalize import normalize_drug_name_v2  # type: ignore

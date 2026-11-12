@@ -1,0 +1,1268 @@
+# Interim ranking - literature-gap + topical-graph-connectivity prior. kg_plausibility uses angio_edges (lexicon-filtered); edges_all kept for audit. Experimental-activity (PhenoCluster) term pending lab data; not the final repurposing score.
+drug_name,normalized_name,canonical_name,aliases_used,n_aliases,drug_class,action,in_pc4_pc7,n_papers,edges_all,angio_edges,evidence_only_kg,sample_topical_endpoints,novelty,kg_plausibility,class_bonus,repurposing_score,rank
+Sunitinib malate,Sunitinib,Sunitinib Malate,Sunitinib|Sunitinib Malate|Sunitinib Maleate,3,Tyrosine Kinase,Inhibitor,True,8,52,14,False,vegfr|vegfr-2|endothelial mechanotransduction|induced pluripotent stem cell-derived endothelial cells|neovascularization,0.6819,1.0,0.1,0.8091,1
+(S)-Propranolol hydrochloride,Propranolol,Propranolol,Propranolol|Propranolol Hydrochloride,2,Adrenoceptor,Blocker,False,2,79,14,False,vascular cell markers cd31 and ve-cadherin|rat radial artery|juxtapapillary capillary hemangioma|fibroblast growth factor-2 (fgf-2)|hypoxia inducible factor-1α (hif-1α),0.841,1.0,0.0,0.8046,2
+Serotonin hydrochloride,Serotonin,Serotonin,Serotonin,1,Serotonin,Agonist,False,1,40,6,False,endothelial cells|brain endothelium|human umbilical vein endothelial cells|microvascular permeability|8-bromo-cgmp,0.8997,0.8115,0.0,0.7833,3
+Topotecan hydrochloride hydrate,Topotecan,Topotecan,Topotecan,1,Apoptosis and Cell Cycle,Inhibitor,False,1,7,5,False,phosphatidylinositol 3-kinase inhibitor|angiogenesis|neoangiogenesis|human umbilical vein endothelial cells|pi3k-akt signaling pathway,0.8997,0.7472,0.0,0.764,4
+(±)-Thalidomide,Thalidomide,Thalidomide,Thalidomide,1,Cytoskeleton and ECM,Inhibitor,True,13,44,9,False,antiangiogenic activity|high-flow arteriovenous malformations|human umbilical vein endothelial cell assay|microvasculature|endothelial cells,0.618,0.9603,0.1,0.7589,5
+Atorvastatin calcium salt trihydrate,Atorvastatin,Atorvastatin,Atorvastatin,1,Lipids in Cell Signaling,Inhibitor,False,5,47,12,False,basilar arteries|sural arteries|mesenteric arteries|rho-kinase|calcium-independent nitric oxide synthase,0.7406,1.0,0.0,0.7444,6
+Sildenafil citrate salt,Sildenafil,Sildenafil,Sildenafil|Sildenafil Citrate,2,Phosphodiesterase Inhibitors,Inhibitor,False,5,40,10,False,nitric oxide|vascular endothelial growth factor|umbilical artery|uterine artery|human umbilical vein endothelial cells,0.7406,1.0,0.0,0.7444,7
+Benidipine hydrochloride,Benidipine,Benidipine Hydrochloride,Benidipine|Benidipine Hydrochloride,2,Ion Channel,Blocker,False,6,26,10,False,human aortic endothelial cells (haecs)|vascular cell adhesion molecule-1 (vcam-1)|intracellular cell adhesion molecule-1 (icam-1)|human aortic endothelial cells|vascular endothelial cells,0.7183,1.0,0.0,0.731,8
+Zoledronic acid monohydrate,Zoledronic acid,Zoledronic Acid Monohydrate,Zoledronic Acid|Zoledronic Acid Monohydrate,2,Kinase,Inhibitor,False,2,14,5,False,proangiogenic factors|bone marrow endothelial cells|vascular endothelial growth factor|vascular endothelial growth factor receptor 2|angiogenesis,0.841,0.7472,0.0,0.7288,9
+Agmatine sulfate,Agmatine,Agmatine Sulfate,Agmatine|Agmatine Sulfate,2,Imidazoline,Agonist,False,4,29,7,False,aortic nuclear factor κb|nitric oxide synthetase|retinal vascular permeability|matrix metalloproteinases (mmps)|superior mesenteric arterial strips,0.767,0.8672,0.0,0.7204,10
+Histamine dihydrochloride,Histamine,Histamine Dihydrochloride,Histamine|Histamine Dihydrochloride,2,Histamine,Agonist,False,8,104,20,False,vegf receptor|endothelial cells|penile dorsal arteries|inosine|human vascular endothelial cells,0.6819,1.0,0.0,0.7091,11
+Riluzole,Riluzole,Riluzole,Riluzole,1,Glutamate,Antagonist,True,11,22,5,False,metastatic castration-resistant prostate cancer|hif-1α/vegfa pathway|akt/p70 s6 kinase|erk1/2|angiogenesis,0.6403,0.7472,0.1,0.7083,12
+(±)-Epinephrine hydrochloride,Epinephrine,Epinephrine,Epinephrine|Epinephrine Hydrochloride,2,Adrenoceptor,Agonist,False,6,28,8,False,topical epinephrine hydrochloride|arterial vasodilation|endothelial dysfunction|alpha-methylnorepinephrine|norepinephrine,0.7183,0.9163,0.0,0.7059,13
+Memantine hydrochloride,Memantine,Memantine Hydrochloride,Memantine|Memantine Hydrochloride,2,Glutamate,Antagonist,True,6,16,3,False,micro-vascular endothelial cells|n-methyl-d-aspartate (nmda)|adhesion molecules,0.7183,0.5781,0.1,0.7044,14
+Y-27632 dihydrochloride,Y-27632,Y-27632,Y-27632,1,Phosphorylation,Inhibitor,False,4,6,6,False,endothelial nos|rho kinase|rho-associated kinase|hcec|human corneal endothelial cell,0.767,0.8115,0.0,0.7036,15
+Kynurenic acid,Kynurenic acid,Kynurenic Acid,Kynurenic Acid,1,Glutamate,Antagonist,True,15,32,6,False,vegf|n-methyl-d-aspartate (nmda)|endothelial metabolism|bovine aortic endothelial cells|coronary artery disease,0.5986,0.8115,0.1,0.7026,16
+Phenylephrine hydrochloride,Phenylephrine,Phenylephrine Hydrochloride,Phenylephrine|Phenylephrine Hydrochloride,2,Adrenoceptor,Agonist,False,9,46,13,False,cutaneous arteries|human intrapulmonary arteries|human endothelial cells|hypoxia|aortic rings,0.6667,1.0,0.0,0.7,17
+2-methoxyestradiol,2-methoxyestradiol,2-Methoxyestradiol,2-Methoxyestradiol,1,Hormone,Metabolite,True,10,23,4,False,hif-1α|endothelial-to-mesenchymal transition|breast cancer metastasis|hif-1α/hk2 axis,0.6529,0.6712,0.1,0.6931,18
+Varenicline tartrate,Varenicline,Varenicline Tartrate,Varenicline|Varenicline Tartrate,2,Cholinergics,Agonist,False,6,23,7,False,cardiovascular disease|human umbilical vein endothelial cells (huvecs)|vascular endothelial cadherin (ve-cadherin)|extracellular signal-regulated kinase (erk)|huvec migration,0.7183,0.8672,0.0,0.6911,19
+Prazosin hydrochloride,Prazosin,Prazosin Hydrochloride,Prazosin|Prazosin Hydrochloride,2,Adrenoceptor,Antagonist,False,5,26,6,False,phenylephrine|rabbit saphenous vein|rat radial artery|angiogenesis|rat thoracic aorta,0.7406,0.8115,0.0,0.6878,20
+Daphnetin,Daphnetin,Daphnetin,Daphnetin,1,Phosphorylation,Inhibitor,False,11,37,10,False,corneal neovascularization|human umbilical vein endothelial cells|vegf receptor2|akt|p-stat3,0.6403,1.0,0.0,0.6842,21
+DMH4,DMH4,DMH4,DMH4,1,Kinase/Phosphotase,Inhibitor,True,5,2,2,False,vegfr2|vegf,0.7406,0.4582,0.1,0.6818,22
+Clemastine fumarate,Clemastine,Clemastine Fumarate,Clemastine|Clemastine Fumarate,2,Histamine,Antagonist,False,3,17,4,False,endothelial cells|mek/erk signaling pathway|pi3k/akt signaling pathway|inositol-requiring enzyme 1,0.7993,0.6712,0.0,0.6809,23
+Hydralazine hydrochloride,Hydralazine,Hydralazine Hydrochloride,Hydralazine|Hydralazine Hydrochloride,2,Neurotransmission,Inhibitor,False,10,22,9,False,cardiovascular drugs|ophthalmic artery smooth muscle cells|endothelial progenitor cells|bovine retinal microcirculation pericytes|vascular endothelial growth inhibitor,0.6529,0.9603,0.0,0.6798,24
+Fusaric acid,Fusaric acid,Fusaric Acid,Fusaric Acid,1,Dopamine,Inhibitor,False,7,22,7,False,aorta|carotid artery|renal artery|femoral artery|endothelial cells,0.699,0.8672,0.0,0.6796,25
+RepSox,RepSox,Repsox,RepSox|Repsox,2,Neuroscience,Inhibitor,False,7,17,7,False,drosophila melanogaster metastatic crc model|tgf-β pathway|vegfa|transendothelial electrical resistance|vascular endothelial growth factor,0.699,0.8672,0.0,0.6796,26
+Tetraethylthiuram disulfide,Tetraethylthiuram disulfide,Tetraethylthiuram Disulfide,Tetraethylthiuram Disulfide,1,Biochemistry,Inhibitor,False,1,3,2,False,isolated endothelial cells|fenestrated capillaries,0.8997,0.4582,0.0,0.6773,27
+IMS2186,IMS2186,IMS2186,IMS2186,1,Cell Cycle,Inhibitor,False,1,2,2,False,anti-choroidal neovascularization|choroidal neovascularization,0.8997,0.4582,0.0,0.6773,28
+Adenosine,Adenosine,Adenosine,Adenosine|Adenosine Diphosphate|Adenosine Triphosphate,3,Adenosine,Agonist,False,12,167,59,False,huvecs|adenosine triphosphate|adenosine a1 receptor|pig aortic endothelial cells|intracellular adenosine levels,0.6287,1.0,0.0,0.6772,29
+(±)-Propranolol hydrochloride,Propranolol,Propranolol,Propranolol|Propranolol Hydrochloride,2,Adrenoceptor,Antagonist,False,12,79,14,False,vascular cell markers cd31 and ve-cadherin|rat radial artery|juxtapapillary capillary hemangioma|fibroblast growth factor-2 (fgf-2)|hypoxia inducible factor-1α (hif-1α),0.6287,1.0,0.0,0.6772,30
+Tamoxifen citrate,Tamoxifen,Tamoxifen Citrate,Tamoxifen|Tamoxifen Citrate,2,Phosphorylation,Inhibitor,False,11,44,9,False,metastatic breast cancer|cdh5(pac)-creert2;bag3f/f|endothelial proliferation|endothelial dysfunction|nitric oxide,0.6403,0.9603,0.0,0.6723,31
+Raloxifene hydrochloride,Raloxifene,Raloxifene Hydrochloride,Raloxifene|Raloxifene Hydrochloride,2,Hormone,Modulator,False,13,54,14,False,akt|cardiovascular benefits|endothelial function|huvec cells|resistance arteries,0.618,1.0,0.0,0.6708,32
+Resveratrol,Resveratrol,Resveratrol,Resveratrol,1,Prostaglandin,Inhibitor,False,13,83,11,False,human cardiovascular disease|human umbilical vein endothelial cells|human brain endothelial cells (hbec-5i)|endothelial outcomes|vascular outcomes,0.618,1.0,0.0,0.6708,33
+Dihydrocapsaicin,Dihydrocapsaicin,Dihydrocapsaicin,Dihydrocapsaicin,1,Vanilloid,Agonist,False,8,26,7,False,hypoxia inducible factor 1α|vascular endothelial growth factor|angiopoietin 1|endothelial cells|endothelial inflammation,0.6819,0.8672,0.0,0.6693,34
+Quercetin dihydrate,Quercetin,Quercetin,Quercetin,1,Cyclic Nucleotides,Inhibitor,False,5,45,5,False,hypoxia|pi3k-pkc pathway|angiogenesis|endothelial cells|jak-stat signaling pathway,0.7406,0.7472,0.0,0.6685,35
+Ranolazine dihydrochloride,Ranolazine,Ranolazine,Ranolazine,1,Lipid,Inhibitor,False,5,9,5,False,vascular function|saphenous vein|nitric oxide|adenosine|adenosine triphosphate (atp),0.7406,0.7472,0.0,0.6685,36
+loxoprofen,loxoprofen,Loxoprofen,Loxoprofen|Loxoprofen Sodium|Sodium Loxoprofen,3,Prostaglandin,Inhibitor,False,10,14,8,False,angiogenic response|huvecs|vascular endothelial growth factor|primary cultured human umbilical vein endothelial cells|vascular endothelium-derived growth factor,0.6529,0.9163,0.0,0.6666,37
+Melatonin,Melatonin,Melatonin,Melatonin,1,Melatonin,Agonist,False,12,111,9,False,endothelial cell|regulation of vascular reactivity|angiogenesis|nitric oxide|matrix metalloproteinase-2 (mmp-2),0.6287,0.9603,0.0,0.6653,38
+Bezafibrate,Bezafibrate,Bezafibrate,Bezafibrate,1,Transcription,Agonist,False,12,39,9,False,endothelial dysfunction|endothelial permeability|icam-1|vcam-1|vascular endothelial growth factor,0.6287,0.9603,0.0,0.6653,39
+Cilostazol,Cilostazol,Cilostazol,Cilostazol,1,Cyclic Nucleotides,Inhibitor,False,14,80,20,False,human umbilical vein endothelial cells (huvecs)|endothelial nitric oxide synthase (enos)|vascular endothelial growth factor (vegf)|cd31-positive microvessels|rat thoracic aorta,0.608,1.0,0.0,0.6648,40
+Gossypol,Gossypol,Gossypol,(-)-Gossypol|(±)-Gossypol|Gossypol,3,Apoptosis,Inducer,False,14,45,15,False,vegf|vegfa|vegfb|urokinase plasminogen activator|vascular endothelial growth factor,0.608,1.0,0.0,0.6648,41
+Indomethacin,Indomethacin,Indomethacin,Indomethacin,1,Prostaglandin,Inhibitor,False,14,71,10,False,pulmonary artery endothelial cells|microvessel density|renal artery|inducible nitric oxide synthase|penile dorsal arteries,0.608,1.0,0.0,0.6648,42
+ET-18-OCH3,ET-18-OCH3,ET-18-OCH3,ET-18-OCH3,1,Lipid,Inhibitor,False,7,11,6,False,endothelial cells|intercellular adhesion molecule 1|cd31|vascular cam-1|human microvascular endothelial cell line (hmec-1),0.699,0.8115,0.0,0.6628,43
+3-deazaadenosine,3-deazaadenosine,3-Deazaadenosine,3-Deazaadenosine,1,Immune System,Inhibitor,False,9,22,7,False,intercellular adhesion molecule-1|s-adenosylhomocysteine hydrolase|vascular smooth muscle cell|s-adenosylhomocysteine|akt,0.6667,0.8672,0.0,0.6602,44
+Caffeine,Caffeine,Caffeine,Caffeine|Caffeine Sodium Benzoate,2,Adenosine,Inhibitor,False,15,73,12,False,vegf|cardiovascular risk|endothelial progenitor cells|endothelial cell dysfunction|choroidal neovascularization,0.5986,1.0,0.0,0.6592,45
+Fenofibrate,Fenofibrate,Fenofibrate,Fenofibrate,1,Transcription,Agonist,False,15,44,10,False,human coronary artery endothelial cells|mmp-9|mmp-2|human retinal endothelial cells|vascular endothelial growth factor,0.5986,1.0,0.0,0.6592,46
+Forskolin,Forskolin,Forskolin,Forskolin,1,Cyclic Nucleotides,Activator,False,15,39,10,False,"pig aortic endothelial cells|adenosine 3',5'-cyclic monophosphate|murine brain microvessels|vascular endothelial growth factor|endothelial neutral endopeptidase",0.5986,1.0,0.0,0.6592,47
+Ebastine,Ebastine,Ebastine,Ebastine,1,Histaminergics,Antagonist,False,11,22,8,False,egfr|metastatic castration resistant prostate cancer|akt|focal adhesion kinase (fak)|jak2/stat3 signaling,0.6403,0.9163,0.0,0.6591,48
+Tamoxifen,Tamoxifen,Tamoxifen,Tamoxifen|Tamoxifen Citrate,2,Antibiotics/Phosphorylation,Inhibitor,False,13,44,9,False,metastatic breast cancer|cdh5(pac)-creert2;bag3f/f|endothelial proliferation|endothelial dysfunction|nitric oxide,0.618,0.9603,0.0,0.6589,49
+N-Acetyl-L-Cysteine,N-Acetyl-L-Cysteine,N-Acetyl-L-Cysteine,N-Acetyl-L-Cysteine|N-acetyl-L-cysteine,2,Glutamate,Antagonist,True,11,8,3,False,human umbilical vein endothelial cells|endothelial dysfunction|endothelial progenitor cells,0.6403,0.5781,0.1,0.6576,50
+"5,7-Dichlorokynurenic acid","5,7-Dichlorokynurenic acid","5,7-dichlorokynurenic acid","5,7-Dichlorokynurenic Acid|5,7-dichlorokynurenic acid",2,Glutamate,Antagonist,True,7,2,2,False,nmda|n-methyl-d-aspartate (nmda) receptors,0.699,0.4582,0.1,0.6569,51
+N-Oleoylethanolamine,N-Oleoylethanolamine,N-Oleoylethanolamine,N-Oleoylethanolamine,1,Sphingolipid,Inhibitor,False,10,21,7,False,human umbilical vein endothelial cells|vascular adhesion molecule-1|intercellular adhesion molecule-1|huvecs|endothelial progenitor cells,0.6529,0.8672,0.0,0.6519,52
+Propofol,Propofol,Propofol,Propofol,1,Cholinergic,Inhibitor,False,13,38,8,False,biomarkers associated with metastasis and recurrence|tube formation capacity|n-methyl-d-aspartate (nmda)|endothelial cells|vegf,0.618,0.9163,0.0,0.6457,53
+Carvedilol,Carvedilol,Carvedilol,Carvedilol|Carvedilol Phosphate,2,Adrenoceptor,Blocker,False,13,33,8,False,angiogenesis|anti-angiogenic factors|hepatic venous pressure gradient|endothelial function|insulin stimulated endothelial function,0.618,0.9163,0.0,0.6457,54
+Lidocaine hydrochloride,Lidocaine,Lidocaine Hydrochloride,Lidocaine|Lidocaine Hydrochloride|Lidocaine Hydrochloride Monohydrate,3,Na+ Channel,Modulator,False,11,35,7,False,biomarkers associated with metastasis and recurrence|mmp-9|vascular endothelial growth factor a (vegf-a)|norepinephrine|epinephrine,0.6403,0.8672,0.0,0.6443,55
+(-)-Isoproterenol hydrochloride,Isoproterenol,Isoproterenol,ISOPROTERENOL Hydrochloride|Isoproterenol|Isoproterenol Hydrochloride,3,Adrenoceptor,Agonist,False,7,50,5,False,aortic rings|notch1b|no/cgmp pathway|timp-1|vascular endothelial growth factor,0.699,0.7472,0.0,0.6436,56
+(±)-Isoproterenol hydrochloride,Isoproterenol,Isoproterenol,ISOPROTERENOL Hydrochloride|Isoproterenol|Isoproterenol Hydrochloride,3,Adrenoceptor,Agonist,False,7,50,5,False,aortic rings|notch1b|no/cgmp pathway|timp-1|vascular endothelial growth factor,0.699,0.7472,0.0,0.6436,57
+Trifluoperazine dihydrochloride,Trifluoperazine,Trifluoperazine,Trifluoperazine,1,Dopamine,Antagonist,False,2,11,2,False,von willebrand factor (vwf)|tissue-type plasminogen activator (t-pa),0.841,0.4582,0.0,0.6421,58
+Betaxolol hydrochloride,Betaxolol,Betaxolol Hydrochloride,Betaxolol|Betaxolol Hydrochloride,2,Adrenoceptor,Antagonist,False,2,8,2,False,corneal endothelial cells|corneal endothelial cell density,0.841,0.4582,0.0,0.6421,59
+Uridine 5'-diphosphate sodium,Uridine 5',Uridine 5'-Diphosphate,Uridine 5'-Diphosphate|Uridine 5'-Triphosphate,2,P2 Receptor,Agonist,False,2,7,2,False,human vascular endothelial cells|rat femoral artery,0.841,0.4582,0.0,0.6421,60
+(-)-alpha-Methylnorepinephrine,alpha-Methylnorepinephrine,Alpha-Methylnorepinephrine,Alpha-Methylnorepinephrine,1,Adrenoceptor,Agonist,False,2,4,2,False,norepinephrine|epinephrine,0.841,0.4582,0.0,0.6421,61
+DCEBIO,DCEBIO,DCEBIO,DCEBIO,1,K+ Channel,Activator,False,2,4,2,False,endothelial small- and intermediate-conductance channels|nitric oxide (no),0.841,0.4582,0.0,0.6421,62
+(+)-MK-801 hydrogen maleate,MK-801 hydrogen,,,0,Glutamate,Antagonist,True,1,0,0,False,,0.8997,0.0,0.1,0.6398,63
+(-)-MK-801 hydrogen maleate,MK-801 hydrogen,,,0,Glutamate,Antagonist,True,1,0,0,False,,0.8997,0.0,0.1,0.6398,64
+SU 4312,SU 4312,,,0,Phosphorylation,Inhibitor,True,1,0,0,False,,0.8997,0.0,0.1,0.6398,65
+Progesterone,Progesterone,Progesterone,Progesterone,1,Hormone,Unknown,False,12,22,7,False,human endothelium|platelet-derived endothelial cell growth factor|norepinephrine|vegf|radial arteries,0.6287,0.8672,0.0,0.6374,66
+Felodipine,Felodipine,Felodipine,Felodipine,1,Ca2+ Channel,Blocker,False,12,19,7,False,ampk-mtor pathway|huvecs|endothelial cell tight junctions|nitric oxide|intercellular adhesion molecule 1,0.6287,0.8672,0.0,0.6374,67
+Enoximone,Enoximone,Enoximone,Enoximone,1,Cyclic Nucleotides,Inhibitor,False,10,19,6,False,endothelial neutral endopeptidase|endothelial integrity|nitric oxide|isolated porcine pulmonary arteries|endothelium,0.6529,0.8115,0.0,0.6352,68
+Piperlongumine,Piperlongumine,Piperlongumine,Piperlongumine,1,Apoptosis,Inhibitor,False,13,42,7,False,vascular endothelial growth factor|jak2 kinase|porcine coronary arteries|cardiovascular effects|endothelial progenitor cells,0.618,0.8672,0.0,0.631,69
+Tranilast,Tranilast,Tranilast,Tranilast,1,Leukotriene,Inhibitor,False,13,17,7,False,abdominal aortic aneurysms|aortic leukocyte accumulation|mural abnormal angiogenesis|atherothrombotic cardiovascular events|vascular endothelial growth factor,0.618,0.8672,0.0,0.631,70
+Suramin sodium salt,Suramin,Suramin,Suramin,1,P2 Receptor,Antagonist,False,1,13,1,False,isolated equine digital veins,0.8997,0.2891,0.0,0.6265,71
+Flunarizine dihydrochloride,Flunarizine,Flunarizine Dihydrochloride,Flunarizine|Flunarizine Dihydrochloride,2,Ion Pump,Blocker,False,1,7,1,False,metastatic breast cancer xenograft model,0.8997,0.2891,0.0,0.6265,72
+Mibefradil dihydrochloride,Mibefradil,Mibefradil Dihydrochloride,Mibefradil|Mibefradil Dihydrochloride,2,Ca2+ Channel,Blocker,False,1,5,1,False,angiogenesis,0.8997,0.2891,0.0,0.6265,73
+(+)-Brompheniramine maleate,Brompheniramine,Brompheniramine Maleate,Brompheniramine Maleate,1,Histamine,Antagonist,False,1,2,1,False,angiogenesis,0.8997,0.2891,0.0,0.6265,74
+(-)-Quinpirole hydrochloride,Quinpirole,Quinpirole,Quinpirole|Quinpirole Hydrochloride,2,Dopamine,Agonist,False,1,2,1,False,ampa currents,0.8997,0.2891,0.0,0.6265,75
+(±)-Brompheniramine maleate,Brompheniramine,Brompheniramine Maleate,Brompheniramine Maleate,1,Histamine,Antagonist,False,1,2,1,False,angiogenesis,0.8997,0.2891,0.0,0.6265,76
+BW 284c51,BW 284c51,BW 284C51,BW 284C51,1,Cholinergic,Inhibitor,False,1,2,1,False,laminin carpets,0.8997,0.2891,0.0,0.6265,77
+N-Methyl-1-deoxynojirimycin,N-Methyl-1-deoxynojirimycin,N-Methyl-1-Deoxynojirimycin,N-Methyl-1-Deoxynojirimycin,1,Biochemistry,Inhibitor,False,1,2,1,False,angiogenesis,0.8997,0.2891,0.0,0.6265,78
+Tyrphostin 51,Tyrphostin 51,Tyrphostin 51,Tyrphostin 51,1,Phosphorylation,Inhibitor,False,1,1,1,False,hcec-sv40,0.8997,0.2891,0.0,0.6265,79
+L-Arginine,Arginine,L-arginine,Arginine|D-Arginine|L-Arginine|L-Arginine Glutamate|L-arginine|l-Arginine,6,Nitric Oxide,Precursor,False,14,55,7,False,penile dorsal arteries|vascular endothelium|endothelium-derived relaxing factor|no synthase|rat pulmonary arteries,0.608,0.8672,0.0,0.625,80
+(+)-Catechin Hydrate,Catechin,(+)-Catechin Hydrate,(+)-Catechin|(+)-Catechin Hydrate|Catechin|Catechin Hydrate,4,Cell Stress,Inhibitor,False,9,23,5,False,inducible nitric oxide|experimental vascular endothelial abnormalities|nitric oxide synthase|phosphatidylinositol 3-kinase|vascular oxidative stress,0.6667,0.7472,0.0,0.6242,81
+Amiodarone hydrochloride,Amiodarone,Amiodarone Hydrochloride,Amiodarone|Amiodarone Hydrochloride,2,Adrenoceptor,Agonist,False,7,16,4,False,angiogenesis|human umbilical vein endothelial cells|intercellular adhesion molecule-1|polyinosinic-polycytidylic acid,0.699,0.6712,0.0,0.6208,82
+Astaxanthin,Astaxanthin,Astaxanthin,Astaxanthin,1,Cell Stress,Inhibitor,False,12,34,6,False,capillary regression|vascular endothelial growth factor|vegf|pdgf|notch-1,0.6287,0.8115,0.0,0.6207,83
+Caffeic acid phenethyl ester,Caffeic acid phenethyl ester,Caffeic Acid Phenethyl Ester,Caffeic Acid Phenethyl Ester,1,Cell Cycle,Inhibitor,False,12,30,6,False,akt|erk|nitric oxide|hypoxic conditions|endothelial cells,0.6287,0.8115,0.0,0.6207,84
+Rutaecarpine,Rutaecarpine,Rutaecarpine,Rutaecarpine,1,K+ Channel,Blocker,False,12,22,6,False,endothelial cells|vascular smooth muscle cells|nitric oxide synthase inhibitor|nitric oxide|human umbilical vein endothelial cells (huvecs),0.6287,0.8115,0.0,0.6207,85
+Methotrexate hydrate,Methotrexate,Methotrexate,Methotrexate,1,DNA Metabolism,Inhibitor,False,5,39,3,False,cardiovascular disease|metastatic bladder cancer|huvec cell line,0.7406,0.5781,0.0,0.6178,86
+5HPP-33,5HPP-33,5HPP-33,5HPP-33,1,Cytoskeleton and extracellular matrix,Inhibitor,False,5,6,3,False,embryonic vascular disruption|rat aortic explant assay|angiogenesis,0.7406,0.5781,0.0,0.6178,87
+Fenobam,Fenobam,Fenobam,Fenobam,1,Glutamate,Antagonist,True,6,11,1,False,metabotropic glutamate receptor type 5 (mglur5),0.7183,0.2891,0.1,0.6177,88
+Ifenprodil tartrate,Ifenprodil,Ifenprodil,Ifenprodil,1,Glutamate,Blocker,False,3,11,2,False,nmda receptor|nr2b-containing nmda receptors,0.7993,0.4582,0.0,0.617,89
+Dobutamine hydrochloride,Dobutamine,Dobutamine Hydrochloride,Dobutamine|Dobutamine Hydrochloride,2,Adrenoceptor,Agonist,False,3,9,2,False,hypoxic pulmonary vasoconstriction|arterial vasodilation,0.7993,0.4582,0.0,0.617,90
+(±)-AMPA hydrobromide,AMPA,AMPA,AMPA,1,Glutamate,Agonist,False,3,3,2,False,glur5|glur6,0.7993,0.4582,0.0,0.617,91
+Aminoguanidine hemisulfate,Aminoguanidine,Aminoguanidine,Aminoguanidine|Aminoguanidine Hydrochloride,2,Nitric Oxide,Inhibitor,False,3,3,2,False,rabbit carotid arteries|huvecs,0.7993,0.4582,0.0,0.617,92
+Sanguinarine chloride,Sanguinarine,Sanguinarine Chloride,Sanguinarine Chloride,1,Ion Pump,Inhibitor,False,3,2,2,False,vascular cell adhesion molecule-1|intercellular adhesion molecule-1,0.7993,0.4582,0.0,0.617,93
+Venlafaxine hydrochloride,Venlafaxine,Venlafaxine Hydrochloride,Venlafaxine|Venlafaxine Hydrochloride,2,Serotonin,Inhibitor,False,10,21,5,False,renovascular hypertension|endothelial dysfunction|microvascular endothelial cells|human brain microvascular endothelial cells|pi3k/akt pathway,0.6529,0.7472,0.0,0.6159,94
+Temsirolimus,Temsirolimus,Temsirolimus,Temsirolimus,1,Autophagy,Inhibitor,False,10,15,5,False,mtor pathways|mtor|endothelial-barrier integrity|human pulmonary microvascular endothelial cells (hpmecs)|metastatic renal cell carcinoma,0.6529,0.7472,0.0,0.6159,95
+Minocycline hydrochloride,Minocycline,Minocycline Hydrochloride,Minocycline|Minocycline Hydrochloride,2,Cell Cycle,Inhibitor,True,12,24,2,False,matrix metalloproteinase 9|vascular endothelial growth factor,0.6287,0.4582,0.1,0.6147,96
+4-Aminopyridine,4-Aminopyridine,4-Aminopyridine,4-Aminopyridine,1,K+ Channel,Blocker,False,13,34,6,False,cd31|vegf|enos|carotid arteries|angiogenesis,0.618,0.8115,0.0,0.6142,97
+SC-236,SC-236,SC-236,SC-236,1,Lipids,Inhibitor,False,13,24,6,False,microvessel density|vascular assembly|metastatic tumours|experimental metastasis model|p38 mapk,0.618,0.8115,0.0,0.6142,98
+Bisdemethoxycurcumin,Bisdemethoxycurcumin,Bisdemethoxycurcumin,Bisdemethoxycurcumin,1,Ion Channels,Inhibitor,False,13,18,6,False,human umbilical vein endothelial cells|vascular endothelial growth factor|endothelial cells|huvec cells|vegfr2,0.618,0.8115,0.0,0.6142,99
+GABA,GABA,GABA,GABA,1,GABA,Agonist,False,11,39,5,False,thoracic aortic dissection|mapk/c-fos signaling pathway|notch3|endothelial dysfunction|n-methyl-d-aspartate (nmda),0.6403,0.7472,0.0,0.6083,100
+Pirfenidone,Pirfenidone,Pirfenidone,Pirfenidone,1,Immune System,Inhibitor,False,11,31,5,False,vegf|angiogenesis|colorectal anastomotic stenosis|hmvec-lly cells|lymphangiogenesis,0.6403,0.7472,0.0,0.6083,101
+Captopril,Captopril,Captopril,Captopril,1,Neurotransmission,Inhibitor,False,14,26,6,False,vegf signaling|human umbilical vein endothelial cells|high-altitude hypoxia|nitric oxide (no)|endothelial nitric oxide synthase (enos),0.608,0.8115,0.0,0.6082,102
+PAC-1,PAC-1,PAC-1,PAC-1,1,Apoptosis,Activator,False,14,19,6,False,vegfr2|c-src|fak|huvec endothelial cells|akt,0.608,0.8115,0.0,0.6082,103
+O-Phospho-L-serine,O-Phospho-L-serine,O-phospho-L-serine,O-Phospho-L-Serine|O-phospho-L-serine,2,Glutamate,Antagonist,True,7,4,1,False,recombinant human vegf,0.699,0.2891,0.1,0.6061,104
+Eliprodil,Eliprodil,Eliprodil,Eliprodil,1,Glutamate,Antagonist,True,2,4,0,False,,0.841,0.0,0.1,0.6046,105
+Ro 25-6981 hydrochloride,Ro 25-6981,Ro 25-6981 Hydrochloride,Ro 25-6981|Ro 25-6981 Hydrochloride,2,Glutamate,Antagonist,True,2,1,0,False,,0.841,0.0,0.1,0.6046,106
+"L-701,324","701,324","L-701,324","L-701,324",1,Glutamate,Antagonist,True,2,0,0,False,,0.841,0.0,0.1,0.6046,107
+Cisplatin,Cisplatin,Cisplatin,Cisplatin,1,DNA,Intercalator,False,15,45,6,False,metastatic bladder cancer|vascular abnormalities|treatment-naive metastatic pancreatic ductal adenocarcinoma (pdac)|metastatic urothelial carcinoma|endostatin,0.5986,0.8115,0.0,0.6026,108
+Idarubicin,Idarubicin,Idarubicin,Idarubicin,1,DNA Metabolism,Inhibitor,False,12,19,5,False,vascular endothelial cell line|hypoxia-inducible factor 1|hypoxia-inducible factor 2|hif1a|hif2a,0.6287,0.7472,0.0,0.6014,109
+Lonidamine,Lonidamine,Lonidamine,Lonidamine,1,Cell Stress,Inhibitor,False,12,14,5,False,matrix metalloproteinase-2|endothelial cells|matrix metalloproteinase-9|angiogenesis|endothelial cell lines,0.6287,0.7472,0.0,0.6014,110
+Gemcitabine hydrochloride,Gemcitabine,Gemcitabine Hydrochloride,Gemcitabine|Gemcitabine Hydrochloride,2,Apoptosis and Cell Cycle,Unknown,False,9,25,4,False,s-(4-nitrobenzyl)-6-thioinosine|metastatic bladder cancer|treatment-naive metastatic pancreatic ductal adenocarcinoma (pdac)|metastatic urothelial carcinoma,0.6667,0.6712,0.0,0.6014,111
+Valganciclovir hydrochloride hydrate,Valganciclovir,Valganciclovir,Valganciclovir,1,Antiviral,Inhibitor,False,0,6,0,True,,1.0,0.0,0.0,0.6,112
+Doxepin hydrochloride,Doxepin,Doxepin Hydrochloride,Doxepin|Doxepin Hydrochloride,2,Adrenoceptor,Inhibitor,False,0,4,0,True,,1.0,0.0,0.0,0.6,113
+BNTX maleate salt hydrate,BNTX,BNTX,BNTX,1,Opiods,Antagonist,False,0,1,0,True,,1.0,0.0,0.0,0.6,114
+Benzamil hydrochloride,Benzamil,Benzamil,Benzamil,1,Ion Pump,Blocker,False,0,1,0,True,,1.0,0.0,0.0,0.6,115
+L-Canavanine sulfate,Canavanine,Canavanine,Canavanine|L-Canavanine,2,Nitric Oxide,Inhibitor,False,4,16,2,False,inducible no synthase|nitric oxide,0.767,0.4582,0.0,0.5977,116
+(±)-2-Amino-5-phosphonopentanoic acid,2-Amino-5-phosphonopentanoic acid,D-2-Amino-5-Phosphonopentanoic Acid,D-2-Amino-5-Phosphonopentanoic Acid|DL-2-Amino-5-Phosphonopentanoic Acid,2,Glutamate,Antagonist,True,8,4,1,False,nmda,0.6819,0.2891,0.1,0.5959,117
+Pyridostigmine bromide,Pyridostigmine,Pyridostigmine Bromide,Pyridostigmine|Pyridostigmine Bromide,2,Cholinergic,Inhibitor,False,13,20,5,False,endothelial dysfunction|nitric oxide|intravascular superoxide anion|pulmonary arterial hypertension|vascular endothelial growth factor,0.618,0.7472,0.0,0.595,118
+5'-N-Ethylcarboxamidoadenosine,5'-N-Ethylcarboxamidoadenosine,5'-N-Ethylcarboxamidoadenosine,5'-N-Ethylcarboxamidoadenosine,1,Adenosine,Agonist,False,13,7,5,False,equine digital veins|a(2b)-adenosine receptor|vascular endothelial growth factor|adenosine|transendothelial migration,0.618,0.7472,0.0,0.595,119
+Sodium Oxamate,Oxamate,Sodium Oxamate,Oxamate|Sodium Oxamate,2,Biochemistry,Inhibitor,False,7,13,3,False,transarterial chemoembolization|vascular endothelial growth factor|matrix metalloproteinase-9,0.699,0.5781,0.0,0.5928,120
+Tolazamide,Tolazamide,Tolazamide,Tolazamide,1,Hormone,Releaser,False,7,8,3,False,vascular endothelial cells|plasminogen activator (pa)|aortic endothelial cells,0.699,0.5781,0.0,0.5928,121
+GANT61,GANT61,GANT61,GANT61,1,Angiogenic Factors,Inhibitor,False,17,23,6,False,mammalian target of rapamycin (mtor)|vegf1|vegf|erk|p-akt,0.5816,0.8115,0.0,0.5924,122
+Sulfaphenazole,Sulfaphenazole,Sulfaphenazole,Sulfaphenazole,1,Multi-Drug Resistance,Inhibitor,False,17,13,6,False,endothelial cell calcium|endothelium-dependent vasodilation|endothelium-dependent dilation (edd)|nitric oxide|hypoxia-inducible factor-1alpha,0.5816,0.8115,0.0,0.5924,123
+Cambinol,Cambinol,Cambinol,Cambinol,1,Gene Regulation,Inhibitor,False,2,6,1,False,metastatic castration-resistant prostate cancer,0.841,0.2891,0.0,0.5913,124
+Olprinone hydrochloride,Olprinone,Olprinone Hydrochloride,Olprinone Hydrochloride,1,Phosphodiesterase,Inhibitor,False,2,5,1,False,pulmonary arterial hypertension,0.841,0.2891,0.0,0.5913,125
+SB-525334,SB-525334,SB-525334,SB-525334,1,Phosphorylation,Inhibitor,False,2,3,1,False,endothelial dysfunction,0.841,0.2891,0.0,0.5913,126
+3-n-Propylxanthine,3-n-Propylxanthine,3-N-Propylxanthine,3-N-Propylxanthine,1,Adenosine,Antagonist,False,2,2,1,False,a(2b) adenosine receptor,0.841,0.2891,0.0,0.5913,127
+PD-161570,PD-161570,PD-161570,PD-161570,1,Tyrosine kinase,Inhibitor,False,2,2,1,False,bfgf,0.841,0.2891,0.0,0.5913,128
+BMY 7378 dihydrochloride,BMY 7378,BMY 7378,BMY 7378,1,Serotonin,Agonist,False,2,1,1,False,rat thoracic aorta,0.841,0.2891,0.0,0.5913,129
+Cantharidic Acid,Cantharidic Acid,Cantharidic Acid,Cantharidic Acid,1,Phosphorylation,Inhibitor,False,2,1,1,False,rat aorta,0.841,0.2891,0.0,0.5913,130
+(±)-alpha-Lipoic Acid,alpha-Lipoic Acid,Alpha-Lipoic Acid,Alpha-Lipoic Acid,1,Cell Stress,Coenzyme,False,14,26,5,False,vegf|vegfr|mmp2|biodegradable vascular scaffold|mmp9,0.608,0.7472,0.0,0.589,131
+DNQX,DNQX,DNQX,DNQX,1,Glutamate,Antagonist,True,9,2,1,False,glur1 ampa subunit,0.6667,0.2891,0.1,0.5867,132
+Imperatorin,Imperatorin,Imperatorin,Imperatorin,1,Phosphorylation,Modulator,False,11,23,4,False,pi3k/akt|mapk|mtor|angiogenesis,0.6403,0.6712,0.0,0.5855,133
+Nifedipine,Nifedipine,Nifedipine,Nifedipine,1,Ca2+ Channel,Antagonist,False,15,26,5,False,aortic rings|huvec cells|cardiovascular diseases|hcec-sv40|vascular endothelial growth factor,0.5986,0.7472,0.0,0.5833,134
+Genipin,Genipin,Genipin,Genipin,1,Cell Biology,Modulator,False,15,23,5,False,pi3k/akt/mtor|stat3|anti-angiogenesis|inhibition of metastasis|hif-1α,0.5986,0.7472,0.0,0.5833,135
+Pinacidil,Pinacidil,Pinacidil,Pinacidil,1,K+ Channel,Activator,False,19,19,6,False,cardiomyocyte hypoxia-reoxygenation|hypoxia-inducible factor-1α|vascular endothelial growth factor a|induced nitric oxide synthase|cardiac microvascular ischemia-reperfusion injury,0.5663,0.8115,0.0,0.5832,136
+Amiloride hydrochloride,Amiloride,Amiloride Hydrochloride,Amiloride|Amiloride Hydrochloride,2,Na+ Channel,Blocker,False,8,19,3,False,hyperkalemia|metastasis|vegf,0.6819,0.5781,0.0,0.5826,137
+Clonidine hydrochloride,Clonidine,Clonidine Hydrochloride,Clonidine|Clonidine Hydrochloride,2,Adrenoceptor,Agonist,False,8,19,3,False,endothelium-denuded guinea pig thoracic aorta|nitric oxide synthase inhibitor|resistant arterial hypertension,0.6819,0.5781,0.0,0.5826,138
+Xylazine hydrochloride,Xylazine,Xylazine Hydrochloride,Xylazine|Xylazine Hydrochloride,2,Adrenoceptor,Agonist,False,8,11,3,False,external jugular vein|toxic endothelial effects|common carotid artery,0.6819,0.5781,0.0,0.5826,139
+Phentolamine mesylate,Phentolamine,Phentolamine Mesylate,Phentolamine|Phentolamine Mesylate,2,Adrenoceptor,Antagonist,False,8,9,3,False,norepinephrine extravasation|isolated equine digital arteries|rat radial artery,0.6819,0.5781,0.0,0.5826,140
+Epinastine hydrochloride,Epinastine,Epinastine Hydrochloride,Epinastine|Epinastine Hydrochloride,2,Histamine,Antagonist,False,5,20,2,False,angiogenesis|vegf,0.7406,0.4582,0.0,0.5818,141
+Cysteamine hydrochloride,Cysteamine,Cysteamine Hydrochloride,Cysteamine|Cysteamine Hydrochloride,2,Somatostatin,Depleter,False,5,12,2,False,ocular vascular endothelial cells|notch receptor,0.7406,0.4582,0.0,0.5818,142
+NG-Monomethyl-L-arginine acetate,NG-Monomethyl-L-arginine,NG-Monomethyl-L-Arginine Acetate,NG-Monomethyl-L-Arginine|NG-Monomethyl-L-Arginine Acetate,2,Nitric Oxide,Inhibitor,False,5,5,2,False,nitric oxide|nitric oxide synthase,0.7406,0.4582,0.0,0.5818,143
+CGS-21680 hydrochloride,CGS-21680,CGS-21680,CGS-21680,1,Adenosine,Agonist,False,5,4,2,False,coronary endothelial cells|human endothelial progenitor cells,0.7406,0.4582,0.0,0.5818,144
+Methoxamine hydrochloride,Methoxamine,Methoxamine Hydrochloride,Methoxamine|Methoxamine Hydrochloride,2,Adrenoceptor,Agonist,False,5,4,2,False,rat mesenteric arteries|saphenous arteries,0.7406,0.4582,0.0,0.5818,145
+Quinolinic acid,Quinolinic acid,Quinolinic Acid,Quinolinic Acid,1,Glutamate,Antagonist,True,18,14,2,False,coronary artery disease|hippocampal neurons,0.5737,0.4582,0.1,0.5817,146
+CNS-1102,CNS-1102,,,0,Glutamate,Antagonist,True,3,0,0,False,,0.7993,0.0,0.1,0.5796,147
+Flupirtine maleate,Flupirtine,,,0,Glutamate,Antagonist,True,3,0,0,False,,0.7993,0.0,0.1,0.5796,148
+5-Fluorouracil,5-Fluorouracil,5-Fluorouracil,5-Fluorouracil,1,Cell Cycle,Inhibitor,False,12,25,4,False,metastatic colorectal cancer|jagged1|huvec|hypoxia-inducible factor-1 alpha,0.6287,0.6712,0.0,0.5786,149
+Podophyllotoxin,Podophyllotoxin,Podophyllotoxin,Podophyllotoxin,1,Cytoskeleton and ECM,Inhibitor,False,12,24,4,False,intercellular adhesion molecule-1 (icam-1)|vascular cell adhesion molecule-1 (vcam-1)|anti-angiogenesis|anti-metastatic effects,0.6287,0.6712,0.0,0.5786,150
+Acetazolamide,Acetazolamide,Acetazolamide,Acetazolamide|Sodium-Acetazolamide,2,Biochemistry,Inhibitor,False,12,20,4,False,peripapillary choroidal neovascular membrane|human umbilical vein endothelial cells|pi3k/akt pathway|vegf,0.6287,0.6712,0.0,0.5786,151
+Cefazolin sodium,Cefazolin,Cefazolin Sodium,Cefazolin|Cefazolin Sodium,2,Antibiotic,Unknown,False,9,14,3,False,corneal endothelium|endothelial toxicity|vascular graft infection,0.6667,0.5781,0.0,0.5735,152
+Isoliquiritigenin,Isoliquiritigenin,Isoliquiritigenin,Isoliquiritigenin,1,Cyclic Nucleotides,Activator,False,9,11,3,False,vascular cell adhesion molecule-1|jak-stat signaling pathway|intercellular adhesion molecule-1,0.6667,0.5781,0.0,0.5735,153
+AS605240,AS605240,AS605240,AS605240,1,Biochemistry,Inhibitor,False,9,8,3,False,mouse model of transient intraluminal middle cerebral artery occlusion (tmcao)|phosphoinositide 3-kinase-γ|pi3kγ,0.6667,0.5781,0.0,0.5735,154
+Actinonin,Actinonin,Actinonin,Actinonin,1,Biochemistry,Inhibitor,False,9,8,3,False,matrix metalloproteinases|microvascular endothelial capillary-like tube|mt1-mmp,0.6667,0.5781,0.0,0.5735,155
+Glipizide,Glipizide,Glipizide,Glipizide,1,K+ Channel,Blocker,False,13,30,4,False,plasminogen activator (pa)|vasculogenesis|pi3k/akt signaling|angiogenesis,0.618,0.6712,0.0,0.5722,156
+(±)-CPP,CPP,CPP,CPP,1,Glutamate,Antagonist,True,11,1,1,False,nmda,0.6403,0.2891,0.1,0.5709,157
+Sertraline hydrochloride,Sertraline,Sertraline Hydrochloride,Sertraline|Sertraline Hydrochloride,2,Serotonin,Inhibitor,False,6,8,2,False,mannosylation|vascular toxicity,0.7183,0.4582,0.0,0.5684,158
+Cystamine dihydrochloride,Cystamine,Cystamine Dihydrochloride,Cystamine Dihydrochloride,1,Glutamate,Inhibitor,False,6,5,2,False,thoracic aortic dissection|pulmonary arterial hypertension,0.7183,0.4582,0.0,0.5684,159
+GW9508,GW9508,GW9508,GW9508,1,Lipids,Agonist,False,6,5,2,False,human retinal microvascular endothelial cells (hrmecs)|vegf,0.7183,0.4582,0.0,0.5684,160
+Cyclothiazide,Cyclothiazide,Cyclothiazide,Cyclothiazide,1,Glutamate,Agonist,False,6,4,2,False,high impact ampakines|ampa currents,0.7183,0.4582,0.0,0.5684,161
+3-Aminopropionitrile fumarate,3-Aminopropionitrile,3-Aminopropionitrile Fumarate,3-Aminopropionitrile Fumarate,1,Multi-Drug Resistance,Substrate,False,6,3,2,False,thoracic aortic aneurysm/dissection|aortic dissection,0.7183,0.4582,0.0,0.5684,162
+L-Cycloserine,Cycloserine,L-Cycloserine,Cycloserine|D-Cycloserine|L-Cycloserine,3,Sphingolipid,Inhibitor,False,3,21,1,False,nmda receptor,0.7993,0.2891,0.0,0.5663,163
+Tetradecylthioacetic acid,Tetradecylthioacetic acid,Tetradecylthioacetic Acid,Tetradecylthioacetic Acid,1,Transcription,Agonist,False,3,11,1,False,human endothelial cells,0.7993,0.2891,0.0,0.5663,164
+Naphazoline hydrochloride,Naphazoline,Naphazoline Hydrochloride,Naphazoline Hydrochloride,1,Adrenoceptor,Agonist,False,3,5,1,False,vegf,0.7993,0.2891,0.0,0.5663,165
+Hexamethonium bromide,Hexamethonium,Hexamethonium Bromide,Hexamethonium|Hexamethonium Bromide,2,Cholinergic,Antagonist,False,3,4,1,False,nmda,0.7993,0.2891,0.0,0.5663,166
+(±)-AMT hydrochloride,AMT,AMT,AMT,1,Nitric Oxide,Inhibitor,False,3,1,1,False,human nitric oxide synthase isoenzymes,0.7993,0.2891,0.0,0.5663,167
+Clozapine,Clozapine,Clozapine,Clozapine,1,Dopamine,Antagonist,False,14,34,4,False,porcine brain microvessel endothelial cells|human micro-vascular endothelial cells|human brain microvascular endothelial cell model|brain microvascular endothelial cells,0.608,0.6712,0.0,0.5662,168
+Colchicine,Colchicine,Colchicine,Colchicine,1,Cytoskeleton and ECM,Inhibitor,False,14,34,4,False,revascularization|atherothrombotic cardiovascular events|atherosclerotic cardiovascular disease|endothelial cells,0.608,0.6712,0.0,0.5662,169
+S-Nitroso-N-acetylpenicillamine,S-Nitroso-N-acetylpenicillamine,S-Nitroso-N-acetylpenicillamine,S-Nitroso-N-Acetylpenicillamine|S-Nitroso-N-acetylpenicillamine|S-nitroso-N-acetylpenicillamine,3,Nitric Oxide,Donor,False,14,16,4,False,nitric oxide|human umbilical vein endothelial cells|endothelial dysfunction|cgmp-dependent signal transduction pathway,0.608,0.6712,0.0,0.5662,170
+Carbachol,Carbachol,Carbachol,Carbachol,1,Cholinergic,Agonist,False,14,15,4,False,endothelial function|rat jugular vein|endothelium|rat aorta,0.608,0.6712,0.0,0.5662,171
+Dopamine hydrochloride,Dopamine,Dopamine Hydrochloride,Dopamine|Dopamine Hydrochloride,2,Dopamine,Agonist,False,10,60,3,False,nmda|endothelial nitric oxide|rat aortas,0.6529,0.5781,0.0,0.5652,172
+Valproic acid sodium,Valproic acid,Valproic Acid,Valproic Acid,1,Anticonvulsant,Unknown,False,10,28,3,False,endothelial-to-mesenchymal transition|endothelial cells|thrombospondin-1,0.6529,0.5781,0.0,0.5652,173
+Norcantharidin,Norcantharidin,Norcantharidin,Norcantharidin,1,Phosphorylation,Inhibitor,False,10,18,3,False,mtorc1|vasculogenic mimicry|mtorc2,0.6529,0.5781,0.0,0.5652,174
+L-azetidine-2-carboxylic acid,azetidine-2-carboxylic acid,L-Azetidine-2-Carboxylic Acid,Azetidine-2-Carboxylic Acid|L-Azetidine-2-Carboxylic Acid,2,Biochemistry,Inhibitor,False,10,14,3,False,angiogenesis|mast-cell-mediated angiogenesis|microvascular formation,0.6529,0.5781,0.0,0.5652,175
+(-)-Physostigmine,Physostigmine,Physostigmine,Physostigmine,1,Cholinergic,Inhibitor,False,10,9,3,False,hippocampal theta rhythm|vascular contractility|functional capillary density,0.6529,0.5781,0.0,0.5652,176
+Nimesulide,Nimesulide,Nimesulide,Nimesulide,1,Prostaglandin,Inhibitor,False,15,36,4,False,mmp-9|p-akt|vegf-c|mmp-3,0.5986,0.6712,0.0,0.5605,177
+Piceatannol,Piceatannol,Piceatannol,Piceatannol,1,Phosphorylation,Inhibitor,False,15,26,4,False,proangiogenic factors|vascular dysfunction|endothelial nitric oxide synthase|endothelial function,0.5986,0.6712,0.0,0.5605,178
+(±)-HA-966,HA-966,(+)-HA-966,(+)-HA-966|(R)-HA-966|(S)-HA-966,3,Glutamate,Antagonist,True,4,6,0,False,,0.767,0.0,0.1,0.5602,179
+(±)-2-Amino-3-phosphonopropionic acid,2-Amino-3-phosphonopropionic acid,D-2-Amino-3-Phosphonopropionic Acid,D-2-Amino-3-Phosphonopropionic Acid,1,Glutamate,Antagonist,True,4,1,0,False,,0.767,0.0,0.1,0.5602,180
+SIB 1757,SIB 1757,,,0,Glutamate,Antagonist,True,4,0,0,False,,0.767,0.0,0.1,0.5602,181
+SIB 1893,SIB 1893,,,0,Glutamate,Antagonist,True,4,0,0,False,,0.767,0.0,0.1,0.5602,182
+Rolipram,Rolipram,Rolipram,Rolipram,1,Cyclic Nucleotides,Inhibitor,False,20,24,5,False,endothelial neutral endopeptidase|hif1α|akt|retinal blood vessel diameter|vascular endothelial dysfunction,0.5593,0.7472,0.0,0.5597,183
+Piracetam,Piracetam,Piracetam,Piracetam,1,Glutamate,Modulator,False,11,23,3,False,vegf/enos/tgf-β pathway|vascular endothelial growth factor|angiogenesis,0.6403,0.5781,0.0,0.5576,184
+Nicardipine hydrochloride,Nicardipine,Nicardipine Hydrochloride,Nicardipine|Nicardipine Hydrochloride,2,Ca2+ Channel,Antagonist,False,11,19,3,False,human vascular endothelial cells|hmvecs|nic-induced vascular injury,0.6403,0.5781,0.0,0.5576,185
+XCT790,XCT790,XCT790,XCT790,1,Gene Regulation,Inverse Agonist,False,11,12,3,False,ang-2|angiopoietin-2|vegf-a,0.6403,0.5781,0.0,0.5576,186
+Apigenin,Apigenin,Apigenin,Apigenin,1,Cell Cycle,Inhibitor,False,11,11,3,False,vegfr2 receptor|jak-stat signaling pathway|hypoxia-inducible factor-1,0.6403,0.5781,0.0,0.5576,187
+GW5074,GW5074,GW5074,GW5074,1,Phosphorylation,Inhibitor,False,11,10,3,False,pdgf-bb|matrix metalloproteinase (mmp)-2|retinal endothelial cells,0.6403,0.5781,0.0,0.5576,188
+AIDA,AIDA,AIDA,AIDA,1,Glutamate,Antagonist,True,13,6,1,False,endothelial injury,0.618,0.2891,0.1,0.5575,189
+Ranitidine hydrochloride,Ranitidine,Ranitidine Hydrochloride,Ranitidine|Ranitidine Hydrochloride,2,Histamine,Antagonist,False,7,13,2,False,mapkapk-2|p38/mapkapk-2 signaling,0.699,0.4582,0.0,0.5569,190
+5-Hydroxy-L-tryptophan,5-Hydroxy-L-tryptophan,5-Hydroxy-L-Tryptophan,5-Hydroxy-L-Tryptophan,1,Serotonin,Precursor,False,7,6,2,False,human umbilical vein endothelial cells|aortic nitric oxide synthase 3,0.699,0.4582,0.0,0.5569,191
+NNC 55-0396,NNC 55-0396,NNC 55-0396,NNC 55-0396,1,Ca2+ Channel,Inhibitor,False,7,6,2,False,tumor-induced angiogenesis|hypoxia-inducible factor (hif)-1α,0.699,0.4582,0.0,0.5569,192
+Alloxazine,Alloxazine,Alloxazine,Alloxazine,1,Adenosine,Antagonist,False,7,4,2,False,adenosine agonists|5'-n-ethylcarboxamidoadenosine,0.699,0.4582,0.0,0.5569,193
+Aminoguanidine hydrochloride,Aminoguanidine,Aminoguanidine Hydrochloride,Aminoguanidine|Aminoguanidine Hydrochloride,2,Nitric Oxide,Inhibitor,False,7,3,2,False,rabbit carotid arteries|huvecs,0.699,0.4582,0.0,0.5569,194
+Emodin,Emodin,emodin,Emodin|emodin,2,Phosphorylation,Inhibitor,False,12,29,3,False,vegf|hypoxia-inducible factor-1 alpha|vascular endothelial growth factor,0.6287,0.5781,0.0,0.5506,195
+SP600125,SP600125,SP600125,SP600125,1,Phosphorylation,Inhibitor,False,12,22,3,False,metastatic tetraploid rko colon cancer clones|endothelial progenitor cells|urokinase-type plasminogen activator receptor,0.6287,0.5781,0.0,0.5506,196
+Myricetin,Myricetin,Myricetin,Myricetin,1,Phosphorylation,Inhibitor,False,12,20,3,False,vegf-a|vegf-r1 receptor|huvec,0.6287,0.5781,0.0,0.5506,197
+Auraptene,Auraptene,Auraptene,Auraptene,1,Cell Signaling,Modulator,False,12,18,3,False,vascular endothelium growth factor (vegf)-a|platelet-derived growth factors (pdgfs)|angiogenesis,0.6287,0.5781,0.0,0.5506,198
+Etodolac,Etodolac,Etodolac,Etodolac,1,Prostaglandin,Inhibitor,False,12,15,3,False,cancer metastasis|stat3|vascular endothelial growth factor-a,0.6287,0.5781,0.0,0.5506,199
+Triamterene,Triamterene,Triamterene,Triamterene,1,Na+ Channel,Blocker,False,12,15,3,False,vegfr2|vascular endothelial growth factor|vascular endothelial growth factor receptor 2,0.6287,0.5781,0.0,0.5506,200
+Azathioprine,Azathioprine,Azathioprine,Azathioprine,1,P2 Receptor,Inhibitor,False,12,12,3,False,anti-angiogenic activity|tgf-β|vegf,0.6287,0.5781,0.0,0.5506,201
+Zaprinast,Zaprinast,Zaprinast,Zaprinast,1,Cyclic Nucleotides,Inhibitor,False,12,12,3,False,vascular endothelial growth factor|angiogenesis|pulmonary arterial endothelial cells,0.6287,0.5781,0.0,0.5506,202
+Aconitine,Aconitine,Aconitine,Aconitine,1,Ion Pump,Blocker,False,17,25,4,False,vascular endothelial growth factor|hypoxia-inducible factor 1α|mmp2|mmp9,0.5816,0.6712,0.0,0.5503,203
+Bupropion hydrochloride,Bupropion,Bupropion Hydrochloride,Bupropion|Bupropion Hydrochloride,2,Dopamine,Blocker,False,4,11,1,False,cardiovascular system,0.767,0.2891,0.0,0.5469,204
+Bestatin hydrochloride,Bestatin,Bestatin,Bestatin,1,Biochemistry,Inhibitor,False,4,7,1,False,microvascular endothelial capillary-like tube,0.767,0.2891,0.0,0.5469,205
+PF-4708671,PF-4708671,PF-4708671,PF-4708671,1,Kinase,Inhibitor,False,4,3,1,False,endothelial cells,0.767,0.2891,0.0,0.5469,206
+CGS-15943,CGS-15943,CGS-15943,CGS-15943,1,Adenosine,Antagonist,False,4,2,1,False,adenosine,0.767,0.2891,0.0,0.5469,207
+Chloroquine diphosphate,Chloroquine,Chloroquine Diphosphate,Chloroquine|Chloroquine Diphosphate|Chloroquine Diphosphate Salt|Chloroquine Phosphate,4,DNA,Intercalator,False,8,19,2,False,aortic endothelium|phenylephrine,0.6819,0.4582,0.0,0.5466,208
+Chlorzoxazone,Chlorzoxazone,Chlorzoxazone,Chlorzoxazone,1,Nitric Oxide,Inhibitor,False,8,19,2,False,nitric oxide synthase isozymes|rat thoracic artery,0.6819,0.4582,0.0,0.5466,209
+Amantadine hydrochloride,Amantadine,Amantadine Hydrochloride,Amantadine|Amantadine Hydrochloride,2,Dopamine,Releaser,False,8,17,2,False,cardiovascular system|bovine cornea endothelial cells,0.6819,0.4582,0.0,0.5466,210
+Chlorpropamide,Chlorpropamide,Chlorpropamide,Chlorpropamide,1,Hormone,Releaser,False,8,14,2,False,nitric oxide synthase (nos) activity|plasminogen activator (pa),0.6819,0.4582,0.0,0.5466,211
+Chlorpromazine hydrochloride,Chlorpromazine,Chlorpromazine Hydrochloride,Chlorpromazine|Chlorpromazine Hydrochloride,2,Dopamine,Antagonist,False,8,10,2,False,human micro-vascular endothelial cells|human brain microvascular endothelial cell model,0.6819,0.4582,0.0,0.5466,212
+(+)-Chlorpheniramine maleate,Chlorpheniramine,D-Chlorpheniramine,Chlorpheniramine Maleate|D-Chlorpheniramine,2,Histamine,Antagonist,False,8,7,2,False,nasal blood vessel smooth muscle|peripheral corneal neovascularization,0.6819,0.4582,0.0,0.5466,213
+(±)-Chlorpheniramine maleate,Chlorpheniramine,D-Chlorpheniramine,Chlorpheniramine Maleate|D-Chlorpheniramine,2,Histamine,Antagonist,False,8,7,2,False,nasal blood vessel smooth muscle|peripheral corneal neovascularization,0.6819,0.4582,0.0,0.5466,214
+Aurothioglucose,Aurothioglucose,Aurothioglucose,Aurothioglucose,1,Phosphorylation,Inhibitor,False,8,3,2,False,gliostatin/platelet-derived endothelial cell growth factor|huvec,0.6819,0.4582,0.0,0.5466,215
+Tazarotene,Tazarotene,Tazarotene,Tazarotene,1,Cell Biology,Inducer,False,18,25,4,False,therapeutic angiogenesis|vascular endothelial growth factor|microvessels|human umbilical vein endothelial cells,0.5737,0.6712,0.0,0.5456,216
+Dextromethorphan hydrobromide monohydrate,Dextromethorphan,Dextromethorphan,Dextromethorphan|Dextromethorphan Hydrobromide,2,Glutamate,Antagonist,True,5,5,0,False,,0.7406,0.0,0.1,0.5444,217
+5-Fluoroindole-2-carboxylic acid,5-Fluoroindole-2-carboxylic acid,,,0,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,218
+6-Methyl-2-(phenylethynyl)pyridine hydrochloride,6-Methyl-2-(phenylethynyl)pyridine,,,0,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,219
+Arcaine sulfate,Arcaine,,,0,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,220
+CNQX disodium,CNQX,CNQX,CNQX,1,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,221
+GYKI 52466 hydrochloride,GYKI 52466,,,0,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,222
+NBQX disodium,NBQX,,,0,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,223
+Ro 8-4304,Ro 8-4304,,,0,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,224
+Spermine tetrahydrochloride,Spermine tetrahydrochloride,,,0,Glutamate,Antagonist,True,5,0,0,False,,0.7406,0.0,0.1,0.5444,225
+Genistein,Genistein,Genistein,Genistein,1,Phosphorylation,Inhibitor,False,13,30,3,False,vasculogenic mimicry|hcec-sv40|vascular endothelial growth factor,0.618,0.5781,0.0,0.5442,226
+Pentoxifylline,Pentoxifylline,Pentoxifylline,Pentoxifylline,1,Cyclic Nucleotides,Inhibitor,False,13,27,3,False,atherosclerotic cardiovascular disease|cultured human aortic endothelial cells|human aortic endothelial cells,0.618,0.5781,0.0,0.5442,227
+Celecoxib,Celecoxib,Celecoxib,Celecoxib,1,Lipids,Inhibitor,False,13,26,3,False,erk1/2|matrix metalloproteinase 9|vascular endothelial growth factor,0.618,0.5781,0.0,0.5442,228
+Haloperidol,Haloperidol,Haloperidol,Haloperidol|Haloperidol Lactate,2,Dopamine,Antagonist,False,13,23,3,False,human micro-vascular endothelial cells|vascular defects|human brain microvascular endothelial cell model,0.618,0.5781,0.0,0.5442,229
+5-azacytidine,5-azacytidine,5-Azacytidine,5-Azacytidine,1,DNA Metabolism,Inhibitor,False,13,20,3,False,"adhesion, thrombosis, and angiogenesis pathways|metastatic lung cancer|angiogenesis",0.618,0.5781,0.0,0.5442,230
+Pilocarpine nitrate,Pilocarpine,Pilocarpine Nitrate,Pilocarpine|Pilocarpine Hydrochloride|Pilocarpine Nitrate,3,Cholinergic,Agonist,False,1,13,0,False,,0.8997,0.0,0.0,0.5398,231
+Cefmetazole sodium,Cefmetazole,Cefmetazole Sodium,Cefmetazole|Cefmetazole Sodium,2,Antibiotic,Unknown,False,1,10,0,False,,0.8997,0.0,0.0,0.5398,232
+CB 1954,CB 1954,CB 1954,CB 1954,1,DNA,Intercalator,False,1,8,0,False,,0.8997,0.0,0.0,0.5398,233
+Promazine hydrochloride,Promazine,Promazine Hydrochloride,Promazine|Promazine Hydrochloride,2,Dopamine,Antagonist,False,1,7,0,False,,0.8997,0.0,0.0,0.5398,234
+Clemizole hydrochloride,Clemizole,Clemizole,Clemizole,1,Histamine,Antagonist,False,1,5,0,False,,0.8997,0.0,0.0,0.5398,235
+Demeclocycline hydrochloride,Demeclocycline,Demeclocycline Hydrochloride,Demeclocycline Hydrochloride,1,Antibiotic,Unknown,False,1,5,0,False,,0.8997,0.0,0.0,0.5398,236
+Guanabenz acetate,Guanabenz,Guanabenz Acetate,Guanabenz Acetate,1,Adrenoceptor,Agonist,False,1,5,0,False,,0.8997,0.0,0.0,0.5398,237
+(-)-Tetramisole hydrochloride,Tetramisole,Tetramisole,Tetramisole,1,Phosphorylation,Inhibitor,False,1,4,0,False,,0.8997,0.0,0.0,0.5398,238
+Doxazosin mesylate,Doxazosin,Doxazosin,Doxazosin,1,Adrenoceptor,Blocker,False,1,4,0,False,,0.8997,0.0,0.0,0.5398,239
+Tetramisole hydrochloride,Tetramisole,Tetramisole,Tetramisole,1,Phosphorylation,Inhibitor,False,1,4,0,False,,0.8997,0.0,0.0,0.5398,240
+Biperiden hydrochloride,Biperiden,Biperiden Hydrochloride,Biperiden Hydrochloride,1,Cholinergic,Antagonist,False,1,3,0,False,,0.8997,0.0,0.0,0.5398,241
+L-Hyoscyamine,Hyoscyamine,Hyoscyamine,Hyoscyamine,1,Cholinergic,Antagonist,False,1,3,0,False,,0.8997,0.0,0.0,0.5398,242
+1-Deoxynojirimycin hydrochloride,1-Deoxynojirimycin,1-Deoxynojirimycin Hydrochloride,1-Deoxynojirimycin|1-Deoxynojirimycin Hydrochloride,2,Biochemistry,Inhibitor,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,243
+Fenoterol hydrobromide,Fenoterol,Fenoterol,Fenoterol,1,Adrenoceptor,Agonist,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,244
+Furegrelate sodium,Furegrelate,Furegrelate,Furegrelate,1,Phosphorylation,Inhibitor,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,245
+Indinavir sulfate salt hydrate,Indinavir,Indinavir,Indinavir,1,immune cell signaling,Inhibitor,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,246
+Loxapine succinate,Loxapine,Loxapine Succinate,Loxapine|Loxapine Succinate,2,Dopamine,Antagonist,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,247
+Methapyrilene hydrochloride,Methapyrilene,Methapyrilene Hydrochloride,Methapyrilene Hydrochloride,1,Histamine,Antagonist,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,248
+Pramipexole dihydrochloride,Pramipexole,Pramipexole Dihydrochloride,Pramipexole Dihydrochloride,1,Dopaminergics,Agonist,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,249
+Ro 90-7501,Ro 90-7501,RO 90-7501,RO 90-7501,1,Neurodegeneration,Inhibitor,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,250
+S-Methylisothiourea hemisulfate,S-Methylisothiourea,S-Methylisothiourea Hemisulfate,S-Methylisothiourea|S-Methylisothiourea Hemisulfate,2,Nitric Oxide,Inhibitor,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,251
+SKF 86466,SKF 86466,SKF 86466,SKF 86466,1,Adrenoceptor,Antagonist,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,252
+TBBz,TBBz,TBBz,TBBz,1,Phosphorylation,Inhibitor,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,253
+Trovafloxacin mesylate,Trovafloxacin,Trovafloxacin Mesylate,Trovafloxacin|Trovafloxacin Mesylate,2,Immunomodulators and Antibiotics,Inhibitor,False,1,2,0,False,,0.8997,0.0,0.0,0.5398,254
+Amsacrine hydrochloride,Amsacrine,Amsacrine Hydrochloride,Amsacrine Hydrochloride,1,DNA Repair,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,255
+BAY 61-3606 hydrochloride hydrate,BAY 61-3606,Bay 61-3606,Bay 61-3606,1,Phosphorylation,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,256
+Betaine hydrochloride,Betaine,Betaine Hydrochloride,Betaine|Betaine Hydrochloride,2,Biochemistry,Metabolite,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,257
+CBIQ,CBIQ,CbiQ,CbiQ,1,K+ Channel,Activator,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,258
+Cephalexin hydrate,Cephalexin,Cephalexin Hydrate,Cephalexin Hydrate,1,Antibiotic,Unknown,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,259
+Chelidamic acid,Chelidamic acid,Chelidamic Acid,Chelidamic Acid,1,Glutamate,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,260
+Enalaprilat dihydrate,Enalaprilat,Enalaprilat Dihydrate,Enalaprilat Dihydrate,1,Neurotransmitters,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,261
+Fluphenazine dihydrochloride,Fluphenazine,Fluphenazine,Fluphenazine,1,Dopamine,Antagonist,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,262
+Furafylline,Furafylline,Furafylline,Furafylline,1,Biochemistry,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,263
+JW74,JW74,JW74,JW74,1,Transcription,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,264
+"L-655,708","655,708","L-655,708","L-655,708",1,Benzodiazepine,Ligand,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,265
+L-Cysteinesulfinic Acid,Cysteinesulfinic Acid,L-Cysteinesulfinic Acid,L-Cysteinesulfinic Acid,1,Glutamate,Ligand,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,266
+Methysergide maleate,Methysergide,Methysergide,Methysergide,1,Serotonin,Antagonist,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,267
+N-Oleoyldopamine,N-Oleoyldopamine,N-Oleoyldopamine,N-Oleoyldopamine,1,Neurotransmission,Ligand,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,268
+Pirenperone,Pirenperone,Pirenperone,Pirenperone,1,Serotonin,Antagonist,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,269
+S-Ethylisothiourea hydrobromide,S-Ethylisothiourea,S-Ethylisothiourea Hydrobromide,S-Ethylisothiourea Hydrobromide,1,Nitric Oxide,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,270
+SB-215505,SB-215505,SB-215505,SB-215505,1,Serotonin,Antagonist,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,271
+Semicarbazide hydrochloride,Semicarbazide,Semicarbazide Hydrochloride,Semicarbazide Hydrochloride,1,Neurotransmission,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,272
+TG003,TG003,TG003,TG003,1,Cell Cycle,Inhibitor,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,273
+Thioperamide maleate,Thioperamide,Thioperamide,Thioperamide,1,Histamine,Antagonist,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,274
+Tiapride hydrochloride,Tiapride,Tiapride,Tiapride,1,Dopamine,Antagonist,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,275
+ZD 7114 hydrochloride,ZD 7114,ZD 7114,ZD 7114,1,Adrenergics,Agonist,False,1,1,0,False,,0.8997,0.0,0.0,0.5398,276
+(+)-Hydrastine,Hydrastine,,,0,GABA,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,277
+(-)-Epinephrine bitartrate,Epinephrine bitartrate,,,0,Adrenoceptor,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,278
+"(6R)-5,6,7,8-Tetrahydro-L-biopterin hydrochloride","(6R)-5,6,7,8-Tetrahydro-L-biopterin",,,0,Neurotransmission,Cofactor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,279
+(±)-Chloro-APB hydrobromide,Chloro-APB,,,0,Dopamine,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,280
+"(±)-SKF 38393, N-allyl-, hydrobromide","SKF 38393, N-allyl",,,0,Dopamine,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,281
+"(±)-cis-Piperidine-2,3-dicarboxylic acid","cis-Piperidine-2,3-dicarboxylic acid",,,0,Glutamate,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,282
+"1,10-Diaminodecane","1,10-Diaminodecane",,,0,Glutamate,Inverse Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,283
+"1,3-Dipropyl-8-p-sulfophenylxanthine","1,3-Dipropyl-8-p-sulfophenylxanthine","1,3-Dipropyl-8-p-sulfophenylxanthine","1,3-Dipropyl-8-p-sulfophenylxanthine",1,Adenosine,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,284
+2-Chloro-2-deoxy-D-glucose,2-Chloro-2-deoxy-D-glucose,,,0,Biochemistry,Analog,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,285
+4-Aminobenzamidine dihydrochloride,4-Aminobenzamidine,,,0,Biochemistry,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,286
+6(5H)-Phenanthridinone,6(5H)-Phenanthridinone,6(5H)-Phenanthridinone,6(5H)-Phenanthridinone,1,Transcription,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,287
+"6-Nitroso-1,2-benzopyrone","6-Nitroso-1,2-benzopyrone",,,0,Transcription,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,288
+"7,7-Dimethyl-(5Z,8Z)-eicosadienoic acid","7,7-Dimethyl-(5Z,8Z)-eicosadienoic acid",,,0,Lipid,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,289
+AMG 9810,AMG 9810,,,0,Ion Channels,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,290
+BF-170 hydrochloride,BF-170,,,0,Neurodegeneration,Binder,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,291
+BIA 2-093,BIA 2-093,,,0,Na+ Channels,Blocker,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,292
+BWB70C,BWB70C,,,0,Leukotriene,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,293
+Benazoline oxalate,Benazoline,,,0,Imidazoline,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,294
+Benoxathian hydrochloride,Benoxathian,Benoxathian,Benoxathian,1,Adrenoceptor,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,295
+Bicalutamide (CDX),Bicalutamide (CDX),,,0,Gene Regulation,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,296
+Brequinar sodium salt hydrate,Brequinar,,,0,DNA-RNA transcription regulators,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,297
+CGP-7930,CGP-7930,,,0,GABA,Modulator,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,298
+CGS-12066A maleate,CGS-12066A,,,0,Serotonin,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,299
+CP-66713,CP-66713,,,0,Purinergics,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,300
+Centrophenoxine hydrochloride,Centrophenoxine,,,0,Nootropic,Unknown,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,301
+Ciproxifan hydrochloride,Ciproxifan,Ciproxifan Hydrochloride,Ciproxifan Hydrochloride,1,Histamine,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,302
+Diacylglycerol Kinase Inhibitor II,Diacylglycerol Kinase Inhibitor II,,,0,Phosphorylation,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,303
+Etazolate hydrochloride,Etazolate,,,0,Adenosine,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,304
+Fusidic acid sodium,Fusidic acid,,,0,Cell Cycle,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,305
+GW2974,GW2974,,,0,Phosphorylation,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,306
+Guanidinyl-naltrindole di-trifluoroacetate,Guanidinyl-naltrindole di-trifluoroacetate,,,0,Opioid,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,307
+HEMADO,HEMADO,,,0,Adenosine,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,308
+Ibandronate sodium,Ibandronate,,,0,Lipid Signaling,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,309
+"L-Glutamic acid, N-phthaloyl-","Glutamic acid, N-phthaloyl",,,0,Glutamate,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,310
+L-alpha-Methyl DOPA,alpha-Methyl DOPA,,,0,Biochemistry,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,311
+L2-b,L2-b,,,0,Cell Biology,Chelator,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,312
+Metrazoline oxalate,Metrazoline,,,0,Imidazoline,Ligand,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,313
+N-Methyl-beta-carboline-3-carboxamide,N-Methyl-beta-carboline-3-carboxamide,N-Methyl-Beta-Carboline-3-Carboxamide,N-Methyl-Beta-Carboline-3-Carboxamide,1,GABA,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,314
+N-p-Tosyl-L-phenylalanine chloromethyl ketone,N-p-Tosyl-L-phenylalanine chloromethyl ketone,,,0,Biochemistry,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,315
+NBI 27914,NBI 27914,,,0,Neurotransmission,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,316
+NU2058,NU2058,,,0,Cell Cycle,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,317
+Nefiracetam,Nefiracetam,,,0,Neurotransmission,Nootropic,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,318
+Nelfinavir mesylate hydrate,Nelfinavir,,,0,Immune Signaling,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,319
+OBAA,OBAA,,,0,Phospholipases,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,320
+Org 24598 lithium salt,Org 24598 lithium,,,0,Neurotransmission,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,321
+PD-407824,PD-407824,,,0,Kinase,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,322
+Pregnenolone sulfate sodium,Pregnenolone,,,0,GABA,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,323
+R(+)-Butylindazone,R(+)-Butylindazone,,,0,Ion Pump,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,324
+R(-)-Apocodeine hydrochloride,R(-)-Apocodeine,,,0,Dopamine,Agonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,325
+R(-)-Me5,R(-)-Me5,,,0,Na+ Channel,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,326
+RX 821002 hydrochloride,RX 821002,,,0,Adrenoceptor,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,327
+S(-)-Pindolol,S(-)-Pindolol,,,0,Adrenergic,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,328
+SC-51322,SC-51322,,,0,Prostoglandins,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,329
+Tranylcypromine hydrochloride,Tranylcypromine,Tranylcypromine,Tranylcypromine,1,Neurotransmission,Inhibitor,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,330
+"Urapidil, 5-Methyl-","Urapidil, 5-Methyl",,,0,Adrenoceptor,Antagonist,False,1,0,0,False,,0.8997,0.0,0.0,0.5398,331
+Chelerythrine chloride,Chelerythrine,Chelerythrine Chloride,Chelerythrine|Chelerythrine Chloride,2,Phosphorylation,Inhibitor,False,14,27,3,False,adenosine a2a receptor|endothelial-to-mesenchymal-transition|hypoxia,0.608,0.5781,0.0,0.5382,332
+Minoxidil,Minoxidil,Minoxidil,Minoxidil,1,K+ Channel,Activator,False,14,21,3,False,vegf|vascular endothelial growth factor|adenosine a1 receptor,0.608,0.5781,0.0,0.5382,333
+Niclosamide,Niclosamide,Niclosamide,Niclosamide|Niclosamide Stearate,2,Antibiotic,Unknown,False,14,19,3,False,mapk/nf-κb pathway|hif-α|vascular endothelial dysfunction,0.608,0.5781,0.0,0.5382,334
+Bosutinib,Bosutinib,Bosutinib,Bosutinib,1,kinase,Inhibitor,False,14,12,3,False,fibronectin|pi3k/akt signaling pathway|tgf-β,0.608,0.5781,0.0,0.5382,335
+EGTA,EGTA,EGTA,EGTA,1,Biochemistry,Inhibitor,False,14,9,3,False,pdgf-bb|tissue-type plasminogen activator (t-pa)|von willebrand factor (vwf),0.608,0.5781,0.0,0.5382,336
+Atropine sulfate,Atropine,Atropine Sulfate,Atropine|Atropine Sulfate,2,Cholinergic,Antagonist,False,9,33,2,False,nmda|bovine aortic endothelial cells,0.6667,0.4582,0.0,0.5375,337
+Hispidin,Hispidin,Hispidin,Hispidin,1,Phosphorylation,Inhibitor,False,9,12,2,False,coronary microvessels|cardiovascular disease,0.6667,0.4582,0.0,0.5375,338
+Picotamide,Picotamide,Picotamide,Picotamide,1,Thromboxane,Antagonist,False,9,9,2,False,peripheral artery disease (pad)|peripheral arterial disease,0.6667,0.4582,0.0,0.5375,339
+PF-573228,PF-573228,PF-573228,PF-573228,1,Kinase/Phosphatase,Inhibitor,False,9,7,2,False,vcam-1|fak,0.6667,0.4582,0.0,0.5375,340
+Amitriptyline hydrochloride,Amitriptyline,Amitriptyline Hydrochloride,Amitriptyline|Amitriptyline Hydrochloride,2,Adrenoceptor,Inhibitor,False,5,25,1,False,conditional immortalized rat brain capillary endothelial cells (tr-bbb13),0.7406,0.2891,0.0,0.5311,341
+D-Cycloserine,Cycloserine,D-Cycloserine,Cycloserine|D-Cycloserine|L-Cycloserine,3,Glutamate,Agonist,False,5,21,1,False,nmda receptor,0.7406,0.2891,0.0,0.5311,342
+DL-Cycloserine,Cycloserine,Cycloserine,Cycloserine|D-Cycloserine|L-Cycloserine,3,Sphingolipid,Inhibitor,False,5,21,1,False,nmda receptor,0.7406,0.2891,0.0,0.5311,343
+Diltiazem hydrochloride,Diltiazem,Diltiazem Hydrochloride,Diltiazem|Diltiazem Hydrochloride,2,Ca2+ Channel,Antagonist,False,5,19,1,False,coronary artery spasm,0.7406,0.2891,0.0,0.5311,344
+Fluoxetine hydrochloride,Fluoxetine,Fluoxetine Hydrochloride,Fluoxetine|Fluoxetine Hydrochloride,2,Serotonin,Inhibitor,False,5,18,1,False,norepinephrine transporter,0.7406,0.2891,0.0,0.5311,345
+Naltrexone hydrochloride,Naltrexone,Naltrexone Hydrochloride,Naltrexone|Naltrexone Hydrochloride,2,Opioid,Antagonist,False,5,17,1,False,cardiovascular system,0.7406,0.2891,0.0,0.5311,346
+Tryptamine hydrochloride,Tryptamine,Tryptamine,Tryptamine,1,Serotonin,Ligand,False,5,15,1,False,nitric oxide,0.7406,0.2891,0.0,0.5311,347
+Quinidine sulfate,Quinidine,Quinidine Sulfate,Quinidine|Quinidine Sulfate|Quinidine Sulphate,3,Na+ Channel,Antagonist,False,5,13,1,False,cardiovascular drugs,0.7406,0.2891,0.0,0.5311,348
+2-Chloroadenosine triphosphate tetrasodium,2-Chloroadenosine,2-Chloroadenosine,2-Chloroadenosine,1,P2 Receptor,Agonist,False,5,9,1,False,a(2b)-adenosine receptor,0.7406,0.2891,0.0,0.5311,349
+Metoclopramide hydrochloride,Metoclopramide,Metoclopramide Hydrochloride,Metoclopramide|Metoclopramide Hydrochloride,2,Dopamine,Antagonist,False,5,9,1,False,patient-controlled intravenous analgesia,0.7406,0.2891,0.0,0.5311,350
+Fexofenadine hydrochloride,Fexofenadine,Fexofenadine Hydrochloride,Fexofenadine|Fexofenadine Hydrochloride,2,Histamine,Antagonist,False,5,7,1,False,cedar pollinosis,0.7406,0.2891,0.0,0.5311,351
+Gabaculine hydrochloride,Gabaculine,Gabaculine,Gabaculine,1,GABA,Inhibitor,False,5,7,1,False,endothelial gaba-t activity,0.7406,0.2891,0.0,0.5311,352
+Ketanserin tartrate,Ketanserin,Ketanserin,Ketanserin,1,Serotonin,Antagonist,False,5,7,1,False,pig coronary artery,0.7406,0.2891,0.0,0.5311,353
+Pirenzepine dihydrochloride,Pirenzepine,Pirenzepine,Pirenzepine,1,Cholinergic,Antagonist,False,5,7,1,False,bovine aortic endothelial cells,0.7406,0.2891,0.0,0.5311,354
+Chlorothiazide,Chlorothiazide,Chlorothiazide,Chlorothiazide,1,Biochemistry,Inhibitor,False,5,6,1,False,intravenous loop diuretics,0.7406,0.2891,0.0,0.5311,355
+Muscimol hydrobromide,Muscimol,Muscimol,Muscimol,1,GABA,Agonist,False,5,6,1,False,cardiovascular dysfunction,0.7406,0.2891,0.0,0.5311,356
+GW7647,GW7647,GW7647,GW7647,1,Transcription,Agonist,False,5,4,1,False,endothelial vasodilation,0.7406,0.2891,0.0,0.5311,357
+Ethopropazine hydrochloride,Ethopropazine,Ethopropazine,Ethopropazine,1,Neurotransmission,Inhibitor,False,5,2,1,False,laminin carpets,0.7406,0.2891,0.0,0.5311,358
+(±)-Octopamine hydrochloride,Octopamine,Octopamine,Octopamine,1,Adrenoceptor,Agonist,False,5,1,1,False,norepinephrine,0.7406,0.2891,0.0,0.5311,359
+BRL 37344 sodium,BRL 37344,BRL 37344,BRL 37344,1,Adrenoceptor,Agonist,False,5,1,1,False,no/cgmp pathway,0.7406,0.2891,0.0,0.5311,360
+DL-p-Chlorophenylalanine methyl ester hydrochloride,p-Chlorophenylalanine methyl ester,p-Chlorophenylalanine Methyl Ester,dl-p-Chlorophenylalanine Methyl Ester|p-Chlorophenylalanine Methyl Ester,2,Neurotransmission,Inhibitor,False,5,1,1,False,rabbit saphenous vein,0.7406,0.2891,0.0,0.5311,361
+Meclofenamic acid sodium,Meclofenamic acid,Meclofenamic Acid,Meclofenamic Acid,1,Prostaglandin,Inhibitor,False,5,1,1,False,aortic endothelium,0.7406,0.2891,0.0,0.5311,362
+Pargyline hydrochloride,Pargyline,Pargyline,Pargyline,1,Neurotransmission,Inhibitor,False,5,1,1,False,rabbit saphenous vein,0.7406,0.2891,0.0,0.5311,363
+Pentamidine isethionate,Pentamidine isethionate,Pentamidine Isethionate,Pentamidine Isethionate,1,Glutamate,Antagonist,True,6,6,0,False,,0.7183,0.0,0.1,0.531,364
+McN-A-343,McN-A-343,McN-A-343,McN-A-343,1,Cholinergic,Agonist,False,10,14,2,False,bovine aortic endothelial cells|rabbit isolated pulmonary artery,0.6529,0.4582,0.0,0.5292,365
+Stevioside,Stevioside,Stevioside,Stevioside,1,Ion Channels,Inhibitor,False,10,14,2,False,isolated aortic rings|aortic smooth muscle cells,0.6529,0.4582,0.0,0.5292,366
+JS-K,JS-K,JS-K,JS-K,1,Nitric Oxide,Donor,False,10,12,2,False,endothelial autophagy|nitric oxide,0.6529,0.4582,0.0,0.5292,367
+Tetraethylammonium chloride,Tetraethylammonium,Tetraethylammonium Chloride,Tetraethylammonium|Tetraethylammonium Chloride,2,Cholinergic,Antagonist,False,10,12,2,False,rat radial artery|endothelium-denuded guinea pig thoracic aorta,0.6529,0.4582,0.0,0.5292,368
+8-(3-Chlorostyryl)caffeine,8-(3-Chlorostyryl)caffeine,8-(3-Chlorostyryl)Caffeine,8-(3-Chlorostyryl)Caffeine,1,Adenosine,Antagonist,False,10,5,2,False,a2a-adenosine receptors|a1-adenosine receptors,0.6529,0.4582,0.0,0.5292,369
+Nilutamide,Nilutamide,Nilutamide,Nilutamide,1,Hormone,Inhibitor,False,10,3,2,False,nitric oxide|enos,0.6529,0.4582,0.0,0.5292,370
+Bumetanide,Bumetanide,Bumetanide,Bumetanide,1,Ion Pump,Inhibitor,False,16,24,3,False,bovine aortic endothelial cells|human microvascular retinal endothelial cells|rabbit basilar artery,0.5899,0.5781,0.0,0.5274,371
+Nimodipine,Nimodipine,Nimodipine,Nimodipine,1,Ca2+ Channel,Antagonist,False,16,22,3,False,n-methyl-d-aspartate (nmda)|cardiovascular diseases|perivascular clearance mechanisms,0.5899,0.5781,0.0,0.5274,372
+L-Glutamine,Glutamine,l-Glutamine,Glutamine|L-Glutamine|l-Glutamine,3,Glutamate,Agonist,False,11,23,2,False,vascular permeability|angiogenesis,0.6403,0.4582,0.0,0.5216,373
+Cimetidine,Cimetidine,Cimetidine,Cimetidine,1,Histamine,Antagonist,False,11,20,2,False,vascular endothelial growth factor (vegf)|vascular endothelial growth factor,0.6403,0.4582,0.0,0.5216,374
+Carboplatin,Carboplatin,Carboplatin,Carboplatin,1,DNA,Intercalator,False,11,15,2,False,metastatic squamous cell carcinoma of the anal canal|2‑chloro‑n6‑(3‑iodobenzyl)‑5'‑n‑methylcarboxamidoadenosine,0.6403,0.4582,0.0,0.5216,375
+Dipyridamole,Dipyridamole,Dipyridamole,Dipyridamole,1,Adenosine,Inhibitor,False,11,14,2,False,cardiovascular drugs|extracellular adenosine,0.6403,0.4582,0.0,0.5216,376
+Phorbol 12-myristate 13-acetate,Phorbol 12-myristate 13,Phorbol 12-myristate 13-acetate,Phorbol 12-Myristate 13-Acetate|Phorbol 12-myristate 13-acetate,2,Phosphorylation,Activator,False,11,9,2,False,human umbilical vein endothelial cells|erk antisense oligonucleotides,0.6403,0.4582,0.0,0.5216,377
+Harmane,Harmane,Harmane,Harmane,1,Imidazoline,Agonist,False,11,8,2,False,nitric oxide synthetase|endothelium-dependent mechanism,0.6403,0.4582,0.0,0.5216,378
+Pindolol,Pindolol,Pindolol,Pindolol,1,Adrenoceptor,Antagonist,False,11,6,2,False,cardiovascular drugs|hypoxia samples,0.6403,0.4582,0.0,0.5216,379
+N6-Cyclopentyladenosine,N6-Cyclopentyladenosine,N6-Cyclopentyladenosine,N6-Cyclopentyladenosine,1,Adenosine,Agonist,False,11,5,2,False,a1 adenosine receptor|adenosine,0.6403,0.4582,0.0,0.5216,380
+TBB,TBB,TBB,TBB,1,Phosphorylation,Inhibitor,False,11,5,2,False,erk1/2|hypoxia-inducible factor-1,0.6403,0.4582,0.0,0.5216,381
+Aniracetam,Aniracetam,Aniracetam,Aniracetam,1,Glutamate,Agonist,False,6,11,1,False,nmda receptors,0.7183,0.2891,0.0,0.5177,382
+Promethazine hydrochloride,Promethazine,Promethazine Hydrochloride,Promethazine Hydrochloride,1,Histamine,Antagonist,False,6,8,1,False,nasal blood vessel smooth muscle,0.7183,0.2891,0.0,0.5177,383
+N-Desmethylclozapine,N-Desmethylclozapine,N-Desmethylclozapine,N-Desmethylclozapine|N-desmethylclozapine,2,Cholinergic,Antagonist,False,6,7,1,False,porcine brain microvessel endothelial cells,0.7183,0.2891,0.0,0.5177,384
+Wiskostatin,Wiskostatin,Wiskostatin,Wiskostatin,1,Actin,Inhibitor,False,6,5,1,False,claudin-5,0.7183,0.2891,0.0,0.5177,385
+"1,7-Dimethylxanthine","1,7-Dimethylxanthine","1,7-Dimethylxanthine","1,7-Dimethylxanthine",1,Adenosine,Antagonist,False,6,4,1,False,rf24 vascular endothelial cells,0.7183,0.2891,0.0,0.5177,386
+Pyrilamine maleate,Pyrilamine,Pyrilamine Maleate,Pyrilamine Maleate,1,Histamine,Antagonist,False,6,3,1,False,nasal blood vessel smooth muscle,0.7183,0.2891,0.0,0.5177,387
+Imazodan,Imazodan,Imazodan,Imazodan,1,Cyclic Nucleotides,Inhibitor,False,6,2,1,False,cultured bovine aortic endothelial cells,0.7183,0.2891,0.0,0.5177,388
+17alpha-hydroxyprogesterone,17alpha-hydroxyprogesterone,17alpha-Hydroxyprogesterone,17alpha-Hydroxyprogesterone,1,Hormone,Metabolite,False,6,1,1,False,platelet-derived endothelial cell growth factor,0.7183,0.2891,0.0,0.5177,389
+Vinpocetine,Vinpocetine,Vinpocetine,Vinpocetine,1,Cyclic Nucleotides,Inhibitor,False,12,35,2,False,endothelial dysfunction|vascular endothelial growth factor (vegf),0.6287,0.4582,0.0,0.5147,390
+Cantharidin,Cantharidin,Cantharidin,Cantharidin,1,Phosphorylation,Inhibitor,False,12,28,2,False,cancer metastasis|mtor/hif-1α/vegf pathway,0.6287,0.4582,0.0,0.5147,391
+Vincristine sulfate,Vincristine,Vincristine Sulfate,Vincristine|Vincristine Sulfate,2,Cytoskeleton and ECM,Inhibitor,False,12,27,2,False,angiogenesis|neoangiogenesis,0.6287,0.4582,0.0,0.5147,392
+Ivermectin,Ivermectin,Ivermectin,Ivermectin,1,Cholinergic,Modulator,False,12,24,2,False,cardiovascular disorders|egfr,0.6287,0.4582,0.0,0.5147,393
+Phloretin,Phloretin,Phloretin,Phloretin,1,Ca2+ Channel,Blocker,False,12,19,2,False,vascular endothelial growth factor|human umbilical vein endothelial cells,0.6287,0.4582,0.0,0.5147,394
+D-Serine,Serine,D-Serine,D-Serine|L-Serine|Serine|d-serine|l-serine,5,Glutamate,Agonist,False,12,18,2,False,grin2b-neurodevelopmental disorder|n-methyl-d-aspartate (nmda) receptors,0.6287,0.4582,0.0,0.5147,395
+Papaverine hydrochloride,Papaverine,Papaverine Hydrochloride,Papaverine|Papaverine Hydrochloride,2,Cyclic Nucleotides,Inhibitor,False,12,16,2,False,left internal thoracic artery|vascular endothelial cells,0.6287,0.4582,0.0,0.5147,396
+Hydrochlorothiazide,Hydrochlorothiazide,Hydrochlorothiazide,Hydrochlorothiazide,1,Biochemistry,Inhibitor,False,12,14,2,False,timp|resistant arterial hypertension,0.6287,0.4582,0.0,0.5147,397
+Hydroquinone,Hydroquinone,Hydroquinone,Hydroquinone,1,Leukotriene,Inhibitor,False,12,13,2,False,endothelial activation|vascular endothelial growth factor,0.6287,0.4582,0.0,0.5147,398
+Daidzein,Daidzein,Daidzein,Daidzein,1,Cell Cycle,Inhibitor,False,12,12,2,False,pi3k/akt/mtor|vegf,0.6287,0.4582,0.0,0.5147,399
+Milrinone,Milrinone,Milrinone,Milrinone,1,Cyclic Nucleotides,Inhibitor,False,12,12,2,False,norepinephrine|arterial vasodilation,0.6287,0.4582,0.0,0.5147,400
+Fulvestrant,Fulvestrant,Fulvestrant,Fulvestrant,1,Hormone,Serd,False,12,10,2,False,norepinephrine|hormone receptor-positive her-2 negative metastatic breast cancer,0.6287,0.4582,0.0,0.5147,401
+Thapsigargin,Thapsigargin,Thapsigargin,Thapsigargin,1,Intracellular Calcium,Releaser,False,12,9,2,False,endothelial cells|porcine aortic endothelial cells,0.6287,0.4582,0.0,0.5147,402
+Ciprofibrate,Ciprofibrate,Ciprofibrate,Ciprofibrate,1,Transcription,Ligand,False,12,8,2,False,vascular structure and function|cardiovascular dysfunction,0.6287,0.4582,0.0,0.5147,403
+Hydrocortisone,Hydrocortisone,Hydrocortisone,Hydrocortisone,1,Hormone,Unknown,False,12,6,2,False,aortic endothelium|nitric oxide (no) synthase,0.6287,0.4582,0.0,0.5147,404
+Sepiapterin,Sepiapterin,Sepiapterin,L-Sepiapterin|Sepiapterin,2,Nitric Oxide,Cofactor,False,12,4,2,False,endothelial nitric oxide synthase|nitric oxide,0.6287,0.4582,0.0,0.5147,405
+(±)-alpha-Methyl-4-carboxyphenylglycine,alpha-Methyl-4-carboxyphenylglycine,Alpha-Methyl-4-Carboxyphenylglycine,(+)-Alpha-Methyl-4-Carboxyphenylglycine|Alpha-Methyl-4-Carboxyphenylglycine,2,Glutamate,Antagonist,True,8,2,0,False,,0.6819,0.0,0.1,0.5091,406
+SU 5416,SU 5416,,,0,Phosphorylation,Inhibitor,True,8,0,0,False,,0.6819,0.0,0.1,0.5091,407
+Diazoxide,Diazoxide,Diazoxide,Diazoxide,1,K+ Channel,Activator,False,20,11,3,False,circulating endothelial progenitor cells|tsp-1|bone marrow endothelial progenitor cells,0.5593,0.5781,0.0,0.509,408
+Ribavirin,Ribavirin,Ribavirin,Ribavirin,1,Cell Cycle,Inhibitor,False,13,37,2,False,vegf|intercellular adhesion molecule 1,0.618,0.4582,0.0,0.5083,409
+(±)-Taxifolin,Taxifolin,Taxifolin,Taxifolin,1,Cell Stress,Inhibitor,False,13,31,2,False,pi3k/akt/mtor|mapk/erk,0.618,0.4582,0.0,0.5083,410
+3-Isobutyl-1-methylxanthine,3-Isobutyl-1-methylxanthine,3-Isobutyl-1-methylxanthine,3-Isobutyl-1-Methylxanthine|3-Isobutyl-1-methylxanthine,2,Adenosine,Inhibitor,False,13,13,2,False,"endothelial neutral endopeptidase|cyclic adenosine 3',5'-monophosphate",0.618,0.4582,0.0,0.5083,411
+Niflumic acid,Niflumic acid,Niflumic Acid,Niflumic Acid,1,Prostaglandin,Inhibitor,False,13,11,2,False,rabbit basilar artery|endothelial cells,0.618,0.4582,0.0,0.5083,412
+U0126,U0126,U0126,U0126,1,Phosphorylation,Inhibitor,False,13,9,2,False,endothelial cells|liver metastasis,0.618,0.4582,0.0,0.5083,413
+Formoterol,Formoterol,Formoterol,Formoterol|Formoterol Fumarate,2,Adrenoceptor,Agonist,False,13,7,2,False,vegf-stained cell counts|vegf,0.618,0.4582,0.0,0.5083,414
+Oxiracetam,Oxiracetam,Oxiracetam,L-Oxiracetam|Oxiracetam,2,Nootropic,Unknown,False,7,14,1,False,loewenstein occupational therapy cognitive assessment,0.699,0.2891,0.0,0.5061,415
+(±)-Verapamil hydrochloride,Verapamil,Verapamil,Verapamil|Verapamil Hydrochloride|Verapamil-Hydrochloride,3,Ca2+ Channel,Modulator,False,7,12,1,False,huvec cells,0.699,0.2891,0.0,0.5061,416
+Naloxone hydrochloride,Naloxone,Naloxone Hydrochloride,Naloxone|Naloxone Hydrochloride,2,Opioid,Antagonist,False,7,11,1,False,thoracoabdominal aortic operations,0.699,0.2891,0.0,0.5061,417
+NG-Nitro-L-arginine methyl ester hydrochloride,NG-Nitro-L-arginine methyl ester,NG-Nitro-L-Arginine Methyl Ester Hydrochloride,NG-Nitro-L-Arginine Methyl Ester|NG-Nitro-L-Arginine Methyl Ester Hydrochloride|NG-Nitro-L-arginine Methyl Ester Hydrochloride|NG-nitro-L-arginine Methyl Ester,4,Nitric Oxide,Inhibitor,False,7,9,1,False,nitric oxide synthase,0.699,0.2891,0.0,0.5061,418
+(-)-Perillic acid,Perillic acid,Perillic Acid,Perillic Acid,1,G protein,Inhibitor,False,7,6,1,False,metastatic progression,0.699,0.2891,0.0,0.5061,419
+Metolazone,Metolazone,Metolazone,Metolazone,1,Na+ Channel,Inhibitor,False,7,6,1,False,intravenous loop diuretics,0.699,0.2891,0.0,0.5061,420
+IPA-3,IPA-3,IPA-3,IPA-3,1,Phosphorylation,Inhibitor,False,7,5,1,False,murine metastatic prostate cancer (rm1),0.699,0.2891,0.0,0.5061,421
+Vinblastine sulfate salt,Vinblastine,Vinblastine,Vinblastine,1,Cytoskeleton and ECM,Inhibitor,False,7,5,1,False,metastatic bladder cancer,0.699,0.2891,0.0,0.5061,422
+"1,5-Isoquinolinediol","1,5-Isoquinolinediol","1,5-Isoquinolinediol","1,5-Isoquinolinediol",1,Apoptosis,Inhibitor,False,7,4,1,False,vegf,0.699,0.2891,0.0,0.5061,423
+10058-F4,10058-F4,10058-F4,10058-F4,1,Apoptosis,Inhibitor,False,7,3,1,False,pulmonary arterial endothelial cells,0.699,0.2891,0.0,0.5061,424
+"8-Cyclopentyl-1,3-dimethylxanthine","8-Cyclopentyl-1,3-dimethylxanthine","8-Cyclopentyl-1,3-dimethylxanthine","8-Cyclopentyl-1,3-Dimethylxanthine|8-Cyclopentyl-1,3-dimethylxanthine",2,Adenosine,Antagonist,False,7,2,1,False,adenosine,0.699,0.2891,0.0,0.5061,425
+Molindone hydrochloride,Molindone,Molindone Hydrochloride,Molindone Hydrochloride,1,Dopamine,Antagonist,False,2,14,0,False,,0.841,0.0,0.0,0.5046,426
+Cetirizine dihydrochloride,Cetirizine,Cetirizine Dihydrochloride,Cetirizine|Cetirizine Dihydrochloride,2,Histamine,Antagonist,False,2,8,0,False,,0.841,0.0,0.0,0.5046,427
+Spermidine trihydrochloride,Spermidine,Spermidine Trihydrochloride,Spermidine|Spermidine Trihydrochloride,2,Glutamate,Ligand,False,2,8,0,False,,0.841,0.0,0.0,0.5046,428
+Cyclobenzaprine hydrochloride,Cyclobenzaprine,Cyclobenzaprine Hydrochloride,Cyclobenzaprine|Cyclobenzaprine Hydrochloride,2,Serotonin,Antagonist,False,2,7,0,False,,0.841,0.0,0.0,0.5046,429
+Triprolidine hydrochloride,Triprolidine,Triprolidine Hydrochloride,Triprolidine Hydrochloride,1,Histamine,Antagonist,False,2,7,0,False,,0.841,0.0,0.0,0.5046,430
+Clomipramine hydrochloride,Clomipramine,Clomipramine Hydrochloride,Clomipramine|Clomipramine Hydrochloride,2,Serotonin,Inhibitor,False,2,6,0,False,,0.841,0.0,0.0,0.5046,431
+"L-162,313","162,313","L-162,313","L-162,313",1,Neurotransmission,Agonist,False,2,5,0,False,,0.841,0.0,0.0,0.5046,432
+Granisetron hydrochloride,Granisetron,Granisetron Hydrochloride,Granisetron|Granisetron Hydrochloride,2,Serotonin,Antagonist,False,2,4,0,False,,0.841,0.0,0.0,0.5046,433
+Propafenone hydrochloride,Propafenone,Propafenone Hydrochloride,Propafenone|Propafenone Hydrochloride,2,K+ Channel,Blocker,False,2,4,0,False,,0.841,0.0,0.0,0.5046,434
+"1,10-Phenanthroline monohydrate","1,10-Phenanthroline","1,10-Phenanthroline Monohydrate","1,10-Phenanthroline|1,10-Phenanthroline Monohydrate",2,Biochemistry,Inhibitor,False,2,3,0,False,,0.841,0.0,0.0,0.5046,435
+5-Carboxamidotryptamine maleate,5-Carboxamidotryptamine,5-Carboxamidotryptamine Maleate,5-Carboxamidotryptamine|5-Carboxamidotryptamine Maleate,2,Serotonin,Agonist,False,2,3,0,False,,0.841,0.0,0.0,0.5046,436
+Atropine methyl bromide,Atropine methyl,Atropine Methyl Bromide,Atropine Methyl Bromide|Atropine Methyl Nitrate,2,Cholinergic,Antagonist,False,2,3,0,False,,0.841,0.0,0.0,0.5046,437
+Atropine methyl nitrate,Atropine methyl,Atropine Methyl Nitrate,Atropine Methyl Bromide|Atropine Methyl Nitrate,2,Cholinergic,Antagonist,False,2,3,0,False,,0.841,0.0,0.0,0.5046,438
+Quinacrine dihydrochloride,Quinacrine,Quinacrine Dihydrochloride,Quinacrine|Quinacrine Dihydrochloride|Quinacrine Hydrochloride,3,Neurotransmission,Inhibitor,False,2,3,0,False,,0.841,0.0,0.0,0.5046,439
+3-Aminopropylphosphonic acid,3-Aminopropylphosphonic acid,3-Aminopropylphosphonic Acid,3-Aminopropylphosphonic Acid,1,GABA,Agonist,False,2,2,0,False,,0.841,0.0,0.0,0.5046,440
+3-Iodo-L-tyrosine,3-Iodo-L-tyrosine,3-Iodo-L-Tyrosine,3-Iodo-L-Tyrosine,1,Neurotransmission,Inhibitor,False,2,2,0,False,,0.841,0.0,0.0,0.5046,441
+BP 897,BP 897,BP 897,BP 897,1,Dopamine,Agonist,False,2,2,0,False,,0.841,0.0,0.0,0.5046,442
+CP-91149,CP-91149,CP-91149,CP-91149,1,Phosphorylation,Inhibitor,False,2,2,0,False,,0.841,0.0,0.0,0.5046,443
+Isonipecotic acid,Isonipecotic acid,Isonipecotic Acid,Isonipecotic Acid,1,GABA,Agonist,False,2,2,0,False,,0.841,0.0,0.0,0.5046,444
+N-Bromoacetamide,N-Bromoacetamide,N-Bromoacetamide,N-Bromoacetamide,1,Na+ Channel,Modulator,False,2,2,0,False,,0.841,0.0,0.0,0.5046,445
+Neostigmine bromide,Neostigmine,Neostigmine,Neostigmine,1,Cholinergic,Inhibitor,False,2,2,0,False,,0.841,0.0,0.0,0.5046,446
+S-Methyl-L-thiocitrulline acetate,S-Methyl-L-thiocitrulline,S-Methyl-L-Thiocitrulline,S-Methyl-L-Thiocitrulline,1,Nitric Oxide,Inhibitor,False,2,2,0,False,,0.841,0.0,0.0,0.5046,447
+Sandoz 58-035,Sandoz 58-035,Sandoz 58-035,Sandoz 58-035,1,Lipid,Inhibitor,False,2,2,0,False,,0.841,0.0,0.0,0.5046,448
+Zofenopril calcium,Zofenopril calcium,Zofenopril Calcium,Zofenopril Calcium,1,Angiotensin,Inhibitor,False,2,2,0,False,,0.841,0.0,0.0,0.5046,449
+(±)-Sotalol hydrochloride,Sotalol,Sotalol,Sotalol,1,Adrenoceptor,Antagonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,450
+AMN082,AMN082,AMN082,AMN082,1,Glutamate,Agonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,451
+Acepromazine maleate,Acepromazine,Acepromazine Maleate,Acepromazine Maleate,1,neurotransmission,Antagonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,452
+Chlormezanone,Chlormezanone,Chlormezanone,Chlormezanone,1,Neurotransmission,Modulator,False,2,1,0,False,,0.841,0.0,0.0,0.5046,453
+Dicyclomine hydrochloride,Dicyclomine,Dicyclomine Hydrochloride,Dicyclomine Hydrochloride,1,Cholinergic,Antagonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,454
+PHA-543613,PHA-543613,PHA-543613,PHA-543613,1,Neurotransmission,Agonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,455
+Prochlorperazine dimaleate,Prochlorperazine dimaleate,Prochlorperazine Dimaleate,Prochlorperazine Dimaleate,1,Dopamine,Antagonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,456
+Quazinone,Quazinone,Quazinone,Quazinone,1,Cyclic Nucleotides,Inhibitor,False,2,1,0,False,,0.841,0.0,0.0,0.5046,457
+SR 142948A,SR 142948A,SR 142948A,SR 142948A,1,Cell signaling,Antagonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,458
+SR-95531,SR-95531,SR-95531,SR-95531,1,GABA,Antagonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,459
+TPMPA,TPMPA,TPMPA,TPMPA,1,GABA,Antagonist,False,2,1,0,False,,0.841,0.0,0.0,0.5046,460
+Tyrphostin 1,Tyrphostin 1,Tyrphostin 1,Tyrphostin 1,1,Phosphorylation,Inhibitor,False,2,1,0,False,,0.841,0.0,0.0,0.5046,461
+(±)-CGP-12177A hydrochloride,CGP-12177A,,,0,Adrenoceptor,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,462
+(±)-Norepinephrine (+)bitartrate,Norepinephrine (+)bitartrate,,,0,Adrenoceptor,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,463
+"1,3,5-tris(4-hydroxyphenyl)-4-propyl-1H-pyrazole","1,3,5-tris(4-hydroxyphenyl)-4-propyl-1H-pyrazole","1,3,5-Tris(4-Hydroxyphenyl)-4-Propyl-1H-Pyrazole","1,3,5-Tris(4-Hydroxyphenyl)-4-Propyl-1H-Pyrazole",1,Hormone,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,464
+1-Methylhistamine dihydrochloride,1-Methylhistamine,,,0,Histamine,Metabolite,False,2,0,0,False,,0.841,0.0,0.0,0.5046,465
+2-Phenylaminoadenosine,2-Phenylaminoadenosine,,,0,Adenosine,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,466
+4-Hydroxy-3-methoxyphenylacetic acid,4-Hydroxy-3-methoxyphenylacetic acid,,,0,Dopamine,Metabolite,False,2,0,0,False,,0.841,0.0,0.0,0.5046,467
+"9-Amino-1,2,3,4-tetrahydroacridine hydrochloride","9-Amino-1,2,3,4-tetrahydroacridine",,,0,Cholinergic,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,468
+AS-252424,AS-252424,,,0,Phosphorylation,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,469
+Brefeldin A from Penicillium brefeldianum,Brefeldin A from Penicillium brefeldianum,,,0,Cytoskeleton and ECM,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,470
+CCT007093,CCT007093,,,0,Apoptosis,Activator,False,2,0,0,False,,0.841,0.0,0.0,0.5046,471
+CP-135807,CP-135807,,,0,Serotonergics,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,472
+Chlormethiazole hydrochloride,Chlormethiazole,,,0,GABA,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,473
+Droxinostat,Droxinostat,Droxinostat,Droxinostat,1,Gene Regulation,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,474
+Efaroxan hydrochloride,Efaroxan,,,0,Imidazoline,Antagonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,475
+IC 261,IC 261,,,0,Phosphorylation,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,476
+IRAK-1/4 Inhibitor I,IRAK-1/4 Inhibitor I,,,0,Phosphorylation,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,477
+L-2-aminoadipic acid,2-aminoadipic acid,L-2-Aminoadipic Acid,L-2-Aminoadipic Acid,1,Glutamate,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,478
+"L-3,4-Dihydroxyphenylalanine methyl ester hydrochloride","3,4-Dihydroxyphenylalanine methyl ester",,,0,Dopamine,Precursor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,479
+LP44,LP44,,,0,Serotonin,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,480
+Lomefloxacin hydrochloride,Lomefloxacin,,,0,Antibiotic,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,481
+MHPG piperazine,MHPG piperazine,,,0,Adrenoceptor,Metabolite,False,2,0,0,False,,0.841,0.0,0.0,0.5046,482
+ML 10302,ML 10302,,,0,Serotonin,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,483
+Mitiglinide calcium,Mitiglinide calcium,,,0,Ion channels,Antagonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,484
+N6-2-(4-Aminophenyl)ethyladenosine,N6-2-(4-Aminophenyl)ethyladenosine,N6-2-(4-Aminophenyl)ethyladenosine,N6-2-(4-Aminophenyl)ethyladenosine,1,Adenosine,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,485
+Naratriptan hydrochloride,Naratriptan,,,0,Serotonin,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,486
+Opipramol dihydrochloride,Opipramol,,,0,Sigma receptor,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,487
+PD 169316,PD 169316,,,0,Phosphorylation,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,488
+PD-180970,PD-180970,,,0,Cell signaling/ tyrosine kinase,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,489
+Pheniramine maleate,Pheniramine,,,0,Histamine,Antagonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,490
+R(-)-N6-(2-Phenylisopropyl)adenosine,R(-)-N6-(2-Phenylisopropyl)adenosine,,,0,Adenosine,Agonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,491
+S(-)-Atenolol,S(-)-Atenolol,,,0,Adrenoceptor,Antagonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,492
+S-(-)-Eticlopride hydrochloride,S-(-)-Eticlopride,,,0,Dopamine,Antagonist,False,2,0,0,False,,0.841,0.0,0.0,0.5046,493
+S-(p-Azidophenacyl)glutathione,S-(p-Azidophenacyl)glutathione,,,0,Multi-Drug Resistance,Modulator,False,2,0,0,False,,0.841,0.0,0.0,0.5046,494
+SMER28,SMER28,,,0,Cell Biology,Enhancer,False,2,0,0,False,,0.841,0.0,0.0,0.5046,495
+Sodium Taurocholate hydrate,Taurocholate,,,0,Multi-Drug Resistance,Modulator,False,2,0,0,False,,0.841,0.0,0.0,0.5046,496
+Tetraisopropyl pyrophosphoramide,Tetraisopropyl pyrophosphoramide,,,0,Biochemistry,Inhibitor,False,2,0,0,False,,0.841,0.0,0.0,0.5046,497
+Tocainide hydrochloride,Tocainide,,,0,Na+ Channel,Blocker,False,2,0,0,False,,0.841,0.0,0.0,0.5046,498
+Olanzapine,Olanzapine,Olanzapine,Olanzapine,1,Dopaminergics,Antagonist,False,14,36,2,False,vegf|enos,0.608,0.4582,0.0,0.5023,499
+Taurine,Taurine,Taurine,Taurine,1,Glycine,Agonist,False,14,27,2,False,vascular smooth muscle cells|endothelial cells,0.608,0.4582,0.0,0.5023,500
+Allopurinol,Allopurinol,Allopurinol,Allopurinol,1,Cell Stress,Inhibitor,False,14,16,2,False,endothelial cell senescence|neovascularization,0.608,0.4582,0.0,0.5023,501
+Parthenolide,Parthenolide,Parthenolide,Parthenolide,1,Serotonin,Inhibitor,False,14,15,2,False,hif-1α|mtor/p70s6,0.608,0.4582,0.0,0.5023,502
+Leflunomide,Leflunomide,Leflunomide,Leflunomide,1,Immune System,Inhibitor,False,14,13,2,False,cardiovascular protective effects|cardiovascular events,0.608,0.4582,0.0,0.5023,503
+Estrone,Estrone,Estrone,Estrone|Estrone Sulfate,2,Hormone,Unknown,False,14,12,2,False,pi3k/no/cgmp signaling|endothelial dysfunction,0.608,0.4582,0.0,0.5023,504
+Amifostine,Amifostine,Amifostine,Amifostine,1,Cell Stress,Inhibitor,False,14,11,2,False,vegf-a|aberrant angiogenesis,0.608,0.4582,0.0,0.5023,505
+Artemether,Artemether,Artemether,Artemether,1,Immunomodulators and Antib,Unknown,False,14,8,2,False,lymphangiogenesis|angiogenesis,0.608,0.4582,0.0,0.5023,506
+Felbamate,Felbamate,Felbamate,Felbamate,1,Glutamate,Antagonist,True,9,8,0,False,,0.6667,0.0,0.1,0.5,507
+(S)-MAP4 hydrochloride,MAP4,,,0,Glutamate,Antagonist,True,9,0,0,False,,0.6667,0.0,0.1,0.5,508
+Mitoxantrone,Mitoxantrone,Mitoxantrone,Mitoxantrone|Mitoxantrone Dihydrochloride|Mitoxantrone Hydrochloride,3,DNA Metabolism,Inhibitor,False,15,41,2,False,hippocampal formation|endothelial nitric oxide synthase,0.5986,0.4582,0.0,0.4966,509
+L-Canavanine,Canavanine,L-Canavanine,Canavanine|L-Canavanine,2,Cell Stress,Inhibitor,False,15,16,2,False,inducible no synthase|nitric oxide,0.5986,0.4582,0.0,0.4966,510
+Cyclosporin A,Cyclosporin A,Cyclosporin A,Cyclosporin A,1,Phosphorylation,Inhibitor,False,15,15,2,False,vascular endothelial cells|phospho-erk,0.5986,0.4582,0.0,0.4966,511
+Ketoconazole,Ketoconazole,Ketoconazole,Ketoconazole,1,Multi-Drug Resistance,Inhibitor,False,15,8,2,False,carotid arteries|vascular toxicity,0.5986,0.4582,0.0,0.4966,512
+Nocodazole,Nocodazole,Nocodazole,Nocodazole,1,Cytoskeleton and ECM,Inhibitor,False,15,8,2,False,vegf|endothelial cells,0.5986,0.4582,0.0,0.4966,513
+Phenytoin sodium,Phenytoin,Phenytoin Sodium,Phenytoin|Phenytoin Sodium,2,Anticonvulsant,Unknown,False,8,25,1,False,neovascularization,0.6819,0.2891,0.0,0.4959,514
+Nisoxetine hydrochloride,Nisoxetine,Nisoxetine,Nisoxetine,1,Adrenoceptor,Blocker,False,8,9,1,False,norepinephrine transporter,0.6819,0.2891,0.0,0.4959,515
+Dofetilide,Dofetilide,Dofetilide,Dofetilide,1,Ion Channels,Blocker,False,8,8,1,False,pulmonary arterial hypertension (pah),0.6819,0.2891,0.0,0.4959,516
+Cephradine,Cephradine,Cephradine,Cephradine,1,Antibiotic,Unknown,False,8,5,1,False,vascular surgery,0.6819,0.2891,0.0,0.4959,517
+Cortexolone,Cortexolone,Cortexolone,Cortexolone,1,Hormone,Precursor,False,8,5,1,False,angiogenesis,0.6819,0.2891,0.0,0.4959,518
+(±)-2-Amino-4-phosphonobutyric acid,2-Amino-4-phosphonobutyric acid,2-Amino-4-Phosphonobutyric Acid,2-Amino-4-Phosphonobutyric Acid|DL-2-Amino-4-Phosphonobutyric Acid,2,Glutamate,Antagonist,True,10,8,0,False,,0.6529,0.0,0.1,0.4917,519
+D(-)-2-Amino-5-phosphonopentanoic acid,D(-)-2-Amino-5-phosphonopentanoic acid,D(-)-2-Amino-5-Phosphonopentanoic Acid,D(-)-2-Amino-5-Phosphonopentanoic Acid,1,Glutamate,Antagonist,True,10,1,0,False,,0.6529,0.0,0.1,0.4917,520
+PRE-084,PRE-084,PRE-084,PRE-084,1,Opioid,Agonist,False,9,21,1,False,endothelial ferroptosis,0.6667,0.2891,0.0,0.4868,521
+AA-861,AA-861,AA-861,AA-861,1,Leukotriene,Inhibitor,False,9,3,1,False,pulmonary artery endothelial cells,0.6667,0.2891,0.0,0.4868,522
+Dihydroouabain,Dihydroouabain,Dihydroouabain,Dihydroouabain,1,Ion Pump,Inhibitor,False,9,3,1,False,isolated rabbit blood vessel rings,0.6667,0.2891,0.0,0.4868,523
+8-(p-Sulfophenyl)theophylline,8-(p-Sulfophenyl)theophylline,8-(p-Sulfophenyl)Theophylline,8-(p-Sulfophenyl)Theophylline,1,Adenosine,Antagonist,False,9,2,1,False,adenosine,0.6667,0.2891,0.0,0.4868,524
+ATPO,ATPO,,,0,Glutamate,Antagonist,True,11,0,0,False,,0.6403,0.0,0.1,0.4842,525
+Morin,Morin,Morin,Morin,1,Cell Stress,Inhibitor,False,18,8,2,False,tie2 receptor|jak-stat signaling pathway,0.5737,0.4582,0.0,0.4817,526
+(-)-Sulpiride,Sulpiride,Sulpiride,Sulpiride,1,Dopamine,Antagonist,False,18,6,2,False,vascular endothelial growth factor|ampa currents,0.5737,0.4582,0.0,0.4817,527
+(±)-Sulpiride,Sulpiride,Sulpiride,Sulpiride,1,Dopamine,Antagonist,False,18,6,2,False,vascular endothelial growth factor|ampa currents,0.5737,0.4582,0.0,0.4817,528
+Cyclophosphamide monohydrate,Cyclophosphamide,Cyclophosphamide Monohydrate,Cyclophosphamide|Cyclophosphamide Hydrate|Cyclophosphamide Monohydrate,3,DNA,Intercalator,False,3,21,0,False,,0.7993,0.0,0.0,0.4796,529
+Disopyramide phosphate,Disopyramide,Disopyramide Phosphate,Disopyramide|Disopyramide Phosphate,2,K+ Channel,Modulator,False,3,11,0,False,,0.7993,0.0,0.0,0.4796,530
+Oxaprozin,Oxaprozin,Oxaprozin,Oxaprozin,1,Prostaglandin,Inhibitor,False,3,9,0,False,,0.7993,0.0,0.0,0.4796,531
+Yohimbine hydrochloride,Yohimbine,Yohimbine Hydrochloride,Yohimbine|Yohimbine Hydrochloride,2,Adrenoceptor,Antagonist,False,3,9,0,False,,0.7993,0.0,0.0,0.4796,532
+L-allylglycine,allylglycine,L-Allylglycine,D-Allylglycine|DL-Allylglycine|L-Allylglycine,3,Biochemistry,Inhibitor,False,3,8,0,False,,0.7993,0.0,0.0,0.4796,533
+Ropinirole hydrochloride,Ropinirole,Ropinirole Hydrochloride,Ropinirole Hydrochloride,1,Dopamine,Agonist,False,3,8,0,False,,0.7993,0.0,0.0,0.4796,534
+A-77636 hydrochloride,A-77636,A-77636,A-77636,1,Dopamine,Agonist,False,3,7,0,False,,0.7993,0.0,0.0,0.4796,535
+Acetylthiocholine chloride,Acetylthiocholine,Acetylthiocholine Chloride,Acetylthiocholine Chloride|Acetylthiocholine Iodide,2,Cholinergic,Agonist,False,3,5,0,False,,0.7993,0.0,0.0,0.4796,536
+Bisoprolol hemifumarate salt,Bisoprolol,Bisoprolol,Bisoprolol,1,Adrenoceptor,Antagonist,False,3,5,0,False,,0.7993,0.0,0.0,0.4796,537
+Cephalothin sodium,Cephalothin,Cephalothin Sodium,Cephalothin Sodium,1,Antibiotic,Unknown,False,3,5,0,False,,0.7993,0.0,0.0,0.4796,538
+NCS-382,NCS-382,NCS-382,NCS-382,1,GABA,Antagonist,False,3,4,0,False,,0.7993,0.0,0.0,0.4796,539
+N-Acetyl-5-hydroxytryptamine,N-Acetyl-5-hydroxytryptamine,N-Acetyl-5-Hydroxytryptamine,N-Acetyl-5-Hydroxytryptamine,1,Melatonin,Precursor,False,3,3,0,False,,0.7993,0.0,0.0,0.4796,540
+Prilocaine hydrochloride,Prilocaine,Prilocaine Hydrochloride,Prilocaine|Prilocaine Hydrochloride,2,Na+ Channel,Blocker,False,3,3,0,False,,0.7993,0.0,0.0,0.4796,541
+Calmidazolium chloride,Calmidazolium,Calmidazolium Chloride,Calmidazolium Chloride,1,Intracellular Calcium,Inhibitor,False,3,2,0,False,,0.7993,0.0,0.0,0.4796,542
+Kenpaullone,Kenpaullone,Kenpaullone,Kenpaullone,1,Phosphorylation,Inhibitor,False,3,2,0,False,,0.7993,0.0,0.0,0.4796,543
+L-798106,798106,L-798106,L-798106,1,Lipids,Antagonist,False,3,2,0,False,,0.7993,0.0,0.0,0.4796,544
+L-Dopa ethyl ester,Dopa ethyl ester,L-Dopa Ethyl Ester,L-Dopa Ethyl Ester,1,Dopaminergics,Unknown,False,3,2,0,False,,0.7993,0.0,0.0,0.4796,545
+Naltrindole hydrochloride,Naltrindole,Naltrindole Hydrochloride,Naltrindole|Naltrindole Hydrochloride,2,Opioid,Antagonist,False,3,2,0,False,,0.7993,0.0,0.0,0.4796,546
+Palmitoyl-DL-Carnitine chloride,Palmitoyl-DL-Carnitine,Palmitoyl-DL-Carnitine Chloride,Palmitoyl-DL-Carnitine Chloride,1,Phosphorylation,Modulator,False,3,2,0,False,,0.7993,0.0,0.0,0.4796,547
+Procainamide hydrochloride,Procainamide,Procainamide Hydrochloride,Procainamide Hydrochloride,1,Na+ Channel,Antagonist,False,3,2,0,False,,0.7993,0.0,0.0,0.4796,548
+"3,5-Dinitrocatechol","3,5-Dinitrocatechol","3,5-Dinitrocatechol","3,5-Dinitrocatechol",1,Neurotransmission,Inhibitor,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,549
+"5-(N,N-Dimethyl)amiloride hydrochloride","5-(N,N-Dimethyl)amiloride","5-(N,N-Dimethyl)Amiloride Hydrochloride","5-(N,N-Dimethyl)Amiloride Hydrochloride",1,Ion Pump,Blocker,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,550
+5-Aminovaleric acid hydrochloride,5-Aminovaleric acid,5-Aminovaleric Acid,5-Aminovaleric Acid,1,GABA,Antagonist,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,551
+5-fluoro-5'-deoxyuridine,5-fluoro-5'-deoxyuridine,5-Fluoro-5'-Deoxyuridine,5-Fluoro-5'-Deoxyuridine,1,DNA Metabolism,Inhibitor,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,552
+DPO-1,DPO-1,DPO-1,DPO-1,1,K+ Channel,Blocker,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,553
+Eprosartan mesylate,Eprosartan,Eprosartan Mesylate,Eprosartan Mesylate,1,Angiotensins,Antagonist,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,554
+NSC 95397,NSC 95397,NSC 95397,NSC 95397,1,Phosphorylation,Inhibitor,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,555
+Pyrazinecarboxamide,Pyrazinecarboxamide,Pyrazinecarboxamide,Pyrazinecarboxamide,1,Antibiotic,Unknown,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,556
+Rufinamide,Rufinamide,Rufinamide,Rufinamide,1,Neurotransmission,Anticonvulsant,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,557
+SB 204741,SB 204741,SB 204741,SB 204741,1,Serotonin,Antagonist,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,558
+SB-366791,SB-366791,SB-366791,SB-366791,1,Vanilloid,Antagonist,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,559
+SNC80,SNC80,SNC80,SNC80,1,Opioid,Agonist,False,3,1,0,False,,0.7993,0.0,0.0,0.4796,560
+(+)-Norfenfluramine hydrochloride,Norfenfluramine,,,0,Serotonin,Agonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,561
+(±)-8-Hydroxy-DPAT hydrobromide,8-Hydroxy-DPAT,,,0,Serotonin,Agonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,562
+(±)-Octoclothepin maleate,Octoclothepin,,,0,Dopamine,Antagonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,563
+"1,3-Dipropyl-7-methylxanthine","1,3-Dipropyl-7-methylxanthine",,,0,Adenosine,Antagonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,564
+4-Imidazoleacrylic acid,4-Imidazoleacrylic acid,,,0,Histamine,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,565
+6-Hydroxy-DL-DOPA,6-Hydroxy-DL-DOPA,,,0,Adrenoceptor,Neurotoxin,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,566
+"7-Chloro-4-hydroxy-2-phenyl-1,8-naphthyridine","7-Chloro-4-hydroxy-2-phenyl-1,8-naphthyridine",,,0,Adenosine,Antagonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,567
+A3 hydrochloride,A3,,,0,Phosphorylation,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,568
+Alaproclate hydrochloride,Alaproclate,,,0,Serotonin,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,569
+DM 235,DM 235,,,0,Nootropic,Unknown,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,570
+GR 113808,GR 113808,,,0,Serotonin,Antagonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,571
+Guvacine hydrochloride,Guvacine,,,0,GABA,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,572
+Imipenem monohydrate,Imipenem,,,0,Antibiotic,Unknown,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,573
+"L-165,041","165,041",,,0,Lipid Signaling,Agonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,574
+MRS 1523,MRS 1523,,,0,Adenosine,Antagonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,575
+N-(4-Amino-2-chlorophenyl)phthalimide,N-(4-Amino-2-chlorophenyl)phthalimide,,,0,Anticonvulsant,Unknown,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,576
+Nordihydroguaiaretic acid from Larrea divaricata (creosote bush),Nordihydroguaiaretic acid from Larrea divaricata (creosote bush),,,0,Leukotriene,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,577
+Nylidrin hydrochloride,Nylidrin,,,0,Adrenoceptor,Agonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,578
+PD-166866,PD-166866,,,0,Tyrosine Kinase,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,579
+PD173952,PD173952,,,0,Kinase,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,580
+Pifithrin-mu,Pifithrin-mu,,,0,Apoptosis,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,581
+"Quipazine, 6-nitro-, maleate","Quipazine, 6-nitro",,,0,Serotonin,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,582
+R(+)-IAA-94,R(+)-IAA-94,,,0,Cl- Channel,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,583
+SB 222200,SB 222200,,,0,Tachykinin,Antagonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,584
+Sobuzoxane,Sobuzoxane,,,0,Gene Regulation,Inhibitor,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,585
+Triflupromazine hydrochloride,Triflupromazine,,,0,Dopamine,Antagonist,False,3,0,0,False,,0.7993,0.0,0.0,0.4796,586
+Eupatorin,Eupatorin,Eupatorin,Eupatorin,1,Cell Cycle,Unknown,False,10,29,1,False,huvec endothelial cells,0.6529,0.2891,0.0,0.4785,587
+Diclofenac sodium,Diclofenac,Diclofenac Sodium,Diclofenac|Diclofenac Sodium,2,Prostaglandin,Inhibitor,False,10,24,1,False,meloxicam,0.6529,0.2891,0.0,0.4785,588
+Amisulpride,Amisulpride,Amisulpride,Amisulpride,1,Dopamine,Antagonist,False,10,14,1,False,porcine brain microvessel endothelial cells,0.6529,0.2891,0.0,0.4785,589
+Olomoucine,Olomoucine,Olomoucine,Olomoucine,1,Phosphorylation,Inhibitor,False,10,13,1,False,endothelial cells,0.6529,0.2891,0.0,0.4785,590
+Cilnidipine,Cilnidipine,Cilnidipine,Cilnidipine,1,Ca2+ Channels,Blocker,False,10,12,1,False,cardiovascular pathophysiology,0.6529,0.2891,0.0,0.4785,591
+Triflusal,Triflusal,Triflusal,Triflusal,1,Anticoagulants,Inhibitor,False,10,9,1,False,permanent middle cerebral artery occlusion,0.6529,0.2891,0.0,0.4785,592
+"2,3-Butanedione monoxime","2,3-Butanedione monoxime","2,3-Butanedione Monoxime","2,3-Butanedione Monoxime",1,K+ Channel,Blocker,False,10,6,1,False,endothelial cells,0.6529,0.2891,0.0,0.4785,593
+3'-Azido-3'-deoxythymidine,3'-Azido-3'-deoxythymidine,3'-Azido-3'-deoxythymidine,3'-Azido-3'-Deoxythymidine|3'-Azido-3'-deoxythymidine,2,Immune System,Inhibitor,False,10,6,1,False,vascular endothelial growth factor 165,0.6529,0.2891,0.0,0.4785,594
+5-Hydroxyindolacetic acid,5-Hydroxyindolacetic acid,5-Hydroxyindolacetic Acid,5-Hydroxyindolacetic Acid,1,Serotonin,Metabolite,False,10,3,1,False,vegf-a,0.6529,0.2891,0.0,0.4785,595
+6-Aminohexanoic acid,6-Aminohexanoic acid,6-Aminohexanoic Acid,6-Aminohexanoic Acid,1,Immune System,Inhibitor,False,10,1,1,False,plasminogen,0.6529,0.2891,0.0,0.4785,596
+S-Nitrosoglutathione,S-Nitrosoglutathione,S-Nitrosoglutathione,S-Nitrosoglutathione,1,Nitric Oxide,Donor,False,19,12,2,False,nitric oxide|endothelial cells,0.5663,0.4582,0.0,0.4772,597
+L-Tryptophan,Tryptophan,L-Tryptophan,L-Tryptophan|Tryptophan,2,Serotonin,Precursor,False,11,19,1,False,brain capillary endothelial cell lines,0.6403,0.2891,0.0,0.4709,598
+Cilostamide,Cilostamide,Cilostamide,Cilostamide,1,Cyclic Nucleotides,Inhibitor,False,11,9,1,False,huvecs,0.6403,0.2891,0.0,0.4709,599
+Cinnarizine,Cinnarizine,Cinnarizine,Cinnarizine,1,Ca2+ Channel,Blocker,False,11,9,1,False,endothelial cells,0.6403,0.2891,0.0,0.4709,600
+Danazol,Danazol,Danazol,Danazol,1,Hormone,Inhibitor,False,11,8,1,False,endothelium,0.6403,0.2891,0.0,0.4709,601
+Glybenclamide,Glybenclamide,Glybenclamide,Glybenclamide,1,K+ Channel,Blocker,False,11,7,1,False,aortic rings,0.6403,0.2891,0.0,0.4709,602
+Pimozide,Pimozide,Pimozide,Pimozide,1,Dopamine,Antagonist,False,11,7,1,False,human umbilical vein endothelial cells,0.6403,0.2891,0.0,0.4709,603
+SCH 58261,SCH 58261,SCH 58261,SCH 58261,1,Purinoceptor,Antagonist,False,11,6,1,False,adenosine a(2a) receptor,0.6403,0.2891,0.0,0.4709,604
+8-Bromo-cAMP sodium,8-Bromo-cAMP,8-Bromo-cAMP,8-Bromo-cAMP|8-bromo-cAMP,2,Cyclic Nucleotides,Activator,False,11,5,1,False,vegf,0.6403,0.2891,0.0,0.4709,605
+Ceftriaxone sodium,Ceftriaxone,Ceftriaxone Sodium,Ceftriaxone|Ceftriaxone Sodium,2,Antibiotic,Unknown,False,11,5,1,False,cardiovascular syphilis,0.6403,0.2891,0.0,0.4709,606
+YC-1,YC-1,YC-1,YC-1,1,Cyclic Nucleotides,Activator,False,11,3,1,False,hif-1α,0.6403,0.2891,0.0,0.4709,607
+"3,7-Dimethyl-1-propargylxanthine","3,7-Dimethyl-1-propargylxanthine","3,7-Dimethyl-1-propargylxanthine","3,7-Dimethyl-1-Propargylxanthine|3,7-Dimethyl-1-propargylxanthine",2,Adenosine,Antagonist,False,11,2,1,False,5'-n-ethylcarboxamidoadenosine,0.6403,0.2891,0.0,0.4709,608
+(±)-Baclofen,Baclofen,Baclofen,-Baclofen|Baclofen,2,GABA,Agonist,False,12,32,1,False,vegf-a,0.6287,0.2891,0.0,0.4639,609
+Agomelatine,Agomelatine,Agomelatine,Agomelatine,1,Melatonins,Agonist,False,12,19,1,False,hif-1α,0.6287,0.2891,0.0,0.4639,610
+Theophylline,Theophylline,Theophylline,Theophylline,1,Adenosine,Antagonist,False,12,18,1,False,retinal blood vessel diameter,0.6287,0.2891,0.0,0.4639,611
+Tolbutamide,Tolbutamide,Tolbutamide,Tolbutamide,1,Hormone,Releaser,False,12,12,1,False,plasminogen activator (pa),0.6287,0.2891,0.0,0.4639,612
+Clofibrate,Clofibrate,ClofibRate,ClofibRate|Clofibrate,2,Lipid,Modulator,False,12,9,1,False,cardiovascular risk,0.6287,0.2891,0.0,0.4639,613
+Retinoic acid,Retinoic acid,Retinoic Acid,Retinoic Acid,1,Apoptosis,Activator,False,12,8,1,False,endothelial cells,0.6287,0.2891,0.0,0.4639,614
+1-Aminobenzotriazole,1-Aminobenzotriazole,1-Aminobenzotriazole,1-Aminobenzotriazole,1,Multi-Drug Resistance,Inhibitor,False,12,7,1,False,angiogenesis,0.6287,0.2891,0.0,0.4639,615
+4-DAMP,4-DAMP,4-DAMP,4-DAMP,1,Cholinergics,Antagonist,False,12,5,1,False,bovine aortic endothelial cells,0.6287,0.2891,0.0,0.4639,616
+"5,5-Dimethyl-1-pyrroline-N-oxide","5,5-Dimethyl-1-pyrroline-N-oxide","5,5-Dimethyl-1-Pyrroline-N-Oxide","5,5-Dimethyl-1-Pyrroline-N-Oxide",1,Cell Stress,Inhibitor,False,12,3,1,False,endothelial dysfunction,0.6287,0.2891,0.0,0.4639,617
+Cyproterone acetate,Cyproterone,Cyproterone Acetate,Cyproterone Acetate,1,Hormone,Antagonist,False,12,3,1,False,metastatic hormone-sensitive prostate cancer,0.6287,0.2891,0.0,0.4639,618
+Fluvoxamine maleate,Fluvoxamine,Fluvoxamine Maleate,Fluvoxamine|Fluvoxamine Maleate,2,Serotonin,Inhibitor,False,4,30,0,False,,0.767,0.0,0.0,0.4602,619
+Ro 61-8048,Ro 61-8048,Ro 61-8048,Ro 61-8048,1,Neuroscience,Inhibitor,False,4,8,0,False,,0.767,0.0,0.0,0.4602,620
+Succinylcholine chloride,Succinylcholine,Succinylcholine Chloride,Succinylcholine|Succinylcholine Chloride,2,Cholinergic,Antagonist,False,4,8,0,False,,0.767,0.0,0.0,0.4602,621
+(+)-Cyclazocine,Cyclazocine,Cyclazocine,Cyclazocine,1,Opioid,Antagonist,False,4,6,0,False,,0.767,0.0,0.0,0.4602,622
+Altretamine,Altretamine,Altretamine,Altretamine,1,DNA Metabolism,Inhibitor,False,4,6,0,False,,0.767,0.0,0.0,0.4602,623
+Thioridazine hydrochloride,Thioridazine,Thioridazine Hydrochloride,Thioridazine Hydrochloride,1,Dopamine,Antagonist,False,4,6,0,False,,0.767,0.0,0.0,0.4602,624
+Cyproheptadine hydrochloride,Cyproheptadine,Cyproheptadine Hydrochloride,Cyproheptadine|Cyproheptadine Hydrochloride,2,Serotonin,Antagonist,False,4,5,0,False,,0.767,0.0,0.0,0.4602,625
+Trihexyphenidyl hydrochloride,Trihexyphenidyl,Trihexyphenidyl Hydrochloride,Trihexyphenidyl|Trihexyphenidyl Hydrochloride,2,Cholinergic,Antagonist,False,4,5,0,False,,0.767,0.0,0.0,0.4602,626
+DAPH,DAPH,DAPH,DAPH,1,Phosphorylation,Inhibitor,False,4,4,0,False,,0.767,0.0,0.0,0.4602,627
+NS5806,NS5806,NS5806,NS5806,1,Ion Channels,Modulator,False,4,4,0,False,,0.767,0.0,0.0,0.4602,628
+Quinine sulfate,Quinine,Quinine Sulfate,Quinine Sulfate,1,K+ Channel,Antagonist,False,4,4,0,False,,0.767,0.0,0.0,0.4602,629
+BMS-193885,BMS-193885,BMS-193885,BMS-193885,1,Neurotransmission,Antagonist,False,4,2,0,False,,0.767,0.0,0.0,0.4602,630
+Benserazide hydrochloride,Benserazide,Benserazide,Benserazide,1,Biochemistry,Inhibitor,False,4,2,0,False,,0.767,0.0,0.0,0.4602,631
+Tizanidine hydrochloride,Tizanidine,Tizanidine Hydrochloride,Tizanidine|Tizanidine Hydrochloride,2,Adrenoceptor,Agonist,False,4,2,0,False,,0.767,0.0,0.0,0.4602,632
+"1,4-Dideoxy-1,4-imino-D-arabinitol","1,4-Dideoxy-1,4-imino-D-arabinitol","1,4-Dideoxy-1,4-Imino-D-Arabinitol Hydrochloride","1,4-Dideoxy-1,4-Imino-D-Arabinitol Hydrochloride",1,Phosphorylation,Inhibitor,False,4,1,0,False,,0.767,0.0,0.0,0.4602,633
+EBPC,EBPC,EBPC,EBPC,1,Lipids,Inhibitor,False,4,1,0,False,,0.767,0.0,0.0,0.4602,634
+Emetine dihydrochloride hydrate,Emetine,Emetine,Emetine,1,Apoptosis,Activator,False,4,1,0,False,,0.767,0.0,0.0,0.4602,635
+K114,K114,K114,K114,1,Neurotransmission,Amyloid Probe,False,4,1,0,False,,0.767,0.0,0.0,0.4602,636
+Nitisinone,Nitisinone,Nitisinone,Nitisinone,1,Cell Stress,Inhibitor,False,4,1,0,False,,0.767,0.0,0.0,0.4602,637
+Nomifensine maleate,Nomifensine,Nomifensine,Nomifensine,1,Dopamine,Inhibitor,False,4,1,0,False,,0.767,0.0,0.0,0.4602,638
+Trimipramine maleate,Trimipramine,Trimipramine,Trimipramine,1,Serotonin,Inhibitor,False,4,1,0,False,,0.767,0.0,0.0,0.4602,639
+Tyrphostin AG 1478,Tyrphostin AG 1478,Tyrphostin AG 1478,Tyrphostin AG 1478,1,Phosphorylation,Inhibitor,False,4,1,0,False,,0.767,0.0,0.0,0.4602,640
+(±) trans-U-50488 methanesulfonate,trans-U-50488 methanesulfonate,,,0,Opioid,Agonist,False,4,0,0,False,,0.767,0.0,0.0,0.4602,641
+(±)-p-Aminoglutethimide,p-Aminoglutethimide,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,642
+1-(4-Chlorobenzyl)-5-methoxy-2-methylindole-3-acetic acid,1-(4-Chlorobenzyl)-5-methoxy-2-methylindole-3-acetic acid,,,0,Multi-Drug Resistance,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,643
+1-Phenyl-3-(2-thiazolyl)-2-thiourea,1-Phenyl-3-(2-thiazolyl)-2-thiourea,,,0,Dopamine,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,644
+2-(2-Aminoethyl)isothiourea dihydrobromide,2-(2-Aminoethyl)isothiourea,,,0,Nitric Oxide,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,645
+4-Amidinophenylmethanesulfonyl fluoride hydrochloride,4-Amidinophenylmethanesulfonyl fluoride,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,646
+4-Hydroxybenzhydrazide,4-Hydroxybenzhydrazide,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,647
+4-Hydroxyphenethylamine hydrochloride,4-Hydroxyphenethylamine,,,0,Dopamine,Agonist,False,4,0,0,False,,0.767,0.0,0.0,0.4602,648
+4-Methylpyrazole hydrochloride,4-Methylpyrazole,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,649
+"7-Cyclopentyl-5-(4-phenoxy)phenyl-7H-pyrrolo[2,3-d]pyrimidin-4-ylamine","7-Cyclopentyl-5-(4-phenoxy)phenyl-7H-pyrrolo[2,3-d]pyrimidin-4-ylamine",,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,650
+Anisotropine methyl bromide,Anisotropine methyl,,,0,Muscarinic,Antagonist,False,4,0,0,False,,0.767,0.0,0.0,0.4602,651
+BTO-1,BTO-1,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,652
+Benzamidine hydrochloride,Benzamidine,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,653
+CGP-74514A hydrochloride,CGP-74514A,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,654
+CP-31398 dihydrochloride hydrate,CP-31398,,,0,Apoptosis and Cell Cycle,Unknown,False,4,0,0,False,,0.767,0.0,0.0,0.4602,655
+CP-335963,CP-335963,,,0,Kinases,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,656
+D-609 potassium,609,,,0,Lipid,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,657
+DL-erythro-Dihydrosphingosine,erythro-Dihydrosphingosine,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,658
+Dilazep hydrochloride,Dilazep,,,0,Adenosine,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,659
+Epibestatin hydrochloride,Epibestatin,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,660
+GBR-12909 dihydrochloride,GBR-12909,,,0,Dopamine,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,661
+GBR-12935 dihydrochloride,GBR-12935,,,0,Dopamine,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,662
+Indatraline hydrochloride,Indatraline,,,0,Dopamine,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,663
+JX401,JX401,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,664
+"LY-294,002 hydrochloride","LY-294,002",,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,665
+Levallorphan tartrate,Levallorphan,,,0,Opioid,Antagonist,False,4,0,0,False,,0.767,0.0,0.0,0.4602,666
+MTEP hydrochloride,MTEP,,,0,Excitatory Amino Acids,Antagonist,False,4,0,0,False,,0.767,0.0,0.0,0.4602,667
+Maprotiline hydrochloride,Maprotiline,,,0,Adrenoceptor,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,668
+"N^G,N^G-Dimethylarginine hydrochloride","N^G,N^G-Dimethylarginine",,,0,Nitric Oxide,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,669
+Naltriben methanesulfonate,Naltriben methanesulfonate,,,0,Opioid,Antagonist,False,4,0,0,False,,0.767,0.0,0.0,0.4602,670
+O-(Carboxymethyl)hydroxylamine hemihydrochloride,O-(Carboxymethyl)hydroxylamine hemihydrochloride,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,671
+"P1,P4-Di(adenosine-5')tetraphosphate triammonium","P1,P4-Di(adenosine-5')tetraphosphate triammonium",,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,672
+Paromomycin sulfate,Paromomycin,,,0,Antibiotic,Unknown,False,4,0,0,False,,0.767,0.0,0.0,0.4602,673
+Paroxetine hydrochloride hemihydrate (MW = 374.83),Paroxetine hemihydrate (MW = 374.83),,,0,Serotonin,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,674
+Phenylbenzene-omega-phosphono-alpha-amino acid,Phenylbenzene-omega-phosphono-alpha-amino acid,,,0,Glycine,Antagonist,False,4,0,0,False,,0.767,0.0,0.0,0.4602,675
+Phosphoramidon disodium,Phosphoramidon,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,676
+S(-)-p-Bromotetramisole oxalate,S(-)-p-Bromotetramisole,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,677
+S-(+)-Fluoxetine hydrochloride,S-(+)-Fluoxetine,,,0,Serotonin,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,678
+S-(-)-Carbidopa,S-(-)-Carbidopa,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,679
+SB 415286,SB 415286,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,680
+Sivelestat sodium salt hydrate,Sivelestat,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,681
+Tyrphostin AG 112,Tyrphostin AG 112,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,682
+Tyrphostin AG 835,Tyrphostin AG 835,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,683
+Tyrphostin AG 879,Tyrphostin AG 879,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,684
+Wortmannin from Penicillium funiculosum,Wortmannin from Penicillium funiculosum,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,685
+Z-L-Phe chloromethyl ketone,Z-L-Phe chloromethyl ketone,,,0,Biochemistry,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,686
+ZM 39923 hydrochloride,ZM 39923,,,0,Phosphorylation,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,687
+Zimelidine dihydrochloride,Zimelidine,,,0,Serotonin,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,688
+erythro-9-(2-Hydroxy-3-nonyl)adenine hydrochloride,erythro-9-(2-Hydroxy-3-nonyl)adenine,,,0,Adenosine,Inhibitor,False,4,0,0,False,,0.767,0.0,0.0,0.4602,689
+m-Iodobenzylguanidine hemisulfate,m-Iodobenzylguanidine,,,0,Apoptosis,Activator,False,4,0,0,False,,0.767,0.0,0.0,0.4602,690
+Ouabain,Ouabain,Ouabain,Ouabain,1,Ion Pump,Inhibitor,False,13,19,1,False,central ear artery,0.618,0.2891,0.0,0.4575,691
+Betamethasone,Betamethasone,Betamethasone,Betamethasone,1,Hormone,Unknown,False,13,16,1,False,markers of angiogenesis,0.618,0.2891,0.0,0.4575,692
+Clotrimazole,Clotrimazole,Clotrimazole,Clotrimazole,1,K+ Channel,Inhibitor,False,13,16,1,False,adenosine,0.618,0.2891,0.0,0.4575,693
+Sulindac,Sulindac,Sulindac,Sulindac,1,Prostaglandin,Inhibitor,False,13,16,1,False,retinal pigmented endothelial (rpe) cells,0.618,0.2891,0.0,0.4575,694
+Piroxicam,Piroxicam,Piroxicam,Piroxicam,1,Prostaglandin,Inhibitor,False,13,13,1,False,vegf-a,0.618,0.2891,0.0,0.4575,695
+(-)-Cotinine,Cotinine,Cotinine,Cotinine,1,Cholinergic,Metabolite,False,13,11,1,False,intravitreal vegf-a,0.618,0.2891,0.0,0.4575,696
+Candesartan cilexetil,Candesartan cilexetil,Candesartan Cilexetil,Candesartan Cilexetil,1,Cell Signaling,Antagonist,False,13,8,1,False,hepatic endothelial nitric oxide synthase,0.618,0.2891,0.0,0.4575,697
+MK-886,MK-886,MK-886,MK-886,1,Leukotriene,Inhibitor,False,13,7,1,False,pulmonary artery endothelial cells,0.618,0.2891,0.0,0.4575,698
+Aurintricarboxylic acid,Aurintricarboxylic acid,Aurintricarboxylic Acid,Aurintricarboxylic Acid,1,Apoptosis,Inhibitor,False,13,6,1,False,vascular endothelial cells,0.618,0.2891,0.0,0.4575,699
+Loratadine,Loratadine,Loratadine,Loratadine,1,Histamine,Antagonist,False,13,6,1,False,vascular endothelial cell growth factor,0.618,0.2891,0.0,0.4575,700
+Trandolapril,Trandolapril,Trandolapril,Trandolapril,1,Neurotransmission,Inhibitor,False,13,6,1,False,soluble adhesion molecules,0.618,0.2891,0.0,0.4575,701
+Acetylsalicylic acid,Acetylsalicylic acid,Acetylsalicylic Acid,Acetylsalicylic Acid,1,Prostaglandin,Inhibitor,False,13,5,1,False,inositol triphosphate,0.618,0.2891,0.0,0.4575,702
+Capsazepine,Capsazepine,Capsazepine,Capsazepine,1,Vanilloid,Agonist,False,13,5,1,False,stat3 signaling,0.618,0.2891,0.0,0.4575,703
+"8-Cyclopentyl-1,3-dipropylxanthine","8-Cyclopentyl-1,3-dipropylxanthine","8-Cyclopentyl-1,3-Dipropylxanthine","8-Cyclopentyl-1,3-Dipropylxanthine",1,Adenosine,Antagonist,False,13,4,1,False,vascular endothelial growth factor,0.618,0.2891,0.0,0.4575,704
+Beclomethasone,Beclomethasone,Beclomethasone,Beclomethasone,1,Hormone,Unknown,False,13,3,1,False,egfr,0.618,0.2891,0.0,0.4575,705
+3-Nitropropionic acid,3-Nitropropionic acid,3-Nitropropionic Acid,3-Nitropropionic Acid,1,Cell Stress,Toxin,False,14,10,1,False,angiopoietin-1,0.608,0.2891,0.0,0.4515,706
+Lamotrigine,Lamotrigine,Lamotrigine,Lamotrigine,1,Anticonvulsant,Unknown,False,14,10,1,False,vegf,0.608,0.2891,0.0,0.4515,707
+Bay 11-7085,Bay 11-7085,Bay 11-7085,BAY 11-7085|Bay 11-7085,2,Cell Cycle,Inhibitor,False,14,9,1,False,vascular endothelial growth factor,0.608,0.2891,0.0,0.4515,708
+Corticosterone,Corticosterone,Corticosterone,Corticosterone,1,Hormone,Unknown,False,14,7,1,False,inducible no synthase (inos),0.608,0.2891,0.0,0.4515,709
+Lithium Chloride,Lithium,Lithium Chloride,Lithium|Lithium Chloride,2,Neurotransmission,Inhibitor,False,14,7,1,False,fibroangiogenic signaling,0.608,0.2891,0.0,0.4515,710
+Roscovitine,Roscovitine,Roscovitine,Roscovitine,1,Phosphorylation,Inhibitor,False,14,6,1,False,endothelial cells,0.608,0.2891,0.0,0.4515,711
+Stattic,Stattic,Stattic,STATTIC|Stattic,2,Gene Regulation,Inhibitor,False,14,6,1,False,stat3,0.608,0.2891,0.0,0.4515,712
+5-(N-Ethyl-N-isopropyl)amiloride,5-(N-Ethyl-N-isopropyl)amiloride,5-(N-Ethyl-N-Isopropyl)Amiloride,5-(N-Ethyl-N-Isopropyl)Amiloride|5-(N-ethyl-N-isopropyl)amiloride,2,Ion Pump,Blocker,False,14,1,1,False,endothelial cytosolic ph,0.608,0.2891,0.0,0.4515,713
+TNP,TNP,TNP,TNP,1,Ion Channels,Inhibitor,False,14,1,1,False,metastatic ovarian cancer,0.608,0.2891,0.0,0.4515,714
+(±)-Ibuprofen,Ibuprofen,Ibuprofen,Ibuprofen,1,Prostaglandin,Inhibitor,False,15,29,1,False,human endothelial cells,0.5986,0.2891,0.0,0.4459,715
+Hydroxyurea,Hydroxyurea,Hydroxyurea,Hydroxyurea,1,DNA Metabolism,Inhibitor,False,15,20,1,False,nos3,0.5986,0.2891,0.0,0.4459,716
+Auranofin,Auranofin,Auranofin,Auranofin,1,Phosphrylation,Inhibitor,False,15,14,1,False,pulmonary metastasis,0.5986,0.2891,0.0,0.4459,717
+7-Nitroindazole,7-Nitroindazole,7-nitroindazole,7-Nitroindazole|7-Nitroindazole Monosodium Salt|7-nitroindazole,3,Nitric Oxide,Inhibitor,False,15,8,1,False,nitric oxide synthase,0.5986,0.2891,0.0,0.4459,718
+Phosphonoacetic acid,Phosphonoacetic acid,Phosphonoacetic Acid,Phosphonoacetic Acid,1,DNA,Inhibitor,False,15,4,1,False,human dermal microvascular endothelial cells,0.5986,0.2891,0.0,0.4459,719
+Tegafur,Tegafur,Tegafur,Tegafur,1,Apoptosis,Unknown,False,15,3,1,False,vascular endothelial growth factor,0.5986,0.2891,0.0,0.4459,720
+Imipramine hydrochloride,Imipramine,Imipramine Hydrochloride,Imipramine|Imipramine Hydrochloride,2,Serotonin,Blocker,False,5,19,0,False,,0.7406,0.0,0.0,0.4444,721
+Loperamide hydrochloride,Loperamide,Loperamide Hydrochloride,Loperamide|Loperamide Hydrochloride,2,Opioid,Ligand,False,5,14,0,False,,0.7406,0.0,0.0,0.4444,722
+Buspirone hydrochloride,Buspirone,Buspirone Hydrochloride,Buspirone|Buspirone Hydrochloride,2,Serotonin,Agonist,False,5,13,0,False,,0.7406,0.0,0.0,0.4444,723
+Oxybutynin Chloride,Oxybutynin,Oxybutynin Chloride,Oxybutynin|Oxybutynin Chloride,2,Cholinergic,Antagonist,False,5,13,0,False,,0.7406,0.0,0.0,0.4444,724
+BW 723C86,BW 723C86,BW 723C86,BW 723C86,1,Serotonin,Agonist,False,5,12,0,False,,0.7406,0.0,0.0,0.4444,725
+DL-alpha-Difluoromethylornithine hydrochloride,alpha-Difluoromethylornithine,DL-Alpha-Difluoromethylornithine,DL-Alpha-Difluoromethylornithine,1,Angiogenesis,Inhibitor,False,5,11,0,False,,0.7406,0.0,0.0,0.4444,726
+Doxylamine succinate,Doxylamine,Doxylamine Succinate,Doxylamine Succinate,1,Histamine,Antagonist,False,5,11,0,False,,0.7406,0.0,0.0,0.4444,727
+Phenserine,Phenserine,Phenserine,(-)-Phenserine|Phenserine,2,Neurotransmission,Inhibitor,False,5,11,0,False,,0.7406,0.0,0.0,0.4444,728
+Nortriptyline hydrochloride,Nortriptyline,Nortriptyline Hydrochloride,Nortriptyline|Nortriptyline Hydrochloride,2,Adrenoceptor,Inhibitor,False,5,10,0,False,,0.7406,0.0,0.0,0.4444,729
+Tetracaine hydrochloride,Tetracaine,Tetracaine Hydrochloride,Tetracaine|Tetracaine Hydrochloride,2,Na+ Channel,Modulator,False,5,10,0,False,,0.7406,0.0,0.0,0.4444,730
+Avridine,Avridine,Avridine,Avridine,1,Cytokines,Unknown,False,5,9,0,False,,0.7406,0.0,0.0,0.4444,731
+Isoguvacine hydrochloride,Isoguvacine,Isoguvacine,Isoguvacine,1,GABA,Agonist,False,5,9,0,False,,0.7406,0.0,0.0,0.4444,732
+Bepridil hydrochloride,Bepridil,Bepridil Hydrochloride,Bepridil|Bepridil Hydrochloride,2,Ca2+ Channel,Blocker,False,5,8,0,False,,0.7406,0.0,0.0,0.4444,733
+Fluspirilene,Fluspirilene,Fluspirilene,Fluspirilene,1,Dopamine,Antagonist,False,5,8,0,False,,0.7406,0.0,0.0,0.4444,734
+Idazoxan hydrochloride,Idazoxan,Idazoxan,Idazoxan,1,Imidazoline,Ligand,False,5,8,0,False,,0.7406,0.0,0.0,0.4444,735
+5alpha-Pregnan-3alpha-ol-20-one,5alpha-Pregnan-3alpha-ol-20-one,5alpha-Pregnan-3alpha-Ol-20-One,5alpha-Pregnan-3alpha-Ol-20-One|5alpha-Pregnan-3alpha-ol-20-one,2,GABA,Modulator,False,5,7,0,False,,0.7406,0.0,0.0,0.4444,736
+Trazodone hydrochloride,Trazodone,Trazodone Hydrochloride,Trazodone|Trazodone Hydrochloride,2,Serotonin,Inhibitor,False,5,7,0,False,,0.7406,0.0,0.0,0.4444,737
+Choline bromide,Choline,Choline,Choline|Choline Phosphate,2,Cholinergic,Substrate,False,5,6,0,False,,0.7406,0.0,0.0,0.4444,738
+O6-benzylguanine,O6-benzylguanine,O6-Benzylguanine,O6-Benzylguanine,1,DNA Repair,Inhibitor,False,5,6,0,False,,0.7406,0.0,0.0,0.4444,739
+Orphenadrine hydrochloride,Orphenadrine,Orphenadrine Hydrochloride,Orphenadrine|Orphenadrine Hydrochloride,2,Cholinergic,Antagonist,False,5,6,0,False,,0.7406,0.0,0.0,0.4444,740
+Edrophonium chloride,Edrophonium,Edrophonium Chloride,Edrophonium Chloride,1,Cholinergic,Inhibitor,False,5,5,0,False,,0.7406,0.0,0.0,0.4444,741
+Methiothepin mesylate,Methiothepin,Methiothepin,Methiothepin,1,Serotonin,Antagonist,False,5,5,0,False,,0.7406,0.0,0.0,0.4444,742
+Oxymetazoline hydrochloride,Oxymetazoline,Oxymetazoline Hydrochloride,Oxymetazoline|Oxymetazoline Hydrochloride,2,Adrenoceptor,Agonist,False,5,5,0,False,,0.7406,0.0,0.0,0.4444,743
+"(S)-3,5-Dihydroxyphenylglycine","3,5-Dihydroxyphenylglycine","(S)-3,5-Dihydroxyphenylglycine","(S)-3,5-Dihydroxyphenylglycine|3,5-Dihydroxyphenylglycine",2,Glutamate,Agonist,False,5,4,0,False,,0.7406,0.0,0.0,0.4444,744
+Alprenolol hydrochloride,Alprenolol,Alprenolol,Alprenolol,1,Adrenoceptor,Antagonist,False,5,4,0,False,,0.7406,0.0,0.0,0.4444,745
+CyPPA,CyPPA,CyPPA,CyPPA,1,K+ Channels,Modulator,False,5,4,0,False,,0.7406,0.0,0.0,0.4444,746
+Loxiglumide,Loxiglumide,Loxiglumide,Loxiglumide,1,Cholinergics,Antagonist,False,5,4,0,False,,0.7406,0.0,0.0,0.4444,747
+Meloxicam sodium,Meloxicam,Meloxicam,Meloxicam,1,Prostaglandin,Inhibitor,False,5,4,0,False,,0.7406,0.0,0.0,0.4444,748
+Acetohexamide,Acetohexamide,Acetohexamide,Acetohexamide,1,Hormone,Releaser,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,749
+Ganaxolone,Ganaxolone,Ganaxolone,Ganaxolone,1,GABA,Modulator,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,750
+"L-732,138","732,138","L-732,138","L 732,138|L-732,138",2,Tachykinin,Antagonist,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,751
+L-Glutamic acid hydrochloride,Glutamic acid,L-Glutamic Acid,L-Glutamic Acid|L-glutamic Acid,2,Glutamate,Agonist,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,752
+Olvanil,Olvanil,Olvanil,Olvanil,1,Neurotransmission,Agonist,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,753
+Putrescine dihydrochloride,Putrescine,Putrescine,Putrescine,1,Glutamate,Agonist,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,754
+Rauwolscine hydrochloride,Rauwolscine,Rauwolscine,Rauwolscine,1,Adrenoceptor,Antagonist,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,755
+Rilmenidine hemifumarate,Rilmenidine,Rilmenidine,Rilmenidine,1,Imidazoline,Agonist,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,756
+Urapidil hydrochloride,Urapidil,Urapidil,Urapidil,1,Adrenoceptor,Antagonist,False,5,3,0,False,,0.7406,0.0,0.0,0.4444,757
+(±)-gamma-Vinyl GABA,gamma-Vinyl GABA,Gamma-Vinyl GABA,Gamma-Vinyl GABA,1,GABA,Inhibitor,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,758
+"2',3'-dideoxycytidine","2',3'-dideoxycytidine","2',3'-Dideoxycytidine","2',3'-Dideoxycytidine",1,Immune System,Inhibitor,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,759
+5-hydroxydecanoic acid sodium,5-hydroxydecanoic acid,5-Hydroxydecanoic Acid,5-Hydroxydecanoic Acid,1,K+ Channel,Blocker,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,760
+Arecaidine propargyl ester hydrobromide,Arecaidine propargyl ester,Arecaidine Propargyl Ester,Arecaidine Propargyl Ester,1,Cholinergic,Agonist,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,761
+Benztropine mesylate,Benztropine,Benztropine,Benztropine,1,Cholinergic,Antagonist,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,762
+Clorgyline hydrochloride,Clorgyline,Clorgyline,Clorgyline,1,Neurotransmission,Inhibitor,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,763
+Dihydrokainic acid,Dihydrokainic acid,Dihydrokainic Acid,Dihydrokainic Acid,1,Glutamate,Blocker,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,764
+Fenoldopam bromide,Fenoldopam,Fenoldopam,Fenoldopam,1,Dopamine,Agonist,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,765
+Isoxanthopterin,Isoxanthopterin,Isoxanthopterin,Isoxanthopterin,1,Cell Stress,Metabolite,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,766
+L-Histidine hydrochloride,Histidine,L-Histidine,L-Histidine|l-Histidine,2,Histamine,Precursor,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,767
+Lorglumide sodium,Lorglumide,Lorglumide,Lorglumide|Sodium Lorglumide,2,Cholecystokinin,Antagonist,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,768
+Methylergonovine maleate,Methylergonovine,Methylergonovine Maleate,Methylergonovine Maleate,1,Dopamine,Antagonist,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,769
+S(+)-Ibuprofen,S(+)-Ibuprofen,S(+)-Ibuprofen,S(+)-Ibuprofen,1,Prostaglandin,Inhibitor,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,770
+SANT-1,SANT-1,SANT-1,SANT-1,1,Angiogensis,Inhibitor,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,771
+SB 200646 hydrochloride,SB 200646,SB 200646,SB 200646,1,Serotonin,Antagonist,False,5,2,0,False,,0.7406,0.0,0.0,0.4444,772
+1-Methylimidazole,1-Methylimidazole,1-Methylimidazole,1-Methylimidazole,1,Prostaglandin,Inhibitor,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,773
+1-[2-(Trifluoromethyl)phenyl]imidazole,1-[2-(Trifluoromethyl)phenyl]imidazole,1-[2-(Trifluoromethyl)Phenyl]Imidazole,1-[2-(Trifluoromethyl)Phenyl]Imidazole,1,Nitric Oxide,Inhibitor,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,774
+ARL 67156 trisodium salt,ARL 67156,ARL 67156,ARL 67156,1,P2 Receptor,Inhibitor,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,775
+Albuterol hemisulfate,Albuterol,Albuterol Sulfate,Albuterol Sulfate,1,Adrenoceptor,Agonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,776
+Carbetapentane citrate,Carbetapentane,Carbetapentane,Carbetapentane,1,Opioid,Ligand,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,777
+DL-alpha-Methyl-p-tyrosine,alpha-Methyl-p-tyrosine,Alpha-Methyl-p-Tyrosine,Alpha-Methyl-p-Tyrosine,1,Neurotransmission,Inhibitor,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,778
+L-alpha-Methyl-p-tyrosine,alpha-Methyl-p-tyrosine,Alpha-Methyl-p-Tyrosine,Alpha-Methyl-p-Tyrosine,1,Neurotransmission,Inhibitor,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,779
+Labetalol hydrochloride,Labetalol,Labetalol,Labetalol,1,Adrenoceptor,Antagonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,780
+Mianserin hydrochloride,Mianserin,Mianserin,Mianserin,1,Serotonin,Antagonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,781
+NAN-190 hydrobromide,NAN-190,NAN-190,NAN-190,1,Serotonin,Antagonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,782
+Phaclofen,Phaclofen,Phaclofen,Phaclofen,1,GABA,Antagonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,783
+Pyrocatechol,Pyrocatechol,Pyrocatechol,Pyrocatechol,1,Cell Cycle,Inhibitor,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,784
+SB 206553 hydrochloride,SB 206553,SB 206553,SB 206553,1,Serotonin,Antagonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,785
+THIP hydrochloride,THIP,THIP,THIP,1,GABA,Agonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,786
+Terbutaline hemisulfate,Terbutaline,Terbutaline,Terbutaline,1,Adrenoceptor,Agonist,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,787
+Tirofiban hydrochloride monohydrate,Tirofiban,Tirofiban,Tirofiban,1,Cell Signaling,Inhibitor,False,5,1,0,False,,0.7406,0.0,0.0,0.4444,788
+(+)-Bromocriptine methanesulfonate,Bromocriptine methanesulfonate,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,789
+(+)-Butaclamol hydrochloride,Butaclamol,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,790
+(-)-Eseroline fumarate,Eseroline,,,0,Cholinergic,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,791
+(-)-Scopolamine methyl bromide,Scopolamine methyl,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,792
+(-)-Scopolamine methyl nitrate,Scopolamine methyl,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,793
+"(-)-Scopolamine,n-Butyl-, bromide","Scopolamine,n-Butyl",,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,794
+"(-)-cis-(1S,2R)-U-50488 tartrate","cis-(1S,2R)-U-50488",,,0,Neurotransmission,Ligand,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,795
+"(-)-trans-(1S,2S)-U-50488 hydrochloride","trans-(1S,2S)-U-50488",,,0,Opioid,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,796
+"(2S,1'S,2'S)-2-(carboxycyclopropyl)glycine","(2S,1'S,2'S)-2-(carboxycyclopropyl)glycine",,,0,Glutamate,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,797
+"(±)-2,3-Dichloro-alpha-methylbenzylamine hydrochloride","2,3-Dichloro-alpha-methylbenzylamine",,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,798
+"(±)-3-(3,4-dihydroxyphenyl)-2-methyl-DL-alanine","3-(3,4-dihydroxyphenyl)-2-methyl-DL-alanine",,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,799
+(±)-6-Chloro-PB hydrobromide,6-Chloro-PB,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,800
+(±)-7-Hydroxy-DPAT hydrobromide,7-Hydroxy-DPAT,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,801
+(±)-Butaclamol hydrochloride,Butaclamol,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,802
+(±)-Methoxyverapamil hydrochloride,Methoxyverapamil,,,0,Ca2+ Channel,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,803
+(±)-Muscarine chloride,Muscarine,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,804
+(±)-Normetanephrine hydrochloride,Normetanephrine,,,0,Adrenoceptor,Metabolite,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,805
+(±)-PPHT hydrochloride,PPHT,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,806
+(±)-SKF-38393 hydrochloride,SKF-38393,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,807
+(±)-Vesamicol hydrochloride,Vesamicol,Vesamicol,Vesamicol,1,Cholinergic,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,808
+(±)-threo-1-Phenyl-2-decanoylamino-3-morpholino-1-propanol hydrochloride,threo-1-Phenyl-2-decanoylamino-3-morpholino-1-propanol,,,0,Sphingolipid,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,809
+"1,1-Dimethyl-4-phenyl-piperazinium iodide","1,1-Dimethyl-4-phenyl-piperazinium",,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,810
+"1,3-Dimethyl-8-phenylxanthine","1,3-Dimethyl-8-phenylxanthine",,,0,Adenosine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,811
+1-(1-Naphthyl)piperazine hydrochloride,1-(1-Naphthyl)piperazine,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,812
+"1-(2-Chlorophenyl)-1-(4-chlorophenyl)-2,2-dichloroethane","1-(2-Chlorophenyl)-1-(4-chlorophenyl)-2,2-dichloroethane",,,0,Hormone,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,813
+1-(2-Methoxyphenyl)piperazine hydrochloride,1-(2-Methoxyphenyl)piperazine,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,814
+1-(m-Chlorophenyl)-biguanide hydrochloride,1-(m-Chlorophenyl)-biguanide,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,815
+"1-Allyl-3,7-dimethyl-8-p-sulfophenylxanthine","1-Allyl-3,7-dimethyl-8-p-sulfophenylxanthine",,,0,Adenosine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,816
+1-Amino-1-cyclohexanecarboxylic acid hydrochloride,1-Amino-1-cyclohexanecarboxylic acid,,,0,Neurotransmission,Substrate,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,817
+1-Aminocyclopropanecarboxylic acid hydrochloride,1-Aminocyclopropanecarboxylic acid,,,0,Glutamate,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,818
+1-Phenylbiguanide,1-Phenylbiguanide,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,819
+"2,6-Difluoro-4-[2-(phenylsulfonylamino)ethylthio]phenoxyacetamide","2,6-Difluoro-4-[2-(phenylsulfonylamino)ethylthio]phenoxyacetamide",,,0,Glutamate,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,820
+2-(Methylthio)adenosine 5'-diphosphate trisodium salt hydrate,2-(Methylthio)adenosine 5',,,0,Purinoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,821
+2-Cyclooctyl-2-hydroxyethylamine hydrochloride,2-Cyclooctyl-2-hydroxyethylamine,,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,822
+2-Methyl-5-hydroxytryptamine maleate,2-Methyl-5-hydroxytryptamine,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,823
+2-Methylthioadenosine triphosphate tetrasodium,2-Methylthioadenosine,,,0,P2 Receptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,824
+3-(1H-Imidazol-4-yl)propyl di(p-fluorophenyl)methyl ether hydrochloride,3-(1H-Imidazol-4-yl)propyl di(p-fluorophenyl)methyl ether,,,0,Histamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,825
+3-Amino-1-propanesulfonic acid sodium,3-Amino-1-propanesulfonic acid,,,0,GABA,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,826
+3-Tropanyl-indole-3-carboxylate hydrochloride,3-Tropanyl-indole-3-carboxylate,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,827
+3-Tropanylindole-3-carboxylate methiodide,3-Tropanylindole-3-carboxylate methiodide,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,828
+"3-alpha,21-Dihydroxy-5-alpha-pregnan-20-one","3-alpha,21-Dihydroxy-5-alpha-pregnan-20-one",,,0,GABA,Modulator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,829
+4-DAMP methiodide,4-DAMP methiodide,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,830
+4-Imidazolemethanol hydrochloride,4-Imidazolemethanol,,,0,Histamine,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,831
+"5alpha-Pregnan-3alpha-ol-11,20-dione","5alpha-Pregnan-3alpha-ol-11,20-dione",,,0,GABA,Modulator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,832
+"6,7-ADTN hydrobromide","6,7-ADTN",,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,833
+"6-Methoxy-1,2,3,4-tetrahydro-9H-pyrido[3,4b] indole","6-Methoxy-1,2,3,4-tetrahydro-9H-pyrido[3,4b] indole",,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,834
+"7,8-Dihydroxyflavone hydrate","7,8-Dihydroxyflavone",,,0,"Cytokines, Growth Factors and Hormones",Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,835
+8-Methoxymethyl-3-isobutyl-1-methylxanthine,8-Methoxymethyl-3-isobutyl-1-methylxanthine,,,0,Cyclic Nucleotides,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,836
+9-cyclopentyladenine,9-cyclopentyladenine,,,0,Cyclic Nucleotides,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,837
+A-315456,A-315456,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,838
+A-68930 hydrochloride,A-68930,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,839
+AB-MECA,AB-MECA,,,0,Adenosine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,840
+ABT-418 hydrochloride,ABT-418,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,841
+AC-55649,AC-55649,,,0,Gene Regulation,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,842
+AC-93253 iodide,AC-93253,,,0,Hormone,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,843
+AEG 3482,AEG 3482,,,0,Heat Shock Proteins,Unknown,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,844
+Acetyl-beta-methylcholine chloride,Acetyl-beta-methylcholine,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,845
+Alfuzosin hydrochloride,Alfuzosin,,,0,Adrenoceptor,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,846
+Aminobenztropine,Aminobenztropine,,,0,Cholinergic,Ligand,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,847
+Ancitabine hydrochloride,Ancitabine,,,0,DNA Metabolism,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,848
+Aprindine hydrochloride,Aprindine,,,0,K+ Channel,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,849
+Ara-G hydrate,Ara-G,,,0,Apoptosis,Inducer,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,850
+Arecoline hydrobromide,Arecoline,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,851
+Argatroban monohydrate,Argatroban,,,0,Cell signaling,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,852
+B-HT 933 dihydrochloride,B-HT 933,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,853
+BIX 01294 trihydrochloride hydrate,BIX 01294,,,0,Gene Regulation,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,854
+BLI-489 hydrate,BLI-489,,,0,Immune Signaling,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,855
+BMS-299897,BMS-299897,,,0,Cell Biology,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,856
+BRL 50481,BRL 50481,,,0,Phosphodiesterase,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,857
+BRL 54443 maleate,BRL 54443,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,858
+BTCP hydrochloride,BTCP,,,0,Dopamine,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,859
+BU224 hydrochloride,BU224,,,0,Imidazoline,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,860
+Betaine aldehyde chloride,Betaine aldehyde,,,0,Cholinergic,Metabolite,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,861
+Bromoacetyl alprenolol menthane,Bromoacetyl alprenolol menthane,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,862
+Bromoacetylcholine bromide,Bromoacetylcholine,Bromoacetylcholine,Bromoacetylcholine,1,Cholinergic,Ligand,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,863
+CGP 20712A methanesulfonate,CGP 20712A methanesulfonate,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,864
+CGP-13501,CGP-13501,,,0,GABA,Modulator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,865
+CI-976,CI-976,,,0,Lipid Signaling,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,866
+CP-100263 dihydrochloride hydrate,CP-100263,,,0,Neurotransmission,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,867
+CP-100356 monohydrochloride,CP-100356 monohydrochloride,,,0,Cell Signaling,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,868
+CP-154526 hydrochloride,CP-154526,,,0,Neurotransmission,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,869
+CP-226269,CP-226269,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,870
+CP-346086 dihydrate,CP-346086,,,0,Lipids,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,871
+CP-380736,CP-380736,,,0,Tyrosine Kinase,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,872
+CR 2249,CR 2249,,,0,Glutamate,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,873
+CX 546,CX 546,,,0,Glutamate,Modulator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,874
+Cefsulodin sodium salt hydrate,Cefsulodin,,,0,Antibiotic,Unknown,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,875
+Cephalosporin C zinc salt,Cephalosporin C zinc,,,0,Antibiotic,Unknown,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,876
+Chloro-IB-MECA,Chloro-IB-MECA,,,0,Adenosine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,877
+Chlorprothixene hydrochloride,Chlorprothixene,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,878
+Cibenzoline succinate,Cibenzoline,,,0,K+ Channels,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,879
+Cinoxacin,Cinoxacin,,,0,Antibiotic,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,880
+Cirazoline hydrochloride,Cirazoline,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,881
+Cortisone 21-acetate,Cortisone 21,,,0,Hormone,Unknown,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,882
+Cytidine 5'-diphosphocholine sodium salt hydrate,Cytidine 5'-diphosphocholine,,,0,Lipid Signaling,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,883
+DBO-83,DBO-83,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,884
+DL-Homatropine hydrobromide,Homatropine,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,885
+DL-Thiorphan,Thiorphan,,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,886
+DL-threo-beta-hydroxyaspartic acid,threo-beta-hydroxyaspartic acid,,,0,Glutamate,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,887
+Debrisoquin sulfate,Debrisoquin,,,0,Neurotransmission,Antihypertensive,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,888
+Decamethonium dibromide,Decamethonium dibromide,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,889
+Dequalinium chloride hydrate,Dequalinium,,,0,K+ Channel,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,890
+Dihydroergotamine methanesulfonate,Dihydroergotamine methanesulfonate,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,891
+Dipropyldopamine hydrobromide,Dipropyldopamine,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,892
+Donitriptan monohydrochloride,Donitriptan monohydrochloride,,,0,Neurotransmission,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,893
+Eletriptan hydrobromide,Eletriptan,Eletriptan,Eletriptan,1,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,894
+Esomeprazole magnesium dihydrate,Esomeprazole magnesium,,,0,Ion Channel,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,895
+FAUC 213,FAUC 213,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,896
+FSCPX,FSCPX,,,0,Adenosine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,897
+Fenspiride hydrochloride,Fenspiride,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,898
+Fiduxosin hydrochloride,Fiduxosin,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,899
+Fosmidomycin sodium salt hydrate,Fosmidomycin,,,0,Arachidonic Acid Cascade,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,900
+GR 127935 hydrochloride hydrate,GR 127935,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,901
+GR 55562 dihydrobromide,GR 55562,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,902
+GR-89696 fumarate,GR-89696,,,0,Opioid,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,903
+Gisadenafil besylate salt,Gisadenafil,,,0,Phosphodiesterase inhibitors,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,904
+"Hexahydro-sila-difenidol hydrochloride, p-fluoro analog","Hexahydro-sila-difenidol , p-fluoro analog",,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,905
+Hexamethonium dichloride,Hexamethonium dichloride,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,906
+"Histamine, R(-)-alpha-methyl-, dihydrochloride","Histamine, R(-)-alpha-methyl",,,0,Histamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,907
+"ICI 63,137","ICI 63,137",,,0,Cyclic nucleotides,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,908
+IMID-4F hydrochloride,IMID-4F,,,0,K+ Channel,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,909
+Imetit dihydrobromide,Imetit,,,0,Histamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,910
+Imiloxan hydrochloride,Imiloxan,Imiloxan,Imiloxan,1,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,911
+Indirubin-3'-oxime,Indirubin-3'-oxime,,,0,Phosphorylation,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,912
+Iofetamine hydrochloride,Iofetamine,,,0,Neurotransmission,Analog,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,913
+Iproniazid phosphate,Iproniazid,,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,914
+JFD00244,JFD00244,,,0,Gene Regulation,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,915
+K 185,K 185,,,0,Melatonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,916
+KB-R7493,KB-R7493,,,0,Calcium Channel,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,917
+KRM-III,KRM-III,,,0,Immunomodulators and Antibiotics,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,918
+Ketorolac tris salt,Ketorolac tris,,,0,Prostaglandin,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,919
+L(-)-Norepinephrine bitartrate,L(-)-Norepinephrine bitartrate,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,920
+"L-687,384 hydrochloride","687,384",,,0,Opioid,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,921
+"L-703,606 oxalate salt hydrate","703,606",,,0,Tachykinin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,922
+"L-741,626","741,626",,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,923
+"L-745,870 hydrochloride","745,870",,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,924
+L-Beta-threo-benzyl-aspartate,Beta-threo-benzyl,,,0,Neurotransmission,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,925
+L-Mimosine from Koa hoale seeds,Mimosine from Koa hoale seeds,,,0,Apoptosis,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,926
+L-N6-(1-Iminoethyl)lysine hydrochloride,N6-(1-Iminoethyl)lysine,,,0,Nitric Oxide,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,927
+LE 300,LE 300,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,928
+LP 12 hydrochloride hydrate,LP 12,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,929
+"LY-310,762 hydrochloride","LY-310,762",,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,930
+"LY-367,265","LY-367,265",,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,931
+Lercanidipine hydrochloride hemihydrate,Lercanidipine hemihydrate,,,0,Calcium Channel,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,932
+Lidocaine N-ethyl bromide quaternary salt,Lidocaine N-ethyl quaternary,,,0,Na+ Channel,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,933
+Lometrexol hydrate,Lometrexol,,,0,Apoptosis,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,934
+MG 624,MG 624,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,935
+MK-912,MK-912,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,936
+MRS 2159,MRS 2159,,,0,P2 Receptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,937
+Mecamylamine hydrochloride,Mecamylamine,Mecamylamine,Mecamylamine,1,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,938
+Metaproterenol hemisulfate,Metaproterenol,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,939
+Methoctramine tetrahydrochloride,Methoctramine tetrahydrochloride,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,940
+Moxisylyte hydrochloride,Moxisylyte,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,941
+Moxonidine hydrochloride,Moxonidine,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,942
+"N,N-Dihexyl-2-(4-fluorophenyl)indole-3-acetamide","N,N-Dihexyl-2-(4-fluorophenyl)indole-3-acetamide",,,0,Benzodiazepine,Ligand,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,943
+N-(2-[4-(4-Chlorophenyl)piperazin-1-yl]ethyl)-3-methoxybenzamide,N-(2-[4-(4-Chlorophenyl)piperazin-1-yl]ethyl)-3-methoxybenzamide,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,944
+"N-(3,3-Diphenylpropyl)glycinamide","N-(3,3-Diphenylpropyl)glycinamide",,,0,Glutamate,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,945
+N-Acetylprocainamide hydrochloride,N-Acetylprocainamide,,,0,Na+ Channel,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,946
+N-Methyldopamine hydrochloride,N-Methyldopamine,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,947
+N-Methylhistaprodifen dioxalate salt,N-Methylhistaprodifen dioxalate,,,0,Histamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,948
+NF 023,NF 023,,,0,P2 Receptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,949
+NO-711 hydrochloride,NO-711,,,0,GABA,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,950
+NS8593 hydrochloride,NS8593,,,0,Ca2+ Channel,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,951
+Na-p-Tosyl-L-lysine chloromethyl ketone hydrochloride,Na-p-Tosyl-L-lysine chloromethyl ketone,,,0,Cyclic Nucleotides,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,952
+Naftopidil dihydrochloride,Naftopidil,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,953
+Nalidixic acid sodium,Nalidixic acid,,,0,Antibiotic,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,954
+Nemadipine-A,Nemadipine-A,,,0,Ca2+ Channels,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,955
+Noscapine hydrchloride,Noscapine hydrchloride,,,0,Opioid,Ligand,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,956
+ONO-RS-082,ONO-RS-082,,,0,Lipids,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,957
+Oxotremorine methiodide,Oxotremorine methiodide,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,958
+Oxotremorine sesquifumarate salt,Oxotremorine sesquifumarate,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,959
+"PD 168,077 maleate","PD 168,077",,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,960
+PD-166285 hydrate,PD-166285,,,0,Kinase/Phosphatase,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,961
+PF 3845 hydrate,PF 3845,,,0,Cannabinoids,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,962
+PF-431396 hydrate,PF-431396,,,0,Kinase inhibitors,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,963
+PMEG hydrate,PMEG,,,0,Apoptosis and Cell Cycle,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,964
+Pentolinium di[L(+)-tartrate],Pentolinium di[L(+)-],,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,965
+Pergolide methanesulfonate,Pergolide methanesulfonate,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,966
+Phenamil methanesulfonate,Phenamil methanesulfonate,,,0,Na+ Channel,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,967
+Phenelzine sulfate,Phenelzine,,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,968
+Phosphomycin disodium,Phosphomycin,,,0,Antibiotic,Unknown,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,969
+Piribedil maleate,Piribedil,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,970
+Propionylpromazine hydrochloride,Propionylpromazine,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,971
+Protoporphyrin IX disodium,Protoporphyrin IX,,,0,Cyclic Nucleotides,Activator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,972
+Protriptyline hydrochloride,Protriptyline,,,0,Adrenoceptor,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,973
+Psora-4,Psora-4,,,0,K+ Channel,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,974
+Quinelorane dihydrochloride,Quinelorane,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,975
+R(+)-3PPP hydrochloride,R(+)-3PPP,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,976
+R(+)-6-Bromo-APB hydrobromide,R(+)-6-Bromo-APB,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,977
+R(+)-SCH-23390 hydrochloride,R(+)-SCH-23390,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,978
+"R(-)-2,10,11-Trihydroxy-N-propylnoraporphine hydrobromide","R(-)-2,10,11-Trihydroxy-N-propylnoraporphine",,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,979
+"R(-)-2,10,11-Trihydroxyaporphine hybrobromide","R(-)-2,10,11-Trihydroxyaporphine hybrobromide",,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,980
+R(-)-Isoproterenol (+)-bitartrate,R(-)-Isoproterenol (+)-bitartrate,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,981
+R(-)-Propylnorapomorphine hydrochloride,R(-)-Propylnorapomorphine,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,982
+R-(+)-7-Hydroxy-DPAT hydrobromide,R-(+)-7-Hydroxy-DPAT,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,983
+R-(+)-8-Hydroxy-DPAT hydrobromide,R-(+)-8-Hydroxy-DPAT,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,984
+R-(-)-Desmethyldeprenyl hydrochloride,R-(-)-Desmethyldeprenyl,,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,985
+Retinoic acid p-hydroxyanilide,Retinoic acid p-hydroxyanilide,,,0,Cell Cycle,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,986
+Rhodblock 6,Rhodblock 6,,,0,Kinase/Phosphatase,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,987
+Rizatriptan benzoate salt,Rizatriptan,,,0,Neurotransmission,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,988
+Ro 04-6790 dihydrochloride,Ro 04-6790,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,989
+Ro 41-0960,Ro 41-0960,,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,990
+S(+)-Raclopride L-tartrate,S(+)-Raclopride L,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,991
+S(-)-3PPP hydrochloride,S(-)-3PPP,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,992
+S(-)-Timolol maleate,S(-)-Timolol,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,993
+S-(+)-PD 123177 trifluoroacetate salt hydrate,S-(+)-PD 123177 trifluoroacetate,,,0,Neurotransmission,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,994
+S15535,S15535,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,995
+SB 205384,SB 205384,,,0,GABA,Modulator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,996
+SB 242084 dihydrochloride hydrate,SB 242084,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,997
+SB 269970 hydrochloride,SB 269970,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,998
+SC-51089 hydrate,SC-51089,,,0,Prostaglandins,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,999
+SC-57461A,SC-57461A,,,0,Lipids,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1000
+SCH-202676 hydrobromide,SCH-202676,,,0,G protein,Modulator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1001
+SCH-28080,SCH-28080,,,0,Ion Channels,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1002
+"SDZ-205,557 hydrochloride","SDZ-205,557",,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1003
+SKF 83959 hydrobromide,SKF 83959,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1004
+SKF 95282 dimaleate,SKF 95282 dimaleate,,,0,Histamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1005
+SR 27897 hydrate,SR 27897,,,0,Cholecystokinin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1006
+Spiperone hydrochloride,Spiperone,Spiperone,Spiperone,1,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1007
+Supercinnamaldehyde,Supercinnamaldehyde,,,0,Ion Channels,Activator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1008
+TMB-8 hydrochloride,TMB-8,TMB-8,TMB-8,1,Intracellular Calcium,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1009
+TMPH hydrochloride,TMPH,,,0,Cholinergic,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1010
+Telenzepine dihydrochloride,Telenzepine,,,0,Cholinergic,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1011
+Tetrahydrozoline hydrochloride,Tetrahydrozoline,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1012
+Thio-NADP sodium,Thio-NADP,,,0,Intracellular Calcium,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1013
+Trequinsin hydrochloride,Trequinsin,,,0,Cyclic Nucleotides,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1014
+Trifluperidol hydrochloride,Trifluperidol,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1015
+Tulobuterol hydrochloride,Tulobuterol,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1016
+Tyrphostin AG 538,Tyrphostin AG 538,,,0,Apoptosis,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1017
+U-101958 maleate,U-101958,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1018
+U-62066,U-62066,,,0,Opioid,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1019
+U-69593,U-69593,,,0,Opioid,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1020
+U-74389G maleate,U-74389G,,,0,Cell Stress,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1021
+U-99194A maleate,U-99194A,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1022
+UCL 2077,UCL 2077,,,0,Ion Channels,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1023
+VER-3323 hemifumarate salt,VER-3323,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1024
+Vancomycin hydrochloride from Streptomyces orientalis,Vancomycin from Streptomyces orientalis,,,0,Antibiotic,Unknown,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1025
+Vanillic acid diethylamide,Vanillic acid diethylamide,,,0,Vanilloid,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1026
+WAY-100635 maleate,WAY-100635,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1027
+WB-4101 hydrochloride,WB-4101,,,0,Adrenoceptor,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1028
+"WIN 62,577","WIN 62,577",,,0,Tachykinin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1029
+Xylometazoline hydrochloride,Xylometazoline,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1030
+YM 976,YM 976,,,0,Cyclic nucleotides,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1031
+YS-035 hydrochloride,YS-035,,,0,Ca2+ Channel,Blocker,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1032
+"alpha,beta-Methylene adenosine 5'-triphosphate dilithium","alpha,beta-Methylene adenosine 5'- dilithium",,,0,P2 Receptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1033
+alpha-Lobeline hydrochloride,alpha-Lobeline,,,0,Cholinergic,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1034
+alpha-Methyl-5-hydroxytryptamine maleate,alpha-Methyl-5-hydroxytryptamine,,,0,Serotonin,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1035
+alpha-Methyl-DL-tyrosine methyl ester hydrochloride,alpha-Methyl-DL-tyrosine methyl ester,,,0,Neurotransmission,Inhibitor,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1036
+cDPCP,cDPCP,,,0,Cell Cycle,Unknown,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1037
+cis(+/-)-8-OH-PBZI hydrobromide,cis(+/-)-8-OH-PBZI,,,0,Dopamine,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1038
+cis-(Z)-Flupenthixol dihydrochloride,cis-(Z)-Flupenthixol,,,0,Dopamine,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1039
+cis-4-Aminocrotonic acid,cis-4-Aminocrotonic acid,,,0,GABA,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1040
+p-Aminoclonidine hydrochloride,p-Aminoclonidine,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1041
+p-Fluoro-L-phenylalanine,p-Fluoro-L-phenylalanine,,,0,Neurotransmission,Substrate,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1042
+p-Iodoclonidine hydrochloride,p-Iodoclonidine,,,0,Adrenoceptor,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1043
+p-MPPF dihydrochloride,p-MPPF,,,0,Serotonin,Antagonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1044
+rac BHFF,rac BHFF,,,0,Neurotransmission,Modulator,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1045
+trans-(±)-ACPD,trans-(±)-ACPD,,,0,Glutamate,Agonist,False,5,0,0,False,,0.7406,0.0,0.0,0.4444,1046
+Reserpine,Reserpine,Reserpine,Reserpine,1,Serotonin,Inhibitor,False,16,16,1,False,therapy-triggered metastatic disease,0.5899,0.2891,0.0,0.4407,1047
+Diphenyleneiodonium chloride,Diphenyleneiodonium,Diphenyleneiodonium Chloride,Diphenyleneiodonium|Diphenyleneiodonium Chloride,2,Nitric Oxide,Inhibitor,False,16,10,1,False,endothelial-to-mesenchymal-transition,0.5899,0.2891,0.0,0.4407,1048
+Phenylbutazone,Phenylbutazone,Phenylbutazone,Phenylbutazone,1,Prostaglandin,Substrate,False,16,3,1,False,aortic endothelium,0.5899,0.2891,0.0,0.4407,1049
+Praziquantel,Praziquantel,Praziquantel,Praziquantel,1,Antibiotic,Unknown,False,17,10,1,False,angiogenesis,0.5816,0.2891,0.0,0.4357,1050
+2-Chloroadenosine,2-Chloroadenosine,2-Chloroadenosine,2-Chloroadenosine,1,Adenosine,Agonist,False,17,9,1,False,a(2b)-adenosine receptor,0.5816,0.2891,0.0,0.4357,1051
+(-)-Scopolamine hydrobromide,Scopolamine,Scopolamine,Scopolamine|Scopolamine Hydrobromide,2,Cholinergic,Antagonist,False,6,20,0,False,,0.7183,0.0,0.0,0.431,1052
+Bropirimine,Bropirimine,Bropirimine,Bropirimine,1,Immunomodulators,Unknown,False,6,16,0,False,,0.7183,0.0,0.0,0.431,1053
+Bethanechol chloride,Bethanechol,Bethanechol Chloride,Bethanechol Chloride,1,Cholinergic,Agonist,False,6,14,0,False,,0.7183,0.0,0.0,0.431,1054
+Procaine hydrochloride,Procaine,Procaine Hydrochloride,Procaine|Procaine Hydrochloride,2,Na+ Channel,Blocker,False,6,11,0,False,,0.7183,0.0,0.0,0.431,1055
+Desipramine hydrochloride,Desipramine,Desipramine Hydrochloride,Desipramine|Desipramine Hydrochloride,2,Adrenoceptor,Inhibitor,False,6,9,0,False,,0.7183,0.0,0.0,0.431,1056
+NADPH tetrasodium,NADPH,NADPH,NADPH,1,Nitric Oxide,Cofactor,False,6,8,0,False,,0.7183,0.0,0.0,0.431,1057
+Cefotaxime sodium,Cefotaxime,Cefotaxime Sodium,Cefotaxime Sodium,1,Antibiotic,Unknown,False,6,6,0,False,,0.7183,0.0,0.0,0.431,1058
+Linopirdine,Linopirdine,Linopirdine,Linopirdine,1,Cholinergic,Releaser,False,6,6,0,False,,0.7183,0.0,0.0,0.431,1059
+Nialamide,Nialamide,Nialamide,Nialamide,1,Neurotransmission,Inhibitor,False,6,6,0,False,,0.7183,0.0,0.0,0.431,1060
+Nimustine hydrochloride,Nimustine,Nimustine Hydrochloride,Nimustine|Nimustine Hydrochloride,2,DNA,Intercalator,False,6,6,0,False,,0.7183,0.0,0.0,0.431,1061
+Citalopram hydrobromide,Citalopram,Citalopram Hydrobromide,Citalopram|Citalopram Hydrobromide,2,Serotonin,Inhibitor,False,6,5,0,False,,0.7183,0.0,0.0,0.431,1062
+L-Methionine sulfoximine,Methionine sulfoximine,L-Methionine Sulfoximine,L-Methionine Sulfoximine,1,Glutamate,Inhibitor,False,6,4,0,False,,0.7183,0.0,0.0,0.431,1063
+Oxolinic acid,Oxolinic acid,Oxolinic Acid,Oxolinic Acid,1,Antibiotic,Inhibitor,False,6,4,0,False,,0.7183,0.0,0.0,0.431,1064
+Pancuronium bromide,Pancuronium,Pancuronium Bromide,Pancuronium Bromide,1,Cholinergic,Antagonist,False,6,4,0,False,,0.7183,0.0,0.0,0.431,1065
+Ritodrine hydrochloride,Ritodrine,Ritodrine Hydrochloride,Ritodrine Hydrochloride,1,Adrenoceptor,Agonist,False,6,4,0,False,,0.7183,0.0,0.0,0.431,1066
+6-Hydroxymelatonin,6-Hydroxymelatonin,6-Hydroxymelatonin,6-Hydroxymelatonin|6-hydroxymelatonin sulfate,2,Melatonin,Metabolite,False,6,3,0,False,,0.7183,0.0,0.0,0.431,1067
+SC-58125,SC-58125,SC-58125,SC-58125,1,Lipids,Inhibitor,False,6,3,0,False,,0.7183,0.0,0.0,0.431,1068
+Tetrabenazine,Tetrabenazine,Tetrabenazine,Tetrabenazine,1,Neurotransmission,Inhibitor,False,6,3,0,False,,0.7183,0.0,0.0,0.431,1069
+N-Acetyltryptamine,N-Acetyltryptamine,N-Acetyltryptamine,N-Acetyltryptamine,1,Melatonin,Modulator,False,6,2,0,False,,0.7183,0.0,0.0,0.431,1070
+Perphenazine,Perphenazine,Perphenazine,Perphenazine,1,Dopamine,Antagonist,False,6,2,0,False,,0.7183,0.0,0.0,0.431,1071
+Primidone,Primidone,Primidone,Primidone,1,Anticonvulsant,Unknown,False,6,2,0,False,,0.7183,0.0,0.0,0.431,1072
+2-Hydroxysaclofen,2-Hydroxysaclofen,2-Hydroxysaclofen,2-Hydroxysaclofen,1,GABA,Antagonist,False,6,1,0,False,,0.7183,0.0,0.0,0.431,1073
+"DL-Buthionine-[S,R]-sulfoximine","Buthionine-[S,R]-sulfoximine","dl-buthionine-[S,R]-sulfoximine","dl-buthionine-[S,R]-sulfoximine",1,Multi-Drug Resistance,Inhibitor,False,6,1,0,False,,0.7183,0.0,0.0,0.431,1074
+"5,5-Diphenylhydantoin","5,5-Diphenylhydantoin","5,5-Diphenylhydantoin","5,5-Diphenylhydantoin",1,Anticonvulsant,Unknown,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1075
+CPNQ,CPNQ,,,0,Neurotransmission,Neuroprotectant,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1076
+Cytosine-1-beta-D-arabinofuranoside hydrochloride,Cytosine-1-beta-D-arabinofuranoside,,,0,DNA Metabolism,Inhibitor,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1077
+H-8 dihydrochloride,H-8,H-8,H-8,1,Phosphorylation,Inhibitor,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1078
+Imidazole-4-acetic acid hydrochloride,Imidazole-4-acetic acid,Imidazole-4-Acetic Acid,Imidazole-4-Acetic Acid,1,GABA,Antagonist,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1079
+L-DOPS,DOPS,L-Dops,L-Dops,1,Adrenergics,Agonist,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1080
+"PD 98,059","PD 98,059",,,0,Phosphorylation,Inhibitor,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1081
+PD-184161,PD-184161,,,0,Kinase,Inhibitor,False,6,0,0,False,,0.7183,0.0,0.0,0.431,1082
+Levetiracetam,Levetiracetam,Levetiracetam,Levetiracetam,1,Neurotransmission,Anticonvulsant,False,18,14,1,False,hif-1,0.5737,0.2891,0.0,0.4309,1083
+Mevastatin,Mevastatin,Mevastatin,Mevastatin,1,Antibiotic,Inhibitor,False,18,6,1,False,angiopoietin-2,0.5737,0.2891,0.0,0.4309,1084
+TCPOBOP,TCPOBOP,TCPOBOP,TCPOBOP,1,Transcription,Agonist,False,7,14,0,False,,0.699,0.0,0.0,0.4194,1085
+Diphenhydramine hydrochloride,Diphenhydramine,Diphenhydramine Hydrochloride,Diphenhydramine|Diphenhydramine Hydrochloride,2,Histamine,Antagonist,False,7,12,0,False,,0.699,0.0,0.0,0.4194,1086
+(-)-Naproxen sodium,Naproxen,Naproxen,Naproxen|Naproxen Sodium,2,Prostaglandin,Inhibitor,False,7,11,0,False,,0.699,0.0,0.0,0.4194,1087
+Dantrolene sodium,Dantrolene,Dantrolene Sodium,Dantrolene|Dantrolene Sodium,2,Intracellular Calcium,Inhibitor,False,7,8,0,False,,0.699,0.0,0.0,0.4194,1088
+"2',3'-didehydro-3'-deoxythymidine","2',3'-didehydro-3'-deoxythymidine","2',3'-Didehydro-3'-Deoxythymidine","2',3'-Didehydro-3'-Deoxythymidine|2',3'-Didehydro-3'-deoxythymidine",2,Immune System,Inhibitor,False,7,7,0,False,,0.699,0.0,0.0,0.4194,1089
+Doxycycline hydrochloride,Doxycycline,Doxycycline Hydrochloride,Doxycycline|Doxycycline Hydrochloride|Doxycycline Hydrochloride Hydrate|Doxycycline Hydrochloride Salt|Doxycycline Monohydrate,5,Antibiotic,Unknown,False,7,6,0,False,,0.699,0.0,0.0,0.4194,1090
+Amoxapine,Amoxapine,Amoxapine,Amoxapine,1,Adrenoceptor,Inhibitor,False,7,5,0,False,,0.699,0.0,0.0,0.4194,1091
+Ipratropium bromide,Ipratropium,Ipratropium Bromide,Ipratropium Bromide,1,Cholinergic,Antagonist,False,7,3,0,False,,0.699,0.0,0.0,0.4194,1092
+Mizoribine,Mizoribine,Mizoribine,Mizoribine,1,DNA Metabolism,Inhibitor,False,7,3,0,False,,0.699,0.0,0.0,0.4194,1093
+Moclobemide,Moclobemide,Moclobemide,Moclobemide,1,Neurotransmission,Inhibitor,False,7,3,0,False,,0.699,0.0,0.0,0.4194,1094
+8-(4-Chlorophenylthio)-cAMP sodium,8-(4-Chlorophenylthio)-cAMP,8-(4-Chlorophenylthio)-CAMP,8-(4-Chlorophenylthio)-CAMP|8-(4-Chlorophenylthio)-cAMP,2,Cyclic Nucleotides,Activator,False,7,2,0,False,,0.699,0.0,0.0,0.4194,1095
+FPL 64176,FPL 64176,FPL 64176,FPL 64176,1,Ca2+ Channel,Activator,False,7,2,0,False,,0.699,0.0,0.0,0.4194,1096
+3-Bromo-7-nitroindazole,3-Bromo-7-nitroindazole,3-Bromo-7-Nitroindazole,3-Bromo-7-Nitroindazole,1,Nitric Oxide,Inhibitor,False,7,1,0,False,,0.699,0.0,0.0,0.4194,1097
+Hydroxylamine hydrochloride,Hydroxylamine,Hydroxylamine Hydrochloride,Hydroxylamine Hydrochloride,1,Neurotransmission,Inhibitor,False,7,1,0,False,,0.699,0.0,0.0,0.4194,1098
+PD-156707,PD-156707,PD-156707,PD-156707,1,Neurotransmission and endothelins,Antagonist,False,7,1,0,False,,0.699,0.0,0.0,0.4194,1099
+Tyrphostin 23,Tyrphostin 23,Tyrphostin 23,Tyrphostin 23,1,Phosphorylation,Inhibitor,False,7,1,0,False,,0.699,0.0,0.0,0.4194,1100
+(S)-(+)-Camptothecin,(+)-Camptothecin,,,0,Apoptosis,Inhibitor,False,7,0,0,False,,0.699,0.0,0.0,0.4194,1101
+ATPA,ATPA,,,0,Glutamate,Agonist,False,7,0,0,False,,0.699,0.0,0.0,0.4194,1102
+Mexiletene hydrochloride,Mexiletene,,,0,Na+ Channel,Blocker,False,7,0,0,False,,0.699,0.0,0.0,0.4194,1103
+SR 59230A oxalate,SR 59230A,SR 59230A,SR 59230A,1,Adrenoceptor,Antagonist,False,7,0,0,False,,0.699,0.0,0.0,0.4194,1104
+Steviol,Steviol,,,0,Ion Channels,Inhibitor,False,7,0,0,False,,0.699,0.0,0.0,0.4194,1105
+X80,X80,,,0,Apoptosis,Inhibitor,False,7,0,0,False,,0.699,0.0,0.0,0.4194,1106
+Disopyramide,Disopyramide,Disopyramide,Disopyramide|Disopyramide Phosphate,2,Na+ Channel,Blocker,False,8,11,0,False,,0.6819,0.0,0.0,0.4091,1107
+N-Phenylanthranilic acid,N-Phenylanthranilic acid,N-Phenylanthranilic Acid,N-Phenylanthranilic Acid,1,Cl- Channel,Blocker,False,8,9,0,False,,0.6819,0.0,0.0,0.4091,1108
+(±)-Synephrine,Synephrine,Synephrine,Synephrine,1,Adrenoceptor,Agonist,False,8,5,0,False,,0.6819,0.0,0.0,0.4091,1109
+Gallamine triethiodide,Gallamine triethiodide,Gallamine Triethiodide,Gallamine Triethiodide,1,Cholinergic,Antagonist,False,8,4,0,False,,0.6819,0.0,0.0,0.4091,1110
+Icilin,Icilin,Icilin,Icilin,1,Neurotransmission,Agonist,False,8,4,0,False,,0.6819,0.0,0.0,0.4091,1111
+"2,3-Dimethoxy-1,4-naphthoquinone","2,3-Dimethoxy-1,4-naphthoquinone","2,3-Dimethoxy-1,4-Naphthoquinone","2,3-Dimethoxy-1,4-Naphthoquinone",1,Cell Stress,Modulator,False,8,3,0,False,,0.6819,0.0,0.0,0.4091,1112
+AGK2,AGK2,AGK2,AGK2,1,Gene Regulation,Inhibitor,False,8,3,0,False,,0.6819,0.0,0.0,0.4091,1113
+Linezolid,Linezolid,Linezolid,Linezolid,1,Immune Signaling,Inhibitor,False,8,3,0,False,,0.6819,0.0,0.0,0.4091,1114
+3-Morpholinosydnonimine hydrochloride,3-Morpholinosydnonimine,3-Morpholinosydnonimine Hydrochloride,3-Morpholinosydnonimine|3-Morpholinosydnonimine Hydrochloride,2,Nitric Oxide,Donor,False,8,2,0,False,,0.6819,0.0,0.0,0.4091,1115
+4-(2-Aminoethyl)benzenesulfonyl fluoride hydrochloride,4-(2-Aminoethyl)benzenesulfonyl fluoride,4-(2-Aminoethyl)Benzenesulfonyl Fluoride Hydrochloride,4-(2-Aminoethyl)Benzenesulfonyl Fluoride Hydrochloride,1,Biochemistry,Inhibitor,False,8,2,0,False,,0.6819,0.0,0.0,0.4091,1116
+"4-Amino-1,8-naphthalimide","4-Amino-1,8-naphthalimide","4-Amino-1,8-Naphthalimide","4-Amino-1,8-Naphthalimide",1,Apoptosis,Inhibitor,False,8,2,0,False,,0.6819,0.0,0.0,0.4091,1117
+"UK 14,304","UK 14,304","UK 14,304","UK 14,304",1,Adrenoceptor,Agonist,False,8,2,0,False,,0.6819,0.0,0.0,0.4091,1118
+Ammonium pyrrolidinedithiocarbamate,Ammonium pyrrolidinedithiocarbamate,Ammonium Pyrrolidinedithiocarbamate,Ammonium Pyrrolidinedithiocarbamate,1,Nitric Oxide,Modulator,False,8,1,0,False,,0.6819,0.0,0.0,0.4091,1119
+N-omega-Methyl-5-hydroxytryptamine oxalate salt,N-omega-Methyl-5-hydroxytryptamine,,,0,Serotonin,Ligand,False,8,0,0,False,,0.6819,0.0,0.0,0.4091,1120
+N6-Cyclohexyladenosine,N6-Cyclohexyladenosine,N6-Cyclohexyladenosine,N6-Cyclohexyladenosine,1,Adenosine,Agonist,False,8,0,0,False,,0.6819,0.0,0.0,0.4091,1121
+NS 2028,NS 2028,,,0,Cyclic Nucleotides,Inhibitor,False,8,0,0,False,,0.6819,0.0,0.0,0.4091,1122
+PD 0325901,PD 0325901,,,0,Kinase phosphotase biology,Inhibitor,False,8,0,0,False,,0.6819,0.0,0.0,0.4091,1123
+SKF-525A hydrochloride,SKF-525A,,,0,Multi-Drug Resistance,Inhibitor,False,8,0,0,False,,0.6819,0.0,0.0,0.4091,1124
+Mifamurtide,Mifamurtide,Mifamurtide,Mifamurtide,1,Immune cell signaling,Immunostimulant,False,9,16,0,False,,0.6667,0.0,0.0,0.4,1125
+Ketotifen fumarate,Ketotifen,Ketotifen Fumarate,Ketotifen|Ketotifen Fumarate,2,Histamine,Antagonist,False,9,15,0,False,,0.6667,0.0,0.0,0.4,1126
+(+)-Pilocarpine hydrochloride,Pilocarpine,Pilocarpine,Pilocarpine|Pilocarpine Hydrochloride|Pilocarpine Nitrate,3,Cholinergic,Agonist,False,9,13,0,False,,0.6667,0.0,0.0,0.4,1127
+Famciclovir,Famciclovir,Famciclovir,Famciclovir,1,Immune Cell Signaling,Antiviral,False,9,10,0,False,,0.6667,0.0,0.0,0.4,1128
+Droperidol,Droperidol,Droperidol,Droperidol,1,Dopamine,Antagonist,False,9,7,0,False,,0.6667,0.0,0.0,0.4,1129
+Maraviroc,Maraviroc,Maraviroc,Maraviroc,1,Immune signaling,Antagonist,False,9,7,0,False,,0.6667,0.0,0.0,0.4,1130
+Picrotoxin,Picrotoxin,Picrotoxin,Picrotoxin,1,GABA,Antagonist,False,9,6,0,False,,0.6667,0.0,0.0,0.4,1131
+Ritanserin,Ritanserin,Ritanserin,Ritanserin,1,Serotonin,Antagonist,False,9,5,0,False,,0.6667,0.0,0.0,0.4,1132
+Zonisamide sodium,Zonisamide,Zonisamide,Zonisamide,1,Anticonvulsant,Unknown,False,9,5,0,False,,0.6667,0.0,0.0,0.4,1133
+Proglumide,Proglumide,Proglumide,Proglumide,1,Cholecystokinin,Antagonist,False,9,4,0,False,,0.6667,0.0,0.0,0.4,1134
+(+)-Quisqualic acid,Quisqualic acid,Quisqualic Acid,Quisqualic Acid,1,Glutamate,Agonist,False,9,3,0,False,,0.6667,0.0,0.0,0.4,1135
+Reactive Blue 2,Reactive Blue 2,Reactive Blue 2,Reactive Blue 2,1,P2 Receptor,Antagonist,False,9,3,0,False,,0.6667,0.0,0.0,0.4,1136
+SC 19220,SC 19220,SC 19220,SC 19220,1,Prostaglandin,Antagonist,False,9,3,0,False,,0.6667,0.0,0.0,0.4,1137
+Ro 20-1724,Ro 20-1724,RO 20-1724,RO 20-1724|Ro 20-1724,2,Cyclic Nucleotides,Inhibitor,False,9,2,0,False,,0.6667,0.0,0.0,0.4,1138
+Ellipticine,Ellipticine,Ellipticine,Ellipticine,1,Cell Cycle,Inhibitor,False,9,1,0,False,,0.6667,0.0,0.0,0.4,1139
+SQ 22536,SQ 22536,SQ 22536,SQ 22536,1,Cyclic Nucleotides,Inhibitor,False,9,1,0,False,,0.6667,0.0,0.0,0.4,1140
+(±)-Metoprolol (+)-tartrate,Metoprolol (+),,,0,Adrenoceptor,Antagonist,False,9,0,0,False,,0.6667,0.0,0.0,0.4,1141
+1-(5-Isoquinolinylsulfonyl)-2-methylpiperazine dihydrochloride,1-(5-Isoquinolinylsulfonyl)-2-methylpiperazine,,,0,Phosphorylation,Inhibitor,False,9,0,0,False,,0.6667,0.0,0.0,0.4,1142
+Aminopterin,Aminopterin,Aminopterin,Aminopterin,1,Antibiotic,Inhibitor,False,9,0,0,False,,0.6667,0.0,0.0,0.4,1143
+CIQ,CIQ,,,0,Neurotransmission,Modulator,False,9,0,0,False,,0.6667,0.0,0.0,0.4,1144
+Carmofur,Carmofur,,,0,Apoptosis,Unknown,False,9,0,0,False,,0.6667,0.0,0.0,0.4,1145
+Trimethoprim,Trimethoprim,,,0,Antibiotic,Inhibitor,False,9,0,0,False,,0.6667,0.0,0.0,0.4,1146
+Metergoline,Metergoline,Metergoline,Metergoline,1,Serotonin,Antagonist,False,10,12,0,False,,0.6529,0.0,0.0,0.3917,1147
+Ofloxacin,Ofloxacin,Ofloxacin,Ofloxacin,1,Antibiotic,Unknown,False,10,9,0,False,,0.6529,0.0,0.0,0.3917,1148
+Domperidone,Domperidone,Domperidone,Domperidone,1,Dopamine,Antagonist,False,10,7,0,False,,0.6529,0.0,0.0,0.3917,1149
+Theobromine,Theobromine,Theobromine,Theobromine,1,Adenosine,Antagonist,False,10,7,0,False,,0.6529,0.0,0.0,0.3917,1150
+(±)-p-Chlorophenylalanine,p-Chlorophenylalanine,P-Chlorophenylalanine,P-Chlorophenylalanine|p-Chlorophenylalanine,2,Neurotransmission,Inhibitor,False,10,5,0,False,,0.6529,0.0,0.0,0.3917,1151
+(±)-Nipecotic acid,Nipecotic acid,Nipecotic Acid,Nipecotic Acid,1,GABA,Inhibitor,False,10,3,0,False,,0.6529,0.0,0.0,0.3917,1152
+"3,4-Dichloroisocoumarin","3,4-Dichloroisocoumarin","3,4-Dichloroisocoumarin","3,4-Dichloroisocoumarin",1,Biochemistry,Inhibitor,False,10,3,0,False,,0.6529,0.0,0.0,0.3917,1153
+Cefaclor,Cefaclor,Cefaclor,Cefaclor,1,Antibiotic,Unknown,False,10,2,0,False,,0.6529,0.0,0.0,0.3917,1154
+SB 202190,SB 202190,SB 202190,SB 202190,1,Phosphorylation,Inhibitor,False,10,2,0,False,,0.6529,0.0,0.0,0.3917,1155
+"5-(N,N-hexamethylene)amiloride","5-(N,N-hexamethylene)amiloride","5-(N,N-Hexamethylene)Amiloride","5-(N,N-Hexamethylene)Amiloride",1,Ion Pump,Inhibitor,False,10,1,0,False,,0.6529,0.0,0.0,0.3917,1156
+IB-MECA,IB-MECA,IB-MECA,IB-MECA,1,Adenosine,Agonist,False,10,1,0,False,,0.6529,0.0,0.0,0.3917,1157
+Aminophylline ethylenediamine,Aminophylline ethylenediamine,,,0,Adenosine,Antagonist,False,10,0,0,False,,0.6529,0.0,0.0,0.3917,1158
+Staurosporine aglycone,Staurosporine aglycone,,,0,Phosphorylation,Inhibitor,False,10,0,0,False,,0.6529,0.0,0.0,0.3917,1159
+Ibudilast,Ibudilast,Ibudilast,Ibudilast,1,Cyclic Nucleotides,Inhibitor,False,11,14,0,False,,0.6403,0.0,0.0,0.3842,1160
+Paliperidone,Paliperidone,Paliperidone,Paliperidone|Paliperidone Palmitate,2,Neurotransmission,Antipsychotic,False,11,11,0,False,,0.6403,0.0,0.0,0.3842,1161
+Mifepristone,Mifepristone,Mifepristone,Mifepristone,1,Hormone,Antagonist,False,11,10,0,False,,0.6403,0.0,0.0,0.3842,1162
+Furosemide,Furosemide,Furosemide,Furosemide,1,Ion Pump,Inhibitor,False,11,9,0,False,,0.6403,0.0,0.0,0.3842,1163
+S-(4-Nitrobenzyl)-6-thioinosine,S-(4-Nitrobenzyl)-6-thioinosine,S-(4-Nitrobenzyl)-6-Thioinosine,S-(4-Nitrobenzyl)-6-Thioinosine,1,Adenosine,Inhibitor,False,11,9,0,False,,0.6403,0.0,0.0,0.3842,1164
+Flumazenil,Flumazenil,Flumazenil,Flumazenil,1,Benzodiazepine,Antagonist,False,11,7,0,False,,0.6403,0.0,0.0,0.3842,1165
+PNU-282987,PNU-282987,PNU-282987,PNU-282987,1,Cholinergic,Agonist,False,11,7,0,False,,0.6403,0.0,0.0,0.3842,1166
+13-cis-retinoic acid,13-cis-retinoic acid,13-cis-Retinoic Acid,13-cis-Retinoic Acid,1,Transcription,Regulator,False,11,6,0,False,,0.6403,0.0,0.0,0.3842,1167
+Brinzolamide,Brinzolamide,Brinzolamide,Brinzolamide,1,anydrases,Inhibitor,False,11,5,0,False,,0.6403,0.0,0.0,0.3842,1168
+Iodoacetamide,Iodoacetamide,Iodoacetamide,Iodoacetamide,1,Biochemistry,Inhibitor,False,11,4,0,False,,0.6403,0.0,0.0,0.3842,1169
+Terfenadine,Terfenadine,Terfenadine,Terfenadine,1,Histamine,Antagonist,False,11,4,0,False,,0.6403,0.0,0.0,0.3842,1170
+Lumefantrine,Lumefantrine,Lumefantrine,Lumefantrine,1,Immunomodulators and Antibiotics,Unknown,False,11,2,0,False,,0.6403,0.0,0.0,0.3842,1171
+MDL 28170,MDL 28170,MDL 28170,MDL 28170,1,Cell Cycle,Inhibitor,False,11,2,0,False,,0.6403,0.0,0.0,0.3842,1172
+(E)-4-amino-2-butenoic acid,4-amino-2-butenoic acid,,,0,GABA,Agonist,False,11,0,0,False,,0.6403,0.0,0.0,0.3842,1173
+"ICI 204,448 hydrochloride","ICI 204,448",,,0,Opioid,Agonist,False,11,0,0,False,,0.6403,0.0,0.0,0.3842,1174
+NG-Nitro-L-arginine,NG-Nitro-L-arginine,,,0,Nitric Oxide,Inhibitor,False,11,0,0,False,,0.6403,0.0,0.0,0.3842,1175
+NS-1619,NS-1619,,,0,K+ Channel,Activator,False,11,0,0,False,,0.6403,0.0,0.0,0.3842,1176
+Triamcinolone,Triamcinolone,,,0,Hormone,Agonist,False,11,0,0,False,,0.6403,0.0,0.0,0.3842,1177
+gamma-Acetylinic GABA,gamma-Acetylinic GABA,,,0,GABA,Inhibitor,False,11,0,0,False,,0.6403,0.0,0.0,0.3842,1178
+(±)-Vanillylmandelic acid,Vanillylmandelic acid,Vanillylmandelic Acid,Vanillylmandelic Acid,1,Adrenoceptor,Metabolite,False,12,11,0,False,,0.6287,0.0,0.0,0.3772,1179
+Carbamazepine,Carbamazepine,Carbamazepine,Carbamazepine,1,Anticonvulsant,Unknown,False,12,11,0,False,,0.6287,0.0,0.0,0.3772,1180
+Ganciclovir,Ganciclovir,Ganciclovir,Ganciclovir,1,Cell Cycle,Inhibitor,False,12,6,0,False,,0.6287,0.0,0.0,0.3772,1181
+Rotenone,Rotenone,Rotenone,Rotenone,1,Cell Stress,Modulator,False,12,6,0,False,,0.6287,0.0,0.0,0.3772,1182
+Cortisone,Cortisone,Cortisone,Cortisone,1,Hormone,Unknown,False,12,5,0,False,,0.6287,0.0,0.0,0.3772,1183
+"L-3,4-Dihydroxyphenylalanine","3,4-Dihydroxyphenylalanine","l-3,4-Dihydroxyphenylalanine","L-3,4-Dihydroxyphenylalanine|l-3,4-Dihydroxyphenylalanine",2,Dopamine,Precursor,False,12,4,0,False,,0.6287,0.0,0.0,0.3772,1184
+Caffeic Acid,Caffeic Acid,Caffeic Acid,Caffeic Acid,1,Cell Stress,Inhibitor,False,12,3,0,False,,0.6287,0.0,0.0,0.3772,1185
+ML-7,ML-7,ML-7,ML-7|ML-7 Hydrochloride,2,Phosphorylation,Inhibitor,False,12,3,0,False,,0.6287,0.0,0.0,0.3772,1186
+Sorbinil,Sorbinil,Sorbinil,Sorbinil,1,Antioxidants and Cytoprotectants,Inhibitor,False,12,3,0,False,,0.6287,0.0,0.0,0.3772,1187
+Tyrphostin 47,Tyrphostin 47,Tyrphostin 47,Tyrphostin 47,1,Phosphorylation,Inhibitor,False,12,3,0,False,,0.6287,0.0,0.0,0.3772,1188
+"3,4-Dihydroxyphenylacetic acid","3,4-Dihydroxyphenylacetic acid","3,4-Dihydroxyphenylacetic Acid","3,4-Dihydroxyphenylacetic Acid",1,Dopamine,Metabolite,False,12,1,0,False,,0.6287,0.0,0.0,0.3772,1189
+Hypotaurine,Hypotaurine,Hypotaurine,Hypotaurine,1,Cell Stress,Inhibitor,False,12,1,0,False,,0.6287,0.0,0.0,0.3772,1190
+Tropicamide,Tropicamide,Tropicamide,Tropicamide,1,Cholinergic,Antagonist,False,12,1,0,False,,0.6287,0.0,0.0,0.3772,1191
+beta-Lapachone,beta-Lapachone,Beta-Lapachone,Beta-Lapachone,1,Apoptosis,Activator,False,12,1,0,False,,0.6287,0.0,0.0,0.3772,1192
+"2,4-Diamino-6-pyrimidinone","2,4-Diamino-6-pyrimidinone",,,0,Phosphorylation,Inhibitor,False,12,0,0,False,,0.6287,0.0,0.0,0.3772,1193
+Apomorphine hydrochloride hemihydrate,Apomorphine hemihydrate,,,0,Dopamine,Agonist,False,12,0,0,False,,0.6287,0.0,0.0,0.3772,1194
+G15,G15,,,0,Bioactive Small Molecules,Antagonist,False,12,0,0,False,,0.6287,0.0,0.0,0.3772,1195
+PK 11195,PK 11195,,,0,GABA,Antagonist,False,12,0,0,False,,0.6287,0.0,0.0,0.3772,1196
+Bendamustine hydrochloride,Bendamustine,Bendamustine Hydrochloride,Bendamustine|Bendamustine Hydrochloride,2,Apoptosis,Unknown,False,13,21,0,False,,0.618,0.0,0.0,0.3708,1197
+Flutamide,Flutamide,Flutamide,Flutamide,1,Hormone,Inhibitor,False,13,18,0,False,,0.618,0.0,0.0,0.3708,1198
+Gabapentin,Gabapentin,Gabapentin,Gabapentin,1,Anticonvulsant,Unknown,False,13,16,0,False,,0.618,0.0,0.0,0.3708,1199
+Ketoprofen,Ketoprofen,Ketoprofen,Ketoprofen,1,Prostaglandin,Inhibitor,False,13,16,0,False,,0.618,0.0,0.0,0.3708,1200
+Bexarotene,Bexarotene,Bexarotene,Bexarotene,1,Gene Regulation,Agonist,False,13,12,0,False,,0.618,0.0,0.0,0.3708,1201
+Budesonide,Budesonide,Budesonide,Budesonide,1,Hormone,Unknown,False,13,8,0,False,,0.618,0.0,0.0,0.3708,1202
+Carmustine,Carmustine,Carmustine,Carmustine,1,DNA,Intercalator,False,13,7,0,False,,0.618,0.0,0.0,0.3708,1203
+Sulindac sulfone,Sulindac sulfone,Sulindac Sulfone,Sulindac Sulfone,1,Prostaglandin,Inhibitor,False,13,7,0,False,,0.618,0.0,0.0,0.3708,1204
+Nitrendipine,Nitrendipine,Nitrendipine,Nitrendipine,1,Ca2+ Channel,Antagonist,False,13,6,0,False,,0.618,0.0,0.0,0.3708,1205
+(±)-Bay K 8644,Bay K 8644,BAY K 8644,BAY K 8644|Bay K 8644,2,Ca2+ Channel,Agonist,False,13,5,0,False,,0.618,0.0,0.0,0.3708,1206
+Lansoprazole,Lansoprazole,Lansoprazole,Lansoprazole,1,Ion Pump,Inhibitor,False,13,5,0,False,,0.618,0.0,0.0,0.3708,1207
+Molsidomine,Molsidomine,Molsidomine,Molsidomine,1,Nitric Oxide,Donor,False,13,5,0,False,,0.618,0.0,0.0,0.3708,1208
+ODQ,ODQ,ODQ,ODQ,1,Cyclic Nucleotides,Inhibitor,False,13,5,0,False,,0.618,0.0,0.0,0.3708,1209
+PPADS,PPADS,PPADS,PPADS,1,P2 Receptor,Antagonist,False,13,5,0,False,,0.618,0.0,0.0,0.3708,1210
+Acyclovir,Acyclovir,Acyclovir,Acyclovir,1,Immune System,Inhibitor,False,13,4,0,False,,0.618,0.0,0.0,0.3708,1211
+N-Methyl-D-aspartic acid,N-Methyl-D-aspartic acid,N-Methyl-D-Aspartic Acid,N-Methyl-D-Aspartic Acid,1,Glutamate,Agonist,False,13,4,0,False,,0.618,0.0,0.0,0.3708,1212
+5-Nitro-2-(3-phenylpropylamino)benzoic acid,5-Nitro-2-(3-phenylpropylamino)benzoic acid,5-Nitro-2-(3-Phenylpropylamino)benzoic Acid,5-Nitro-2-(3-Phenylpropylamino)Benzoic Acid|5-Nitro-2-(3-Phenylpropylamino)benzoic Acid,2,Cl- Channel,Blocker,False,13,3,0,False,,0.618,0.0,0.0,0.3708,1213
+Oleic Acid,Oleic Acid,Oleic Acid,Oleic Acid,1,Phosphorylation,Activator,False,13,2,0,False,,0.618,0.0,0.0,0.3708,1214
+U-73343,U-73343,U-73343,U-73343,1,G-protein,Unknown,False,13,2,0,False,,0.618,0.0,0.0,0.3708,1215
+"2,2'-Bipyridyl","2,2'-Bipyridyl","2,2'-Bipyridyl","2,2'-Bipyridyl",1,Biochemistry,Inhibitor,False,13,1,0,False,,0.618,0.0,0.0,0.3708,1216
+L-Buthionine-sulfoximine,Buthionine-sulfoximine,L-Buthionine-Sulfoximine,L-Buthionine-Sulfoximine,1,Multi-Drug Resistance,Inhibitor,False,13,1,0,False,,0.618,0.0,0.0,0.3708,1217
+Acetamide,Acetamide,Acetamide,Acetamide,1,Biochemistry,Inhibitor,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1218
+CP-64434 hydrate,CP-64434,,,0,Gene Regulation and Transcription,Inhibitor,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1219
+Clodronic acid,Clodronic acid,,,0,Cytoskeleton and ECM,Inhibitor,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1220
+DFB,DFB,,,0,Glutamate,Modulator,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1221
+GR 79236X,GR 79236X,,,0,Adenosine,Agonist,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1222
+ML-9,ML-9,,,0,Phosphorylation,Inhibitor,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1223
+Mephetyl tetrazole,Mephetyl tetrazole,,,0,K+ Channel,Blocker,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1224
+"N,N,N',N'-Tetramethylazodicarboxamide","N,N,N',N'-Tetramethylazodicarboxamide",,,0,Cell Stress,Modulator,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1225
+SKF-89145 hydrobromide,SKF-89145,,,0,Dopamine,Agonist,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1226
+SU 6656,SU 6656,,,0,Phosphorylation,Inhibitor,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1227
+beta-Estradiol,beta-Estradiol,,,0,Hormone,Unknown,False,13,0,0,False,,0.618,0.0,0.0,0.3708,1228
+Etoposide,Etoposide,Etoposide,Etoposide|Etoposide Phosphate,2,Apoptosis,Inhibitor,False,14,22,0,False,,0.608,0.0,0.0,0.3648,1229
+Famotidine,Famotidine,Famotidine,Famotidine,1,Histamine,Antagonist,False,14,17,0,False,,0.608,0.0,0.0,0.3648,1230
+Spironolactone,Spironolactone,Spironolactone,Spironolactone,1,Hormone,Antagonist,False,14,17,0,False,,0.608,0.0,0.0,0.3648,1231
+TTNPB,TTNPB,TTNPB,TTNPB,1,Transcription,Ligand,False,14,13,0,False,,0.608,0.0,0.0,0.3648,1232
+Ethosuximide,Ethosuximide,Ethosuximide,Ethosuximide,1,Anticonvulsant,Unknown,False,14,7,0,False,,0.608,0.0,0.0,0.3648,1233
+E-64,E-64,E-64,E-64,1,Biochemistry,Inhibitor,False,14,6,0,False,,0.608,0.0,0.0,0.3648,1234
+"Adenosine 3',5'-cyclic monophosphate","Adenosine 3',5'-cyclic monophosphate","Adenosine 3',5'-Cyclic Monophosphate","Adenosine 3',5'-Cyclic Monophosphate",1,Phosphorylation,Activator,False,14,5,0,False,,0.608,0.0,0.0,0.3648,1235
+Calcimycin,Calcimycin,Calcimycin,Calcimycin,1,Intracellular Calcium,Unknown,False,14,4,0,False,,0.608,0.0,0.0,0.3648,1236
+L-Aspartic acid,Aspartic acid,L-Aspartic Acid,Aspartic Acid|L-Aspartic Acid,2,Glutamate,Agonist,False,14,3,0,False,,0.608,0.0,0.0,0.3648,1237
+Pentylenetetrazole,Pentylenetetrazole,Pentylenetetrazole,Pentylenetetrazole,1,Neurotransmission,Modulator,False,14,3,0,False,,0.608,0.0,0.0,0.3648,1238
+8-Bromo-cGMP sodium,8-Bromo-cGMP,8-Bromo-cGMP,8-Bromo-cGMP,1,Cyclic Nucleotides,Activator,False,14,2,0,False,,0.608,0.0,0.0,0.3648,1239
+ANA-12,ANA-12,ANA-12,ANA-12,1,Cytokines,Unknown,False,14,2,0,False,,0.608,0.0,0.0,0.3648,1240
+Diethylenetriaminepentaacetic acid,Diethylenetriaminepentaacetic acid,Diethylenetriaminepentaacetic Acid,Diethylenetriaminepentaacetic Acid,1,Biochemistry,Inhibitor,False,14,2,0,False,,0.608,0.0,0.0,0.3648,1241
+GW9662,GW9662,GW9662,GW9662,1,Transcription,Inhibitor,False,14,2,0,False,,0.608,0.0,0.0,0.3648,1242
+Antozoline hydrochloride,Antozoline,,,0,Imidazoline,Agonist,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1243
+BIO,BIO,,,0,Phosphorylation,Inhibitor,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1244
+Benzamide,Benzamide,,,0,Apoptosis,Inhibitor,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1245
+Isotharine mesylate,Isotharine,,,0,Adrenoceptor,Agonist,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1246
+N-Ethylmaleimide,N-Ethylmaleimide,N-Ethylmaleimide,N-Ethylmaleimide,1,Biochemistry,Inhibitor,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1247
+O-Methylserotonin hydrochloride,O-Methylserotonin,,,0,Serotonin,Agonist,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1248
+PAPP,PAPP,,,0,Serotonin,Agonist,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1249
+Pseudocantharidin C,Pseudocantharidin C,,,0,Gene Regulation,Unknown,False,14,0,0,False,,0.608,0.0,0.0,0.3648,1250
+(±)-Atenolol,Atenolol,Atenolol,Atenolol,1,Adrenoceptor,Antagonist,False,15,17,0,False,,0.5986,0.0,0.0,0.3592,1251
+Rottlerin,Rottlerin,Rottlerin,Rottlerin,1,Phosphorylation,Inhibitor,False,15,17,0,False,,0.5986,0.0,0.0,0.3592,1252
+Hemicholinium-3,Hemicholinium-3,Hemicholinium-3,Hemicholinium-3,1,Cholinergic,Blocker,False,15,6,0,False,,0.5986,0.0,0.0,0.3592,1253
+Bay 11-7082,Bay 11-7082,BAY 11-7082,BAY 11-7082|Bay 11-7082,2,Phosphorylation,Inhibitor,False,15,3,0,False,,0.5986,0.0,0.0,0.3592,1254
+Ruthenium red,Ruthenium red,Ruthenium Red,Ruthenium Red,1,Ion Pump,Inhibitor,False,15,2,0,False,,0.5986,0.0,0.0,0.3592,1255
+SB 216763,SB 216763,SB 216763,SB 216763,1,Phosphorylation,Inhibitor,False,15,1,0,False,,0.5986,0.0,0.0,0.3592,1256
+(+/-)-Anisodamine,(+/-)-Anisodamine,,,0,Cholinergic,Antagonist,False,15,0,0,False,,0.5986,0.0,0.0,0.3592,1257
+MNS,MNS,,,0,Phosphorylation,Inhibitor,False,15,0,0,False,,0.5986,0.0,0.0,0.3592,1258
+p-Benzoquinone,p-Benzoquinone,,,0,DNA Repair,Inhibitor,False,15,0,0,False,,0.5986,0.0,0.0,0.3592,1259
+Azelaic acid,Azelaic acid,Azelaic Acid,Azelaic Acid,1,DNA Metabolism,Inhibitor,False,16,12,0,False,,0.5899,0.0,0.0,0.3539,1260
+"2,3-Butanedione","2,3-Butanedione","2,3-Butanedione","2,3-Butanedione",1,Cytoskeleton and ECM,Inhibitor,False,16,2,0,False,,0.5899,0.0,0.0,0.3539,1261
+D-ribofuranosylbenzimidazole,ribofuranosylbenzimidazole,D-ribofuranosylbenzimidazole,D-ribofuranosylbenzimidazole,1,Transcription,Inhibitor,False,16,1,0,False,,0.5899,0.0,0.0,0.3539,1262
+5-Bromo-2'-deoxyuridine,5-Bromo-2'-deoxyuridine,5-Bromo-2'-Deoxyuridine,5-Bromo-2'-Deoxyuridine,1,DNA Metabolism,Inhibitor,False,17,5,0,False,,0.5816,0.0,0.0,0.349,1263
+T0070907,T0070907,T0070907,T0070907,1,Gene Regulation,Antagonist,False,18,9,0,False,,0.5737,0.0,0.0,0.3442,1264
+Voriconazole,Voriconazole,Voriconazole,Voriconazole,1,Immunomodulators,Inhibitor,False,19,6,0,False,,0.5663,0.0,0.0,0.3398,1265
+Kainic acid,Kainic acid,Kainic Acid,Kainic Acid,1,Glutamate,Agonist,False,20,8,0,False,,0.5593,0.0,0.0,0.3356,1266

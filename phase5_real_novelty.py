@@ -39,7 +39,7 @@ import numpy as np
 import pandas as pd
 from Bio import Entrez
 
-ROOT = Path("/home/mshz88/Samiha")
+ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 import config  # noqa: E402
 

@@ -27,7 +27,7 @@ from pathlib import Path
 import openpyxl
 import pandas as pd
 
-ROOT = Path("/home/mshz88/Samiha")
+ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 # v2 normalizer: standalone, side-effect-free; adds ribose-position prime
 # stripping (3', 5', 2', etc.) so nucleoside / nucleotide analogs join.
@@ -38,8 +38,21 @@ PHASE5.mkdir(parents=True, exist_ok=True)
 OUT_CSV = PHASE5 / "drug_phenocluster_map.csv"
 REPORT_JSON = PHASE5 / "phenocluster_join_report.json"
 
-MOESM5 = sorted(glob.glob(str(ROOT / "Supplementary*" / "41598_2020_70440_MOESM5_ESM.xlsx")))[0]
-MOESM9 = sorted(glob.glob(str(ROOT / "Supplementary*" / "41598_2020_70440_MOESM9_ESM.xlsx")))[0]
+
+def _screen_xlsx(name: str) -> str:
+    """Screen supplementary table: data/external/ first, then the legacy
+    'Supplementary*' folder."""
+    p = ROOT / "data" / "external" / name
+    if p.is_file():
+        return str(p)
+    legacy = sorted(glob.glob(str(ROOT / "Supplementary*" / name)))
+    if legacy:
+        return legacy[0]
+    raise FileNotFoundError(f"{name} not found in data/external/ or Supplementary*/")
+
+
+MOESM5 = _screen_xlsx("41598_2020_70440_MOESM5_ESM.xlsx")
+MOESM9 = _screen_xlsx("41598_2020_70440_MOESM9_ESM.xlsx")
 PIPELINE_CSV = ROOT / "data" / "phase1" / "drug_master_list.csv"
 
 # Sanity-check expectations from the paper / lab guidance

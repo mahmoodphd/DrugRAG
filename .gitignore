@@ -29,21 +29,15 @@ analyze_results.py
 analyze_results_v3.py
 generate_figures_v3.py
 generate_thesis_deliverables_v4.py
-generate_v4_ragas_report.py
 rerun_evaluation.py
-rerun_v4_entity_boost.py
 run_post_evaluation.py
 scheduled_v4_run.py
 sanity_check_v3.py
 sensitivity_check_cytokines.py
-spot_check_evidence_only_kg.py
 false_negative_audit.py
 ingestion_coverage_analysis.py
 post_index_validation.py
-step1_normalize_remeasure.py
-step2_build_v4_candidates.py
 regenerate_ground_truth.py
-full_reindex.py
 pilot_reindex.py
 deploy_space.py
 hf_upload_backup.py
@@ -61,10 +55,7 @@ test_*.py
 results_dashboard_executed.ipynb
 
 # Pipeline data outputs (can be regenerated)
-data/phase1/all_responses.json
-data/phase1/hallucination_log.json
 data/phase1/spend_log.json
-data/phase2/corpus_index.csv
 data/phase2/dark_drugs.csv
 data/phase2/papers/
 data/phase3/lightrag_working/
@@ -84,7 +75,6 @@ data/phase1/*_v1_*
 data/phase3/pilot_lightrag/
 data/phase3/pilot_*.json
 data/phase3/full_reindex_*.json
-data/phase3/ingestion_coverage_v2.json
 data/phase3/minilm_reindex_scope.json
 data/phase3/post_index_validation_run.txt
 data/phase3/target_entity_spot_check.json
@@ -99,7 +89,6 @@ data/phase4/analysis_summary_v*
 data/phase4/ragas_*_v*
 data/phase4/*_audit.txt
 data/phase4/normalization_remeasure.json
-data/phase5/drug_repurposing_candidates_v5.csv
 
 # Generated assets
 vibe_images/
@@ -116,3 +105,30 @@ Thumbs.db
 *.m4a
 *.zip
 s41598-020-70440-0.pdf
+
+# Local run outputs
+results/
+
+# Internal collaboration and agent folders
+collab/
+.claude/
+.qoder/
+
+# Paper-production helpers (they read BHI_2026/, which is not published)
+tools/make_camera_ready.py
+tools/check_ai_tone.py
+tools/check_rebuttal_lengths.py
+tools/check_rebuttal_sync.py
+
+# Published exceptions: the files behind the paper's tables
+!data/phase4/ground_truth_v2.json
+!data/phase4/eval_results_v4.json
+!data/phase4/ragas_scores_v4.csv
+!data/phase4/ragas_summary_v4.csv
+!data/phase4/analysis_summary_v4.csv
+!data/phase4/angio_lexicon_v4.json
+!data/phase4/manual_synonyms_v4.json
+!data/phase4/alias_to_canonical_v4.json
+!data/phase4/drug_repurposing_candidates_v4.csv
+!data/phase4/evidence_only_kg_edge_audit.txt
+!data/phase4/tables/v4_*

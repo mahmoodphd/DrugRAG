@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "DrugRAG"
+abstract: >-
+  Citation-verifiable, knowledge-graph-grounded literature intelligence for
+  drug-repurposing hypothesis generation from a phenotypic angiogenesis screen.
+type: software
+license: MIT
+repository-code: "https://github.com/mahmoodphd/DrugRAG"
+url: "https://mshz88-drugrag.hf.space"
+authors:
+  - given-names: Samiha
+    family-names: Rahman
+    affiliation: "Hamad bin Khalifa University"
+  - given-names: Mahmood
+    family-names: Alzubaidi
+    affiliation: "Hamad bin Khalifa University"
+  - given-names: Mahmoud
+    family-names: Gamal
+    affiliation: "Hamad bin Khalifa University"
+  - given-names: Ayman
+    family-names: Al-Haj-Zen
+    affiliation: "Hamad bin Khalifa University"
+  - given-names: Marco
+    family-names: Agus
+    affiliation: "Hamad bin Khalifa University"
+preferred-citation:
+  type: conference-paper
+  title: "DrugRAG: Citation-Verifiable, Knowledge-Graph-Grounded Literature Intelligence for Drug-Repurposing Hypothesis Generation from a Phenotypic Angiogenesis Screen"
+  authors:
+    - given-names: Samiha
+      family-names: Rahman
+    - given-names: Mahmood
+      family-names: Alzubaidi
+    - given-names: Mahmoud
+      family-names: Gamal
+    - given-names: Ayman
+      family-names: Al-Haj-Zen
+    - given-names: Marco
+      family-names: Agus
+  collection-title: "2026 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)"
+  conference:
+    name: "IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI 2026)"
+    city: "Hong Kong"
+  year: 2026
+  notes: "Accepted"

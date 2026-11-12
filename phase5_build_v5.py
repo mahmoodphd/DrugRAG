@@ -1,7 +1,8 @@
 """Phase 5 step 4: build v5 ranking + dual-list deliverables.
 
 INPUTS (read-only):
-    Supplementary*/41598_2020_70440_MOESM9_ESM.xlsx -> 10 network-quantity features
+    data/external/41598_2020_70440_MOESM9_ESM.xlsx  -> 10 network-quantity features
+                                                       (falls back to Supplementary*/)
     data/phase5/drug_activity.csv                   -> activity_magnitude + cluster
     data/phase4/drug_repurposing_candidates_v4.csv  -> n_papers, edges_all, angio_edges,
                                                        novelty, kg_plausibility (carried)
@@ -39,7 +40,7 @@ import numpy as np
 import openpyxl
 import pandas as pd
 
-ROOT = Path("/home/mshz88/Samiha")
+ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 from drug_normalize import normalize_drug_name_v2  # type: ignore
 
@@ -57,7 +58,20 @@ V5_CSV = PHASE5 / "drug_repurposing_candidates_v5.csv"
 GATE_JSON = TABLES / "v5_validation_gate.json"
 GATE_MD = TABLES / "v5_validation_gate.md"
 
-MOESM9 = sorted(glob.glob(str(ROOT / "Supplementary*" / "41598_2020_70440_MOESM9_ESM.xlsx")))[0]
+
+def _screen_xlsx(name: str) -> str:
+    """Screen supplementary table: data/external/ first, then the legacy
+    'Supplementary*' folder."""
+    p = ROOT / "data" / "external" / name
+    if p.is_file():
+        return str(p)
+    legacy = sorted(glob.glob(str(ROOT / "Supplementary*" / name)))
+    if legacy:
+        return legacy[0]
+    raise FileNotFoundError(f"{name} not found in data/external/ or Supplementary*/")
+
+
+MOESM9 = _screen_xlsx("41598_2020_70440_MOESM9_ESM.xlsx")
 
 # ---- Network-quantity features (10) for net_direction --------------------
 NETWORK_FEATURES = [

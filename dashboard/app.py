@@ -113,8 +113,8 @@ def drug_card(drug_name: str) -> str:
         discovery_banner = (
             "<div style='background:#fff3cd;border-left:4px solid #f4a582;"
             "padding:10px 14px;margin-bottom:12px;border-radius:4px;'>"
-            "<b>★ Active-dark discovery candidate</b> — bioactive in our assay, "
-            "almost no angiogenesis literature, and confirmed against live PubMed."
+            "<b>★ Highlighted candidate</b>: active in our assay, "
+            "absent or nearly absent from the angiogenesis-specific literature, and checked against live PubMed."
             "</div>"
         )
 
@@ -336,7 +336,7 @@ def build_leaderboard():
 def build_dark_drugs():
     dark = df_pubmed[df_pubmed["verification"] == "TRUE-DARK"].copy()
     # Order by the paper's verified-novelty score (rank_final) so this tab
-    # matches Table IV in the manuscript rather than sorting by raw activity.
+    # matches Table V in the manuscript rather than sorting by raw activity.
     dark = dark.merge(df_main[["drug_name", "rank_final"]], on="drug_name", how="left")
     dark["direction"] = dark["net_direction"].apply(lambda x: "anti" if x < 0 else "pro")
     dark["cluster_meaning"] = dark["cluster"].map(CLUSTER_MAP)
@@ -363,8 +363,8 @@ def build_dark_drugs():
         gr.Dataframe(value=dark_display, interactive=False, wrap=True)
         cp_names = ", ".join(f"**{n}**" for n in REF["active_dark_centerpieces"])
         gr.Markdown(
-            f"Three of these ({cp_names}) are the verified active-dark discovery "
-            "candidates: active in our assay yet understudied in the angiogenesis literature."
+            f"Three of these ({cp_names}) are the candidates the paper highlights: "
+            "active in our assay yet understudied in the angiogenesis-specific literature."
         )
 
 
@@ -412,7 +412,7 @@ def build_gap_map():
     tick_text = ["0", "1", "10", "100", "1,000"]
     fig.update_yaxes(tickvals=tick_vals, ticktext=tick_text)
 
-    # Annotate 3 centerpiece drugs (discovery candidates)
+    # Annotate the 3 highlighted candidates
     for name in CENTERPIECE:
         row = plotted[plotted["drug_name"] == name]
         if row.empty:
@@ -469,7 +469,7 @@ def build_gap_map():
             f"Y-axis is on a **log scale**. The shaded **bottom-right is the opportunity "
             f"quadrant** — activity above median ({x_med:.2f}), ≤ 10 angiogenesis papers. "
             f"Blue-labeled landmarks show where *known* anti-angiogenics sit; "
-            f"starred drugs are our discovery candidates."
+            f"starred drugs are the three candidates the paper highlights."
         )
         gap_plot = gr.Plot(value=fig, elem_id="gap_map_plot")
         gr.Markdown(
@@ -672,15 +672,15 @@ def build_chat():
     
             rag_header = (
                 f"### DrugRAG (LightRAG + Gemma) — {res['rag_latency']:.1f} s\n"
-                f"**Verified citations:** {rag_v}/{rag_n} "
+                f"**Citations in corpus:** {rag_v}/{rag_n} "
                 f"<span style='color:#5aae61'>green = in our corpus</span> \u00b7 "
-                f"<span style='color:#d6604d'>red = unverifiable</span>\n\n"
+                f"<span style='color:#d6604d'>red = not in our corpus</span>\n\n"
             )
             plain_header = (
                 f"### Plain Gemma (no retrieval) — {res['plain_latency']:.1f} s\n"
-                f"**Verified citations:** {plain_v}/{plain_n} "
+                f"**Citations in corpus:** {plain_v}/{plain_n} "
                 f"<span style='color:#5aae61'>green = in our corpus</span> \u00b7 "
-                f"<span style='color:#d6604d'>red = unverifiable</span>\n\n"
+                f"<span style='color:#d6604d'>red = not in our corpus</span>\n\n"
             )
             status = f"Total wall time: **{elapsed:.1f} s** (RAG and plain run in parallel)."
             return rag_header + rag_md, plain_header + plain_md, status
@@ -732,10 +732,11 @@ def build_chat():
         run_btn.click(fn=run_query, inputs=[question, mode_dd],
                       outputs=[rag_out, plain_out, status_out])
         gr.Markdown(
-            "> **Why the citations are trustworthy:** a plain AI can invent "
-            "realistic-looking paper IDs. DrugRAG only cites papers it actually "
-            "pulled from our library — so every <span style='color:#5aae61;font-weight:600'>green PMID</span> "
-            "is a real abstract you can open; <span style='color:#d6604d;font-weight:600'>red</span> means unverified."
+            "> **Why you can audit these citations:** a plain AI can cite paper IDs that "
+            "point to the wrong paper, or to no paper at all. DrugRAG only cites papers it actually "
+            "pulled from our library, so every <span style='color:#5aae61;font-weight:600'>green PMID</span> "
+            "is an abstract you can open and read; <span style='color:#d6604d;font-weight:600'>red</span> means "
+            "the PMID is not in our library, so check it before relying on it."
         )
 
 
@@ -762,7 +763,7 @@ def build_about():
             gr.Markdown(
                 "*Five-stage pipeline: phenotypic screen \u2192 literature corpus "
                 "\u2192 knowledge graph \u2192 grounded QA with citation verification "
-                "\u2192 repurposing discovery.*"
+                "\u2192 repurposing hypotheses.*"
             )
 
         gr.Markdown(
@@ -774,8 +775,8 @@ def build_about():
             "| **Genuinely Understudied** | The 13 drugs with almost no angiogenesis literature and confirmed against live PubMed. |\n"
             "| **Gap Map** | Scatter plot of experimental activity vs. literature coverage; the bottom-right is the opportunity quadrant. |\n"
             "| **KG Explorer** | Interactive knowledge-graph neighborhood for any drug — see the biology spine (drug to receptor to pathway to disease). |\n"
-            "| **Chat** | Side-by-side comparison of DrugRAG (grounded in the corpus) vs. plain Gemma (no retrieval) — with verified citations. |\n"
-            "| **Benchmarks** | Hallucination audit and faithfulness evaluation figures from the thesis. |\n"
+            "| **Chat** | Side-by-side comparison of DrugRAG (grounded in the corpus) vs. plain Gemma (no retrieval), with every PMID checked against our library. |\n"
+            "| **Benchmarks** | Citation audit and answer-faithfulness evaluation figures. |\n"
             "| **About** | System architecture, how each tab works, and data provenance. |\n"
         )
         gr.Markdown(
@@ -787,27 +788,32 @@ def build_about():
             "3. **Retrieval-augmented chat:** When you ask a question, LightRAG retrieves relevant "
             "sub-graph context and feeds it to Gemma 4 (31 B) via OpenRouter. The system is **not** "
             "internet-connected — every citation comes from the local corpus.\n\n"
-            "4. **Citation verification:** Each PMID in an answer is checked against the corpus index. "
-            "Green means the paper is real and in our library; red means unverifiable. "
-            "This is how DrugRAG prevents hallucinated references.\n\n"
+            "4. **Citation checking:** Each PMID in an answer is checked against the corpus index. "
+            "Green means the paper is in our library, so you can open the exact text the answer "
+            "drew on; red means it is not, which is not the same as saying it is not a real paper. "
+            "This is what lets you audit every reference instead of trusting it.\n\n"
         )
 
         # Concept chain
         chain_path = ASSETS / "concept_chain.png"
         if chain_path.exists():
             gr.Markdown(
-                "### Example concept chain\n\n"
-                "Memantine → NMDA receptor → glutamate signaling → endothelial migration → angiogenesis. "
-                "This is the kind of multi-hop reasoning the knowledge graph enables."
+                "### Illustrative concept chain\n\n"
+                "Memantine → NMDA receptor → glutamate signaling → tube formation → angiogenesis, drawn as a schematic. "
+                "A path actually traced in the graph, from the paper: NMDA receptors → kynurenic acid → VEGF → "
+                "endothelial cells, where each edge resolves to one indexed abstract (PMIDs 18486115, "
+                "40985497 and 27666521)."
             )
             gr.Image(value=str(chain_path), show_label=False, container=False,
                      height=350, interactive=False)
 
         gr.Markdown(
             "---\n\n"
-            "> **Source:** This dashboard accompanies a Masters thesis on drug repurposing "
-            "for angiogenesis using retrieval-augmented generation. All data, code, and the "
-            "knowledge graph are committed to the repository — no runtime downloads."
+            "> **Source:** This dashboard accompanies the paper *DrugRAG: Citation-Verifiable, "
+            "Knowledge-Graph-Grounded Literature Intelligence for Drug-Repurposing Hypothesis "
+            "Generation from a Phenotypic Angiogenesis Screen* (IEEE BHI 2026). "
+            "Code, data and evaluation scripts: [github.com/mahmoodphd/DrugRAG](https://github.com/mahmoodphd/DrugRAG). "
+            "The knowledge-graph index: [huggingface.co/datasets/mshz88/DrugRAG](https://huggingface.co/datasets/mshz88/DrugRAG)."
         )
 
 

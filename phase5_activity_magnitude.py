@@ -1,9 +1,9 @@
 """Phase 5 step 2 + 3: continuous activity magnitude + per-cluster validation.
 
 Computes a single "did it do something" signal per drug from the 101 morphology
-features in MOESM9 / Supplementary Table 6 (Petrie et al. 2020), then joins it
-onto the PhenoCluster map produced by phase5_phenocluster_join.py and validates
-against expected biology.
+features in MOESM9 / Supplementary Table 6 (Sailem & Al Haj Zen 2020, Scientific
+Reports), then joins it onto the PhenoCluster map produced by
+phase5_phenocluster_join.py and validates against expected biology.
 
 Method (per the user's spec):
     1. For each of the 101 features, compute the standard deviation across all
@@ -30,14 +30,27 @@ import numpy as np
 import openpyxl
 import pandas as pd
 
-ROOT = Path("/home/mshz88/Samiha")
+ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 from drug_normalize import normalize_drug_name_v2  # type: ignore
 
 PHASE5 = ROOT / "data" / "phase5"
 PHASE5.mkdir(parents=True, exist_ok=True)
 
-MOESM9 = sorted(glob.glob(str(ROOT / "Supplementary*" / "41598_2020_70440_MOESM9_ESM.xlsx")))[0]
+
+def _screen_xlsx(name: str) -> str:
+    """Screen supplementary table: data/external/ first, then the legacy
+    'Supplementary*' folder."""
+    p = ROOT / "data" / "external" / name
+    if p.is_file():
+        return str(p)
+    legacy = sorted(glob.glob(str(ROOT / "Supplementary*" / name)))
+    if legacy:
+        return legacy[0]
+    raise FileNotFoundError(f"{name} not found in data/external/ or Supplementary*/")
+
+
+MOESM9 = _screen_xlsx("41598_2020_70440_MOESM9_ESM.xlsx")
 PHENO_MAP = PHASE5 / "drug_phenocluster_map.csv"
 OUT_CSV = PHASE5 / "drug_activity.csv"
 OUT_JSON = PHASE5 / "activity_validation.json"

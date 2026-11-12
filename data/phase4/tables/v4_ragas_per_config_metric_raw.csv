@@ -1,0 +1,6 @@
+config,label,faithfulness_mean,faithfulness_ci_lo,faithfulness_ci_hi,faithfulness_n,answer_relevancy_mean,answer_relevancy_ci_lo,answer_relevancy_ci_hi,answer_relevancy_n,context_precision_mean,context_precision_ci_lo,context_precision_ci_hi,context_precision_n,context_recall_mean,context_recall_ci_lo,context_recall_ci_hi,context_recall_n
+baseline,A: Baseline (no retrieval),0.421,0.3285,0.5185,87,0.6906,0.6079,0.767,87,0.4598,0.3448,0.5632,87,0.5009,0.4207,0.5751,87
+naive_rag,B: Naive RAG (TF-IDF),0.5698,0.4965,0.6376,106,0.4078,0.3289,0.4892,106,0.6324,0.55,0.7105,105,0.725,0.6628,0.7865,106
+lightrag_local,C: LightRAG local,0.8486,0.8121,0.8864,120,0.3223,0.2471,0.3966,120,0.7073,0.6428,0.771,119,0.5137,0.4524,0.5761,120
+lightrag_global,D: LightRAG global,0.8356,0.7896,0.8814,120,0.2102,0.1465,0.2762,120,0.6368,0.5604,0.7146,120,0.4403,0.3765,0.501,120
+lightrag_hybrid,E: LightRAG hybrid,0.8483,0.8106,0.8862,120,0.3177,0.2414,0.3911,120,0.6792,0.6021,0.7521,120,0.5837,0.5169,0.6494,120

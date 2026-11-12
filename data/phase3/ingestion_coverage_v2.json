@@ -1,0 +1,225 @@
+{
+  "label": "post_v2_reindex",
+  "indexing": {
+    "papers_total": 6500,
+    "papers_processed": 6500,
+    "errors": 0,
+    "ready": true
+  },
+  "kg_stats": {
+    "vdb_entities": 36576,
+    "vdb_relationships": 43300,
+    "kv_full_entities": 6498,
+    "kv_full_relations": 6399,
+    "unique_entity_names": 36252,
+    "working_dir": "/home/mshz88/Samiha/data/phase3/lightrag_working_v2",
+    "embedding_dim_expected": 384
+  },
+  "drug_kg_coverage": {
+    "drugs_with_entity_name_in_kg": 636,
+    "drugs_mentioned_in_entity_content_only": 43,
+    "drugs_with_zero_kg_presence": 599,
+    "coverage_rate_pct": 49.8,
+    "total_corpus_drugs": 1278
+  },
+  "before_after": {
+    "old_store": "lightrag_working (1536-dim OpenAI, 8.2% ingest)",
+    "old_drugs_with_entity": 134,
+    "old_total_drugs": 1262,
+    "new_store": "lightrag_working_v2 (384-dim MiniLM, 100% ingest)",
+    "new_drugs_with_entity": 636,
+    "new_total_drugs": 1278,
+    "delta": 502,
+    "delta_pct": 374.6
+  },
+  "target_entity_spot_check": {
+    "SU5416": {
+      "node_count": 1,
+      "node_names": [
+        "SU5416"
+      ],
+      "vdb_edge_count": 10,
+      "kv_edge_count": 0,
+      "has_node": true,
+      "has_edge": true
+    },
+    "ROCK": {
+      "node_count": 1,
+      "node_names": [
+        "ROCK"
+      ],
+      "vdb_edge_count": 15,
+      "kv_edge_count": 0,
+      "has_node": true,
+      "has_edge": true
+    },
+    "Y-27632": {
+      "node_count": 1,
+      "node_names": [
+        "Y-27632"
+      ],
+      "vdb_edge_count": 7,
+      "kv_edge_count": 0,
+      "has_node": true,
+      "has_edge": true
+    },
+    "Sunitinib": {
+      "node_count": 1,
+      "node_names": [
+        "Sunitinib"
+      ],
+      "vdb_edge_count": 52,
+      "kv_edge_count": 0,
+      "has_node": true,
+      "has_edge": true
+    },
+    "Thalidomide": {
+      "node_count": 1,
+      "node_names": [
+        "Thalidomide"
+      ],
+      "vdb_edge_count": 46,
+      "kv_edge_count": 0,
+      "has_node": true,
+      "has_edge": true
+    }
+  },
+  "candidate_ranking_top10": [
+    {
+      "drug_name": "Caroverine hydrochloride",
+      "drug_class": "Glutamatergics",
+      "action": "Antagonist",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.1,
+      "repurposing_score": 1.1,
+      "in_phenocluster": true,
+      "rank": 1
+    },
+    {
+      "drug_name": "CP-101537",
+      "drug_class": "Cytoskeleton and Extracellular Matrix",
+      "action": "Inhibitor",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.05,
+      "repurposing_score": 1.05,
+      "in_phenocluster": false,
+      "rank": 2
+    },
+    {
+      "drug_name": "CP-471474",
+      "drug_class": "Cytoskeleton and Extracellular Matrix",
+      "action": "Inhibitor",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.05,
+      "repurposing_score": 1.05,
+      "in_phenocluster": false,
+      "rank": 3
+    },
+    {
+      "drug_name": "Doxepin hydrochloride",
+      "drug_class": "Adrenoceptor",
+      "action": "Inhibitor",
+      "n_papers": 0,
+      "n_kg_connections": 3,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.15,
+      "class_bonus": 0.0,
+      "repurposing_score": 1.0,
+      "in_phenocluster": false,
+      "rank": 4
+    },
+    {
+      "drug_name": "Azithromycin dihydrate",
+      "drug_class": "Immune Cell Signaling",
+      "action": "Modulator",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.0,
+      "repurposing_score": 1.0,
+      "in_phenocluster": false,
+      "rank": 5
+    },
+    {
+      "drug_name": "BNTX maleate salt hydrate",
+      "drug_class": "Opiods",
+      "action": "Antagonist",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.0,
+      "repurposing_score": 1.0,
+      "in_phenocluster": false,
+      "rank": 6
+    },
+    {
+      "drug_name": "Benzamil hydrochloride",
+      "drug_class": "Ion Pump",
+      "action": "Blocker",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.0,
+      "repurposing_score": 1.0,
+      "in_phenocluster": false,
+      "rank": 7
+    },
+    {
+      "drug_name": "CP-93129 dihydrochloride hydrate",
+      "drug_class": "Serotonergics",
+      "action": "Agonist",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.0,
+      "repurposing_score": 1.0,
+      "in_phenocluster": false,
+      "rank": 8
+    },
+    {
+      "drug_name": "Dolasetron mesylate hydrate",
+      "drug_class": "Serotonergics",
+      "action": "Antagonist",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.0,
+      "repurposing_score": 1.0,
+      "in_phenocluster": false,
+      "rank": 9
+    },
+    {
+      "drug_name": "N2-Ethyl-2'-deoxyguanosine",
+      "drug_class": "Gene Regulation",
+      "action": "Transcription Blocker",
+      "n_papers": 0,
+      "n_kg_connections": 0,
+      "novelty_score": 1.0,
+      "kg_score_diagnostic": 0.0,
+      "class_bonus": 0.0,
+      "repurposing_score": 1.0,
+      "in_phenocluster": false,
+      "rank": 10
+    }
+  ],
+  "gates": {
+    "indexing_complete": true,
+    "coverage_jumped": true,
+    "target_entities_have_edges": true,
+    "all_passed": true
+  }
+}

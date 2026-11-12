@@ -1,0 +1,108 @@
+{
+  "version": "v4_interim_locked",
+  "purpose": "Curated angiogenesis-relevance lexicon used to filter KG edges for kg_plausibility scoring. An edge is 'angio-topical' iff the non-drug endpoint contains (case-insensitive substring) at least one term below.",
+  "matching_rule": "case-insensitive substring on the entity name of the non-drug endpoint",
+  "precision_policy": "Vascular-specific terms only. Generic pro-angiogenic cytokines (IL-6, IL-8, TNF-alpha) are deliberately EXCLUDED to preserve precision in the discovery ranking; their inclusion is left as a documented sensitivity-check choice. See data/phase4/sensitivity_cytokines_v4.json.",
+  "seed_provenance": [
+    "config.py PUBMED_QUERY_TEMPLATES anchors (angiogenesis, blood vessel, endothelial, VEGF, vascular endothelial, tube formation)",
+    "Foundational paper key genes (PhenoCluster context): GRM5, GRIN3A, GRIA2, GRIN1, ROCK1",
+    "Standard angiogenesis biology vocabulary (anchors / cell types / processes / pathways / matrix / anti-angiogenic factors)"
+  ],
+  "categories": {
+    "vegf_axis": [
+      "VEGF", "VEGFA", "VEGF-A", "VEGFB", "VEGF-B", "VEGFC", "VEGF-C", "VEGFD", "VEGF-D",
+      "VEGFR", "VEGFR1", "VEGFR-1", "VEGFR2", "VEGFR-2", "VEGFR3", "VEGFR-3",
+      "KDR", "FLT1", "FLT-1", "FLT4", "FLT-4",
+      "neuropilin", "NRP1", "NRP-1", "NRP2", "NRP-2",
+      "placental growth factor", "PlGF"
+    ],
+    "growth_factors_other": [
+      "PDGF", "PDGFR", "FGF", "bFGF", "FGF2", "FGF-2", "FGFR", "FGFR1", "FGFR2",
+      "EGF", "EGFR",
+      "angiopoietin", "ANGPT", "ANGPT1", "ANGPT2", "ANG-1", "ANG-2",
+      "TIE2", "TIE-2", "TEK",
+      "TGF-beta", "TGFB", "TGF-β", "transforming growth factor"
+    ],
+    "junctional_endothelial_markers": [
+      "PECAM", "CD31", "CD34",
+      "VE-cadherin", "VE cadherin", "CDH5",
+      "vWF", "von Willebrand",
+      "ICAM", "VCAM",
+      "claudin-5",
+      "adhesion molecule", "adhesion molecules"
+    ],
+    "notch_axis": [
+      "NOTCH", "DLL4", "DLL-4", "JAG1", "JAG-1", "Jagged",
+      "EGFL7", "ROBO4", "EPHB4", "ephrin", "Eph receptor",
+      "tip cell", "stalk cell"
+    ],
+    "cell_types": [
+      "endothelial", "endothelium", "endothelia",
+      "HUVEC", "HMVEC", "HMEC", "HAEC", "HRMEC", "HCEC",
+      "pericyte", "perivascular",
+      "vascular smooth muscle", "VSMC",
+      "endothelial progenitor", "EPC"
+    ],
+    "processes": [
+      "angiogenesis", "angiogenic", "anti-angiogenic", "antiangiogenic", "neoangiogenesis",
+      "neovascularization", "neovascular", "neovascularisation",
+      "vasculogenesis", "vasculogenic",
+      "vascular", "vasculature", "vascularization", "vascularisation",
+      "microvasculature", "microvessel", "microvascular",
+      "tube formation", "tubule formation", "tubulogenesis",
+      "sprouting", "sprout",
+      "capillary", "capillaries",
+      "blood vessel", "lumen formation",
+      "anastomosis",
+      "vein", "veins", "venous",
+      "artery", "arteries", "arterial",
+      "aorta", "aortic"
+    ],
+    "hypoxia_axis": [
+      "hypoxia", "hypoxic",
+      "HIF", "HIF-1", "HIF1A", "HIF-1alpha", "HIF-1α", "HIF2A",
+      "PHD", "VHL"
+    ],
+    "kinase_signaling": [
+      "MAPK", "ERK", "ERK1/2",
+      "PI3K", "PI3 kinase", "AKT", "Akt",
+      "mTOR", "mTORC",
+      "Src", "FAK", "PYK2",
+      "RhoA", "ROCK", "ROCK1", "ROCK2", "Rho-kinase", "Rho Kinase", "Rho-Associated Kinase",
+      "Rac1", "Cdc42",
+      "JAK", "STAT3"
+    ],
+    "no_axis": [
+      "eNOS", "iNOS", "nNOS", "NOS3",
+      "nitric oxide", "NO synthase",
+      "guanylate cyclase", "sGC", "cGMP"
+    ],
+    "matrix_proteases": [
+      "MMP", "MMP-2", "MMP-9", "MMP2", "MMP9",
+      "matrix metalloproteinase",
+      "TIMP",
+      "uPA", "urokinase", "PAI-1",
+      "plasminogen", "plasmin"
+    ],
+    "ecm_adhesion": [
+      "integrin", "alphavbeta3", "alpha v beta 3", "αvβ3",
+      "fibronectin", "laminin", "collagen IV", "collagen-IV",
+      "thrombospondin", "TSP-1", "TSP1"
+    ],
+    "anti_angiogenic_factors": [
+      "endostatin", "angiostatin", "tumstatin", "canstatin",
+      "PEDF", "pigment epithelium-derived factor"
+    ],
+    "tumor_disease_context": [
+      "tumor angiogenesis", "tumour angiogenesis",
+      "tumor vasculature", "tumor microvasculature",
+      "metastasis", "metastatic",
+      "endothelial dysfunction"
+    ],
+    "foundational_paper_genes": [
+      "GRM5", "GRIN3A", "GRIN1", "GRIN2A", "GRIN2B", "GRIA2",
+      "ROCK1", "ROCK2", "RhoA",
+      "GluR", "NMDA", "AMPA"
+    ]
+  }
+}

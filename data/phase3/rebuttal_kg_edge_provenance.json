@@ -1,0 +1,64 @@
+{
+  "note": "Each hop in the Fig. 6 path resolves to LightRAG relation source_id values, which point at indexed text chunks and therefore at specific corpus PMIDs. 'Traceable' here means the edge carries source chunks that can be opened; it is not a claim that a domain expert has adjudicated the relation.",
+  "path": "NMDA Receptors -> Kynurenic Acid -> VEGF -> Endothelial Cells",
+  "hops": [
+    {
+      "from": "NMDA Receptors",
+      "to": "Kynurenic Acid",
+      "resolved_from": "NMDA Receptors",
+      "resolved_to": "Kynurenic Acid",
+      "found": true,
+      "description": "Kynurenic acid serves as an antagonist to NMDA receptors, modulating excitatory neurotransmission.",
+      "keywords": "antagonism",
+      "weight": 1.0,
+      "n_source_chunks": 1,
+      "provenance": [
+        {
+          "chunk_id": "chunk-35146b112ce9785abe4fbf467b087eb0",
+          "pmid": "18486115",
+          "file": "pmid_18486115_(\u00b1)-2-Amino-5-phosphonopentanoic acid.txt",
+          "snippet": "During cerebral hypoxia or ischaemia, mitochondrial dysfunction is induced which can lead to free radical production and cell death. This phenomenon is mimicked by the acute administration of mitochondrial poisons such as 3-nitropropionic acid (3-NPA) and pota"
+        }
+      ]
+    },
+    {
+      "from": "Kynurenic Acid",
+      "to": "VEGF",
+      "resolved_from": "Kynurenic Acid",
+      "resolved_to": "VEGF",
+      "found": true,
+      "description": "Kynurenic acid reduces VEGF production in neutrophils during in vitro studies.",
+      "keywords": "immune response,secretion regulation",
+      "weight": 1.0,
+      "n_source_chunks": 1,
+      "provenance": [
+        {
+          "chunk_id": "chunk-7230fa0e8303674d9aa055ea9362ee46",
+          "pmid": "40985497",
+          "file": "pmid_40985497_Kynurenic acid.txt",
+          "snippet": "Tryptophan (TRP) metabolism through the kynurenine pathway generates multiple biologically active metabolites with diverse immunomodulatory effects, but their roles in glomerulonephritis (GN), particularly in innate immunity, remain poorly understood. Using a "
+        }
+      ]
+    },
+    {
+      "from": "VEGF",
+      "to": "Endothelial Cells",
+      "resolved_from": "VEGF",
+      "resolved_to": "Endothelial Cells",
+      "found": true,
+      "description": "VEGF is known to influence Endothelial Cells, promoting processes relevant to angiogenesis.",
+      "keywords": "angiogenesis,cytokine influence",
+      "weight": 1.0,
+      "n_source_chunks": 1,
+      "provenance": [
+        {
+          "chunk_id": "chunk-e728a025f246107fbc9aa4692e6144e7",
+          "pmid": "27666521",
+          "file": "pmid_27666521_Bay 11-7085.txt",
+          "snippet": "Tumor microenvironment is an important promoter of tumorigenesis in all forms of breast cancer and has been associated with the risk of metastasis in the different breast cancer subtypes including the more frequent luminal subtypes that encompass 60% of cancer"
+        }
+      ]
+    }
+  ],
+  "all_hops_traceable": true
+}

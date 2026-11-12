@@ -161,7 +161,10 @@ def colorize_citations(text: str, verdict: dict[str, bool]) -> str:
         num = m.group(1) if m.lastindex else full
         if num in verdict:
             color = "#5aae61" if verdict[num] else "#d6604d"
-            label = "✓ verified" if verdict[num] else "✗ not in corpus"
+            # "in corpus", not "verified": corpus membership is one of the four
+            # levels the paper reports (Table III), and on its own it says nothing
+            # about whether the paper exists in PubMed or is relevant to the answer.
+            label = "✓ in corpus" if verdict[num] else "✗ not in corpus"
             return f'<span style="background:{color};color:white;padding:2px 6px;border-radius:3px;font-weight:600;">PMID {num} ({label})</span>'
         return full
 
@@ -349,15 +352,15 @@ def run_both_stream(question: str, mode: str = "hybrid"):
 
     rag_header = (
         f"### DrugRAG (LightRAG + Gemma) — {elapsed:.1f} s\n"
-        f"**Verified citations:** {rag_v}/{rag_n} "
+        f"**Citations in corpus:** {rag_v}/{rag_n} "
         f"<span style='color:#5aae61'>green = in our corpus</span> \u00b7 "
-        f"<span style='color:#d6604d'>red = unverifiable</span>\n\n"
+        f"<span style='color:#d6604d'>red = not in our corpus</span>\n\n"
     )
     plain_header = (
         f"### Plain Gemma (no retrieval) — {elapsed:.1f} s\n"
-        f"**Verified citations:** {plain_v}/{plain_n} "
+        f"**Citations in corpus:** {plain_v}/{plain_n} "
         f"<span style='color:#5aae61'>green = in our corpus</span> \u00b7 "
-        f"<span style='color:#d6604d'>red = unverifiable</span>\n\n"
+        f"<span style='color:#d6604d'>red = not in our corpus</span>\n\n"
     )
     status = f"Total wall time: **{elapsed:.1f} s** (streamed in parallel)."
     yield (rag_header + rag_md, plain_header + plain_md, status)
